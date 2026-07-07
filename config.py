@@ -35,16 +35,14 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 # Routage des modèles par étape (surchargeable via env).
 # Tri/sélection en sonnet : le jugement éditorial (pertinence économique/BRVM) exige
 # un modèle solide — haiku laissait passer trop de politique/faits divers.
-# NB: `or` (pas de 2e arg) → une variable définie mais VIDE (cas des GitHub Actions
-# `vars` non renseignées) retombe bien sur le défaut.
-MODEL_QUALIFY = os.environ.get("MODEL_QUALIFY") or "anthropic/claude-sonnet-4.6"
-MODEL_SELECT = os.environ.get("MODEL_SELECT") or "anthropic/claude-sonnet-4.6"
-MODEL_WRITE = os.environ.get("MODEL_WRITE") or "anthropic/claude-sonnet-4.6"
+MODEL_QUALIFY = os.environ.get("MODEL_QUALIFY", "anthropic/claude-sonnet-4.6")
+MODEL_SELECT = os.environ.get("MODEL_SELECT", "anthropic/claude-sonnet-4.6")
+MODEL_WRITE = os.environ.get("MODEL_WRITE", "anthropic/claude-sonnet-4.6")
 
 # --- Ghost ---
 GHOST_URL = os.environ.get("GHOST_URL", "").rstrip("/")
 GHOST_ADMIN_KEY = os.environ.get("GHOST_ADMIN_KEY", "")
-PUBLISH_STATUS = os.environ.get("PUBLISH_STATUS") or "draft"
+PUBLISH_STATUS = os.environ.get("PUBLISH_STATUS", "draft")
 
 # Page d'abonnement Ghost (Portal) pour le bouton "S'abonner".
 SUBSCRIBE_URL = os.environ.get("SUBSCRIBE_URL") or (f"{GHOST_URL}/#/portal/signup" if GHOST_URL else "")
