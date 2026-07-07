@@ -2,11 +2,11 @@ name: Newsletter BRVM quotidienne
 
 on:
   schedule:
-    # ⚠️ GitHub Actions est en UTC et NE gère PAS l'heure d'été.
-    # 18:00 UTC = 18h à Abidjan (GMT) / 20h à Paris (été) / 19h à Paris (hiver).
-    # Ajuste l'heure selon le fuseau dans lequel tu veux "18h".
-    # Les crons GHA peuvent être décalés de 5-30 min en période de charge.
-    - cron: "0 18 * * 1-5"   # lundi→vendredi (marché fermé le week-end)
+    # Cible : 18h heure de Paris. GitHub Actions est en UTC et NE gère PAS l'heure d'été :
+    # 16:00 UTC = 18h Paris (été, CEST) ; en hiver (CET) cela tombera à 17h Paris.
+    # Pour rester à 18h Paris en hiver, passer à "0 17 * * 1-5" fin octobre.
+    # Les crons GHA peuvent aussi être décalés de 5-30 min en période de charge.
+    - cron: "0 16 * * 1-5"   # lundi→vendredi (marché fermé le week-end)
   workflow_dispatch:          # permet de lancer à la main depuis l'onglet Actions
     inputs:
       no_publish:
