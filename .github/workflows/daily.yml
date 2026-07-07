@@ -1,0 +1,68 @@
+name: Newsletter BRVM quotidienne
+
+on:
+  schedule:
+    # ⚠️ GitHub Actions est en UTC et NE gère PAS l'heure d'été.
+    # 18:00 UTC = 18h à Abidjan (GMT) / 20h à Paris (été) / 19h à Paris (hiver).
+    # Ajuste l'heure selon le fuseau dans lequel tu veux "18h".
+    # Les crons GHA peuvent être décalés de 5-30 min en période de charge.
+    - cron: "0 18 * * 1-5"   # lundi→vendredi (marché fermé le week-end)
+  workflow_dispatch:          # permet de lancer à la main depuis l'onglet Actions
+    inputs:
+      no_publish:
+        description: "Générer sans publier sur Ghost (true/false)"
+        default: "false"
+
+concurrency:
+  group: newsletter-brvm
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # nécessaire pour committer history.json (mémoire anti-répétition)
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Générer et publier la newsletter
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GHOST_URL: ${{ secrets.GHOST_URL }}
+          GHOST_ADMIN_KEY: ${{ secrets.GHOST_ADMIN_KEY }}
+          PUBLISH_STATUS: ${{ secrets.PUBLISH_STATUS }}
+          MODEL_QUALIFY: ${{ vars.MODEL_QUALIFY }}
+          MODEL_SELECT: ${{ vars.MODEL_SELECT }}
+          MODEL_WRITE: ${{ vars.MODEL_WRITE }}
+        run: |
+          if [ "${{ github.event.inputs.no_publish }}" = "true" ]; then
+            python run.py --no-publish
+          else
+            python run.py
+          fi
+
+      - name: Persister la mémoire anti-répétition (history.json)
+        if: always()
+        run: |
+          git config user.name "cauri-bot"
+          git config user.email "cauri-bot@users.noreply.github.com"
+          git add history.json
+          git diff --cached --quiet || git commit -m "chore: maj history anti-répétition [skip ci]"
+          git push || echo "rien à pousser"
+
+      - name: Archiver les artefacts (HTML + JSON intermédiaires)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: newsletter-${{ github.run_id }}
+          path: out/
+          retention-days: 14

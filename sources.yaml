@@ -1,0 +1,69 @@
+# Sources de données du scraper — issues de rapport-sources-scrapables-newsletter-brvm.md
+#
+# types gérés par agents/scrape.py :
+#   brvm_indices : parser dédié BRVM (indices + top/flop 5) → données de marché
+#   rss          : flux RSS standard (feedparser)
+#   html         : page HTML, extraction générique des titres d'articles (+ liens)
+#   worldbank    : API Banque mondiale (indicateurs macro chiffrés)
+#
+# `sections` = indices d'orientation (non contraignants) passés au triage.
+# ⚠️ Avant automatisation, vérifier le robots.txt de chaque site HTML.
+
+market:
+  - name: brvm_indices
+    type: brvm_indices
+    url: "https://www.brvm.org/fr/indices"
+
+news:
+  # --- RSS (les plus fiables) ---
+  - name: rfi_afrique
+    type: rss
+    url: "https://www.rfi.fr/fr/afrique/rss"
+    sections: [sur_le_continent, sack_afrique, radar]
+  - name: africanews
+    type: rss
+    url: "https://fr.africanews.com/feed/rss?themes=news"
+    sections: [hot_news, sur_le_continent, radar]
+  - name: africanews_culture
+    type: rss
+    url: "https://fr.africanews.com/feed/rss?themes=culture"
+    sections: [sack_afrique]
+  - name: allafrica_ouest
+    type: rss
+    url: "https://fr.allafrica.com/tools/headlines/rdf/westafrica/headlines.rdf"
+    sections: [hot_news, sur_le_continent, radar]
+    # Attribution + lien vers l'origine obligatoires (CGU AllAfrica).
+
+  # --- HTML libre économique (dates via <time class="news-date">) ---
+  # Sources ÉCONOMIQUES prioritaires pour "Hot news" (cœur BRVM/UEMOA).
+  - name: sikafinance_brvm
+    type: html
+    url: "https://www.sikafinance.com/marches/actualites_bourse_brvm"
+    sections: [hot_news, radar]
+  - name: sikafinance_senegal
+    type: html
+    url: "https://www.sikafinance.com/marches/actualites_economiques_senegal"
+    sections: [hot_news, sur_le_continent, radar]
+  # Agence Ecofin : home rendue en JS (vide en GET), RSS vide → best-effort, souvent nul.
+  - name: agence_ecofin
+    type: html
+    url: "https://www.agenceecofin.com/"
+    sections: [hot_news, radar]
+  - name: apa_news
+    type: html
+    url: "https://fr.apanews.net/"
+    sections: [radar, hot_news]
+  - name: brvm_avis
+    type: html
+    url: "https://www.brvm.org/fr/marche/avis-et-publications/avis"
+    sections: [radar]
+
+# Indicateurs macro chiffrés (pour "Le chiffre" / "Sack d'Afrique" / "Sur le continent").
+macro:
+  - name: worldbank
+    type: worldbank
+    countries: [CIV, SEN, BEN, BFA, TGO, MLI, NER]   # pays UEMOA (ISO3)
+    indicators:
+      - { code: "NY.GDP.MKTP.KD.ZG", label: "Croissance du PIB (%)" }
+      - { code: "FX.OWN.TOTL.ZS",    label: "Adultes ayant un compte (%)" }
+      - { code: "SP.POP.TOTL",       label: "Population totale" }
