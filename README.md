@@ -89,12 +89,14 @@ Issues de `rapport-sources-scrapables-newsletter-brvm.md` :
 3. **Régénérer la clé Ghost** : celle de `ghost.env` a été exposée en clair — révoque-la
    dans Ghost et crée-en une nouvelle, uniquement en Secret.
 4. **Vérifier les slugs de modèles** sur https://openrouter.ai/models.
-5. **Heure du cron** : `.github/workflows/daily.yml` est en UTC (voir commentaire).
+5. **Planning du cron** : `.github/workflows/daily.yml`, en UTC (voir commentaire). Le cron
+   génère le numéro **la veille** : il tourne dimanche→jeudi (`0-4`) et produit l'édition
+   de J+1 (dimanche→lundi, …, jeudi→vendredi). Le brouillon est donc prêt la veille au soir.
 
 ## Points d'attention
 
 - **Timezone & retards GHA** : cron en UTC, pas d'heure d'été, décalage possible de 5-30 min.
 - **Commencer en `draft`** : garder `PUBLISH_STATUS=draft` quelques semaines, relire, puis passer
   à `published` une fois la qualité prouvée.
-- **Jours fériés / marché fermé** : le cron exclut le week-end mais pas les fériés UEMOA.
+- **Jours fériés / marché fermé** : le cron produit des éditions lun→ven mais ne gère pas les fériés UEMOA.
 - **Coût** : router les étapes de tri vers un modèle bon marché, la rédaction vers un modèle fort.

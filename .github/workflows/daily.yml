@@ -2,16 +2,21 @@ name: Newsletter BRVM quotidienne
 
 on:
   schedule:
-    # Cible : 18h heure de Paris. GitHub Actions est en UTC et NE gère PAS l'heure d'été :
-    # 16:00 UTC = 18h Paris (été, CEST) ; en hiver (CET) cela tombera à 17h Paris.
-    # Pour rester à 18h Paris en hiver, passer à "0 17 * * 1-5" fin octobre.
-    # Les crons GHA peuvent aussi être décalés de 5-30 min en période de charge.
-    - cron: "0 16 * * 1-5"   # lundi→vendredi (marché fermé le week-end)
+    # On génère le numéro LA VEILLE : le cron tourne le jour J et produit l'édition de J+1.
+    #   dimanche → numéro de lundi | lundi → mardi | … | jeudi → vendredi
+    # → jours d'exécution = dimanche à jeudi (cron day-of-week 0-4), pour des éditions
+    #   du lundi au vendredi. Ainsi le brouillon est prêt la veille au soir.
+    # Cible horaire : 18h Paris. GitHub Actions est en UTC sans heure d'été :
+    # 16:00 UTC = 18h Paris (été) ; en hiver ce sera 17h Paris (passer à "0 17 * * 0-4").
+    - cron: "0 16 * * 0-4"
   workflow_dispatch:          # permet de lancer à la main depuis l'onglet Actions
     inputs:
       no_publish:
         description: "Générer sans publier sur Ghost (true/false)"
         default: "false"
+      edition_date:
+        description: "Date d'édition YYYY-MM-DD (vide = demain)"
+        default: ""
 
 concurrency:
   group: newsletter-brvm
@@ -44,10 +49,14 @@ jobs:
           MODEL_SELECT: ${{ vars.MODEL_SELECT }}
           MODEL_WRITE: ${{ vars.MODEL_WRITE }}
         run: |
+          # Date d'édition = celle fournie à la main, sinon DEMAIN (numéro de la veille).
+          DATE="${{ github.event.inputs.edition_date }}"
+          if [ -z "$DATE" ]; then DATE=$(date -u -d '+1 day' +%Y-%m-%d); fi
+          echo "Édition générée : $DATE"
           if [ "${{ github.event.inputs.no_publish }}" = "true" ]; then
-            python run.py --no-publish
+            python run.py --date "$DATE" --no-publish
           else
-            python run.py
+            python run.py --date "$DATE"
           fi
 
       - name: Persister la mémoire anti-répétition (history.json)
