@@ -59,13 +59,13 @@ jobs:
             python run.py --date "$DATE"
           fi
 
-      - name: Persister la mémoire anti-répétition (history.json)
+      - name: Persister les mémoires (history.json + topics.json)
         if: always()
         run: |
           git config user.name "cauri-bot"
           git config user.email "cauri-bot@users.noreply.github.com"
-          git add history.json
-          git diff --cached --quiet || git commit -m "chore: maj history anti-répétition [skip ci]"
+          git add history.json topics.json
+          git diff --cached --quiet || git commit -m "chore: maj mémoires anti-répétition [skip ci]"
           git push || echo "rien à pousser"
 
       - name: Archiver les artefacts (HTML + JSON intermédiaires)

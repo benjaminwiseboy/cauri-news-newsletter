@@ -6,6 +6,7 @@ Un numéro de référence (nettoyé) est fourni comme exemple de ton/style/HTML.
 """
 from __future__ import annotations
 
+import json
 import re
 from datetime import date
 
@@ -79,19 +80,45 @@ def _fix_body(html: str, date_fr: str) -> str:
     return html
 
 
-def _parse_meta(raw: str) -> tuple[str, str, str]:
-    """Extrait 'SUBJECT:' et 'PREVIEW:' produits en tête par le modèle, puis renvoie
-    (subject, preview, reste_html)."""
-    m_s = re.search(r"(?im)^\s*SUBJECT\s*:\s*(.+?)\s*$", raw)
-    m_p = re.search(r"(?im)^\s*PREVIEW\s*:\s*(.+?)\s*$", raw)
-    subject = m_s.group(1).strip() if m_s else ""
-    preview = m_p.group(1).strip() if m_p else ""
-    # le HTML commence au doctype / html / body
+_META_KEYS = ("SUBJECT", "PREVIEW", "LECON", "SACK_CHIFFRE", "SACK_FUNFACT")
+
+
+def _parse_meta(raw: str) -> tuple[dict, str]:
+    """Extrait les métadonnées produites en tête (SUBJECT/PREVIEW/LECON/SACK_*) et
+    renvoie (meta_dict, reste_html)."""
+    meta = {}
+    for k in _META_KEYS:
+        m = re.search(rf"(?im)^\s*{k}\s*:\s*(.+?)\s*$", raw)
+        meta[k] = m.group(1).strip() if m else ""
     low = raw.lower()
     i = min((p for p in (low.find("<!doctype"), low.find("<html"), low.find("<body")) if p != -1),
             default=-1)
     html_part = raw[i:] if i != -1 else raw
-    return subject, preview, html_part
+    return meta, html_part
+
+
+_A_RE = re.compile(r'<a\b([^>]*?)href="([^"]*)"([^>]*)>(.*?)</a>', re.DOTALL | re.IGNORECASE)
+
+
+def _urlnorm(u: str) -> str:
+    return (u or "").strip().rstrip("/")
+
+
+def _fix_links(html: str, allowed: set[str]) -> tuple[str, int]:
+    """Anti-URL morte : tout <a> dont l'URL n'est pas dans `allowed` (URLs réellement
+    scrapées + liens fonctionnels) est délié — on garde le texte en gras. Renvoie
+    (html, nb_liens_déliés)."""
+    norm_allowed = {_urlnorm(u) for u in allowed if u}
+    removed = 0
+
+    def repl(m):
+        nonlocal removed
+        if _urlnorm(m.group(2)) in norm_allowed:
+            return m.group(0)
+        removed += 1
+        return f"<b>{m.group(4)}</b>"
+
+    return _A_RE.sub(repl, html), removed
 
 
 def _clean_text(s: str) -> str:
@@ -120,7 +147,14 @@ def _extract_html(raw: str) -> str:
     return (fenced.group(1) if fenced else raw).strip()
 
 
-def run(scraped: ScrapeOutput, selection: SelectOutput) -> WriteOutput:
+def _avoid_block(title: str, items: list[str]) -> str:
+    return f"\n{title} (NE REPRENDS AUCUN) :\n- " + "\n- ".join(items) if items else ""
+
+
+def run(scraped: ScrapeOutput, selection: SelectOutput,
+        avoid_lecons: list[str] | None = None,
+        avoid_chiffres: list[str] | None = None,
+        avoid_funfacts: list[str] | None = None) -> WriteOutput:
     template_html = _template()
     system = (
         config.load_prompt("write")
@@ -132,6 +166,13 @@ def run(scraped: ScrapeOutput, selection: SelectOutput) -> WriteOutput:
         + template_html
     )
 
+    # URLs autorisées pour les liens = celles réellement scrapées (donc vivantes) + liens
+    # fonctionnels. Le modèle doit utiliser l'URL de la source de chaque info.
+    url_by_id = {it.id: it.url for it in scraped.items if it.url}
+    cand_ids = {c.source_id for s in selection.sections for c in s.candidats if c.source_id}
+    cand_urls = {sid: url_by_id[sid] for sid in cand_ids if sid in url_by_id}
+    allowed = set(url_by_id.values()) | {config.SUBSCRIBE_URL} | config.STATIC_ALLOWED_LINKS
+
     date_fr = french_date(scraped.date)
     user = (
         f"DATE D'ÉDITION (à utiliser telle quelle, ne recalcule pas le jour) : {date_fr}\n"
@@ -139,27 +180,40 @@ def run(scraped: ScrapeOutput, selection: SelectOutput) -> WriteOutput:
         f"DONNÉES DE MARCHÉ (FAITS — à recopier tels quels, ne jamais inventer ni "
         f"recalculer un chiffre) :\n"
         f"{scraped.market.model_dump_json(indent=2)}\n\n"
-        f"CANDIDATS PAR SECTION (choisis-en UN par section, celui qui sert le mieux le "
-        f"lecteur investisseur ; ignore une section si aucun candidat n'est pertinent) :\n"
+        f"CANDIDATS PAR SECTION (5 par section, triés par score ; choisis-en UN par "
+        f"section, le plus pertinent pour l'investisseur) :\n"
         f"{selection.model_dump_json(indent=2)}\n\n"
-        f"Produis le document HTML COMPLET de l'édition, prêt à publier, en suivant "
-        f"l'anatomie et le gabarit de la charte. Réponds UNIQUEMENT avec le HTML."
+        f"LIENS — pour chaque info, le lien DOIT être exactement l'URL de sa source "
+        f"(ci-dessous, par source_id). N'invente JAMAIS d'URL ; si une info n'a pas d'URL "
+        f"listée, ne mets pas de lien.\n{json.dumps(cand_urls, ensure_ascii=False)}\n"
+        f"{_avoid_block('LEÇONS DÉJÀ DONNÉES', avoid_lecons or [])}"
+        f"{_avoid_block('CHIFFRES (Sack) DÉJÀ UTILISÉS', avoid_chiffres or [])}"
+        f"{_avoid_block('FUN FACTS (Sack) DÉJÀ UTILISÉS', avoid_funfacts or [])}\n\n"
+        f"Produis le document HTML COMPLET de l'édition, prêt à publier. Réponds au format :\n"
+        f"SUBJECT: ...\nPREVIEW: ...\nLECON: <concept enseigné>\n"
+        f"SACK_CHIFFRE: <sujet du chiffre>\nSACK_FUNFACT: <sujet du fun fact>\n<!DOCTYPE html> … </html>"
     )
 
     raw = complete_text(config.MODEL_WRITE, system, user, temperature=0.7)
-    subject, preview, html_part = _parse_meta(raw)
+    meta, html_part = _parse_meta(raw)
     html = _extract_html(html_part)
     if "<body" not in html.lower():
         raise RuntimeError("La rédaction n'a pas renvoyé de document HTML valide.")
-    html = _enforce_style(html, template_html)  # verrouille le CSS (styles non dérivants)
+    html = _enforce_style(html, template_html)   # verrouille le CSS (styles non dérivants)
     html = _fix_body(html, date_fr)              # header table + textes soutien (email-safe)
+    html, n_removed = _fix_links(html, allowed)  # anti-URL morte
+    if n_removed:
+        print(f"[write] {n_removed} lien(s) non sourcé(s) délié(s)")
 
     # Secours si le modèle n'a pas fourni sujet/preview.
     d_subject, d_preview = derive_meta(html)
-    subject = subject or d_subject
-    preview = preview or d_preview
+    subject = meta["SUBJECT"] or d_subject
+    preview = meta["PREVIEW"] or d_preview
 
     title = f"Cauri News — {date_fr}"
     print(f"[write] HTML généré ({len(html)} caractères) — {date_fr}")
-    print(f"[write] sujet : {subject!r} | preview : {preview!r}")
-    return WriteOutput(date=scraped.date, title=title, html=html, subject=subject, preview=preview)
+    print(f"[write] sujet : {subject!r} | leçon : {meta['LECON']!r}")
+    return WriteOutput(
+        date=scraped.date, title=title, html=html, subject=subject, preview=preview,
+        lecon=meta["LECON"], sack_chiffre=meta["SACK_CHIFFRE"], sack_funfact=meta["SACK_FUNFACT"],
+    )

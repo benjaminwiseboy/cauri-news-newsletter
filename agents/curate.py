@@ -107,3 +107,55 @@ def _safe_date(s: str):
         return date.fromisoformat(s)
     except (ValueError, TypeError):
         return None
+
+
+# --- Mémoire éditoriale (notions La leçon / chiffres-funfacts Sack) --------
+class TopicsMemory:
+    """Persistée dans topics.json : par catégorie, { libellé publié: date }.
+    Sert à empêcher de reprendre une même leçon ou un même chiffre/fun fact."""
+
+    CATS = ("lecon", "sack_chiffre", "sack_funfact")
+
+    def __init__(self, data: dict | None = None):
+        self.data = data or {}
+        for c in self.CATS:
+            self.data.setdefault(c, {})
+
+    @classmethod
+    def load(cls) -> "TopicsMemory":
+        if config.TOPICS_PATH.exists():
+            try:
+                return cls(json.loads(config.TOPICS_PATH.read_text(encoding="utf-8")))
+            except (json.JSONDecodeError, OSError) as e:
+                print(f"[topics] lecture impossible ({e}), on repart à vide")
+        return cls()
+
+    def recent(self, cat: str, limit: int = 30) -> list[str]:
+        """Libellés déjà utilisés, du plus récent au plus ancien."""
+        items = sorted(self.data.get(cat, {}).items(), key=lambda kv: kv[1], reverse=True)
+        return [label for label, _ in items[:limit]]
+
+    def record(self, cat: str, label: str, edition_date: str) -> None:
+        label = (label or "").strip()
+        if not label:
+            return
+        norm = _norm(label)
+        for existing in list(self.data[cat]):  # remplace un doublon normalisé
+            if _norm(existing) == norm:
+                self.data[cat][existing] = edition_date
+                return
+        self.data[cat][label] = edition_date
+
+    def prune(self, edition_date: str) -> None:
+        cutoff = date.fromisoformat(edition_date) - timedelta(days=config.TOPICS_RETENTION_DAYS)
+        for cat in self.CATS:
+            self.data[cat] = {
+                k: v for k, v in self.data[cat].items()
+                if _safe_date(v) is None or _safe_date(v) >= cutoff
+            }
+
+    def save(self) -> None:
+        config.TOPICS_PATH.write_text(
+            json.dumps(self.data, ensure_ascii=False, indent=2, sort_keys=True),
+            encoding="utf-8",
+        )

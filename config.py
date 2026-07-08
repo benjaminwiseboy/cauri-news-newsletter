@@ -70,6 +70,16 @@ FRESHNESS_EXEMPT_SOURCES = {"worldbank"}
 HISTORY_PATH = ROOT / "history.json"
 HISTORY_RETENTION_DAYS = int(os.environ.get("HISTORY_RETENTION_DAYS", "45"))
 
+# Mémoire éditoriale : notions de "La leçon" et chiffres/fun facts de "Sack d'Afrique"
+# déjà publiés → interdits de reprise. Rétention plus longue (une leçon ne se répète
+# pas avant des mois).
+TOPICS_PATH = ROOT / "topics.json"
+TOPICS_RETENTION_DAYS = int(os.environ.get("TOPICS_RETENTION_DAYS", "120"))
+
+# Liens fonctionnels toujours autorisés (en plus des URLs scrapées, vivantes par
+# construction). Tout <a> pointant ailleurs est délié à la publication (anti-URL morte).
+STATIC_ALLOWED_LINKS = {"https://www.brvm.org/fr/indices"}
+
 
 def require(name: str, value: str) -> str:
     """Échoue tôt et clairement si un secret obligatoire manque."""

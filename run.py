@@ -17,7 +17,7 @@ from datetime import date
 
 import config
 from agents import digest, publish, qualify, scrape, select, write
-from agents.curate import History, filter_fresh
+from agents.curate import History, TopicsMemory, filter_fresh
 
 
 def _save(day_dir, name: str, content: str) -> None:
@@ -51,20 +51,28 @@ def main() -> int:
         # On n'écrit pas dans l'historique, rien n'a été consommé.
         return 0
 
+    # Mémoire éditoriale : notions/chiffres déjà publiés, à ne pas répéter.
+    topics = TopicsMemory.load()
+    avoid_lecons = topics.recent("lecon")
+    avoid_chiffres = topics.recent("sack_chiffre")
+    avoid_funfacts = topics.recent("sack_funfact")
+
     # 2. Qualifie
     qualified = qualify.run(scraped)
     _save(day_dir, "02_qualified.json", qualified.model_dump_json(indent=2))
 
-    # 3. Sélectionne 3 candidats/section
-    selection = select.run(scraped, qualified)
+    # 3. Sélectionne 5 candidats/section (leçons déjà données exclues)
+    selection = select.run(scraped, qualified, avoid_lecons=avoid_lecons)
     _save(day_dir, "03_selection.json", selection.model_dump_json(indent=2))
 
-    # 4a. Brouillon BRUT (draft 1) : infos candidates, non formatées — déterministe.
+    # 4a. Brouillon BRUT (draft 1) : infos candidates + score, non formatées — déterministe.
     digest_html = digest.build_digest_html(selection, scraped.items, day)
     _save(day_dir, f"digest-brut-{day}.html", digest_html)
 
     # 4b. Rédige la version formatée (draft 2)
-    written = write.run(scraped, selection)
+    written = write.run(scraped, selection,
+                        avoid_lecons=avoid_lecons, avoid_chiffres=avoid_chiffres,
+                        avoid_funfacts=avoid_funfacts)
     _save(day_dir, f"newsletter-brvm-{day}.html", written.html)
 
     # 5. Publie les DEUX brouillons sur Ghost
@@ -89,6 +97,14 @@ def main() -> int:
     history.prune(day)
     history.save()
     print(f"[run] historique mis à jour (+{len(used_items)} infos, total {len(history.records)})")
+
+    # 6b. Mémorise les notions/chiffres réellement publiés (leçon, Sack) — anti-répétition éditoriale.
+    topics.record("lecon", written.lecon, day)
+    topics.record("sack_chiffre", written.sack_chiffre, day)
+    topics.record("sack_funfact", written.sack_funfact, day)
+    topics.prune(day)
+    topics.save()
+    print(f"[run] mémoire éditoriale : leçon={written.lecon!r}, chiffre={written.sack_chiffre!r}")
 
     print(f"=== Terminé. Artefacts : {day_dir} ===")
     return 0

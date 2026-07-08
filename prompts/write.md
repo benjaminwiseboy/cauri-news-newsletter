@@ -45,17 +45,31 @@ Règles absolues :
 - "Hot news" = actualité ÉCONOMIQUE/financière/BRVM ; "La leçon" = concept d'investissement.
 - PAS DE SIGNATURE D'AUTEUR : aucun nom/prénom de rédacteur nulle part (ni édito, ni Hot news).
 
-AVANT le HTML, produis EXACTEMENT ces deux lignes (elles serviront au sujet et à la
-preview de l'email, elles ne font pas partie du HTML) :
-SUBJECT: <sujet d'email court et accrocheur (≈ 40-65 caractères), ancré dans l'info
-économique/BRVM phare du jour ; pas de "Cauri News" (le nom de l'expéditeur est déjà affiché)>
-PREVIEW: <une phrase de preview/preheader (≈ 60-110 caractères) qui COMPLÈTE le sujet
-sans le répéter et donne envie d'ouvrir>
+AVANT le HTML, produis EXACTEMENT ces lignes de métadonnées (hors HTML) :
+SUBJECT: <sujet d'email court et accrocheur (≈ 40-65 car.), ancré dans l'info BRVM/éco
+phare du jour ; pas de "Cauri News">
+PREVIEW: <phrase de preview/preheader (≈ 60-110 car.) qui complète le sujet sans le répéter>
+LECON: <le concept EXACT enseigné dans "La leçon" (ex. "bon du Trésor", "dividende")>
+SACK_CHIFFRE: <le sujet du "Le chiffre" de Sack d'Afrique (ex. "poids BRVM/PIB UEMOA")>
+SACK_FUNFACT: <le sujet du "Fun fact" de Sack d'Afrique>
 
-Puis le document HTML complet (<!DOCTYPE html>, <head><style>…</style></head>, <body>…</body>)
-reprenant le <head> et les classes du template.
+CONTRAINTES DE NON-RÉPÉTITION (si des listes "déjà donné/utilisé" te sont fournies) :
+- "La leçon" ne doit PAS reprendre un concept déjà enseigné.
+- "Le chiffre" et le "Fun fact" de Sack d'Afrique ne doivent PAS reprendre un sujet/chiffre
+  déjà utilisé dans un numéro précédent.
+- "Hot news" : choisis le candidat de plus haute priorité, en privilégiant une info
+  DIRECTEMENT liée à la BRVM si elle existe.
 
-Format de réponse (rien d'autre) :
+LIENS : chaque lien doit pointer vers l'URL EXACTE de la source de l'info (fournie par
+source_id). N'invente JAMAIS d'URL. Toute URL non fournie sera supprimée à la publication —
+donc pas de lien "générique" (page d'accueil) ni inventé.
+
+Puis le document HTML complet reprenant le <head> et les classes du template.
+
+Format de réponse (rien d'autre autour) :
 SUBJECT: ...
 PREVIEW: ...
+LECON: ...
+SACK_CHIFFRE: ...
+SACK_FUNFACT: ...
 <!DOCTYPE html> … </html>

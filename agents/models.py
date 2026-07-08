@@ -75,11 +75,12 @@ class Candidate(BaseModel):
     titre: str                      # titre/angle proposé
     angle: str
     faits_cles: list[str] = Field(default_factory=list)
+    score: int = 0                  # priorité/pertinence pour la section (0-100)
 
 
 class SectionCandidates(BaseModel):
     section: str
-    candidats: list[Candidate]      # attendu : 3
+    candidats: list[Candidate]      # attendu : 5, triés du plus au moins pertinent
 
 
 class SelectOutput(BaseModel):
@@ -94,3 +95,7 @@ class WriteOutput(BaseModel):
     html: str                       # document HTML complet (avec <style>)
     subject: str = ""               # sujet de l'email (email_subject)
     preview: str = ""               # texte de preview / preheader (custom_excerpt)
+    # Notions/contenus effectivement publiés — mémorisés pour ne pas les répéter.
+    lecon: str = ""                 # concept enseigné dans "La leçon"
+    sack_chiffre: str = ""          # sujet du "Le chiffre" (Sack d'Afrique)
+    sack_funfact: str = ""          # sujet du "Fun fact" (Sack d'Afrique)

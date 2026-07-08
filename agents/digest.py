@@ -30,15 +30,16 @@ def build_digest_html(selection: SelectOutput, items: list[ScrapedItem], edition
         if not sec.candidats:
             parts.append("<p><em>Aucun candidat.</em></p>")
             continue
-        parts.append("<ul>")
-        for c in sec.candidats:
+        parts.append("<ol>")
+        # triés par score de priorité décroissant
+        for c in sorted(sec.candidats, key=lambda x: x.score, reverse=True):
             src = url_by_id.get(c.source_id)
             src_html = f' — <a href="{escape(src)}">source</a>' if src else ""
             faits = "".join(f"<li>{escape(f)}</li>" for f in c.faits_cles)
             faits_html = f"<ul>{faits}</ul>" if faits else ""
             parts.append(
-                f"<li><strong>{escape(c.titre)}</strong>{src_html}"
+                f"<li><strong>[score {c.score}] {escape(c.titre)}</strong>{src_html}"
                 f"<br><em>Angle :</em> {escape(c.angle)}{faits_html}</li>"
             )
-        parts.append("</ul>")
+        parts.append("</ol>")
     return "\n".join(parts)
