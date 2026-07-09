@@ -1,5 +1,11 @@
 {
-  "lecon": {},
-  "sack_chiffre": {},
-  "sack_funfact": {}
+  "lecon": {
+    "dividende": "2026-07-10"
+  },
+  "sack_chiffre": {
+    "électrification solaire en Afrique (WeLight, 650 millions USD)": "2026-07-10"
+  },
+  "sack_funfact": {
+    "Togo / Lomé capitale du code": "2026-07-10"
+  }
 }
