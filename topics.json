@@ -1,11 +1,14 @@
 {
   "lecon": {
-    "dividende": "2026-07-10"
+    "dividende": "2026-07-10",
+    "obligation": "2026-07-10"
   },
   "sack_chiffre": {
+    "mobile money en Afrique de l'Ouest (100 millions d'utilisateurs)": "2026-07-10",
     "électrification solaire en Afrique (WeLight, 650 millions USD)": "2026-07-10"
   },
   "sack_funfact": {
-    "Togo / Lomé capitale du code": "2026-07-10"
+    "Togo / Lomé capitale du code": "2026-07-10",
+    "café éthiopien / berceau du café": "2026-07-10"
   }
 }
