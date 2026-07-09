@@ -121,6 +121,27 @@ def _fix_links(html: str, allowed: set[str]) -> tuple[str, int]:
     return _A_RE.sub(repl, html), removed
 
 
+_CONTI_BLOCK_RE = re.compile(r'<div class="pad conti">.*?(?=<hr)', re.DOTALL | re.IGNORECASE)
+_LEAD_IN_RE = re.compile(r'<b class="lead-in">\s*([^—<]+?)\s*—', re.IGNORECASE)
+
+
+def _check_continent_diversity(html: str) -> list[str]:
+    """Garde-fou (log uniquement, ne corrige pas) : la charte impose 3 pays DIFFÉRENTS
+    dans 'Sur le continent'. On alerte si le modèle a répété un pays, plutôt que de
+    laisser l'erreur passer inaperçue."""
+    block = _CONTI_BLOCK_RE.search(html)
+    if not block:
+        return []
+    countries = [c.strip() for c in _LEAD_IN_RE.findall(block.group(0))]
+    seen, dupes = set(), []
+    for c in countries:
+        key = c.lower()
+        if key in seen and c not in dupes:
+            dupes.append(c)
+        seen.add(key)
+    return dupes
+
+
 def _clean_text(s: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s)).strip()
 
@@ -204,6 +225,9 @@ def run(scraped: ScrapeOutput, selection: SelectOutput,
     html, n_removed = _fix_links(html, allowed)  # anti-URL morte
     if n_removed:
         print(f"[write] {n_removed} lien(s) non sourcé(s) délié(s)")
+    dupe_countries = _check_continent_diversity(html)
+    if dupe_countries:
+        print(f"[write] ATTENTION : pays répété(s) dans 'Sur le continent' : {', '.join(dupe_countries)}")
 
     # Secours si le modèle n'a pas fourni sujet/preview.
     d_subject, d_preview = derive_meta(html)

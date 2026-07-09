@@ -31,8 +31,15 @@ Entrées :
 - La DATE d'édition déjà formatée en français (à utiliser TELLE QUELLE dans l'en-tête et
   le <title> — ne recalcule jamais le jour de la semaine toi-même).
 - Des données de marché factuelles (indices, top hausses/baisses).
-- Pour chaque section, 3 candidats. Choisis-en UN par section (le plus utile au lecteur
-  novice/diaspora/investisseur BRVM) et rédige le bloc.
+- Pour chaque section, 5 candidats triés par score. Nombre à retenir par section :
+  - "Hot news" et "La leçon" : UN SEUL candidat (le plus utile au lecteur
+    novice/diaspora/investisseur BRVM).
+  - "Sur le continent" : TROIS candidats, obligatoirement de TROIS PAYS DIFFÉRENTS.
+    Ne choisis JAMAIS deux candidats du même pays : si plusieurs candidats de la liste
+    concernent le même pays, n'en retiens qu'UN (le mieux classé) et prends le candidat
+    suivant portant sur un autre pays pour compléter les trois.
+  - "Sack d'Afrique" et "Le radar" : plusieurs candidats, selon les quotas de la charte
+    (respectivement 3-4 rubriques et 3 à 6 brèves).
 
 Règles absolues :
 - LES CHIFFRES DE MARCHÉ SONT DES FAITS : recopie-les tels quels. N'invente jamais un

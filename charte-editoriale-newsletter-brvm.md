@@ -147,6 +147,11 @@ Icônes de partage en clôture (Partager / Republier / Transférer), sans signat
 
 **Contenu** : 3 actus africaines (hors BRVM directe), calibrées court — 4 à 8 phrases max chacune.
 
+**Règle stricte de diversité géographique** : les 3 items doivent porter sur **3 pays
+différents**, sans exception. Ne jamais retenir deux items sur le même pays, même si
+plusieurs candidats de haut score concernent ce pays — dans ce cas, n'en garder qu'UN
+(le mieux classé) et compléter avec le candidat suivant portant sur un autre pays.
+
 **Format** : lead-in en gras commençant par le **nom du pays EN ENTIER** (jamais les
 initiales) + `—` + accroche + `:`
 
