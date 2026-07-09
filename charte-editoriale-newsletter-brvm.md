@@ -167,25 +167,32 @@ Maroc — Le port qui veut doubler sa capacité : ...
 
 ## 9. "Sack d'Afrique" — le bloc signature
 
-C'est le cœur de l'identité ludique de la newsletter. Jusqu'à quatre rubriques — **trois fixes** (fun fact, le chiffre, la reco) et **une conditionnelle** (la citation) :
+C'est le cœur de l'identité ludique de la newsletter. Quatre rubriques fixes (fun fact, le chiffre, la citation, la reco) :
 
 - 🧠 **Fun fact :** une anecdote légère, surprenante, pas forcément financière (culture, humour, sport etc.).
 - 🔢 **Le chiffre :** une statistique marquante (économie, démographie, conso, sport).
-- 🗣️ **La citation** *(rubrique conditionnelle)* **:** une phrase réelle et vérifiée d'un acteur économique, culturel africain, ou d'une personnalité (sportif, musicien, politicien, etc.) suivie de son contexte. *(Toujours une citation authentique et sourcée — jamais inventée.)*
-  - **Règle** : si aucune citation réelle et sourçable n'est trouvée pour le numéro, on **retire purement et simplement cette rubrique**. Jamais de placeholder, jamais de citation inventée, approximative ou non attribuée. Le bloc "Sack d'Afrique" compte alors **3 rubriques au lieu de 4**, sans que cela pose problème.
-- 🔗 **La reco :** un article, un podcast ou une vidéo à suivre, avec lien souligné.
+- 🗣️ **La citation :** priorité à une phrase RÉELLE et vérifiée d'un acteur économique, culturel africain, ou d'une personnalité (sportif, musicien, politicien, etc.), entre guillemets, suivie de son contexte et de son attribution.
+  - **Si aucune citation réelle et sourçable n'est trouvée pour le numéro** : on ne retire PAS la rubrique — on la remplace par une **reformulation** de l'idée forte ou du point de vue le plus marquant d'une actu du jour, SANS guillemets et SANS l'attribuer à une personne nommée (ce n'est pas une citation, ne la fais jamais passer pour telle).
+  - **Règle absolue** : jamais de citation inventée, approximative ou faussement attribuée. En cas de doute sur l'authenticité d'une citation, traiter comme "aucune citation trouvée" → reformulation.
+- 🔗 **La reco :** TOUJOURS un article réellement scrapé ce jour-là parmi les actus qualifiées (jamais un podcast, une vidéo ou tout autre contenu non scrapé), présenté comme "à ne pas manquer" — avec son URL réelle de source. Un podcast ou une vidéo, aussi pertinent soit-il en théorie, n'est PAS scrapé par ce pipeline : n'en recommande jamais.
 
 **Exemple**
 > **Fun fact :** À Dakar, il existe plus de comptes mobile money que de comptes bancaires classiques. La banque, ici, tient dans une poche.
 >
 > **Le chiffre :** 2,5 millions. C'est le nombre de tonnes de cacao exportées par la Côte d'Ivoire l'an dernier — soit à peu près le poids de... beaucoup, beaucoup de tablettes de chocolat.
+>
+> **La citation** *(cas réel)* : *"On ne peut pas industrialiser un pays avec des matières premières brutes."* — Aliko Dangote, lors de l'inauguration de sa raffinerie.
+>
+> **La citation** *(cas reformulation, aucune citation réelle disponible)* : Ce que révèle l'accord BOAD-CICA-Re, c'est que la réassurance devient un outil de souveraineté financière autant qu'un produit d'assurance.
+>
+> **La reco :** un article scrapé du jour, présenté comme à ne pas manquer, avec son URL réelle — jamais un podcast ou une vidéo non scrapés.
 
 **Ton** : c'est le bloc où on peut le plus jouer, faire un clin d'œil, glisser une private joke. L'humour doit s'appuyer sur des faits réels et des chiffres, jamais sur des clichés culturels tout faits.
 
 **Important** : 
 - pour éviter la redondance avec les autres rubriques, privilégier ici, si possible, des sujets culturels, sociaux, sportifs etc. sous un angle économique. 
 - Si un évènement majeur est en cours dans la société (exemple : coupe du monde, CAN, Festivals...) privilégier si possible au moins une information sur le sujet avec un angle africain et économique
-- Les rubriques présentes (3 ou 4) ne tournent pas automatiquement autour de la même thématique
+- Les 4 rubriques ne tournent pas automatiquement autour de la même thématique
 
 ---
 
@@ -322,7 +329,7 @@ Sur le continent
 Sack d'Afrique
 Fun fact : ...
 Le chiffre : ...
-La citation : ...   (conditionnel — à retirer si aucune citation réelle et sourcée)
+La citation : ...   (citation réelle et sourcée, sinon reformulation sans guillemets ni attribution)
 La reco : ...
 
 Le radar   (aucune info déjà traitée ailleurs dans le numéro)

@@ -38,8 +38,9 @@ Entrées :
     Ne choisis JAMAIS deux candidats du même pays : si plusieurs candidats de la liste
     concernent le même pays, n'en retiens qu'UN (le mieux classé) et prends le candidat
     suivant portant sur un autre pays pour compléter les trois.
-  - "Sack d'Afrique" et "Le radar" : plusieurs candidats, selon les quotas de la charte
-    (respectivement 3-4 rubriques et 3 à 6 brèves).
+  - "Sack d'Afrique" : 4 rubriques FIXES (fun fact, le chiffre, la citation, la reco) — voir
+    règles spécifiques ci-dessous.
+  - "Le radar" : 3 à 6 brèves, selon les quotas de la charte.
 
 Règles absolues :
 - LES CHIFFRES DE MARCHÉ SONT DES FAITS : recopie-les tels quels. N'invente jamais un
@@ -47,8 +48,16 @@ Règles absolues :
   → adapte la formulation, ne comble pas par une invention.
 - Respecte l'ordre des blocs, les libellés de section exacts, le "menu" aligné sur les
   titres réels, la ligne FCFA conditionnelle, la règle "Vu d'ici" vs "La leçon",
-  l'anti-redondance du "Radar", la rubrique "citation" conditionnelle (retirée si aucune
-  citation réelle et sourcée).
+  l'anti-redondance du "Radar".
+- "La citation" (dans "Sack d'Afrique") : cherche d'abord une citation RÉELLE, exacte et
+  attribuée dans les candidats/faits fournis. Si tu en as une : guillemets + attribution.
+  Si AUCUNE citation réelle et sourçable n'est disponible : NE RETIRE PAS la rubrique —
+  remplace-la par une reformulation de l'idée forte d'une actu du jour, SANS guillemets et
+  SANS l'attribuer à une personne nommée. Ne fabrique JAMAIS une citation ni une attribution.
+- "La reco" (dans "Sack d'Afrique") : TOUJOURS un article réellement scrapé parmi les
+  candidats fournis (donc avec une vraie URL de source), présenté comme "à ne pas manquer".
+  Ne recommande JAMAIS un podcast, une vidéo ou tout contenu qui ne fait pas partie des
+  candidats fournis avec une URL.
 - "Hot news" = actualité ÉCONOMIQUE/financière/BRVM ; "La leçon" = concept d'investissement.
 - PAS DE SIGNATURE D'AUTEUR : aucun nom/prénom de rédacteur nulle part (ni édito, ni Hot news).
 
