@@ -59,9 +59,9 @@ jobs:
           if [ -z "$DATE" ]; then DATE=$(date -u -d '+1 day' +%Y-%m-%d); fi
           echo "Édition générée : $DATE"
           if [ "${{ github.event.inputs.no_publish }}" = "true" ]; then
-            python run.py --date "$DATE" --no-publish
+            python run.py --date "$DATE" --no-publish --hybrid-body
           else
-            python run.py --date "$DATE"
+            python run.py --date "$DATE" --hybrid-body
           fi
 
       - name: Persister les mémoires (history.json + topics.json)
