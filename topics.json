@@ -4,13 +4,15 @@
     "capitalisation boursière": "2026-07-10",
     "diversification de portefeuille": "2026-07-10",
     "dividende": "2026-07-10",
-    "obligation": "2026-07-10"
+    "obligation": "2026-07-10",
+    "rendement": "2026-07-10"
   },
   "sack_chiffre": {
     "croissance du Bénin (8,07 % en 2025)": "2026-07-10",
     "facture énergétique du Congo (doublement en un trimestre)": "2026-07-10",
     "mobile money en Afrique de l'Ouest (100 millions d'utilisateurs)": "2026-07-10",
     "poids de l'économie informelle en Afrique subsaharienne": "2026-07-10",
+    "taux d'inclusion financière en Côte d'Ivoire": "2026-07-10",
     "électrification solaire en Afrique (WeLight, 650 millions USD)": "2026-07-10"
   },
   "sack_funfact": {
@@ -18,6 +20,7 @@
     "Togo / Lomé capitale du code": "2026-07-10",
     "café éthiopien / berceau du café": "2026-07-10",
     "cannabis industriel au Ghana": "2026-07-10",
-    "festival de jazz de Tabarka / renaissance culturelle tunisienne": "2026-07-10"
+    "festival de jazz de Tabarka / renaissance culturelle tunisienne": "2026-07-10",
+    "football marocain et économie du sport": "2026-07-10"
   }
 }
