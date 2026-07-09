@@ -33,10 +33,12 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 # Routage des modèles par étape (surchargeable via env).
-# Tri/sélection en sonnet : le jugement éditorial (pertinence économique/BRVM) exige
-# un modèle solide — haiku laissait passer trop de politique/faits divers.
+# select en gemini-flash-lite (2026-07) : system prompt allégé (charte retirée, consignes
+# de sélection autosuffisantes dans prompts/select.md) pour compenser un modèle plus léger.
+# ATTENTION précédent : un essai Haiku sur ce même poste avait laissé passer trop de
+# politique/faits divers — à surveiller sur 03_selection.json après ce changement.
 MODEL_QUALIFY = os.environ.get("MODEL_QUALIFY", "anthropic/claude-sonnet-4.6")
-MODEL_SELECT = os.environ.get("MODEL_SELECT", "anthropic/claude-sonnet-4.6")
+MODEL_SELECT = os.environ.get("MODEL_SELECT", "google/gemini-2.5-flash-lite")
 MODEL_WRITE = os.environ.get("MODEL_WRITE", "anthropic/claude-sonnet-4.6")
 
 # --- Ghost ---

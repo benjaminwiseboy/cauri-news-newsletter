@@ -10,10 +10,11 @@ from agents.models import QualifyOutput, ScrapeOutput, SelectOutput
 
 def run(scraped: ScrapeOutput, qualified: QualifyOutput,
         avoid_lecons: list[str] | None = None) -> SelectOutput:
-    system = (
-        config.load_prompt("select")
-        + "\n\n---\nCHARTE ÉDITORIALE :\n" + config.read_reference(config.CHARTE_PATH)
-    )
+    # System prompt volontairement allégé : prompts/select.md porte à lui seul toutes les
+    # consignes de sélection (par section + anti-redondance). La charte éditoriale complète
+    # (~19K car. : ton, HTML, gabarit...) ne concerne que la RÉDACTION (write.py) — l'injecter
+    # ici ne faisait que gonfler le coût du modèle de sélection sans utilité.
+    system = config.load_prompt("select")
 
     # On donne au modèle les items qualifiés + leur texte source pour construire les angles.
     text_by_id = {it.id: it.text for it in scraped.items}
