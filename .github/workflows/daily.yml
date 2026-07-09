@@ -6,9 +6,14 @@ on:
     #   dimanche → numéro de lundi | lundi → mardi | … | jeudi → vendredi
     # → jours d'exécution = dimanche à jeudi (cron day-of-week 0-4), pour des éditions
     #   du lundi au vendredi. Ainsi le brouillon est prêt la veille au soir.
-    # Cible horaire : 18h Paris. GitHub Actions est en UTC sans heure d'été :
-    # 16:00 UTC = 18h Paris (été) ; en hiver ce sera 17h Paris (passer à "0 17 * * 0-4").
-    - cron: "0 16 * * 0-4"
+    # Cible horaire : 18h Paris. GitHub Actions est en UTC sans heure d'été.
+    # On ne programme JAMAIS pile à l'heure ronde : GitHub documente que le début de
+    # chaque heure est le pic de congestion des runners partagés (retard observé jusqu'à
+    # ~1h45 sur ce repo avec "0 16 * * 0-4"). On décale donc la minute à :16, et on avance
+    # l'horaire nominal pour absorber ce retard moyen et retomber près de 18h Paris.
+    # 15:16 UTC = 17:16 Paris (été, nominal) ; en hiver, mêmes minutes mais UTC+1 au lieu
+    # de UTC+2 → passer à "16 16 * * 0-4" pour conserver la même cible ~17-18h Paris.
+    - cron: "16 15 * * 0-4"
   workflow_dispatch:          # permet de lancer à la main depuis l'onglet Actions
     inputs:
       no_publish:
