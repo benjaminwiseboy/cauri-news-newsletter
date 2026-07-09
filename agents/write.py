@@ -142,6 +142,42 @@ def _check_continent_diversity(html: str) -> list[str]:
     return dupes
 
 
+_COUNTRY_EMOJI = {
+    "sénégal": "🇸🇳", "senegal": "🇸🇳",
+    "côte d'ivoire": "🇨🇮", "cote d'ivoire": "🇨🇮", "côte d’ivoire": "🇨🇮",
+    "nigeria": "🇳🇬", "nigéria": "🇳🇬",
+    "maroc": "🇲🇦", "ghana": "🇬🇭", "kenya": "🇰🇪", "togo": "🇹🇬", "mali": "🇲🇱",
+    "burkina faso": "🇧🇫", "bénin": "🇧🇯", "benin": "🇧🇯", "niger": "🇳🇪",
+    "guinée": "🇬🇳", "guinee": "🇬🇳", "guinée-bissau": "🇬🇼",
+    "mauritanie": "🇲🇷", "tanzanie": "🇹🇿", "éthiopie": "🇪🇹", "ethiopie": "🇪🇹",
+    "égypte": "🇪🇬", "egypte": "🇪🇬", "afrique du sud": "🇿🇦",
+    "rdc": "🇨🇩", "république démocratique du congo": "🇨🇩", "congo": "🇨🇬",
+    "cameroun": "🇨🇲", "gabon": "🇬🇦", "tchad": "🇹🇩", "sierra leone": "🇸🇱",
+    "liberia": "🇱🇷", "gambie": "🇬🇲", "rwanda": "🇷🇼", "ouganda": "🇺🇬",
+    "zambie": "🇿🇲", "zimbabwe": "🇿🇼", "algérie": "🇩🇿", "algerie": "🇩🇿",
+    "tunisie": "🇹🇳", "angola": "🇦🇴", "mozambique": "🇲🇿",
+}
+_REGIONAL_EMOJI = "🌍"  # UEMOA, CEDEAO, Régional... (pas un pays unique)
+_LEAD_IN_OPEN_RE = re.compile(r'<b class="lead-in">\s*([^—<]+?)\s*—', re.IGNORECASE)
+
+
+def _add_continent_emojis(html: str) -> str:
+    """Ajoute un emoji (drapeau du pays, ou 🌍 pour une entité régionale) devant chaque
+    item de 'Sur le continent', pour un scan visuel plus rapide."""
+    block = _CONTI_BLOCK_RE.search(html)
+    if not block:
+        return html
+    start, end = block.span()
+    segment = html[start:end]
+
+    def repl(m: re.Match) -> str:
+        country = m.group(1).strip()
+        emoji = _COUNTRY_EMOJI.get(country.lower(), _REGIONAL_EMOJI)
+        return f"{emoji} {m.group(0)}"
+
+    return html[:start] + _LEAD_IN_OPEN_RE.sub(repl, segment) + html[end:]
+
+
 def _clean_text(s: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s)).strip()
 
@@ -225,6 +261,7 @@ def run(scraped: ScrapeOutput, selection: SelectOutput,
     html, n_removed = _fix_links(html, allowed)  # anti-URL morte
     if n_removed:
         print(f"[write] {n_removed} lien(s) non sourcé(s) délié(s)")
+    html = _add_continent_emojis(html)           # 🇸🇳/🌍 devant chaque item "Sur le continent"
     dupe_countries = _check_continent_diversity(html)
     if dupe_countries:
         print(f"[write] ATTENTION : pays répété(s) dans 'Sur le continent' : {', '.join(dupe_countries)}")

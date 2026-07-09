@@ -29,6 +29,12 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", default=date.today().isoformat())
     parser.add_argument("--no-publish", action="store_true")
+    parser.add_argument("--hybrid-body", action="store_true",
+                         help="Publie le corps du numéro final en blocs Ghost natifs "
+                              "(éditables) ; header/footer restent en carte HTML.")
+    parser.add_argument("--test", action="store_true",
+                         help="Slug/titre préfixés [TEST], et la mémoire anti-répétition "
+                              "(history.json/topics.json) n'est PAS mise à jour.")
     args = parser.parse_args()
 
     day = args.date
@@ -76,19 +82,32 @@ def main() -> int:
     _save(day_dir, f"newsletter-brvm-{day}.html", written.html)
 
     # 5. Publie les DEUX brouillons sur Ghost
+    title_final = f"[TEST] {written.title}" if args.test else written.title
+    slug_brut = f"cauri-news-test-{day}-brut" if args.test else f"cauri-news-{day}-brut"
+    slug_final = f"cauri-news-test-{day}" if args.test else f"cauri-news-{day}"
+    title_brut = f"[TEST][BRUT] Cauri News — {day}" if args.test else f"[BRUT] Cauri News — {day}"
+
     if args.no_publish:
         print("[run] --no-publish : étape Ghost ignorée.")
     else:
-        url_brut = publish.publish_post(
-            f"[BRUT] Cauri News — {day}", f"cauri-news-{day}-brut",
-            digest_html, "draft", is_full_document=False,
-        )
-        url_final = publish.publish_post(
-            written.title, f"cauri-news-{day}",
-            written.html, config.PUBLISH_STATUS, is_full_document=True,
-            email_subject=written.subject, custom_excerpt=written.preview,
+        if args.hybrid_body:
+            url_brut = publish.publish_fragment_native(title_brut, slug_brut, digest_html, "draft")
+        else:
+            url_brut = publish.publish_post(
+                title_brut, slug_brut, digest_html, "draft", is_full_document=False,
+            )
+        publish_final = publish.publish_post_hybrid if args.hybrid_body else publish.publish_post
+        final_kwargs = {} if args.hybrid_body else {"is_full_document": True}
+        url_final = publish_final(
+            title_final, slug_final, written.html, config.PUBLISH_STATUS,
+            email_subject=written.subject, custom_excerpt=written.preview, **final_kwargs,
         )
         _save(day_dir, "05_publish.txt", f"brut : {url_brut}\nformaté : {url_final}\n")
+
+    if args.test:
+        print("[run] --test : mémoire anti-répétition (history.json/topics.json) NON mise à jour.")
+        print(f"=== Terminé (test). Artefacts : {day_dir} ===")
+        return 0
 
     # 6. Mémorise les infos consommées (candidats du numéro) pour ne pas les répéter.
     used_ids = {c.source_id for s in selection.sections for c in s.candidats if c.source_id}
