@@ -230,6 +230,23 @@ def run(scraped: ScrapeOutput, selection: SelectOutput,
     cand_urls = {sid: url_by_id[sid] for sid in cand_ids if sid in url_by_id}
     allowed = set(url_by_id.values()) | {config.SUBSCRIBE_URL} | config.STATIC_ALLOWED_LINKS
 
+    # Noms d'entreprises pour les titres mentionnés dans "Marché en 30 secondes" (codes
+    # BRVM du jour uniquement) — référence VÉRIFIÉE (site BRVM), pour que le lecteur novice
+    # comprenne quelle entreprise se cache derrière un code comme ETIT ou BOAC.
+    mkt = scraped.market
+    tickers_today = {
+        row.get("valeur") for row in (mkt.top_hausses + mkt.top_baisses)
+    } | ({mkt.valeur_phare.get("valeur")} if mkt.valeur_phare else set())
+    ticker_names = {t: config.BRVM_TICKER_NAMES[t] for t in tickers_today if t in config.BRVM_TICKER_NAMES}
+    ticker_block = (
+        f"NOMS DES ENTREPRISES (référence vérifiée, pour un lecteur novice) : dans "
+        f"'Marché en 30 secondes', CHAQUE FOIS que tu mentionnes un titre par son code "
+        f"({', '.join(ticker_names)}), ajoute son nom complet entre parenthèses juste après, "
+        f"en utilisant EXACTEMENT le nom ci-dessous — n'en invente jamais un autre, et si un "
+        f"code n'apparaît pas dans cette liste ne lui attribue aucun nom :\n"
+        f"{json.dumps(ticker_names, ensure_ascii=False)}\n\n"
+    ) if ticker_names else ""
+
     date_fr = french_date(scraped.date)
     user = (
         f"DATE D'ÉDITION (à utiliser telle quelle, ne recalcule pas le jour) : {date_fr}\n"
@@ -237,6 +254,7 @@ def run(scraped: ScrapeOutput, selection: SelectOutput,
         f"DONNÉES DE MARCHÉ (FAITS — à recopier tels quels, ne jamais inventer ni "
         f"recalculer un chiffre) :\n"
         f"{scraped.market.model_dump_json(indent=2)}\n\n"
+        f"{ticker_block}"
         f"CANDIDATS PAR SECTION (5 par section, triés par score ; choisis-en UN par "
         f"section, le plus pertinent pour l'investisseur) :\n"
         f"{selection.model_dump_json(indent=2)}\n\n"

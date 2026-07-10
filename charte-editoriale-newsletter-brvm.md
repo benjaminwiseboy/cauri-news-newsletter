@@ -66,6 +66,11 @@ On vouvoie, mais on parle comme une connaissance bien informée qui prend un caf
 - Pastille rouge/vert + triangle ▲▼ par ligne.
 - Footnote italique + lien : *"Vous ne savez pas lire un indice boursier ? On vous explique tout ici."*
 - Paragraphe **"Marchés :"** en 3-4 phrases, ton direct et imagé — **ne jamais se contenter de décrire les chiffres** : ajouter une courte **interprétation** (ce qui explique le mouvement, ce qu'il signale, ou ce à quoi il faut faire attention). Le chiffre pose le fait ; la phrase suivante lui donne du sens. Volumes, continuité d'une tendance, écart entre indices et valeurs phares… sont autant d'angles de lecture.
+- **Titres nommés par leur code** : la newsletter s'adresse à des novices — un code BRVM
+  seul (ETIT, BOAC, CBIBF…) ne leur dit rien. Chaque fois qu'un titre est mentionné par son
+  code (tableau ou paragraphe "Marchés :"), ajouter son **nom complet entre parenthèses**
+  juste après (ex. `ETIT (Ecobank Transnational Incorporated Togo)`), en utilisant
+  uniquement la liste de référence fournie — jamais un nom deviné ou approximatif.
 
 **Exemples de formulations**
 > **Marchés :** La BRVM Composite grimpe de 0,8 %, portée par Sonatel qui retrouve des couleurs après deux semaines dans le rouge. Signe encourageant : la hausse s'accompagne de volumes en nette progression — ce n'est pas un rebond en trompe-l'œil, mais de l'argent qui revient vraiment sur la cote.

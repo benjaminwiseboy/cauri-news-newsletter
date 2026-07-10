@@ -82,6 +82,61 @@ TOPICS_RETENTION_DAYS = int(os.environ.get("TOPICS_RETENTION_DAYS", "120"))
 # construction). Tout <a> pointant ailleurs est délié à la publication (anti-URL morte).
 STATIC_ALLOWED_LINKS = {"https://www.brvm.org/fr/indices"}
 
+# Correspondance code BRVM -> nom complet de l'entreprise (relevé le 2026-07-10 sur
+# https://www.brvm.org/fr/cours-actions/0, table "Activités du marché"). Sert de RÉFÉRENCE
+# FIABLE pour "Marché en 30 secondes" : le scraper ne récupère que le code (ETIT, BOAC...)
+# dans les tableaux top 5 / flop 5, jamais le nom — donc pas question de laisser le LLM le
+# deviner. À réactualiser si la cote BRVM évolue (nouvelles admissions/radiations).
+BRVM_TICKER_NAMES = {
+    "ABJC": "Servair Abidjan Côte d'Ivoire",
+    "BICB": "Banque Internationale pour l'Industrie et le Commerce du Bénin",
+    "BICC": "BICI Côte d'Ivoire",
+    "BNBC": "Bernabé Côte d'Ivoire",
+    "BOAB": "Bank of Africa Bénin",
+    "BOABF": "Bank of Africa Burkina Faso",
+    "BOAC": "Bank of Africa Côte d'Ivoire",
+    "BOAM": "Bank of Africa Mali",
+    "BOAN": "Bank of Africa Niger",
+    "BOAS": "Bank of Africa Sénégal",
+    "CABC": "Sicable Côte d'Ivoire",
+    "CBIBF": "Coris Bank International Burkina Faso",
+    "CFAC": "CFAO Motors Côte d'Ivoire",
+    "CIEC": "CIE Côte d'Ivoire",
+    "ECOC": "Ecobank Côte d'Ivoire",
+    "ETIT": "Ecobank Transnational Incorporated Togo",
+    "FTSC": "Filtisac Côte d'Ivoire",
+    "LNBB": "Loterie Nationale du Bénin",
+    "NEIC": "NEI-CEDA Côte d'Ivoire",
+    "NSBC": "NSIA Banque Côte d'Ivoire",
+    "NTLC": "Nestlé Côte d'Ivoire",
+    "ONTBF": "Onatel Burkina Faso",
+    "ORAC": "Orange Côte d'Ivoire",
+    "ORGT": "Oragroup Togo",
+    "PALC": "Palm Côte d'Ivoire",
+    "PRSC": "Tractafric Motors Côte d'Ivoire",
+    "SAFC": "Safca Côte d'Ivoire",
+    "SCRC": "Sucrivoire Côte d'Ivoire",
+    "SDCC": "Sode Côte d'Ivoire",
+    "SDSC": "Africa Global Logistics Côte d'Ivoire",
+    "SEMC": "Eviosys Packaging Siem Côte d'Ivoire",
+    "SGBC": "Société Générale Côte d'Ivoire",
+    "SHEC": "Vivo Energy Côte d'Ivoire",
+    "SIBC": "Société Ivoirienne de Banque",
+    "SICC": "Sicor Côte d'Ivoire",
+    "SIVC": "Erium Côte d'Ivoire",
+    "SLBC": "Solibra Côte d'Ivoire",
+    "SMBC": "SMB Côte d'Ivoire",
+    "SNTS": "Sonatel Sénégal",
+    "SOGC": "SOGB Côte d'Ivoire",
+    "SPHC": "SAPH Côte d'Ivoire",
+    "STAC": "Setao Côte d'Ivoire",
+    "STBC": "SITAB Côte d'Ivoire",
+    "TTLC": "TotalEnergies Marketing Côte d'Ivoire",
+    "TTLS": "TotalEnergies Marketing Sénégal",
+    "UNLC": "Unilever Côte d'Ivoire",
+    "UNXC": "Uniwax Côte d'Ivoire",
+}
+
 
 def require(name: str, value: str) -> str:
     """Échoue tôt et clairement si un secret obligatoire manque."""
