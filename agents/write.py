@@ -247,6 +247,17 @@ def run(scraped: ScrapeOutput, selection: SelectOutput,
         f"{json.dumps(ticker_names, ensure_ascii=False)}\n\n"
     ) if ticker_names else ""
 
+    acronym_block = (
+        f"GLOSSAIRE DES SIGLES (référence, lecteur novice) : la PREMIÈRE fois que tu "
+        f"utilises l'un de ces sigles dans le numéro (n'importe quelle section), explique-le "
+        f"brièvement entre parenthèses ou en incise courte — ensuite, dans le reste du même "
+        f"numéro, tu peux le réutiliser sans le réexpliquer (pas de répétition lourde). "
+        f"'BRVM' n'a PAS besoin d'être expliqué (c'est le sujet de la newsletter). Pour un "
+        f"sigle absent de cette liste, ne l'explique QUE si tu es certain à 100% de sa "
+        f"signification — sinon laisse-le tel quel, n'invente jamais un développement :\n"
+        f"{json.dumps(config.ACRONYM_GLOSSARY, ensure_ascii=False)}\n\n"
+    )
+
     date_fr = french_date(scraped.date)
     user = (
         f"DATE D'ÉDITION (à utiliser telle quelle, ne recalcule pas le jour) : {date_fr}\n"
@@ -255,6 +266,7 @@ def run(scraped: ScrapeOutput, selection: SelectOutput,
         f"recalculer un chiffre) :\n"
         f"{scraped.market.model_dump_json(indent=2)}\n\n"
         f"{ticker_block}"
+        f"{acronym_block}"
         f"CANDIDATS PAR SECTION (5 par section, triés par score ; choisis-en UN par "
         f"section, le plus pertinent pour l'investisseur) :\n"
         f"{selection.model_dump_json(indent=2)}\n\n"

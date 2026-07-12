@@ -137,6 +137,29 @@ BRVM_TICKER_NAMES = {
     "UNXC": "Uniwax Côte d'Ivoire",
 }
 
+# Glossaire des sigles/abréviations récurrents (hors codes BRVM, couverts ci-dessus) —
+# newsletter pour novices : chacun doit être explicité à sa première apparition dans un
+# numéro. "BRVM" est volontairement exclu : c'est le sujet même de la newsletter, l'expliquer
+# à chaque numéro serait redondant avec le tagline/l'édito.
+ACRONYM_GLOSSARY = {
+    "UEMOA": "Union Économique et Monétaire Ouest-Africaine, les 8 pays qui partagent le "
+             "FCFA et la BRVM",
+    "BCEAO": "Banque Centrale des États de l'Afrique de l'Ouest",
+    "CEDEAO": "Communauté Économique des États de l'Afrique de l'Ouest (15 pays)",
+    "FCFA": "Franc CFA, la monnaie commune de la zone UEMOA",
+    "PIB": "Produit Intérieur Brut",
+    "PND": "Plan National de Développement",
+    "OPCVM": "Organisme de Placement Collectif en Valeurs Mobilières, un fonds "
+             "d'investissement collectif",
+    "SICAV": "Société d'Investissement à Capital Variable, un type d'OPCVM",
+    "PER": "Price Earnings Ratio, le ratio cours de l'action / bénéfice par action",
+    "BOAD": "Banque Ouest-Africaine de Développement",
+    "BIDC": "Banque d'Investissement et de Développement de la CEDEAO",
+    "IFC": "International Finance Corporation, filiale de la Banque mondiale dédiée au "
+           "secteur privé",
+    "MoU": "Memorandum of Understanding, un protocole d'accord",
+}
+
 
 def require(name: str, value: str) -> str:
     """Échoue tôt et clairement si un secret obligatoire manque."""

@@ -60,6 +60,10 @@ Règles absolues :
   candidats fournis avec une URL.
 - "Hot news" = actualité ÉCONOMIQUE/financière/BRVM ; "La leçon" = concept d'investissement.
 - PAS DE SIGNATURE D'AUTEUR : aucun nom/prénom de rédacteur nulle part (ni édito, ni Hot news).
+- SIGLES ET ABRÉVIATIONS : explique tout sigle/abréviation (UEMOA, BCEAO, PND, OPCVM…) à sa
+  PREMIÈRE apparition dans le numéro, où qu'elle soit — voir le glossaire de référence fourni
+  plus bas. "BRVM" n'a pas besoin d'être expliqué. N'explique un sigle absent du glossaire
+  que si tu es certain à 100% de sa signification.
 
 AVANT le HTML, produis EXACTEMENT ces lignes de métadonnées (hors HTML) :
 SUBJECT: <sujet d'email court et accrocheur (≈ 40-65 car.), ancré dans l'info BRVM/éco

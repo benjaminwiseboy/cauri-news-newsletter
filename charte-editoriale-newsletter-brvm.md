@@ -257,6 +257,11 @@ Le dernier bloc visible du HTML est donc "Comment soutenir Cauri News ?" avec so
 ## 14. Ton, humour et ludique — principes
 
 - **Vouvoiement complice** : on respecte le lecteur, on ne le prend jamais de haut, même quand on explique une notion de base.
+- **Sigles et abréviations expliqués** : la newsletter s'adresse à des novices. Tout sigle
+  (UEMOA, BCEAO, CEDEAO, PND, OPCVM, SICAV, PER…) est explicité brièvement à sa **première
+  apparition dans le numéro**, où qu'elle soit — pas besoin de le répéter ensuite dans le
+  même numéro. Exception : "BRVM", le sujet même de la newsletter, n'a pas besoin d'être
+  expliqué.
 - **Jeux de mots dans les titres**, toujours ancrés dans un fait réel (cours d'une action, météo, actu sportive) — jamais sur un stéréotype culturel.
 - **Chiffres et comparaisons** dans presque chaque phrase : "vs l'an dernier", "soit l'équivalent de...", "deux fois plus que...".
 - **Analogies du quotidien** pour rendre la finance concrète (le tricycle qui rapporte des bissaps, le mobile money dans la poche).
