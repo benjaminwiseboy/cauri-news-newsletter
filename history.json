@@ -23,6 +23,8 @@
   "u:http://fr.africanews.com/2026/07/10/lhippopotame-pygmee-mise-sur-moo-deng-sa-star-planetaire-pour-survivre": "2026-07-13",
   "u:http://fr.africanews.com/2026/07/11/afrique-du-sud-les-manifestations-anti-migrants-font-peser-un-risque-sur-leconomie": "2026-07-13",
   "u:http://fr.africanews.com/2026/07/11/au-nigeria-lerosion-du-littoral-dorimedu-menace-les-villages": "2026-07-13",
+  "u:http://fr.africanews.com/2026/07/13/afrique-du-sud-le-groupe-de-beers-ferme-sa-plus-grande-mine-de-diamants-pour-deux-ans": "2026-07-14",
+  "u:http://fr.africanews.com/2026/07/13/senegal-pape-thiaw-limoge-apres-lechec-de-son-equipe-au-mondial-2026": "2026-07-14",
   "u:https://api.worldbank.org/v2/country/ben/indicator/fx.own.totl.zs": "2026-07-10",
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": "2026-07-10",
   "u:https://api.worldbank.org/v2/country/bfa/indicator/ny.gdp.mktp.kd.zg": "2026-07-10",
@@ -61,6 +63,7 @@
   "u:https://fr.allafrica.com/stories/202607090700.html": "2026-07-10",
   "u:https://fr.allafrica.com/stories/202607090723.html": "2026-07-10",
   "u:https://fr.allafrica.com/stories/202607110057.html": "2026-07-13",
+  "u:https://fr.allafrica.com/stories/202607130807.html": "2026-07-14",
   "u:https://fr.apanews.net/business/boad-et-cica-re-sallient-pour-securiser-les-investissements": "2026-07-08",
   "u:https://fr.apanews.net/business/ghana-huit-entreprises-candidates-a-la-culture-du-cannabis-industriel": "2026-07-10",
   "u:https://fr.apanews.net/business/le-burkina-lance-sa-premiere-mine-dor-publique": "2026-07-10",
@@ -84,6 +87,7 @@
   "u:https://www.sikafinance.com/marches/brvm-la-cote-fait-du-surplace-malgre-3-milliards-fcfa-engages-par-les-investisseurs_62869": "2026-07-10",
   "u:https://www.sikafinance.com/marches/brvm-le-groupe-ecobank-confirme-sa-spectaculaire-revalorisation-a-50-fcfa_62789": "2026-07-07",
   "u:https://www.sikafinance.com/marches/brvm-les-investisseurs-engagent-plus-de-1-5-milliard-fcfa-sur-ecobank-ci_62822": "2026-07-08",
+  "u:https://www.sikafinance.com/marches/brvm-semaine-27-le-marche-actions-poursuit-son-ascension-coris-bank-enflamme-la-cote-a-29-000-fcfa_62923": "2026-07-14",
   "u:https://www.sikafinance.com/marches/brvm-sonatel-franchit-la-barre-historique-des-31-000-fcfa-et-entraine-le-marche-dans-son-sillage_62847": "2026-07-09",
   "u:https://www.sikafinance.com/marches/burkina-lafc-decaisse-une-1ere-tranche-de-60-millions-usd-pour-la-realisation-de-la-plus-grande-centrale-electrique_62906": "2026-07-13",
   "u:https://www.sikafinance.com/marches/cedeao-le-cable-amilcar-cabral-bientot-en-chantier-pour-offrir-une-connexion-immediate-de-secours-a-la-region_62846": "2026-07-09",
@@ -97,6 +101,8 @@
   "u:https://www.sikafinance.com/marches/dangote-mise-sur-les-marches-financiers-pour-financer-sa-future-raffinerie-geante-au-kenya_62819": "2026-07-08",
   "u:https://www.sikafinance.com/marches/exportation-de-kerosene-dangote-detrone-les-etats-unis-sur-le-marche-europeen_62785": "2026-07-07",
   "u:https://www.sikafinance.com/marches/fouta-le-congo-lance-un-switch-monetique-national-pour-centraliser-le-recouvrement-des-recettes-publiques_62780": "2026-07-07",
+  "u:https://www.sikafinance.com/marches/ifc-renforce-son-partenariat-avec-bridge-bank-group-cote-divoire-pour-accelerer-le-financement-des-pme-et-soutenir-la-creation-demplois_62935": "2026-07-14",
+  "u:https://www.sikafinance.com/marches/jean-charles-kwao-dg-de-societe-generale-capital-securities-west-africa--afinhab-le-social-bond-qui-conjugue-rendement-securite-et-impact-_62926": "2026-07-14",
   "u:https://www.sikafinance.com/marches/la-banque-mondiale-injecte-875-millions-de-dollars-dans-cinq-projets-strategiques-en-cote-d-ivoire_62863": "2026-07-10",
   "u:https://www.sikafinance.com/marches/la-berd-accorde-une-ligne-de-financement-de-15-millions-deuros-a-ecobank-senegal_62854": "2026-07-10",
   "u:https://www.sikafinance.com/marches/la-cote-d-ivoire-la-banque-mondiale-et-eni-s-allient-pour-dessiner-l-avenir-gazier-du-pays_62868": "2026-07-10",
@@ -113,5 +119,6 @@
   "u:https://www.sikafinance.com/marches/simandou-la-guinee-veut-transformer-son-megaprojet-minier-en-catalyseur-de-son-industrialisation_62790": "2026-07-07",
   "u:https://www.sikafinance.com/marches/tony-elumelu-quittera-la-presidence-d-uba-en-aout-2026-apres-12-ans-de-mandat_62795": "2026-07-07",
   "u:https://www.sikafinance.com/marches/uemoa-la-boad-et-la-cica-re-scellent-un-partenariat-pour-renforcer-lassurance-au-service-du-financement-du-developpement_62900": "2026-07-13",
-  "u:https://www.sikafinance.com/marches/uemoa-la-boad-titrisation-mobilise-4-5-milliards-fcfa-pour-renforcer-le-financement-du-logement_62893": "2026-07-13"
+  "u:https://www.sikafinance.com/marches/uemoa-la-boad-titrisation-mobilise-4-5-milliards-fcfa-pour-renforcer-le-financement-du-logement_62893": "2026-07-13",
+  "u:https://www.sikafinance.com/marches/uemoa-la-cote-d-ivoire-et-le-burkina-faso-generent-plus-de-3-600-milliards-fcfa-d-excedent-commercial-au-1er-trimestre-2026_62918": "2026-07-14"
 }
