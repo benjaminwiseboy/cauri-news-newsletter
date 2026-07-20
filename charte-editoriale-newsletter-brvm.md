@@ -203,7 +203,7 @@ C'est le cœur de l'identité ludique de la newsletter. Quatre rubriques fixes (
 
 ## 10. "Le radar"
 
-- 3 à 6 brèves, une phrase chacune, sans analyse.
+- 3 à 6 brèves, une phrase chacune, sans analyse — en visant 5 dans la mesure du possible.
 - Chaque puce démarre par une **entité en gras + souligné** (pays, entreprise, institution, homme d'affaire, politicien).
 - **Règle stricte d'anti-redondance** : le radar ne reprend **AUCUNE** information déjà traitée dans un autre bloc du **même numéro** — ni "Marché en 30 secondes" (donc pas les top hausses/baisses déjà tabulées), ni "Hot news", ni "Sur le continent", ni "Sack d'Afrique". C'est le bloc des sujets "en plus" : ceux qui méritent une mention mais n'ont pas eu leur place ailleurs.
 - Avant de valider le radar, vérifier chaque brève contre le reste du numéro : si elle recoupe un sujet déjà couvert, on la **remplace** par une info inédite (ou on retire la puce s'il n'y a rien à ajouter — mieux vaut 3 brèves neuves que 5 redondantes).

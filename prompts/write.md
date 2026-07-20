@@ -31,16 +31,41 @@ Entrées :
 - La DATE d'édition déjà formatée en français (à utiliser TELLE QUELLE dans l'en-tête et
   le <title> — ne recalcule jamais le jour de la semaine toi-même).
 - Des données de marché factuelles (indices, top hausses/baisses).
-- Pour chaque section, 5 candidats triés par score. Nombre à retenir par section :
+- Pour chaque section, des candidats triés par score (JUSQU'À 5, parfois moins si le pool
+  réel était mince — c'est normal, ne compense JAMAIS un nombre réduit de candidats en
+  inventant quoi que ce soit), **STRICTEMENT CLOISONNÉS PAR SECTION** : tu ne dois JAMAIS
+  utiliser dans une section un candidat proposé pour une AUTRE section — sauf les deux
+  exceptions explicitement prévues ci-dessous ("La reco" et "Le radar"). Nombre à retenir
+  par section :
   - "Hot news" et "La leçon" : UN SEUL candidat (le plus utile au lecteur
-    novice/diaspora/investisseur BRVM).
-  - "Sur le continent" : TROIS candidats, obligatoirement de TROIS PAYS DIFFÉRENTS.
-    Ne choisis JAMAIS deux candidats du même pays : si plusieurs candidats de la liste
-    concernent le même pays, n'en retiens qu'UN (le mieux classé) et prends le candidat
-    suivant portant sur un autre pays pour compléter les trois.
+    novice/diaspora/investisseur BRVM), pris EXCLUSIVEMENT dans les candidats de cette section.
+    S'il n'y a AUCUN candidat pour cette section, ne fabrique rien : laisse-le vide et
+    adapte le plan du numéro (voir règle absolue ci-dessous).
+  - "Sur le continent" : TROIS candidats, obligatoirement de TROIS PAYS DIFFÉRENTS, pris
+    EXCLUSIVEMENT dans les candidats de cette section. Ne choisis JAMAIS deux candidats du même
+    pays : si plusieurs candidats de la liste concernent le même pays, n'en retiens qu'UN (le
+    mieux classé) et prends le candidat suivant portant sur un autre pays pour compléter les
+    trois. Si tu ne trouves pas 3 pays différents (ou pas 3 candidats du tout) dans les
+    candidats propres à cette section, publie MOINS de 3 items plutôt que d'aller piocher
+    dans une autre section ou d'inventer.
   - "Sack d'Afrique" : 4 rubriques FIXES (fun fact, le chiffre, la citation, la reco) — voir
-    règles spécifiques ci-dessous.
-  - "Le radar" : 3 à 6 brèves, selon les quotas de la charte.
+    règles spécifiques ci-dessous. SEULE "La reco" est autorisée à piocher un candidat en dehors
+    des candidats propres à Sack d'Afrique (dans n'importe quelle autre section).
+  - "Le radar" : EXCEPTION INVERSE — en plus de ses candidats propres (jusqu'à 5), il peut
+    (et doit, pour viser 5 informations) piocher dans le POOL COMPLÉMENTAIRE des candidats
+    des autres sections QUE TU N'AS PAS UTILISÉS ailleurs dans ce numéro. Vise 5 informations
+    au total, dans la limite de 6 — mais **le plancher habituel de 3 ne justifie JAMAIS
+    d'inventer une brève** : s'il n'existe réellement pas 3 sujets non utilisés ailleurs
+    (candidats propres + pool complémentaire), publie moins de 3, quitte à n'en garder qu'une
+    ou deux. Respecte l'anti-redondance : un sujet effectivement utilisé dans une autre
+    section du numéro ne peut pas réapparaître ici.
+- ⚠️ RÈGLE ABSOLUE — INTERDICTION D'INVENTER (zéro hallucination) : chaque info publiée doit
+  correspondre à un candidat réellement fourni, avec un lien réel (sauf "La leçon", concept
+  pédagogique sans source). N'invente JAMAIS un fait, un chiffre, une citation, ou une "info"
+  entière pour combler une section qui manque de matière — une section plus courte que
+  d'habitude (voire vide pour "Hot news"/"La leçon" dans le pire des cas) est TOUJOURS
+  préférable à une info fabriquée. Tous les candidats fournis sont déjà sourcés (sauf
+  la_lecon) : à pertinence comparable, préfère simplement le mieux classé.
 
 Règles absolues :
 - LES CHIFFRES DE MARCHÉ SONT DES FAITS : recopie-les tels quels. N'invente jamais un

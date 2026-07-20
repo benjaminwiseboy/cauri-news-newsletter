@@ -69,18 +69,23 @@ class QualifyOutput(BaseModel):
     items: list[QualifiedItem] = Field(default_factory=list)
 
 
-# --- Étape 3 : sélection (3 candidats par section) ------------------------
+# --- Étape 3 : sélection (jusqu'à 5 candidats par section) ----------------
 class Candidate(BaseModel):
-    source_id: str                  # renvoie vers un ScrapedItem
+    source_id: str                  # renvoie vers un ScrapedItem RÉEL ("" accepté seulement
+                                     # pour la_lecon — sinon un candidat sans source réelle
+                                     # ne doit jamais être proposé, cf. prompts/select.md).
     titre: str                      # titre/angle proposé
     angle: str
     faits_cles: list[str] = Field(default_factory=list)
     score: int = 0                  # priorité/pertinence pour la section (0-100)
+    justification: str = ""         # 1 phrase : pourquoi ce score (affichée dans le brut)
 
 
 class SectionCandidates(BaseModel):
     section: str
-    candidats: list[Candidate]      # attendu : 5, triés du plus au moins pertinent
+    candidats: list[Candidate]      # jusqu'à 5, triés du plus au moins pertinent — peut être
+                                     # moins (voire 0) si le pool réel ne fournit pas assez de
+                                     # matière ; jamais complété par un candidat inventé
 
 
 class SelectOutput(BaseModel):

@@ -34,12 +34,13 @@ def build_digest_html(selection: SelectOutput, items: list[ScrapedItem], edition
         # triés par score de priorité décroissant
         for c in sorted(sec.candidats, key=lambda x: x.score, reverse=True):
             src = url_by_id.get(c.source_id)
-            src_html = f' — <a href="{escape(src)}">source</a>' if src else ""
+            src_html = f' — <a href="{escape(src)}">source</a>' if src else " — <em>(sans source)</em>"
             faits = "".join(f"<li>{escape(f)}</li>" for f in c.faits_cles)
             faits_html = f"<ul>{faits}</ul>" if faits else ""
+            just_html = f"<br><em>Pourquoi ce score :</em> {escape(c.justification)}" if c.justification else ""
             parts.append(
                 f"<li><strong>[score {c.score}] {escape(c.titre)}</strong>{src_html}"
-                f"<br><em>Angle :</em> {escape(c.angle)}{faits_html}</li>"
+                f"<br><em>Angle :</em> {escape(c.angle)}{just_html}{faits_html}</li>"
             )
         parts.append("</ol>")
     return "\n".join(parts)

@@ -259,6 +259,20 @@ def run(scraped: ScrapeOutput, selection: SelectOutput,
     )
 
     date_fr = french_date(scraped.date)
+
+    # Sections cloisonnées (hot_news, la_lecon, sur_le_continent, sack_afrique) : le modèle ne
+    # doit choisir QUE parmi les candidats propres à CHAQUE section (sauf "la reco", déjà
+    # autorisée par la charte à piocher dans tout le pool). "le_radar" est l'exception inverse :
+    # en plus de ses 5 candidats propres, il reçoit un pool complémentaire (candidats des AUTRES
+    # sections) pour pouvoir compléter jusqu'à 5 infos avec les sujets "non casés" ailleurs —
+    # c'est la vocation même du radar dans la charte ("sujets en plus... pas eu leur place ailleurs").
+    radar_own = next((s for s in selection.sections if s.section == "le_radar"), None)
+    other_sections = [s for s in selection.sections if s.section != "le_radar"]
+    radar_extra_pool = [
+        {"section_origine": s.section, **c.model_dump()}
+        for s in other_sections for c in s.candidats
+    ]
+
     user = (
         f"DATE D'ÉDITION (à utiliser telle quelle, ne recalcule pas le jour) : {date_fr}\n"
         f"(date ISO {scraped.date})\n\n"
@@ -267,9 +281,27 @@ def run(scraped: ScrapeOutput, selection: SelectOutput,
         f"{scraped.market.model_dump_json(indent=2)}\n\n"
         f"{ticker_block}"
         f"{acronym_block}"
-        f"CANDIDATS PAR SECTION (5 par section, triés par score ; choisis-en UN par "
-        f"section, le plus pertinent pour l'investisseur) :\n"
-        f"{selection.model_dump_json(indent=2)}\n\n"
+        f"CANDIDATS PAR SECTION — STRICTEMENT CLOISONNÉS (5 par section, triés par score) : "
+        f"pour \"Hot news\", \"La leçon\", \"Sur le continent\" et \"Sack d'Afrique\", choisis "
+        f"EXCLUSIVEMENT parmi les candidats listés SOUS LA SECTION CORRESPONDANTE ci-dessous. "
+        f"Ne réutilise JAMAIS un candidat proposé pour une autre section — SEULE EXCEPTION : "
+        f"\"La reco\" (dans Sack d'Afrique) peut piocher un candidat de n'importe quelle section "
+        f"(règle déjà en vigueur dans la charte). À pertinence égale, préfère toujours un "
+        f"candidat SOURCÉ (source_id non vide, donc un vrai lien) à un candidat sans source :\n"
+        f"{json.dumps([s.model_dump() for s in other_sections], ensure_ascii=False, indent=2)}\n\n"
+        f"CANDIDATS POUR \"LE RADAR\" : vise 5 informations au total (jamais moins de 3, jamais "
+        f"plus de 6). Utilise d'abord ses candidats propres ci-dessous, PUIS complète avec le "
+        f"POOL COMPLÉMENTAIRE (candidats proposés pour d'autres sections mais que tu N'AS PAS "
+        f"utilisés ailleurs dans ce numéro) pour atteindre 5 si besoin — c'est le rôle du radar : "
+        f"les sujets pertinents qui n'ont pas trouvé leur place ailleurs. Priorité systématique "
+        f"aux candidats SOURCÉS (propres ou du pool complémentaire) sur les candidats sans "
+        f"source. Respecte l'anti-redondance : n'utilise JAMAIS ici un sujet déjà traité dans une "
+        f"autre section du même numéro.\n"
+        f"CANDIDATS PROPRES AU RADAR :\n"
+        f"{json.dumps(radar_own.model_dump() if radar_own else {}, ensure_ascii=False, indent=2)}\n"
+        f"POOL COMPLÉMENTAIRE (autres sections, à réserver au radar seulement si non repris "
+        f"ailleurs) :\n"
+        f"{json.dumps(radar_extra_pool, ensure_ascii=False, indent=2)}\n\n"
         f"LIENS — pour chaque info, le lien DOIT être exactement l'URL de sa source "
         f"(ci-dessous, par source_id). N'invente JAMAIS d'URL ; si une info n'a pas d'URL "
         f"listée, ne mets pas de lien.\n{json.dumps(cand_urls, ensure_ascii=False)}\n"
