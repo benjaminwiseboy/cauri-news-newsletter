@@ -28,6 +28,14 @@ news:
     type: rss
     url: "https://fr.africanews.com/feed/rss?themes=culture"
     sections: [sack_afrique]
+  - name: africultures
+    type: rss
+    url: "https://africultures.com/feed/"
+    sections: [sack_afrique]
+    # Francophone, culture/cinéma/société africaine — comble le manque de matière
+    # insolite/humaine pour "Sack d'Afrique" (jusqu'ici sous-alimentée, cf. diagnostic
+    # du 2026-07-20 : le pool ne fournissait souvent qu'1 seule actu réelle pour cette
+    # section, forçant select.py à inventer 4 candidats de remplissage sans source).
   - name: allafrica_ouest
     type: rss
     url: "https://fr.allafrica.com/tools/headlines/rdf/westafrica/headlines.rdf"
@@ -44,11 +52,6 @@ news:
     type: html
     url: "https://www.sikafinance.com/marches/actualites_economiques_senegal"
     sections: [hot_news, sur_le_continent, radar]
-  # Agence Ecofin : home rendue en JS (vide en GET), RSS vide → best-effort, souvent nul.
-  - name: agence_ecofin
-    type: html
-    url: "https://www.agenceecofin.com/"
-    sections: [hot_news, radar]
   - name: apa_news
     type: html
     url: "https://fr.apanews.net/"
@@ -57,6 +60,74 @@ news:
     type: html
     url: "https://www.brvm.org/fr/marche/avis-et-publications/avis"
     sections: [radar]
+  - name: afreximbank
+    type: html
+    url: "https://www.afreximbank.com/category/press-releases/"
+    sections: [hot_news, sur_le_continent, radar]
+    # Banque panafricaine du commerce extérieur. Dates fiables (<time datetime>).
+  # Fratmat/CMA Rwanda : dates injectées en JS (absentes du HTML statique) →
+  # comme agence_ecofin, items non datés = écartés en STRICT_FRESHNESS. Gardés
+  # en best-effort pour le mode non strict / évolution future (fetch 2e niveau).
+  - name: fratmat_economie
+    type: html
+    url: "https://www.fratmat.info/rubrique/economie"
+    sections: [hot_news, sur_le_continent]
+  - name: cma_rwanda
+    type: html
+    url: "https://www.cma.rw/news-publications"
+    sections: [sur_le_continent, radar]
+
+  # --- RSS complémentaires (anglophones/panafricains) ---
+  - name: african_capital_markets_news
+    type: rss
+    url: "https://africancapitalmarketsnews.com/feed/"
+    sections: [hot_news, sur_le_continent, radar]
+    # Anglophone, spécialisé marchés de capitaux africains (ex-Namibian Stock Exchange).
+  - name: techcabal
+    type: rss
+    url: "https://techcabal.com/feed/"
+    sections: [sur_le_continent, sack_afrique]
+    # Anglophone, tech/fintech panafricain (écosystème Nigeria notamment).
+  - name: easyequities
+    type: rss
+    url: "https://blogs.easyequities.co.za/rss.xml"
+    sections: [sack_afrique]
+    # Anglophone, marché sud-africain — angle investissement/éducation financière.
+  - name: tustex_bourse
+    type: rss
+    url: "https://www.tustex.com/rss/bourse.xml"
+    sections: [sur_le_continent, radar]
+    # Francophone, Bourse de Tunis (couvre aussi les publications Tunisie Valeurs).
+  - name: nairametrics_energy
+    type: rss
+    url: "https://nairametrics.com/category/energy/feed/"
+    sections: [hot_news, sur_le_continent, radar]
+    # Anglophone. Catégorie dédiée pétrole/énergie/raffinerie Dangote — angle
+    # absent des flux panafricains généralistes déjà en place (cf. actu Dangote
+    # jet fuel/Europe de juillet 2026, ratée faute de source spécialisée énergie).
+  - name: businessday_africa
+    type: rss
+    url: "https://businessday.ng/africa/feed/"
+    sections: [sur_le_continent, radar]
+    # Anglophone, presse économique nigériane, catégorie Afrique (peu de bruit
+    # politique/sport contrairement au flux général du site).
+  - name: businessday_energy
+    type: rss
+    url: "https://businessday.ng/category/energy/feed/"
+    sections: [hot_news, sur_le_continent, radar]
+    # Anglophone. Catégorie énergie dédiée, même logique que nairametrics_energy.
+  - name: agence_ecofin
+    type: rss
+    url: "https://www.agenceecofin.com/obrss-2/ecofin-ugb-all-secteurs"
+    sections: [hot_news, sur_le_continent, radar]
+    # Flux RSS officiel publié par le site (voir robots.txt) — remplace l'ancien
+    # scraping HTML de la home (rendue en JS, résultat souvent vide).
+  - name: beninwebtv_economie
+    type: rss
+    url: "https://beninwebtv.com/economie/feed/"
+    sections: [hot_news, sur_le_continent, radar]
+    # Francophone, rubrique Économie dédiée (pas le flux général du site, qui
+    # mélange actu people/sport internationale sans rapport avec l'Afrique).
 
 # Indicateurs macro chiffrés (pour "Le chiffre" / "Sack d'Afrique" / "Sur le continent").
 macro:
