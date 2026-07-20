@@ -33,32 +33,39 @@ Entrées :
 - Des données de marché factuelles (indices, top hausses/baisses).
 - Pour chaque section, des candidats triés par score (JUSQU'À 5, parfois moins si le pool
   réel était mince — c'est normal, ne compense JAMAIS un nombre réduit de candidats en
-  inventant quoi que ce soit), **STRICTEMENT CLOISONNÉS PAR SECTION** : tu ne dois JAMAIS
-  utiliser dans une section un candidat proposé pour une AUTRE section — sauf les deux
-  exceptions explicitement prévues ci-dessous ("La reco" et "Le radar"). Nombre à retenir
-  par section :
+  inventant quoi que ce soit). "Hot news", "La leçon" et "Sack d'Afrique" sont
+  **STRICTEMENT CLOISONNÉES** : tu ne dois JAMAIS y utiliser un candidat proposé pour une
+  autre section (sauf "La reco", exception déjà prévue). "Sur le continent" et "Le radar"
+  ont un **régime élargi symétrique** : chacune peut, en complément de ses candidats
+  propres, piocher dans un pool complémentaire (candidats des autres sections — y compris
+  l'autre section élargie — non utilisés ailleurs). Nombre à retenir par section :
   - "Hot news" et "La leçon" : UN SEUL candidat (le plus utile au lecteur
     novice/diaspora/investisseur BRVM), pris EXCLUSIVEMENT dans les candidats de cette section.
     S'il n'y a AUCUN candidat pour cette section, ne fabrique rien : laisse-le vide et
     adapte le plan du numéro (voir règle absolue ci-dessous).
-  - "Sur le continent" : TROIS candidats, obligatoirement de TROIS PAYS DIFFÉRENTS, pris
-    EXCLUSIVEMENT dans les candidats de cette section. Ne choisis JAMAIS deux candidats du même
-    pays : si plusieurs candidats de la liste concernent le même pays, n'en retiens qu'UN (le
-    mieux classé) et prends le candidat suivant portant sur un autre pays pour compléter les
-    trois. Si tu ne trouves pas 3 pays différents (ou pas 3 candidats du tout) dans les
-    candidats propres à cette section, publie MOINS de 3 items plutôt que d'aller piocher
-    dans une autre section ou d'inventer.
+  - "Sur le continent" : TROIS candidats, obligatoirement de TROIS PAYS DIFFÉRENTS. Utilise
+    d'abord ses candidats propres ; s'ils ne couvrent pas 3 pays différents avec un vrai
+    ancrage économique/structurel, ou si un candidat du pool complémentaire (y compris un
+    candidat du Radar) est manifestement plus solide économiquement qu'un candidat faible de
+    la liste propre, pioche dedans pour compléter ou remplacer. Ne choisis JAMAIS deux
+    candidats du même pays : si plusieurs candidats concernent le même pays, n'en retiens
+    qu'UN (le mieux classé) et prends un candidat suivant portant sur un autre pays. Si,
+    même avec le pool complémentaire, tu ne trouves pas 3 pays différents, publie MOINS de
+    3 items plutôt que d'inventer.
   - "Sack d'Afrique" : 4 rubriques FIXES (fun fact, le chiffre, la citation, la reco) — voir
     règles spécifiques ci-dessous. SEULE "La reco" est autorisée à piocher un candidat en dehors
     des candidats propres à Sack d'Afrique (dans n'importe quelle autre section).
-  - "Le radar" : EXCEPTION INVERSE — en plus de ses candidats propres (jusqu'à 5), il peut
-    (et doit, pour viser 5 informations) piocher dans le POOL COMPLÉMENTAIRE des candidats
-    des autres sections QUE TU N'AS PAS UTILISÉS ailleurs dans ce numéro. Vise 5 informations
-    au total, dans la limite de 6 — mais **le plancher habituel de 3 ne justifie JAMAIS
-    d'inventer une brève** : s'il n'existe réellement pas 3 sujets non utilisés ailleurs
-    (candidats propres + pool complémentaire), publie moins de 3, quitte à n'en garder qu'une
-    ou deux. Respecte l'anti-redondance : un sujet effectivement utilisé dans une autre
-    section du numéro ne peut pas réapparaître ici.
+  - "Le radar" : en plus de ses candidats propres (jusqu'à 5), il peut (et doit, pour viser 5
+    informations) piocher dans le POOL COMPLÉMENTAIRE des candidats des autres sections (y
+    compris Sur le continent) QUE TU N'AS PAS UTILISÉS ailleurs dans ce numéro. Vise 5
+    informations au total, dans la limite de 6 — mais **le plancher habituel de 3 ne
+    justifie JAMAIS d'inventer une brève** : s'il n'existe réellement pas 3 sujets non
+    utilisés ailleurs (candidats propres + pool complémentaire), publie moins de 3, quitte à
+    n'en garder qu'une ou deux.
+  - Anti-redondance inter-sections : un sujet effectivement utilisé dans une section du
+    numéro ne peut PLUS réapparaître dans une autre (en particulier entre "Sur le continent"
+    et "Le radar", qui partagent désormais un pool commun — le premier a priorité, le second
+    ne reprend que ce qui reste).
 - ⚠️ RÈGLE ABSOLUE — INTERDICTION D'INVENTER (zéro hallucination) : chaque info publiée doit
   correspondre à un candidat réellement fourni, avec un lien réel (sauf "La leçon", concept
   pédagogique sans source). N'invente JAMAIS un fait, un chiffre, une citation, ou une "info"
