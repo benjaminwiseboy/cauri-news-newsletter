@@ -51,7 +51,13 @@ SUBSCRIBE_URL = os.environ.get("SUBSCRIBE_URL") or (f"{GHOST_URL}/#/portal/signu
 
 # --- Maîtrise du coût (tokens envoyés aux modèles) ---
 # Plafond d'actus envoyées au tri (les sources économiques passent en priorité).
-MAX_QUALIFY_ITEMS = int(os.environ.get("MAX_QUALIFY_ITEMS", "80"))
+MAX_QUALIFY_ITEMS = int(os.environ.get("MAX_QUALIFY_ITEMS", "60"))
+# Taille des lots pour qualify.py : le pool plafonné (MAX_QUALIFY_ITEMS) est qualifié par
+# lots de cette taille (plusieurs appels), pas en un seul appel géant — un modèle léger
+# "oublie" de statuer sur une partie des actus au-delà d'une certaine taille de lot
+# (cf. commentaire en tête de agents/qualify.py). Coût marginal : le system prompt
+# (qualify.md + filtre éditorial, ~10K caractères) est répété par lot.
+QUALIFY_BATCH_SIZE = int(os.environ.get("QUALIFY_BATCH_SIZE", "20"))
 # Troncature du texte des actus dans les prompts (le résumé suffit au tri/sélection).
 QUALIFY_TEXT_CHARS = int(os.environ.get("QUALIFY_TEXT_CHARS", "350"))
 SELECT_TEXT_CHARS = int(os.environ.get("SELECT_TEXT_CHARS", "500"))
