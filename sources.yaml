@@ -135,6 +135,13 @@ news:
     # Francophone, 1er média économique d'Afrique Centrale (CEMAC) — dette
     # souveraine, entreprises, marché bancaire. Flux officiel listé en sitemap
     # dans son propre robots.txt (très permissif, ClaudeBot explicitement autorisé).
+  - name: rti_info_economie
+    type: rss
+    url: "https://rti.info/categorie/economie/feed/"
+    sections: [hot_news, sur_le_continent, radar]
+    # Francophone, rubrique Économie du site d'info du groupe RTI (radio-télé
+    # publique ivoirienne) — Côte d'Ivoire = pays hôte de la BRVM, contenu
+    # directement UEMOA (CEPICI, PND, filière café-cacao...).
 
 # Indicateurs macro chiffrés (pour "Le chiffre" / "Sack d'Afrique" / "Sur le continent").
 macro:
