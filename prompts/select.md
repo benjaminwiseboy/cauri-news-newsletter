@@ -24,7 +24,9 @@ Consignes fortes par section :
 - **hot_news** : uniquement de l'ACTUALITÉ ÉCONOMIQUE/FINANCIÈRE/BOURSIÈRE africaine.
   ORDRE DE PRIORITÉ STRICT (scores les plus hauts d'abord) :
   1. Infos DIRECTEMENT liées à la BRVM (sociétés cotées, indices BRVM, résultats/dividendes
-     d'émetteurs cotés, émissions obligataires UEMOA/UMOA-Titres, avis BRVM, BCEAO).
+     d'émetteurs cotés, émissions obligataires UEMOA/UMOA-Titres, avis BRVM, BCEAO,
+     introductions en bourse/OPV — Offres Publiques de Vente — d'une société qui rejoint ou
+     va rejoindre la cote BRVM).
   2. puis économie UEMOA (entreprises, secteurs, macro régionale).
   3. puis économie africaine plus large ayant un lien avec la BRVM/l'UEMOA.
   JAMAIS de politique/conflit/fait divers/santé/sport en hot_news. Le candidat de tête
