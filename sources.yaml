@@ -128,6 +128,13 @@ news:
     sections: [hot_news, sur_le_continent, radar]
     # Francophone, rubrique Économie dédiée (pas le flux général du site, qui
     # mélange actu people/sport internationale sans rapport avec l'Afrique).
+  - name: ecomatin
+    type: rss
+    url: "https://ecomatin.net/feed.xml"
+    sections: [hot_news, sur_le_continent, radar]
+    # Francophone, 1er média économique d'Afrique Centrale (CEMAC) — dette
+    # souveraine, entreprises, marché bancaire. Flux officiel listé en sitemap
+    # dans son propre robots.txt (très permissif, ClaudeBot explicitement autorisé).
 
 # Indicateurs macro chiffrés (pour "Le chiffre" / "Sack d'Afrique" / "Sur le continent").
 macro:
