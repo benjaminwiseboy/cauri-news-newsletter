@@ -150,6 +150,39 @@ news:
     # presse officielle) — couvre en direct les opérations de marché primaire
     # BRVM (introductions en bourse, OPV) : a capté l'OPV Bridge Bank Group CI
     # (juillet 2026) le jour même de son ouverture.
+  - name: financial_afrik
+    type: rss
+    url: "https://www.financialafrik.com/feed/"
+    sections: [hot_news, sur_le_continent, radar]
+    # Francophone, "Toute la Finance Africaine" (Dakar) — banques, bourses,
+    # augmentations de capital, tribunes de dirigeants financiers. Documentée à
+    # tort comme paywallée dans la version d'origine du rapport de sources
+    # (2026-07-13, jamais revérifiée) : retestée en direct le 2026-07-26, flux
+    # RSS complet, aucun mur payant, contenu économique dense et daté.
+  - name: afdb_news
+    type: rss
+    url: "https://www.afdb.org/fr/news-and-events/rss"
+    sections: [hot_news, sur_le_continent, radar]
+    # Francophone, flux RSS officiel de la Banque africaine de développement
+    # (institution financière panafricaine, cofinance des projets UEMOA/BOAD).
+    # Note : /fr/flux-rss n'est qu'une page HTML listant plusieurs flux ; celui-ci
+    # est le flux "actualités" général, extrait de cette page et testé en direct
+    # (items datés, robots.txt Drupal standard sans blocage de bots IA).
+  - name: how_we_made_it_in_africa
+    type: rss
+    url: "https://www.howwemadeitinafrica.com/feed"
+    sections: [sack_afrique, sur_le_continent]
+    # Anglophone, récits d'entrepreneurs/investisseurs africains (hébergé sur
+    # Substack depuis peu) — angle business humain plutôt que news chaude, même
+    # esprit que TechCabal/EasyEquities pour "Sack d'Afrique".
+  - name: african_business
+    type: rss
+    url: "https://african.business/feed"
+    sections: [sur_le_continent, radar]
+    # Anglophone, magazine business panafricain reconnu — pas de hot_news : flux
+    # généraliste mélangeant économie avec santé/politique/sport (Ebola, Coupe du
+    # monde...), laissé en priorité basse pour ne pas concurrencer les sources
+    # économiques dédiées dans le plafonnement du pool (agents/qualify.py::_priority).
 
 # Indicateurs macro chiffrés (pour "Le chiffre" / "Sack d'Afrique" / "Sur le continent").
 macro:

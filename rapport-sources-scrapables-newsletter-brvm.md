@@ -45,6 +45,8 @@
 | Nairametrics — catégorie Énergie (EN, pétrole/raffineries) | `[RSS]` | https://nairametrics.com/category/energy/feed/ |
 | Businessday NG — catégorie Énergie (EN) | `[RSS]` | https://businessday.ng/category/energy/feed/ |
 | Businessday NG — catégorie Afrique (EN) | `[RSS]` | https://businessday.ng/africa/feed/ |
+| Financial Afrik — "Toute la Finance Africaine" (Dakar) | `[RSS]` | https://www.financialafrik.com/feed/ |
+| BAD/AfDB — flux actualités officiel (FR) | `[RSS]` | https://www.afdb.org/fr/news-and-events/rss |
 
 *Note AllAfrica : attribution + lien vers la page d'origine obligatoires (usage gratuit, conditions précisées sur allafrica.com/misc/tools/rss.html).*
 
@@ -84,6 +86,9 @@
 | TechCabal (EN, tech/fintech panafricain) | `[RSS]` | https://techcabal.com/feed/ |
 | Tustex — Bourse de Tunis (FR, couvre aussi Tunisie Valeurs) | `[RSS]` | https://www.tustex.com/rss/bourse.xml |
 | CMA Rwanda — News & publications (EN, dates seulement sur pages détail, best-effort) | `[HTML libre]` | https://www.cma.rw/news-publications |
+| Financial Afrik (FR, Dakar) | `[RSS]` | https://www.financialafrik.com/feed/ |
+| BAD/AfDB — flux actualités officiel (FR) | `[RSS]` | https://www.afdb.org/fr/news-and-events/rss |
+| African Business (EN, magazine panafricain, flux généraliste bruité) | `[RSS]` | https://african.business/feed |
 
 **Statistiques nationales (UEMOA)**
 
@@ -109,6 +114,7 @@
 | Africanews FR — filtré culture | Culture/société | `[RSS]` | https://fr.africanews.com/feed/rss?themes=culture |
 | AllAfrica — Afrique de l'Ouest (FR) | Mix actu/société, filtrable par mot-clé | `[RSS]` | https://fr.allafrica.com/tools/headlines/rdf/westafrica/headlines.rdf |
 | EasyEquities blog (EN, ZA) | Éducation financière/investissement grand public | `[RSS]` | https://blogs.easyequities.co.za/rss.xml |
+| How we made it in Africa (EN, Substack) | Récits d'entrepreneurs/investisseurs africains | `[RSS]` | https://www.howwemadeitinafrica.com/feed |
 | Banque mondiale — Indicators API | Chiffres insolites (démographie, mobile money, etc.) | `[API]` | https://api.worldbank.org/v2/... |
 | Afrobarometer | Perceptions/opinions Afrique (insight) | `[Données ouvertes]` | https://www.afrobarometer.org/data/ |
 | Instituts nationaux de statistique | "Le chiffre" | `[HTML libre]` | cf. tableau rubrique 4 |
@@ -142,7 +148,7 @@
 
 ## Sources écartées de ce rapport (non scrapables) — pour mémoire
 
-Financial Afrik, La Tribune Afrique, Jeune Afrique/The Africa Report, Le Monde Afrique (paywall total ou partiel) ; X/Twitter et Facebook (CGU interdisant le scraping, API payante) ; notes de recherche des SGI (diffusion email, pas d'URL publique) ; Afrobarometer hors data portal (questionnaires en ligne, pas de flux).
+La Tribune Afrique, Jeune Afrique/The Africa Report, Le Monde Afrique, Business Daily Africa (Kenya) (paywall total ou partiel) ; X/Twitter et Facebook (CGU interdisant le scraping, API payante) ; notes de recherche des SGI (diffusion email, pas d'URL publique) ; Afrobarometer hors data portal (questionnaires en ligne, pas de flux). *(Financial Afrik retirée de cette liste le 2026-07-26 : le flux RSS n'est en réalité pas paywallé, voir plus bas.)*
 
 **Évaluées le 2026-07-13** (liste fournie par l'utilisateur) — écartées après vérification directe (curl avec le User-Agent réel du scraper) :
 - **Bloomberg Africa** — paywall quasi-total + robots.txt bloque `/press-releases/`, `/search`.
@@ -167,5 +173,19 @@ Retenues et ajoutées à `sources.yaml` le même jour : Afreximbank, Fratmat.inf
 **Ajout du 2026-07-21 (2)** : demande du user ("peux-tu scrapper les infos de RTI Info ?"). `rtiinfo.ci` n'est pas encore en ligne (DNS injoignable, page "Bientôt en ligne") — le vrai site est **`rti.info`** ("RTI Infos", plateforme digitale du groupe RTI, radio-télé publique ivoirienne). Flux général trouvé (beaucoup de politique, attendu pour un diffuseur national) mais surtout un flux dédié **rubrique Économie** (`rti.info/categorie/economie/feed/`) — testé en direct : 10 items, tous datés, contenu directement UEMOA (CEPICI, PND 2026-2030, filière café-cacao). Côte d'Ivoire étant le pays hôte de la BRVM, cette source est cœur de cible. robots.txt permissif (standard WordPress, aucun blocage de crawlers).
 
 **Ajout du 2026-07-21 (3) — angle mort marché primaire/OPV** : le user a fourni un article LinkedIn (non sourcé automatiquement — LinkedIn n'est pas scrapable, mêmes raisons que X/Facebook) sur l'OPV Bridge Bank Group Côte d'Ivoire (67,5 milliards FCFA, souscrite en 24h, future cotation BRVM au 14/09/2026) et a demandé que ce type d'info remonte fiablement en "Hot news". Recherche de la source primaire de cette actu : couverte dès le 6-16 juillet par Financial Afrik (déjà écarté du rapport, paywall), Capmad, Abidjan.net, Le Gnawo, Afriveille, et surtout par **AIP (Agence Ivoirienne de Presse, agence de presse officielle)**, qui l'a documentée à trois reprises (annonce, ouverture de souscription, cotation officielle). Ajout d'**AIP — rubrique Économie** (`aip.ci/category/economie/feed/`) — testé en direct : 10 items datés, dont l'article Bridge Bank OPV retrouvé exactement (daté du 20/07, jour d'ouverture). robots.txt permissif (WordPress standard). Sika Finance couvrait déjà Bridge Bank Group (autre angle : ouverture filiale Burkina) mais pas encore cet article précis au moment du test — AIP comble ce relais. Renforcement complémentaire de `prompts/select.md` : la règle de priorité n°1 pour "Hot news" (infos DIRECTEMENT BRVM) mentionne désormais explicitement les "introductions en bourse/OPV" comme catégorie prioritaire, pour que ce type d'actu soit fiablement bien classé une fois scrapé.
+
+**Ajout du 2026-07-26** — le user a fourni une nouvelle liste de sources à évaluer (fichier `sources brvm news.md` : panorama de médias économiques africains, agences de presse, institutions et bourses). Testées en direct avec le UA réel du scraper (`curl -A "Mozilla/5.0 (compatible; CauriNewsBot/1.0; +newsletter BRVM)"`) :
+- **Financial Afrik** — **correction d'une erreur du rapport d'origine** : listée depuis 2026-07-13 dans "Sources écartées (paywall)" sans avoir été retestée. Or son flux RSS (`/feed/`) est en réalité intégralement accessible (titres + résumés complets, aucun mur payant), robots.txt propre. Retirée des exclusions, ajoutée à Hot news/Sur le continent.
+- **BAD/AfDB — flux actualités (FR)** — institution financière panafricaine (cofinancement BOAD/UEMOA). La page `/fr/flux-rss` n'est qu'un index HTML de plusieurs flux ; le flux actualités générales (`/fr/news-and-events/rss`) extrait de cette page fonctionne (items datés, robots.txt Drupal standard). Ajoutée.
+- **How we made it in Africa** — a migré vers Substack depuis la rédaction du rapport d'origine ; flux (`/feed`) fonctionnel, robots.txt propre. Ajoutée à Sack d'Afrique (même registre que TechCabal/EasyEquities).
+- **African Business** — flux RSS fonctionnel et robots.txt propre, mais contenu très mélangé en pratique (Ebola, Coupe du monde, expulsions Trump aux côtés de vraie actu économique) — ajoutée en priorité basse (radar/sur_le_continent uniquement, pas de `hot_news`) pour ne pas fausser le plafonnement du pool vers du bruit non économique.
+- **Business in Cameroon** — **écartée** : robots.txt bloque nommément `User-agent: ClaudeBot / Disallow: /` (ainsi que GPTBot, Google-Extended, CCBot, etc.), en plus du `Content-Signal: ai-train=no`. Contrairement à Agence Ecofin (signal générique, pas de blocage nommé), ce site exprime un refus explicite des crawlers IA — non retenue par respect de cette restriction, malgré un flux RSS techniquement accessible (`/index.php/component/obrss/fullrss`, trouvé via le `<link rel="alternate">` de la page d'accueil, `/feed` seul ne renvoyant qu'une page HTML).
+- **Togo First** — **écartée** : aucun flux RSS fonctionnel trouvé malgré plusieurs tentatives (`/feed` → redirige puis 404 ; `/fr/feed` → 500 ; format Joomla `?format=feed&type=rss` → 500 ; aucun `<link rel="alternate">` sur la page d'accueil). Le robots.txt aurait pourtant autorisé la syndication (`Content-Signal: search=yes, ai-train=no, use=reference`) — à réévaluer si une URL de flux valide est identifiée un jour.
+- **Panapress** — **écartée** : page RSS bloquée (403 Access Denied, pare-feu Akamai), même le robots.txt est inaccessible depuis l'IP du scraper.
+- **CNBC Africa** — **écartée** : `/feed/` en boucle de redirection (308) se terminant en 404, aucun flux valide trouvé rapidement.
+- **Jeune Afrique, The Africa Report, Business Daily Africa (Kenya)** — confirmées paywallées (déjà connu pour les deux premières ; Business Daily Africa nouvellement vérifiée).
+- **Non testées, écartées du périmètre prioritaire** (hors UEMOA/Afrique de l'Ouest francophone, ou redondantes avec la couverture panafricaine anglophone déjà en place via TechCabal/African Capital Markets News/Nairametrics/BusinessDay) : Médias24, Le360 (Maroc), News24/Fin24, BusinessTech (Afrique du Sud), The EastAfrican, Daily Nation (Kenya), Business Insider Africa. À réévaluer si un besoin spécifique apparaît (ex. angle mort Maghreb comme pour Tustex/Dangote).
+- **Hors périmètre de ce rapport (RSS/HTML)** : FMI (SDMX/DataMapper) et AfDB Africa Information Highway (Knoema) sont des API de données macro structurées, pas des flux RSS — leur intégration suivrait le même modèle que `worldbank` (`type: worldbank` dans `sources.yaml` + fetcher Python dédié) mais nécessite du code, pas juste une entrée YAML. Non fait dans cette passe, à considérer si "Sur le continent"/"Le chiffre" manquent de matière chiffrée au-delà de la Banque mondiale.
+- Bourses africaines (NGX, JSE, EGX...), institutions régionales sans RSS (UA, CEDEAO, UEMOA, BCEAO, CEMAC/BEAC, COMESA), instituts de statistique nationaux : déjà couverts (ou explicitement écartés) dans les sections précédentes de ce rapport, rien de nouveau identifié dans la liste fournie.
 
 **Ajout du 2026-07-13 (angle mort énergie/pétrole)** : l'utilisateur a signalé que l'actu « Dangote Refinery dépasse les USA en export de kérosène/jet fuel vers l'Europe » (juin 2026, ~466 000 tonnes, publiée début juillet par BusinessDay NG/Punch/Nairametrics/Arbiterz) n'était couverte par aucune source du pipeline — vérifié en direct (aucune mention « Dangote » dans les flux RFI/Africanews/AllAfrica/Sika/APA à date). Cause : aucune source dédiée à l'énergie/pétrole nigérian, alors que Dangote Refinery est un acteur majeur de l'actu économique ouest-africaine. Ajout de 3 flux RSS ciblés (catégories dédiées, pas les flux généraux du site — trop bruités par le politique/sport/faits divers, cf. mésaventure du run #1 de la newsletter) : Nairametrics/Énergie, Businessday NG/Énergie, Businessday NG/Afrique. Testés en direct : tous 200, tous datés, contenu pertinent confirmé (Dangote/pétrole/raffineries en tête de flux).

@@ -119,7 +119,11 @@ def _rss_date(entry) -> str | None:
 
 
 def _fetch_rss(src: dict) -> list[ScrapedItem]:
-    feed = feedparser.parse(src["url"])
+    # feedparser.parse(url) fait sa propre requête HTTP avec un User-Agent générique,
+    # que certains WAF (ex. afdb.org) renvoient une réponse tronquée/invalide (bozo,
+    # 0 entrée, échec silencieux). On récupère donc le flux via _get() (notre UA) et
+    # on ne laisse feedparser que parser le contenu déjà téléchargé.
+    feed = feedparser.parse(_get(src["url"]).content)
     items = []
     for e in feed.entries[:30]:
         summary = BeautifulSoup(e.get("summary", ""), "html.parser").get_text(" ", strip=True)
