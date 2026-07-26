@@ -76,9 +76,12 @@ class History:
                 print(f"[history] lecture impossible ({e}), on repart à vide")
         return cls()
 
-    def filter_unseen(self, items: list[ScrapedItem]) -> list[ScrapedItem]:
-        kept = [it for it in items if item_key(it) not in self.records]
-        print(f"[history] {len(items) - len(kept)} déjà vus écartés, {len(kept)} inédits")
+    def filter_unseen(self, items: list[ScrapedItem], edition_date: str) -> list[ScrapedItem]:
+        """Exclut ce qui a servi dans un numéro ANTÉRIEUR. Un item déjà enregistré à
+        `edition_date` (même jour) n'est PAS exclu : ça permet de régénérer l'édition du
+        jour (nouvelles sources, réglages...) sans s'auto-écarter ses propres articles."""
+        kept = [it for it in items if self.records.get(item_key(it), edition_date) == edition_date]
+        print(f"[history] {len(items) - len(kept)} déjà vus (jours précédents) écartés, {len(kept)} inédits")
         return kept
 
     def record(self, items: list[ScrapedItem], edition_date: str) -> None:
@@ -130,9 +133,13 @@ class TopicsMemory:
                 print(f"[topics] lecture impossible ({e}), on repart à vide")
         return cls()
 
-    def recent(self, cat: str, limit: int = 30) -> list[str]:
-        """Libellés déjà utilisés, du plus récent au plus ancien."""
+    def recent(self, cat: str, limit: int = 30, exclude_date: str | None = None) -> list[str]:
+        """Libellés déjà utilisés, du plus récent au plus ancien. `exclude_date` retire
+        les entrées de ce jour-là (même logique que History.filter_unseen : régénérer
+        l'édition du jour ne doit pas s'auto-interdire ses propres choix)."""
         items = sorted(self.data.get(cat, {}).items(), key=lambda kv: kv[1], reverse=True)
+        if exclude_date:
+            items = [(label, d) for label, d in items if d != exclude_date]
         return [label for label, _ in items[:limit]]
 
     def record(self, cat: str, label: str, edition_date: str) -> None:

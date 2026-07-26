@@ -49,7 +49,7 @@ def main() -> int:
 
     # 1c. Anti-répétition : écarter ce qui a déjà servi dans un numéro précédent.
     history = History.load()
-    scraped.items = history.filter_unseen(scraped.items)
+    scraped.items = history.filter_unseen(scraped.items, day)
     _save(day_dir, "01_scrape.json", scraped.model_dump_json(indent=2))
 
     if not scraped.items:
@@ -59,9 +59,9 @@ def main() -> int:
 
     # Mémoire éditoriale : notions/chiffres déjà publiés, à ne pas répéter.
     topics = TopicsMemory.load()
-    avoid_lecons = topics.recent("lecon")
-    avoid_chiffres = topics.recent("sack_chiffre")
-    avoid_funfacts = topics.recent("sack_funfact")
+    avoid_lecons = topics.recent("lecon", exclude_date=day)
+    avoid_chiffres = topics.recent("sack_chiffre", exclude_date=day)
+    avoid_funfacts = topics.recent("sack_funfact", exclude_date=day)
 
     # 2. Qualifie
     qualified = qualify.run(scraped)
