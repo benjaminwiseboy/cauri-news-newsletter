@@ -114,8 +114,9 @@ Règles absolues :
   que si tu es certain à 100% de sa signification.
 
 AVANT le HTML, produis EXACTEMENT ces lignes de métadonnées (hors HTML) :
-SUBJECT: <objet court et accrocheur (≈ 40-65 car.) : privilégie un JEU DE MOTS ou l'item le
-plus INTRIGANT du numéro (pas forcément la BRVM) ; pas de "Cauri News">
+SUBJECT: <objet court et accrocheur (≈ 40-65 car.) : COMMENCE TOUJOURS par l'emoji de marque
+"🐚 " (cauri, suivi d'un espace, en 1re position — marqueur de reconnaissance fixe), puis un
+JEU DE MOTS ou l'item le plus INTRIGANT du numéro (pas forcément la BRVM) ; pas de "Cauri News">
 PREVIEW: <preheader (≈ 60-110 car.) en CLIFFHANGER / curiosity-gap, DIFFÉRENT du sujet :
 on ouvre une question ou on tease un chiffre choc sans donner la réponse>
 LECON: <le concept EXACT enseigné dans "La leçon" (ex. "bon du Trésor", "dividende")>

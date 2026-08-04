@@ -284,7 +284,7 @@ Le dernier bloc visible du HTML est donc "Comment soutenir Cauri News ?" avec so
 - **Chiffres et comparaisons** dans presque chaque phrase : "vs l'an dernier", "soit l'équivalent de...", "deux fois plus que...".
 - **Analogies du quotidien** pour rendre la finance concrète (le tricycle qui rapporte des bissaps, le mobile money dans la poche).
 - **Auto-dérision ponctuelle** sur la newsletter elle-même, pour créer de la complicité avec les lecteurs fidèles.
-- **Emoji avec parcimonie** : un emoji de ponctuation en fin de phrase dans l'édito, des emoji-puces dans "Sur le continent" et "Sack d'Afrique" — jamais dans les titres de section.
+- **Emoji avec parcimonie** : un emoji de ponctuation en fin de phrase dans l'édito, des emoji-puces dans "Sur le continent" et "Sack d'Afrique" — jamais dans les titres de section. **Exception : l'objet de l'email commence TOUJOURS par l'emoji de marque 🐚 (cauri) en première position** — marqueur de reconnaissance fixe pour se distinguer dans la boîte de réception.
 - **Liens** : toujours en gras + souligné, c'est la convention visuelle qui signale un hyperlien.
 - **Garde-fou humour** : la blague doit toujours pouvoir se justifier par un chiffre ou un fait vérifiable. Si l'humour repose uniquement sur un cliché ("l'Afrique et la chaleur", "l'Afrique et le foot"...), c'est qu'il manque un fait derrière — on retravaille.
 - **Pédagogie-flex** : chaque définition/rappel peut être tournée en atout social pour le lecteur (« comme ça vous pourrez l'expliquer au maquis ce soir »). La vulgarisation est un cadeau, pas un devoir.
