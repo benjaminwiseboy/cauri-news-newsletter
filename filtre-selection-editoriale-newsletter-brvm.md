@@ -121,6 +121,7 @@ Noter chaque critère de 0 à 2, total sur 12 :
 - Sujet déjà traité dans les 2-3 derniers numéros sans élément nouveau
 - Négativité qui n'apporte rien d'actionnable ou d'explicatif au lecteur (catastrophisme gratuit)
 - Sujet politique clivant traité sans recul factuel (privilégier l'angle économique/structurel à l'angle partisan)
+- Humour, vanne ou ton léger sur un sujet tragique, dramatique, sécuritaire ou un deuil → à proscrire (ton neutre et factuel obligatoire)
 - Trop technique pour être ramené à 3 phrases simples, et aucune reformulation possible
 
 ---
@@ -147,3 +148,51 @@ Red flag détecté ? [ ] Oui → lequel : __________  [ ] Non
 
 Décision : [ ] Retenu  [ ] Réserve  [ ] Écarté
 ```
+
+---
+
+## 9. Sujets culturels, mondiaux et politiques : ce qui entre et comment
+
+**Règle unique** : culture, actu mondiale et politique sont tous les trois les bienvenus —
+mais UNIQUEMENT s'ils entrent par la **porte de l'économie africaine**, avec une comparaison
+chiffrée. L'angle économique est le péage : un sujet qui ne se lit pas par le porte-monnaie,
+le marché ou la structure de l'économie est écarté, même s'il fait l'actu.
+
+### Culture (surtout "Sack d'Afrique", "Sur le continent", parfois "Hot news")
+On lit toujours le fait culturel **par son économie** :
+- Musique / Afrobeats / amapiano → revenus streaming, concerts, soft power, tourisme
+- Nollywood / cinéma / séries → investissements Netflix & Prime, exportation, emplois
+- Sport / CAN / mercato → droits TV, sponsors, paris, retombées pays hôte, transferts de joueurs
+- Mode / wax → qui possède réellement les marques (idée reçue à corriger pour la diaspora)
+- Vie quotidienne (jollof wars, Tabaski, tontines, transferts diaspora) → prix, inflation, flux d'argent
+
+### Phénomène mondial (accepté si effet de bord DIRECT sur l'Afrique, branché dès la 2e phrase)
+
+| Phénomène mondial | Angle africain (le fil à brancher) |
+|---|---|
+| Taux Fed / BCE | Coût de la dette africaine, sorties de capitaux, FCFA/USD |
+| Prix cacao, café, or, pétrole, coton | Recettes des États producteurs → cours BRVM |
+| Dollar fort / faible | Importations, inflation, dette libellée en $ |
+| IA, data centers, câbles sous-marins | Souveraineté numérique, câbles posés en Afrique de l'Ouest |
+| Droits de douane US, fin de l'AGOA | Exportations textiles / agricoles africaines |
+| Chine (Belt & Road, dette) | Ports, routes, barrages, renégociation de dette |
+| Climat, COP, marché carbone | Financements climat, crédits carbone, agriculture |
+
+**Règle d'or** : le sujet mondial ne reste jamais "mondial" — on branche le fil africain
+dès la 2e phrase, sinon on écarte.
+
+### Politique (format "politique = économie" uniquement)
+Trois angles autorisés, **jamais partisans** :
+- **Budget / marché** : déficit, dette, taxes, impact sur les entreprises cotées
+- **Réglementaire** : une loi qui change les règles du jeu économique (minier, fiscal, monétaire)
+- **"Qui paie / qui gagne"** — jamais "qui a raison"
+
+**OK** : politique monétaire BCEAO, décisions UEMOA/CEDEAO, budgets nationaux, lois
+minières/fiscales, dette souveraine, débat sur la zone franc, retrait CEDEAO/AES vu par ses
+conséquences douanières et commerciales.
+
+**À éviter** : prendre parti dans un conflit interne, juger la légitimité d'un pouvoir,
+l'électoral partisan, tout sujet sans angle économique clair.
+
+**Garde-fou** : sujets sensibles (coups d'État, sécurité au Sahel, transitions, drames) →
+ton neutre, factuel, recoupé sur 2+ sources, **humour coupé**.

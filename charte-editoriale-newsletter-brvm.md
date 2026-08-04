@@ -25,20 +25,21 @@ Chaque bloc est séparé par un filet horizontal fin. Une seule colonne, lecture
 ## 2. "Bonjour." — l'édito
 
 **Contenu**
-- Accroche liée à l'actu du jour (marché, météo, vie courante en Afrique de l'Ouest, actu sportive...).
-- Angle humain ou économique, jamais purement institutionnel.
+- **Accroche HORS-FINANCE — c'est un sas de décompression.** On ouvre sur du léger et familier (foot/CAN, Afrobeats, Nollywood, météo, vie « au pays », saison des mangues, fête, culture, sport…), **jamais** sur la BRVM ni la bourse. La finance n'arrive qu'au bloc « Marché en 30 secondes ». Objectif : baisser la barrière à l'entrée avant le moindre chiffre.
+- Angle humain, culturel ou de vie courante — jamais institutionnel.
+- Une touche d'humour ou une private joke, toujours adossée à un fait réel.
 - Transition douce vers le sommaire.
-- **Pas de signature d'auteur** (aucun nom/prénom de rédacteur).
+- **Signature : persona collectif** `— L'équipe Cauri ☕` (jamais un nom/prénom de rédacteur individuel — voir §14).
 
 **Ton**
-On vouvoie, mais on parle comme une connaissance bien informée qui prend un café avec vous avant l'ouverture des marchés — pas comme un bulletin officiel. On peut se permettre une touche d'auto-dérision ou une private joke récurrente avec les lecteurs fidèles.
+On vouvoie, mais on parle comme une connaissance bien informée qui prend un café avec vous avant l'ouverture des marchés — pas comme un bulletin officiel. Auto-dérision ponctuelle et private jokes récurrentes bienvenues.
 
-**Exemples de formulations**
-> *"Bonjour. Encore une journée à 34°C à Abidjan — pas de quoi affoler la BRVM, qui elle, garde son sang-froid."*
+**Exemples de formulations (hors-finance)**
+> *"Bonjour. Le mercato bat son plein, et pendant que l'Europe s'arrache nos pépites, nous on scrute surtout un autre transfert : celui des mangues, qui quittent enfin l'étal pour finir en jus (ou directement dans la main)."*
 
-> *"Bonjour. Le cacao a pris l'ascenseur cette semaine, et il n'est pas du genre à redescendre par les escaliers."*
+> *"Bonjour. La CAN approche et tout le monde a déjà sa compo idéale — sauf le sélectionneur, visiblement."*
 
-> *"Bonjour. On va être honnête : aujourd'hui, c'est calme. Très calme. Le genre de calme qui rend nerveux."*
+> *"Bonjour. Nouvelle semaine, nouvel album qui tourne en boucle dans tous les taxis, d'Abidjan à Dakar."*
 
 ---
 
@@ -83,13 +84,25 @@ On vouvoie, mais on parle comme une connaissance bien informée qui prend un caf
 
 ## 5. "Hot news"
 
-**Structure** (squelette narratif, pas des cases rigides)
+**Deux squelettes possibles — choisir selon la nature de l'info** (jamais des cases rigides : c'est un fil de curiosité, pas un formulaire) :
 
+**Template A — Décodage-résultats** *(quand une entreprise publie ses chiffres : Sonatel, Ecobank, BOA…)*
 1. Accroche / question qui pique la curiosité
-2. **Pourquoi ça compte ?**
-3. **Concrètement :**
-4. **Vu d'ici :** la lecture *située* de l'info pour le lecteur — "qu'est-ce que ça change **pour vous**, pour votre épargne, pour votre façon de lire le marché ?". C'est un **angle et une mise en perspective**, pas un cours : on peut rappeler un terme en une demi-phrase, mais on ne **développe jamais** un concept ici — c'est le rôle de "La leçon" (voir la règle anti-recouvrement au bloc 7).
-5. **Bref.** — conclusion + ouverture ou twist et impact direct sur le marché de la brvm et les actions d'investissement
+2. **Dans les faits :** les chiffres clés (CA, bénéfice, marge), toujours avec le "vs" (vs l'an dernier)
+3. **Comment on en est arrivé là ?** / **Problème :** / **Résultat :** ce qui explique le mouvement
+4. **Vu d'ici :** ce que ça change **pour vous** / votre épargne (un angle, pas un cours)
+5. **Bref.** conclusion + impact BRVM + variation de l'action
+
+**Template B — Explainer** *(quand c'est un phénomène ou une décision, pas des chiffres d'entreprise : réforme, nouvel entrant, tendance structurelle)*
+1. Accroche / question qui pique la curiosité
+2. **Pourquoi on en parle ?**
+3. **Concrètement :** / **Contexte :**
+4. **Vu d'ici :** ce que ça change pour le lecteur
+5. **Bref.** conclusion + ouverture ou twist
+
+**Rappel "Vu d'ici"** : c'est un **angle**, pas un cours. On peut rappeler un terme en une demi-phrase, mais on ne **développe jamais** un concept ici — c'est le rôle de "La leçon" (règle anti-recouvrement, bloc 7).
+
+**Désamorceur de jargon inline** : dès qu'un mot technique apparaît dans le corps du texte, on le désamorce **sur place**, de façon joueuse, sans attendre "La leçon" — soit par une parenthèse courte *(le « payout », c'est la part du bénéfice reversée)*, soit par une relance *"En clair : …"* ou *"C'est quoi ? …"*. Idéalement tourné en **atout social** pour le lecteur (« … comme ça vous pourrez l'expliquer au maquis ce soir »).
 
 **Titre** : toujours avec un jeu de mots ou une formule qui claque, ancrée dans les faits (jamais sur un cliché culturel).
 
@@ -131,6 +144,8 @@ Icônes de partage en clôture (Partager / Republier / Transférer), sans signat
 ## 7. "La leçon"
 
 **Contenu** : un concept d'INVESTISSEMENT ou de bourse expliqué simplement. C'est le bloc "professeur sympa", pas "manuel scolaire". **Reste peu technique** : pas de jargon, une idée à la fois, et **toujours au moins une analogie ancrée dans le quotidien africain** (marché, tontine, mobile money, transport, champ, boutique de quartier…) pour rendre la notion digeste.
+
+**Pédagogie-flex** : termine si possible sur une phrase qui fait du savoir un **atout social** — le lecteur doit pouvoir ressortir la notion fièrement en société (« vous pourrez expliquer au prochain repas de famille pourquoi… »). On n'apprend pas au lecteur, on lui donne de quoi briller.
 
 **Rôle distinct de "Vu d'ici"** (règle anti-recouvrement) : "La leçon" est un **cours autonome et approfondi** sur UN concept ; "Vu d'ici" (dans "Hot news") n'est qu'un **angle rapide** sur l'actu du jour. **Dans un même numéro, les deux ne traitent jamais le même concept.** Si "Hot news" s'appuie sur une notion qui mérite un vrai développement, deux options :
 - soit "La leçon" prend **ce** concept — et alors "Vu d'ici" se limite au "pour vous / pour le marché" sans le re-définir ;
@@ -176,9 +191,9 @@ C'est le cœur de l'identité ludique de la newsletter. Quatre rubriques fixes (
 
 - 🧠 **Fun fact :** une anecdote légère, surprenante, pas forcément financière (culture, humour, sport etc.).
 - 🔢 **Le chiffre :** une statistique marquante (économie, démographie, conso, sport).
-- 🗣️ **La citation :** priorité à une phrase RÉELLE et vérifiée d'un acteur économique, culturel africain, ou d'une personnalité (sportif, musicien, politicien, etc.), entre guillemets, suivie de son contexte et de son attribution.
-  - **Si aucune citation réelle et sourçable n'est trouvée pour le numéro** : on ne retire PAS la rubrique — on la remplace par une **reformulation** de l'idée forte ou du point de vue le plus marquant d'une actu du jour, SANS guillemets et SANS l'attribuer à une personne nommée (ce n'est pas une citation, ne la fais jamais passer pour telle).
-  - **Règle absolue** : jamais de citation inventée, approximative ou faussement attribuée. En cas de doute sur l'authenticité d'une citation, traiter comme "aucune citation trouvée" → reformulation.
+- 🗣️ **La citation :** une phrase RÉELLE et vérifiée d'un acteur économique, culturel africain, ou d'une personnalité (sportif, musicien, politicien, etc.), entre guillemets, suivie de son contexte et de son attribution.
+  - **Si aucune citation réelle et sourçable n'est trouvée pour le numéro : on SUPPRIME purement et simplement la rubrique** ("Sack d'Afrique" n'a alors que 3 rubriques ce jour-là). On ne la remplace **PAS** par une reformulation ni par un texte de remplissage — une "citation" qui n'en est pas une ne sert à rien.
+  - **Règle absolue** : jamais de citation inventée, approximative ou faussement attribuée. En cas de doute sur l'authenticité → on retire la rubrique.
 - 🔗 **La reco :** TOUJOURS un article réellement scrapé ce jour-là parmi les actus qualifiées (jamais un podcast, une vidéo ou tout autre contenu non scrapé), présenté comme "à ne pas manquer" — avec son URL réelle de source. Un podcast ou une vidéo, aussi pertinent soit-il en théorie, n'est PAS scrapé par ce pipeline : n'en recommande jamais.
 
 **Exemple**
@@ -188,7 +203,7 @@ C'est le cœur de l'identité ludique de la newsletter. Quatre rubriques fixes (
 >
 > **La citation** *(cas réel)* : *"On ne peut pas industrialiser un pays avec des matières premières brutes."* — Aliko Dangote, lors de l'inauguration de sa raffinerie.
 >
-> **La citation** *(cas reformulation, aucune citation réelle disponible)* : Ce que révèle l'accord BOAD-CICA-Re, c'est que la réassurance devient un outil de souveraineté financière autant qu'un produit d'assurance.
+> *(Aucune citation réelle et vérifiée disponible → la rubrique "La citation" est simplement RETIRÉE du numéro. Pas de reformulation, pas de remplissage.)*
 >
 > **La reco :** un article scrapé du jour, présenté comme à ne pas manquer, avec son URL réelle — jamais un podcast ou une vidéo non scrapés.
 
@@ -246,6 +261,9 @@ Le dernier bloc visible du HTML est donc "Comment soutenir Cauri News ?" avec so
 | Accroche | Question rhétorique ou chiffre choc, sans label |
 | Contexte | **Pourquoi ça compte ?** / **Pourquoi on en parle ?** |
 | Définition / faits | **Concrètement :** / **Rappel :** / **Dans les faits :** |
+| Désamorçage jargon | **En clair :** / **C'est quoi ?** / *(parenthèse courte)* |
+| Bascule / cause | **Comment on en est arrivé là ?** / **Résultat :** / **Problème :** |
+| Relance-curiosité | **Et c'est là que c'est étonnant :** / **Et pourtant…** |
 | Mise en perspective | **Un peu de recul.** / **Vu d'ici :** |
 | Renchérissement | **Plus encore :** / **À noter :** |
 | Conclusion | **Bref.** (+ CTA ou ouverture/twist) |
@@ -269,6 +287,11 @@ Le dernier bloc visible du HTML est donc "Comment soutenir Cauri News ?" avec so
 - **Emoji avec parcimonie** : un emoji de ponctuation en fin de phrase dans l'édito, des emoji-puces dans "Sur le continent" et "Sack d'Afrique" — jamais dans les titres de section.
 - **Liens** : toujours en gras + souligné, c'est la convention visuelle qui signale un hyperlien.
 - **Garde-fou humour** : la blague doit toujours pouvoir se justifier par un chiffre ou un fait vérifiable. Si l'humour repose uniquement sur un cliché ("l'Afrique et la chaleur", "l'Afrique et le foot"...), c'est qu'il manque un fait derrière — on retravaille.
+- **Pédagogie-flex** : chaque définition/rappel peut être tournée en atout social pour le lecteur (« comme ça vous pourrez l'expliquer au maquis ce soir »). La vulgarisation est un cadeau, pas un devoir.
+- **Vocabulaire partagé diaspora** : construire et réutiliser des références complices (maquis, tontine, « au pays », saison des mangues, jollof wars, mercato, coupé-décalé, wax, Drogba/Mané, Afrobeats…) — c'est notre équivalent des private jokes de connivence.
+- **Fil thématique du numéro** : quand un événement culturel/sportif domine (CAN, sortie d'album, Nollywood, Ramadan/Tabaski), le laisser **clignoter discrètement** à travers l'édito + un titre + « Sack d'Afrique » pour créer de la cohésion et récompenser le lecteur fidèle.
+- **Signature** : aucun nom/prénom de rédacteur individuel. Seul l'édito est signé, par le persona collectif `— L'équipe Cauri ☕`.
+- **Humour OFF sur le tragique et le clivant** : sujet lourd (drame, sécurité, coup d'État, deuil, conflit) → ton **neutre et factuel**, angle économique, **zéro vanne**. L'humour ne s'applique qu'aux sujets légers ou "business".
 
 ---
 
@@ -302,8 +325,8 @@ Date
 (En partenariat avec [logo], si applicable)
 
 Bonjour.
-[Accroche du jour]
-(pas de signature d'auteur)
+[Accroche HORS-FINANCE du jour — culture/sport/vie courante, jamais la bourse]
+— L'équipe Cauri ☕
 
 Le menu
 - Marché en 30 secondes : ...
@@ -319,8 +342,9 @@ Marchés : [3-4 phrases : faits chiffrés + une courte interprétation]
 
 Hot news
 [Titre avec jeu de mots]
-[Accroche] Pourquoi ça compte ? Concrètement : Vu d'ici : Bref.
-[Partager / Republier / Transférer]
+[Accroche] — Template A (résultats)  : Dans les faits : / Comment on en est arrivé là ? / Vu d'ici : / Bref.
+           — Template B (explainer)  : Pourquoi on en parle ? / Concrètement : / Vu d'ici : / Bref.
+[jargon désamorcé inline « En clair : / C'est quoi ? » au fil du texte]
 
 Partenaire du jour
 [Titre]
@@ -339,7 +363,7 @@ Sur le continent
 Sack d'Afrique
 Fun fact : ...
 Le chiffre : ...
-La citation : ...   (citation réelle et sourcée, sinon reformulation sans guillemets ni attribution)
+La citation : ...   (UNIQUEMENT si citation réelle et sourcée — sinon on RETIRE la rubrique, pas de reformulation)
 La reco : ...
 
 Le radar   (aucune info déjà traitée ailleurs dans le numéro)
