@@ -55,6 +55,10 @@ Entrées :
   - "Sack d'Afrique" : 4 rubriques FIXES (fun fact, le chiffre, la citation, la reco) — voir
     règles spécifiques ci-dessous. SEULE "La reco" est autorisée à piocher un candidat en dehors
     des candidats propres à Sack d'Afrique (dans n'importe quelle autre section).
+    ANTI-REDONDANCE INTERNE OBLIGATOIRE : chaque rubrique doit porter sur un sujet différent
+    des 3 autres — ne jamais raconter la même actualité/histoire sous deux angles (ex. un
+    même transfert de joueur en "Fun fact" ET en "Le chiffre"). En cas de recoupement entre
+    deux candidats, n'en retenir qu'un et choisir un autre sujet pour l'autre rubrique.
   - "Le radar" : en plus de ses candidats propres (jusqu'à 5), il peut (et doit, pour viser 5
     informations) piocher dans le POOL COMPLÉMENTAIRE des candidats des autres sections (y
     compris Sur le continent) QUE TU N'AS PAS UTILISÉS ailleurs dans ce numéro. Vise 5
@@ -77,7 +81,11 @@ Entrées :
 Règles absolues :
 - LES CHIFFRES DE MARCHÉ SONT DES FAITS : recopie-les tels quels. N'invente jamais un
   cours, une variation, un pourcentage, une citation ou une statistique. Donnée manquante
-  → adapte la formulation, ne comble pas par une invention.
+  → adapte SILENCIEUSEMENT la formulation (reformule autour de ce qui est disponible, ou
+  trouve une autre façon de rendre le chiffre concret), ne comble pas par une invention.
+  N'écris JAMAIS de phrase qui commente ou justifie l'absence d'une donnée (interdits :
+  "pas de chiffre de comparaison disponible", "les données ne précisent pas...", etc.) —
+  le lecteur ne doit jamais voir la coulisse de la rédaction.
 - Respecte l'ordre des blocs, les libellés de section exacts, le "menu" aligné sur les
   titres réels, la ligne FCFA conditionnelle, la règle "Vu d'ici" vs "La leçon",
   l'anti-redondance du "Radar".

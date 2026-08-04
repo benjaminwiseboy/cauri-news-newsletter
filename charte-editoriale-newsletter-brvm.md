@@ -88,7 +88,7 @@ On vouvoie, mais on parle comme une connaissance bien informée qui prend un caf
 
 **Template A — Décodage-résultats** *(quand une entreprise publie ses chiffres : Sonatel, Ecobank, BOA…)*
 1. Accroche / question qui pique la curiosité
-2. **Dans les faits :** les chiffres clés (CA, bénéfice, marge), toujours avec le "vs" (vs l'an dernier)
+2. **Dans les faits :** les chiffres clés (CA, bénéfice, marge), avec le "vs" (vs l'an dernier) **quand cette donnée de comparaison est disponible** dans les faits fournis
 3. **Comment on en est arrivé là ?** / **Problème :** / **Résultat :** ce qui explique le mouvement
 4. **Vu d'ici :** ce que ça change **pour vous** / votre épargne (un angle, pas un cours)
 5. **Bref.** conclusion + impact BRVM + variation de l'action
@@ -212,7 +212,7 @@ C'est le cœur de l'identité ludique de la newsletter. Quatre rubriques fixes (
 **Important** : 
 - pour éviter la redondance avec les autres rubriques, privilégier ici, si possible, des sujets culturels, sociaux, sportifs etc. sous un angle économique. 
 - Si un évènement majeur est en cours dans la société (exemple : coupe du monde, CAN, Festivals...) privilégier si possible au moins une information sur le sujet avec un angle africain et économique
-- Les 4 rubriques ne tournent pas automatiquement autour de la même thématique
+- **Règle stricte d'anti-redondance INTERNE** : Fun fact, Le chiffre, La citation et La reco doivent chacun porter sur un **sujet ou une actualité différente** — jamais deux rubriques qui racontent la même histoire sous deux formes (ex. "Fun fact" qui raconte le transfert d'un joueur ET "Le chiffre" qui reprend le même transfert avec son montant). Si deux candidats se recoupent, on n'en garde qu'un et on choisit un autre sujet pour la seconde rubrique — même chose que la règle du "Radar" (bloc 10) : mieux vaut une rubrique plus modeste qu'une répétition.
 
 ---
 
@@ -292,6 +292,7 @@ Le dernier bloc visible du HTML est donc "Comment soutenir Cauri News ?" avec so
 - **Fil thématique du numéro** : quand un événement culturel/sportif domine (CAN, sortie d'album, Nollywood, Ramadan/Tabaski), le laisser **clignoter discrètement** à travers l'édito + un titre + « Sack d'Afrique » pour créer de la cohésion et récompenser le lecteur fidèle.
 - **Signature** : aucun nom/prénom de rédacteur individuel. Seul l'édito est signé, par le persona collectif `— L'équipe Cauri ☕`.
 - **Humour OFF sur le tragique et le clivant** : sujet lourd (drame, sécurité, coup d'État, deuil, conflit) → ton **neutre et factuel**, angle économique, **zéro vanne**. L'humour ne s'applique qu'aux sujets légers ou "business".
+- **Jamais de méta-commentaire sur une donnée manquante** : si un chiffre de comparaison (vs l'an dernier, vs le concurrent...) n'est pas disponible, on **n'écrit jamais** de phrase du type *"pas de chiffre de comparaison disponible"*, *"les données ne précisent pas..."* ou toute justification sur ce qui manque — le lecteur ne doit jamais voir la coulisse de la rédaction. On reformule silencieusement autour de ce qui EST disponible (ex. rendre le montant brut concret par une autre comparaison : un budget connu, une taille de marché, un ordre de grandeur) et on passe à la phrase suivante, sans s'excuser ni s'expliquer.
 
 ---
 
