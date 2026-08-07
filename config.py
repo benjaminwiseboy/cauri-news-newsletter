@@ -86,7 +86,9 @@ TOPICS_RETENTION_DAYS = int(os.environ.get("TOPICS_RETENTION_DAYS", "120"))
 
 # Liens fonctionnels toujours autorisés (en plus des URLs scrapées, vivantes par
 # construction). Tout <a> pointant ailleurs est délié à la publication (anti-URL morte).
-STATIC_ALLOWED_LINKS = {"https://www.brvm.org/fr/indices"}
+STATIC_ALLOWED_LINKS = {
+    "https://cauri-news.ghost.io/vous-ne-savez-pas-lire-un-indice-boursier-on-vous-explique-tout-ici/",
+}
 
 # Correspondance code BRVM -> nom complet de l'entreprise (relevé le 2026-07-10 sur
 # https://www.brvm.org/fr/cours-actions/0, table "Activités du marché"). Sert de RÉFÉRENCE

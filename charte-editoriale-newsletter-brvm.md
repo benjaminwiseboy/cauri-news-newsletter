@@ -65,7 +65,7 @@ On vouvoie, mais on parle comme une connaissance bien informée qui prend un caf
 - Tableau : BRVM Composite, BRVM 30, + 2-4 valeurs pertinentes du jour (valeur phare, plus forte hausse, plus forte baisse).
 - **Ligne devise FCFA — conditionnelle** : la ligne FCFA/EUR n'est affichée **que si le taux s'écarte de sa valeur habituelle** (parité fixe de 655,957 FCFA pour 1 EUR). Le FCFA étant arrimé à l'euro, cette ligne reste donc **masquée l'immense majorité du temps** — inutile de répéter chaque jour un chiffre qui ne bouge pas. Si l'on tient à une ligne de change, privilégier le FCFA/USD, qui, lui, varie réellement.
 - Pastille rouge/vert + triangle ▲▼ par ligne.
-- Footnote italique + lien : *"Vous ne savez pas lire un indice boursier ? On vous explique tout ici."*
+- Footnote italique + lien : *"Vous ne savez pas comment bien interpréter le tableau ci-dessus ? On vous explique tout ici"* (lien vers https://cauri-news.ghost.io/vous-ne-savez-pas-lire-un-indice-boursier-on-vous-explique-tout-ici/)
 - Paragraphe **"Marchés :"** en 3-4 phrases, ton direct et imagé — **ne jamais se contenter de décrire les chiffres** : ajouter une courte **interprétation** (ce qui explique le mouvement, ce qu'il signale, ou ce à quoi il faut faire attention). Le chiffre pose le fait ; la phrase suivante lui donne du sens. Volumes, continuité d'une tendance, écart entre indices et valeurs phares… sont autant d'angles de lecture.
 - **Titres nommés par leur code** : la newsletter s'adresse à des novices — un code BRVM
   seul (ETIT, BOAC, CBIBF…) ne leur dit rien. Chaque fois qu'un titre est mentionné par son
