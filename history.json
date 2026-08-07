@@ -65,8 +65,24 @@
   "u:http://fr.africanews.com/2026/08/03/ghana-jusqua-20-ans-de-prison-pour-proteger-les-plantations-de-cacao": "2026-08-05",
   "u:http://fr.africanews.com/2026/08/04/iran-usa-des-pourparlers-sous-haute-tension-autour-du-detroit-dormuz": "2026-08-05",
   "u:http://fr.africanews.com/2026/08/04/mali-les-revenus-miniers-au-service-dun-vaste-plan-dinfrastructures": "2026-08-05",
+  "u:http://fr.africanews.com/2026/08/05/el-nino-lonu-redoute-une-nouvelle-flambee-de-la-faim-mondiale": {
+    "date": "2026-08-07",
+    "title": "El Niño : l'ONU redoute une nouvelle flambée de la faim mondiale"
+  },
   "u:http://fr.africanews.com/2026/08/05/happy-city-index-2026-aucune-ville-africaine-parmi-les-200-premieres-villes": "2026-08-06",
   "u:http://fr.africanews.com/2026/08/05/nigeria-larmee-obtient-une-hausse-salariale-historique": "2026-08-06",
+  "u:http://fr.africanews.com/2026/08/06/coupe-du-monde-la-fifa-renonce-a-son-projet-mais-soutient-infantino": {
+    "date": "2026-08-07",
+    "title": "Coupe du Monde : la FIFA renonce à son projet, mais soutient Infantino"
+  },
+  "u:http://fr.africanews.com/2026/08/06/le-real-madrid-sapprete-a-recruter-yan-diomande-pour-140-millions-deuros": {
+    "date": "2026-08-07",
+    "title": "Le Real Madrid s’apprête à recruter Yan Diomandé pour 140 millions d’euros"
+  },
+  "u:http://fr.africanews.com/2026/08/06/rdc-interdiction-dexporter-les-concentres-de-cuivre-et-de-cobalt": {
+    "date": "2026-08-07",
+    "title": "RDC : interdiction d’exporter les concentrés de cuivre et de cobalt"
+  },
   "u:https://api.worldbank.org/v2/country/ben/indicator/fx.own.totl.zs": "2026-07-10",
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": "2026-07-10",
   "u:https://api.worldbank.org/v2/country/bfa/indicator/ny.gdp.mktp.kd.zg": "2026-07-10",
@@ -81,7 +97,15 @@
   "u:https://beninwebtv.com/le-mozambique-prevoit-12-milliard-deuros-pour-moderniser-cahora-bassa": "2026-08-05",
   "u:https://beninwebtv.com/rdc-les-societes-minieres-doivent-ceder-10-de-leur-capital-aux-nationaux-des-2026": "2026-08-05",
   "u:https://beninwebtv.com/uemoa-4-institutions-de-microfinance-homologuees-pour-la-finance-islamique-en-2025": "2026-08-05",
+  "u:https://businessday.ng/energy/oilandgas/article/nmdpra-to-curb-price-fixing-petrol-hoarding-with-new-anti-competition-framework": {
+    "date": "2026-08-07",
+    "title": "NMDPRA to curb price-fixing, petrol hoarding with new anti-competition framework"
+  },
   "u:https://businessday.ng/news/article/bab-el-mandeb-tanker-traffic-hits-multi-month-low": "2026-07-28",
+  "u:https://businessday.ng/news/article/nigeria-joins-world-energy-council-targets-stronger-energy-security-expanded-energy-equity": {
+    "date": "2026-08-07",
+    "title": "Nigeria joins World Energy Council, targets stronger energy security, expanded energy equity"
+  },
   "u:https://businessday.ng/news/article/tinubu-launches-africas-first-renewable-energy-college-in-kogi": "2026-08-05",
   "u:https://ecomatin.net/acces-a-leau-potable-la-bad-demande-a-la-centrafrique-de-revoir-son-modele-economique": "2026-08-04",
   "u:https://ecomatin.net/access-bank-cameroon-elue-meilleure-banque-digitale-lors-des-euromoney-awards-2026": "2026-07-29",
@@ -205,9 +229,32 @@
   "u:https://fr.allafrica.com/stories/202608040526.html": "2026-08-05",
   "u:https://fr.allafrica.com/stories/202608040532.html": "2026-08-05",
   "u:https://fr.allafrica.com/stories/202608040534.html": "2026-08-05",
-  "u:https://fr.allafrica.com/stories/202608050239.html": "2026-08-06",
+  "u:https://fr.allafrica.com/stories/202608050239.html": {
+    "date": "2026-08-06",
+    "title": "Nigeria: La raffinerie nigériane Dangote prévoit de lever 5 milliards de dollars lors de son introduction en bourse prévue en octobre"
+  },
   "u:https://fr.allafrica.com/stories/202608050473.html": "2026-08-06",
   "u:https://fr.allafrica.com/stories/202608050654.html": "2026-08-06",
+  "u:https://fr.allafrica.com/stories/202608060190.html": {
+    "date": "2026-08-07",
+    "title": "S&#xe9;n&#xe9;gal: Banque mondiale - 340 milliards de FCFA pour soutenir les priorit&#xe9;s du pays"
+  },
+  "u:https://fr.allafrica.com/stories/202608060200.html": {
+    "date": "2026-08-07",
+    "title": "Afrique: Le continent, plaque tournante des faux ordres de virement"
+  },
+  "u:https://fr.allafrica.com/stories/202608060639.html": {
+    "date": "2026-08-07",
+    "title": "Togo: Anakoma Bikp&#xe9;ta prend les r&#xea;nes de l'agropole de Kara"
+  },
+  "u:https://fr.allafrica.com/stories/202608060668.html": {
+    "date": "2026-08-07",
+    "title": "Cote d'Ivoire: Herv&#xe9; Renard &#xe0; la t&#xea;te des &#xc9;l&#xe9;phants - Idriss Diallo justifie son choix"
+  },
+  "u:https://fr.allafrica.com/stories/202608060698.html": {
+    "date": "2026-08-07",
+    "title": "B&#xe9;nin: Le S&#xe9;nat, un couteau Suisse ?"
+  },
   "u:https://fr.apanews.net/business/african-mining-week-2026-la-guinee-legypte-et-le-nigeria-en-vedette": "2026-08-05",
   "u:https://fr.apanews.net/business/afrique-australe-airlink-ouvrira-une-liaison-directe-lanseria-harare-en-novembre": "2026-08-04",
   "u:https://fr.apanews.net/business/boad-et-cica-re-sallient-pour-securiser-les-investissements": "2026-07-08",
@@ -225,11 +272,19 @@
   "u:https://fr.apanews.net/news/senegal-le-solaire-transforme-la-chaine-agricole-du-champ-a-la-chambre-froide": "2026-08-04",
   "u:https://fr.apanews.net/nigeria/nigeria-la-production-petroliere-depasse-le-quota-de-lopep": "2026-07-15",
   "u:https://fr.apanews.net/security/bassin-du-nil-risque-de-secheresse-encore-incertain": "2026-07-31",
+  "u:https://fr.apanews.net/security/burkina-141-millions-fcfa-de-produits-frauduleux-saisis": {
+    "date": "2026-08-07",
+    "title": "Burkina : 141 millions FCFA de produits frauduleux saisis"
+  },
   "u:https://fr.apanews.net/security/legypte-accelere-son-programme-nucleaire-civil": "2026-07-10",
   "u:https://fr.apanews.net/senegal/bal-las-douanes-representera-le-senegal": "2026-07-28",
   "u:https://fr.apanews.net/society/egypte-10-millions-pour-financer-2-500-petites-entreprises": "2026-07-10",
   "u:https://fr.apanews.net/society/la-rci-se-mobilise-face-au-piege-des-arnaques-en-ligne": "2026-07-31",
   "u:https://fr.apanews.net/society/maroc-amelioration-de-la-croissance-a-54-au-t3-2026-hcp": "2026-07-17",
+  "u:https://fr.apanews.net/society/tunisie-un-budget-2027-ambitieux-face-aux-fragilites-economiques": {
+    "date": "2026-08-07",
+    "title": "Tunisie: un budget 2027 ambitieux face aux fragilités économiques"
+  },
   "u:https://fr.apanews.net/technologies/burkina-les-negociations-avec-starlink-avancent-ministre": "2026-07-27",
   "u:https://fr.apanews.net/tv/can-feminine-lafrique-du-sud-et-la-cote-divoire-en-quarts-2": "2026-08-06",
   "u:https://rti.info/lobservatoire-de-la-fluidite-des-transports-oft-forme-ses-agents-a-lintelligence-artificielle-pour-moderniser-ses-missions": "2026-07-31",
@@ -259,6 +314,10 @@
   "u:https://www.agenceecofin.com/actualites-numerique/3007-140645-mauritanie-cherche-a-tirer-parti-de-l-expertise-d-oman-pour-sa-transformation-numerique": "2026-07-31",
   "u:https://www.agenceecofin.com/actualites/0108-140705-dakar-2026-les-jeux-olympiques-de-la-jeunesse-comme-laboratoire-d-une-economie-du-sport": "2026-08-03",
   "u:https://www.agenceecofin.com/actualites/0308-140715-pourquoi-la-bad-estime-que-lafrique-de-louest-a-moins-un-probleme-dargent-quun-probleme-de-tuyauterie": "2026-08-04",
+  "u:https://www.agenceecofin.com/actualites/0608-140772-raffinerie-dangote-johannesburg-veut-sa-part-de-la-plus-grosse-introduction-en-bourse-jamais-tentee-en-afrique": {
+    "date": "2026-08-07",
+    "title": "Raffinerie Dangote : Johannesburg veut sa part de la plus grosse introduction en Bourse jamais tentée en Afrique"
+  },
   "u:https://www.agenceecofin.com/actualites/2407-140498-au-dela-de-la-victoire-de-didier-drogba-les-e1-series-peuvent-elles-accelerer-leconomie-bleue-africaine": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites/2407-140501-international-budget-partnership-ouvre-a-dakar-son-bureau-regional-afrique-francophone": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites/2707-140528-le-nigeria-elargit-lacces-au-credit-des-jeunes-entrepreneurs-pour-developper-les-pme": "2026-07-28",
@@ -321,6 +380,10 @@
   "u:https://www.sikafinance.com/marches/connectivite-au-cloud-le-manque-de-fiabilite-ralentit-les-entreprises-de-plus-de-10-heures-par-semaine-etude_63420": "2026-08-05",
   "u:https://www.sikafinance.com/marches/cote-d-ivoire-awale-decroche-14-millions-usd-pour-accelerer-l-exploration-aurifere-a-odienne_62992": "2026-07-16",
   "u:https://www.sikafinance.com/marches/cote-d-ivoire-fortuna-mining-investit-61-milliards-fcfa-pour-augmenter-de-30-la-capacite-de-la-mine-d-or-de-seguela_63305": "2026-07-31",
+  "u:https://www.sikafinance.com/marches/cote-d-ivoire-l-etat-valide-3-projets-totalisant-735-mw-pour-renforcer-l-approvisionnement-du-reseau-electrique_63463": {
+    "date": "2026-08-07",
+    "title": "Côte d'Ivoire : L'État valide 3 projets totalisant 735 MW pour renforcer l'approvisionnement du réseau électrique"
+  },
   "u:https://www.sikafinance.com/marches/cote-d-ivoire-la-seconde-raffinerie-sera-installee-a-san-pedro_63235": "2026-07-28",
   "u:https://www.sikafinance.com/marches/cote-d-ivoire-les-benefices-des-banques-depassent-pour-la-premiere-fois-le-milliard-de-dollars-en-2025_63380": "2026-08-04",
   "u:https://www.sikafinance.com/marches/cote-divoire-l-administration-fiscale-depasse-de-67-5-milliards-fcfa-son-objectif-de-recouvrement-au-2e-trimestre_63363": "2026-08-03",
@@ -328,6 +391,10 @@
   "u:https://www.sikafinance.com/marches/cote-divoire-la-bidc-accorde-une-ligne-de-credit-de-10-milliards-fcfa-pour-soutenir-le-financement-du-logement_62832": "2026-07-09",
   "u:https://www.sikafinance.com/marches/cote-divoire-la-mine-d-or-de-seguela-produit-2-6-tonnes-au-premier-semestre-2026_62875": "2026-07-10",
   "u:https://www.sikafinance.com/marches/cote-divoire-le-fonds-souverain-vise-plus-de-2-500-milliards-fcfa-dactifs-entre-2030-et-2040_63289": "2026-07-30",
+  "u:https://www.sikafinance.com/marches/cote-divoire-le-gouvernement-attribue-3-nouveaux-permis-de-recherche-aurifere-a-avesoro-et-barrick-gold_63465": {
+    "date": "2026-08-07",
+    "title": "Côte d’Ivoire : Le gouvernement attribue 3 nouveaux permis de recherche aurifère à Avesoro et Barrick Gold"
+  },
   "u:https://www.sikafinance.com/marches/cote-divoire-linflation-remonte-a-1-8-en-juin-sous-leffet-dune-hausse-des-prix-alimentaires-et-du-logement_62952": "2026-07-15",
   "u:https://www.sikafinance.com/marches/cote-divoire-petroci-veut-renforcer-son-partenariat-avec-la-compagnie-azerbaïdjanaise-socar-pour-accelerer-le-developpement-petro-gazier_62874": "2026-07-10",
   "u:https://www.sikafinance.com/marches/cote-divoire-un-memorandum-dentente-de-110-milliards-fcfa-pour-une-acierie-et-une-industrie-pharmaceutique_62843": "2026-07-09",
@@ -352,6 +419,10 @@
   "u:https://www.sikafinance.com/marches/la-cote-d-ivoire-prepare-une-strategie-de-plus-de-1-000-milliards-fcfa-pour-developper-la-filiere-palmier-a-huile_63375": "2026-08-04",
   "u:https://www.sikafinance.com/marches/la-rdc-rejoint-le-groupe-egmont-pour-muscler-la-traque-des-flux-financiers-illicites_62871": "2026-07-10",
   "u:https://www.sikafinance.com/marches/laboratoire-de-la--tax-administration-30--la-gambie-voit-ses-recettes-fiscales-s-envoler-de-127-_63438": "2026-08-06",
+  "u:https://www.sikafinance.com/marches/le-benefice-de-boa-bf-bondit-de-31-au-30-juin-2026-porte-par-une-amelioration-du-cout-du-risque_63464": {
+    "date": "2026-08-07",
+    "title": "Le bénéfice de BOA BF bondit de 31% au 30 juin 2026, porté par une amélioration du coût du risque"
+  },
   "u:https://www.sikafinance.com/marches/le-benin-va-mobiliser-14-5-milliards-usd-pour-renforcer-la-resilience-de-son-economie-face-aux-risques-climatiques_63440": "2026-08-06",
   "u:https://www.sikafinance.com/marches/le-burkina-faso-depasse-ses-objectifs-de-recettes-en-juin-avec-un-recouvrement-de-122-_62784": "2026-07-07",
   "u:https://www.sikafinance.com/marches/le-ghana-veut-produire-70-de-son-carburant-localement-grace-a-sa-1ere-raffinerie-privee-et-a-la-relance-de-tema_63057": "2026-07-20",
