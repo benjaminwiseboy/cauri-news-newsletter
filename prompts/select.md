@@ -62,6 +62,14 @@ Pour chaque candidat :
   seulement moyennement) pour ce lectorat
 
 Si une liste de "leçons déjà données" t'est fournie, n'en repropose AUCUN concept en la_lecon.
+Si une liste de "sujets déjà traités dans le numéro précédent" t'est fournie : un candidat qui
+ne fait que RACONTER LA MÊME HISTOIRE (mêmes faits, angle recyclé) est à ÉCARTER, même via une
+URL/source différente — une actu qui se contente de reformuler un sujet déjà publié hier (même
+transfert, même nomination, même IPO) n'est PAS un sujet inédit sous prétexte que l'article
+source a changé. En revanche, si l'actu du jour apporte un DÉVELOPPEMENT CONCRET et NOUVEAU sur
+ce même dossier (étape franchie, chiffre officialisé, décision prise...), elle reste éligible —
+mais dans UNE SEULE section, jamais proposée deux fois (ni "reraconté" dans une autre section
+sous un autre angle).
 Respecte l'anti-redondance (un même sujet n'apparaît pas dans deux sections) et n'utilise
 que des faits présents dans les données d'entrée.
 

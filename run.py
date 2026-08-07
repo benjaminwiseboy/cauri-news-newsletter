@@ -50,6 +50,7 @@ def main() -> int:
     # 1c. Anti-répétition : écarter ce qui a déjà servi dans un numéro précédent.
     history = History.load()
     scraped.items = history.filter_unseen(scraped.items, day)
+    avoid_recent_topics = history.recent_titles(day)
     _save(day_dir, "01_scrape.json", scraped.model_dump_json(indent=2))
 
     if not scraped.items:
@@ -68,7 +69,8 @@ def main() -> int:
     _save(day_dir, "02_qualified.json", qualified.model_dump_json(indent=2))
 
     # 3. Sélectionne 5 candidats/section (leçons déjà données exclues)
-    selection = select.run(scraped, qualified, avoid_lecons=avoid_lecons)
+    selection = select.run(scraped, qualified, avoid_lecons=avoid_lecons,
+                           avoid_recent_topics=avoid_recent_topics)
     _save(day_dir, "03_selection.json", selection.model_dump_json(indent=2))
 
     # 4a. Brouillon BRUT (draft 1) : infos candidates + score, non formatées — déterministe.

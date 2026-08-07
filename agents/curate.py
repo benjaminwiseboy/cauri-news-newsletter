@@ -62,9 +62,11 @@ def filter_fresh(items: list[ScrapedItem], edition_date: str) -> list[ScrapedIte
 
 # --- Mémoire anti-répétition ---------------------------------------------
 class History:
-    """Persistée en JSON dans le repo : { item_key: 'YYYY-MM-DD' (date d'usage) }."""
+    """Persistée en JSON dans le repo : { item_key: {"date": "YYYY-MM-DD", "title": "..."} }.
+    (Rétro-compatible avec l'ancien format { item_key: "YYYY-MM-DD" } — les entrées de ce
+    format n'ont simplement pas de titre exploitable par `recent_titles`.)"""
 
-    def __init__(self, records: dict[str, str] | None = None):
+    def __init__(self, records: dict[str, str | dict] | None = None):
         self.records = records or {}
 
     @classmethod
@@ -76,24 +78,47 @@ class History:
                 print(f"[history] lecture impossible ({e}), on repart à vide")
         return cls()
 
+    @staticmethod
+    def _date_of(entry: str | dict) -> str:
+        return entry.get("date", "") if isinstance(entry, dict) else entry
+
     def filter_unseen(self, items: list[ScrapedItem], edition_date: str) -> list[ScrapedItem]:
         """Exclut ce qui a servi dans un numéro ANTÉRIEUR. Un item déjà enregistré à
         `edition_date` (même jour) n'est PAS exclu : ça permet de régénérer l'édition du
         jour (nouvelles sources, réglages...) sans s'auto-écarter ses propres articles."""
-        kept = [it for it in items if self.records.get(item_key(it), edition_date) == edition_date]
+        kept = [
+            it for it in items
+            if self._date_of(self.records.get(item_key(it), edition_date)) == edition_date
+        ]
         print(f"[history] {len(items) - len(kept)} déjà vus (jours précédents) écartés, {len(kept)} inédits")
         return kept
 
     def record(self, items: list[ScrapedItem], edition_date: str) -> None:
         for it in items:
-            self.records[item_key(it)] = edition_date
+            self.records[item_key(it)] = {"date": edition_date, "title": it.title}
+
+    def recent_titles(self, edition_date: str) -> list[str]:
+        """Titres des actus utilisées dans le(s) numéro(s) de la fenêtre [J-lookback, J[
+        (même fenêtre que la fraîcheur — gère l'écart du lundi). Sert à éviter qu'un sujet
+        déjà traité dans le numéro PRÉCÉDENT ne réapparaisse via une source différente
+        (une simple URL différente ne suffit pas à faire passer un sujet pour inédit)."""
+        end = date.fromisoformat(edition_date)
+        start = end - timedelta(days=lookback_days(end))
+        out = []
+        for v in self.records.values():
+            if not isinstance(v, dict) or not v.get("title"):
+                continue
+            d = _safe_date(v.get("date"))
+            if d and start <= d < end:
+                out.append(v["title"])
+        return out
 
     def prune(self, edition_date: str) -> None:
         cutoff = date.fromisoformat(edition_date) - timedelta(days=config.HISTORY_RETENTION_DAYS)
         before = len(self.records)
         self.records = {
             k: v for k, v in self.records.items()
-            if _safe_date(v) is None or _safe_date(v) >= cutoff
+            if _safe_date(self._date_of(v)) is None or _safe_date(self._date_of(v)) >= cutoff
         }
         if before != len(self.records):
             print(f"[history] purge : {before - len(self.records)} entrées > {config.HISTORY_RETENTION_DAYS}j")

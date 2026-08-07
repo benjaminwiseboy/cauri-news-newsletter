@@ -9,7 +9,8 @@ from agents.models import QualifyOutput, ScrapeOutput, SelectOutput
 
 
 def run(scraped: ScrapeOutput, qualified: QualifyOutput,
-        avoid_lecons: list[str] | None = None) -> SelectOutput:
+        avoid_lecons: list[str] | None = None,
+        avoid_recent_topics: list[str] | None = None) -> SelectOutput:
     # System prompt volontairement allégé : prompts/select.md porte à lui seul toutes les
     # consignes de sélection (par section + anti-redondance). La charte éditoriale complète
     # (~19K car. : ton, HTML, gabarit...) ne concerne que la RÉDACTION (write.py) — l'injecter
@@ -32,6 +33,19 @@ def run(scraped: ScrapeOutput, qualified: QualifyOutput,
         "\n\nLEÇONS DÉJÀ DONNÉES (ne repropose AUCUN de ces concepts pour la_lecon) :\n- "
         + "\n- ".join(avoid) if avoid else ""
     )
+    recent = avoid_recent_topics or []
+    recent_block = (
+        "\n\nSUJETS DÉJÀ TRAITÉS DANS LE NUMÉRO PRÉCÉDENT (toutes sections confondues) :\n- "
+        + "\n- ".join(recent) + "\n"
+        "Pour chacun : si l'actu qualifiée du jour ne fait que RACONTER LA MÊME CHOSE (même "
+        "annonce, mêmes faits, angle recyclé), ÉCARTE-la complètement, même si l'article source "
+        "est différent. Si en revanche elle apporte un DÉVELOPPEMENT CONCRET et NOUVEAU sur ce "
+        "même dossier (une étape franchie, un chiffre officialisé, une décision prise...), tu "
+        "peux la proposer — mais dans UNE SEULE section (celle où elle est la plus pertinente), "
+        "jamais dupliquée ailleurs, et l'angle/titre doit signaler explicitement la suite "
+        "('après l'annonce d'hier, ...') plutôt que la présenter comme un sujet neuf."
+        if recent else ""
+    )
     user = (
         f"Date : {scraped.date}\n"
         f"À partir des actus qualifiées ci-dessous, propose pour CHAQUE section "
@@ -39,7 +53,8 @@ def run(scraped: ScrapeOutput, qualified: QualifyOutput,
         f"5 candidats (titre + angle + faits_clés + score de priorité 0-100), "
         f"TRIÉS du plus au moins pertinent, en respectant les seuils et l'anti-redondance "
         f"de la charte."
-        f"{avoid_block}\n\n"
+        f"{avoid_block}"
+        f"{recent_block}\n\n"
         f"ACTUS QUALIFIÉES :\n{json.dumps(retained, ensure_ascii=False, indent=2)}"
     )
     out = complete_json(config.MODEL_SELECT, system, user, SelectOutput)
