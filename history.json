@@ -83,6 +83,26 @@
     "date": "2026-08-07",
     "title": "RDC : interdiction d’exporter les concentrés de cuivre et de cobalt"
   },
+  "u:http://fr.africanews.com/2026/08/07/cote-divoire-le-gouvernement-boucle-le-rachat-de-100-000-tonnes-de-cacao": {
+    "date": "2026-08-10",
+    "title": "Côte d’Ivoire : le gouvernement boucle le rachat de 100 000 tonnes de cacao"
+  },
+  "u:http://fr.africanews.com/2026/08/07/ghana-linflation-tombe-a-46-un-nouveau-signe-de-redressement-economique": {
+    "date": "2026-08-10",
+    "title": "Ghana : l’inflation tombe à 4,6 %, un nouveau signe de redressement économique"
+  },
+  "u:http://fr.africanews.com/2026/08/07/kenya-la-mort-de-15-elephants-dans-un-parc-fait-polemique": {
+    "date": "2026-08-10",
+    "title": "Kenya : la mort de 15 éléphants dans un parc fait polémique"
+  },
+  "u:http://fr.africanews.com/2026/08/07/meta-condamne-a-942-millions-de-dollars-pour-non-protection-des-mineurs": {
+    "date": "2026-08-10",
+    "title": "Meta condamné à 942 millions de dollars pour non protection des mineurs"
+  },
+  "u:http://fr.africanews.com/2026/08/08/le-senat-americain-vote-un-nouveau-train-de-sanctions-contre-la-russie": {
+    "date": "2026-08-10",
+    "title": "Le Sénat américain vote un nouveau train de sanctions contre la Russie"
+  },
   "u:https://api.worldbank.org/v2/country/ben/indicator/fx.own.totl.zs": "2026-07-10",
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": "2026-07-10",
   "u:https://api.worldbank.org/v2/country/bfa/indicator/ny.gdp.mktp.kd.zg": "2026-07-10",
@@ -255,6 +275,18 @@
     "date": "2026-08-07",
     "title": "B&#xe9;nin: Le S&#xe9;nat, un couteau Suisse ?"
   },
+  "u:https://fr.allafrica.com/stories/202608080116.html": {
+    "date": "2026-08-10",
+    "title": "Afrique: FT Africa Summit 2026 - Le renforcement de la croissance du continent au coeur de la 13e &#xe9;dition"
+  },
+  "u:https://fr.allafrica.com/stories/202608080123.html": {
+    "date": "2026-08-10",
+    "title": "Afrique de l'Ouest: March&#xe9; financier r&#xe9;gional - Un bon plant pour le secteur agricole"
+  },
+  "u:https://fr.allafrica.com/stories/202608080132.html": {
+    "date": "2026-08-10",
+    "title": "S&#xe9;n&#xe9;gal: L'Eglise catholique adopte la D&#xe9;claration d'Addis-Abeba pour transformer ses &#xe9;coles et universit&#xe9;s"
+  },
   "u:https://fr.apanews.net/business/african-mining-week-2026-la-guinee-legypte-et-le-nigeria-en-vedette": "2026-08-05",
   "u:https://fr.apanews.net/business/afrique-australe-airlink-ouvrira-une-liaison-directe-lanseria-harare-en-novembre": "2026-08-04",
   "u:https://fr.apanews.net/business/boad-et-cica-re-sallient-pour-securiser-les-investissements": "2026-07-08",
@@ -287,10 +319,18 @@
   },
   "u:https://fr.apanews.net/technologies/burkina-les-negociations-avec-starlink-avancent-ministre": "2026-07-27",
   "u:https://fr.apanews.net/tv/can-feminine-lafrique-du-sud-et-la-cote-divoire-en-quarts-2": "2026-08-06",
+  "u:https://nairametrics.com/2026/08/09/lekki-residents-groan-as-2-week-blackout-sends-fuel-spending-soaring": {
+    "date": "2026-08-10",
+    "title": "Lekki residents groan as 2-week blackout sends fuel spending soaring"
+  },
   "u:https://rti.info/lobservatoire-de-la-fluidite-des-transports-oft-forme-ses-agents-a-lintelligence-artificielle-pour-moderniser-ses-missions": "2026-07-31",
   "u:https://www.agenceecofin.com/actualites-agro/0308-140730-burkina-lex-ministre-togolais-noel-koutera-bataka-prend-la-tete-du-bureau-du-fida": "2026-08-04",
   "u:https://www.agenceecofin.com/actualites-agro/2907-140603-senegal-exoneration-de-la-tva-sur-les-equipements-agricoles-pour-stimuler-la-mecanisation": "2026-07-30",
   "u:https://www.agenceecofin.com/actualites-agro/3107-140699-ghana-un-projet-de-production-d-engrais-organiques-de-10-millions-en-gestation": "2026-08-03",
+  "u:https://www.agenceecofin.com/actualites-culture/0708-140812-locarno-2026-les-cineastes-issus-de-42-pays-africains-beneficient-du-programme-open-doors": {
+    "date": "2026-08-10",
+    "title": "Locarno 2026 : les cinéastes issus de 42 pays africains bénéficient du programme Open Doors"
+  },
   "u:https://www.agenceecofin.com/actualites-finance/0308-140728-hsbc-cede-sa-banque-de-detail-en-egypte-et-renforce-son-recentrage-strategique": "2026-08-04",
   "u:https://www.agenceecofin.com/actualites-finance/0408-140748-umoa-le-taux-de-degradation-du-portefeuille-des-microfinances-recul-a-7-5-a-fin-2025": "2026-08-05",
   "u:https://www.agenceecofin.com/actualites-finance/0408-140754-le-benefice-d-agl-cote-d-ivoire-chute-de-96-3-en-2025-malgre-la-hausse-du-chiffre-d-affaires": "2026-08-05",
@@ -302,6 +342,18 @@
   "u:https://www.agenceecofin.com/actualites-finance/2907-140595-la-boad-realise-sa-premiere-emission-obligataire-samurai-durable-de-25-milliards-de-yens": "2026-07-30",
   "u:https://www.agenceecofin.com/actualites-finance/2907-140596-cote-d-ivoire-banque-atlantique-et-wizall-money-lancent-pack-smart-start-pour-les-12-17-ans": "2026-07-30",
   "u:https://www.agenceecofin.com/actualites-industries/0308-140727-hydroelectricite-le-mozambique-engage-1-3-milliard-pour-moderniser-cahora-bassa": "2026-08-04",
+  "u:https://www.agenceecofin.com/actualites-industries/0708-140802-ghana-quatre-ans-apres-la-crise-le-fmi-avertit-contre-les-subventions-carburant": {
+    "date": "2026-08-10",
+    "title": "Ghana : quatre ans après la crise, le FMI avertit contre les subventions carburant"
+  },
+  "u:https://www.agenceecofin.com/actualites-industries/0708-140814-angola-une-decennie-apres-le-depart-de-bp-sonangol-identifie-un-gisement-gazier-prometteur": {
+    "date": "2026-08-10",
+    "title": "Angola : une décennie après le départ de BP, Sonangol identifie un gisement gazier prometteur"
+  },
+  "u:https://www.agenceecofin.com/actualites-industries/0708-140819-en-ethiopie-lorganisation-internationale-du-travail-sattaque-au-maillon-faible-de-lenseignement-technique": {
+    "date": "2026-08-10",
+    "title": "En Éthiopie, l'Organisation internationale du travail s'attaque au maillon faible de l'enseignement technique"
+  },
   "u:https://www.agenceecofin.com/actualites-industries/2607-140512-transformation-du-manganese-apres-le-protocole-daccord-entre-eramet-et-le-gabon-quid-de-linterdiction-de-2029": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites-industries/2707-140542-malawi-20-mw/40-mwh-de-stockage-pour-renforcer-un-reseau-electrique-sous-tension": "2026-07-28",
   "u:https://www.agenceecofin.com/actualites-industries/2807-140584-or-les-investisseurs-dans-les-coulisses-de-fekola-la-plus-grande-mine-du-mali-en-2025": "2026-07-29",
@@ -312,11 +364,23 @@
   "u:https://www.agenceecofin.com/actualites-numerique/2907-140611-rwanda-retrait-de-la-3g-en-2027-suivi-d-une-sortie-progressive-de-la-2g": "2026-07-30",
   "u:https://www.agenceecofin.com/actualites-numerique/2907-140619-cybersecurite-le-lesotho-lance-son-equipe-nationale-de-reponse-aux-incidents": "2026-07-30",
   "u:https://www.agenceecofin.com/actualites-numerique/3007-140645-mauritanie-cherche-a-tirer-parti-de-l-expertise-d-oman-pour-sa-transformation-numerique": "2026-07-31",
+  "u:https://www.agenceecofin.com/actualites-services/0708-140810-en-afrique-les-fondations-philanthropiques-deviennent-des-acteurs-cles-de-leducation-publique": {
+    "date": "2026-08-10",
+    "title": "En Afrique, les fondations philanthropiques deviennent des acteurs clés de l'éducation publique"
+  },
   "u:https://www.agenceecofin.com/actualites/0108-140705-dakar-2026-les-jeux-olympiques-de-la-jeunesse-comme-laboratoire-d-une-economie-du-sport": "2026-08-03",
   "u:https://www.agenceecofin.com/actualites/0308-140715-pourquoi-la-bad-estime-que-lafrique-de-louest-a-moins-un-probleme-dargent-quun-probleme-de-tuyauterie": "2026-08-04",
   "u:https://www.agenceecofin.com/actualites/0608-140772-raffinerie-dangote-johannesburg-veut-sa-part-de-la-plus-grosse-introduction-en-bourse-jamais-tentee-en-afrique": {
     "date": "2026-08-07",
     "title": "Raffinerie Dangote : Johannesburg veut sa part de la plus grosse introduction en Bourse jamais tentée en Afrique"
+  },
+  "u:https://www.agenceecofin.com/actualites/0708-140804-bidc-510-millions-de-dollars-pour-le-developpement-en-afrique-de-l-ouest": {
+    "date": "2026-08-10",
+    "title": "BIDC : 510 millions de dollars pour le développement en Afrique de l’Ouest"
+  },
+  "u:https://www.agenceecofin.com/actualites/0708-140816-namibie-les-mines-ont-genere-434-millions-de-recettes-fiscales-en-2025-soit-14-du-pib": {
+    "date": "2026-08-10",
+    "title": "Namibie : les mines ont généré 434 millions $ de recettes fiscales en 2025, soit 14 % du PIB"
   },
   "u:https://www.agenceecofin.com/actualites/2407-140498-au-dela-de-la-victoire-de-didier-drogba-les-e1-series-peuvent-elles-accelerer-leconomie-bleue-africaine": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites/2407-140501-international-budget-partnership-ouvre-a-dakar-son-bureau-regional-afrique-francophone": "2026-07-27",
@@ -325,6 +389,10 @@
   "u:https://www.agenceecofin.com/actualites/3007-140654-ethiopian-airlines-transporte-20-7-millions-de-voyageurs-et-franchit-9-1-milliards-de-ca-en-2025/2026": "2026-07-31",
   "u:https://www.agenceecofin.com/actualites/3107-140689-controle-qualite-le-togo-exige-une-verification-prealable-avant-toute-mise-en-marche": "2026-08-03",
   "u:https://www.agenceecofin.com/actualites/3107-140696-rdc-prolongation-des-limitations-sur-l-entree-du-ciment-et-de-la-chaux": "2026-08-03",
+  "u:https://www.agenceecofin.com/finance/0908-140826-moodys-releve-la-note-du-benin-dun-cran-a-ba3": {
+    "date": "2026-08-10",
+    "title": "Moody's relève la note du Bénin d'un cran, à \"Ba3"
+  },
   "u:https://www.aip.ci/cote-divoire-aip-diplomatie-economique-lambassadeur-du-royaume-des-pays-bas-conduit-une-mission-decoute-a-bouake": "2026-07-30",
   "u:https://www.aip.ci/cote-divoire-aip-le-conseil-municipal-du-sandegue-adopte-un-programme-triennal-2027-2029-de-84-projets": "2026-08-04",
   "u:https://www.brvm.org/sites/default/files/20260707_-_calendrier_de_paiement_des_dividendes_-_exercice_2025.pdf": "2026-07-09",
@@ -429,6 +497,10 @@
   "u:https://www.sikafinance.com/marches/le-niger-enregistre-la-creation-de-49-usines-industrielle-en-un-an_63350": "2026-08-03",
   "u:https://www.sikafinance.com/marches/le-niger-reduit-de-30-son-service-de-la-dette-interieure-exigible-en-2026-grace-a-une-vaste-restructuration_63050": "2026-07-20",
   "u:https://www.sikafinance.com/marches/le-nigeria-approuve-un-refinancement-de-4-5-milliards-usd-pour-alleger-les-engagements-petroliers-de-la-nnpc_63415": "2026-08-05",
+  "u:https://www.sikafinance.com/marches/le-nigeria-durcit-la-fiscalite-sur-les-cryptomonnaies-pour-accroitre-les-recettes-publiques_63485": {
+    "date": "2026-08-10",
+    "title": "Le Nigeria durcit la fiscalité sur les cryptomonnaies pour accroître les recettes publiques"
+  },
   "u:https://www.sikafinance.com/marches/le-nigeria-mise-sur-le-conseil-agricole-numerique-pour-soutenir-des-millions-de-petits-producteurs_63320": "2026-07-31",
   "u:https://www.sikafinance.com/marches/le-nigeria-veut-mettre-fin-aux-exportations-de-cacao-brut-pour-developper-son-industrie-locale_62988": "2026-07-16",
   "u:https://www.sikafinance.com/marches/le-tresor-ivoirien-reporte-sa-prochaine-emission-sur-le-marche-regional-de-la-dette-publique-en-raison-dexcedents-de-tresorerie_63205": "2026-07-27",
