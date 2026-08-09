@@ -91,6 +91,10 @@
     "date": "2026-08-10",
     "title": "Ghana : l’inflation tombe à 4,6 %, un nouveau signe de redressement économique"
   },
+  "u:http://fr.africanews.com/2026/08/07/kenya-la-bourse-de-nairobi-prepare-un-fonds-dinvestissement-consacre-a-lia": {
+    "date": "2026-08-10",
+    "title": "Kenya : la Bourse de Nairobi prépare un fonds d’investissement consacré à l’IA"
+  },
   "u:http://fr.africanews.com/2026/08/07/kenya-la-mort-de-15-elephants-dans-un-parc-fait-polemique": {
     "date": "2026-08-10",
     "title": "Kenya : la mort de 15 éléphants dans un parc fait polémique"
@@ -99,9 +103,21 @@
     "date": "2026-08-10",
     "title": "Meta condamné à 942 millions de dollars pour non protection des mineurs"
   },
+  "u:http://fr.africanews.com/2026/08/08/burkina-faso-le-vibra-signe-une-technique-qui-fait-danser-les-sourds-et-malentendants": {
+    "date": "2026-08-10",
+    "title": "Burkina Faso : le Vibra-Signe, une technique qui fait danser les sourds et malentendants"
+  },
+  "u:http://fr.africanews.com/2026/08/08/cote-divoire-djidji-ayokwe-le-tambour-parleur-retrouve-son-village": {
+    "date": "2026-08-10",
+    "title": "Côte d'Ivoire : Djidji Ayokwe, le tambour parleur retrouve son village"
+  },
   "u:http://fr.africanews.com/2026/08/08/le-senat-americain-vote-un-nouveau-train-de-sanctions-contre-la-russie": {
     "date": "2026-08-10",
     "title": "Le Sénat américain vote un nouveau train de sanctions contre la Russie"
+  },
+  "u:http://fr.africanews.com/2026/08/09/nigeria-1-500-couples-unis-lors-dun-mariage-collectif-finance-par-letat": {
+    "date": "2026-08-10",
+    "title": "Nigeria : 1 500 couples unis lors d’un mariage collectif financé par l’État"
   },
   "u:https://api.worldbank.org/v2/country/ben/indicator/fx.own.totl.zs": "2026-07-10",
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": "2026-07-10",
@@ -295,6 +311,14 @@
   "u:https://fr.apanews.net/business/ghana-huit-entreprises-candidates-a-la-culture-du-cannabis-industriel": "2026-07-10",
   "u:https://fr.apanews.net/business/la-rci-leve-5318-milliards-fcfa-sur-le-marche-des-titres-publics": "2026-08-05",
   "u:https://fr.apanews.net/business/le-burkina-lance-sa-premiere-mine-dor-publique": "2026-07-10",
+  "u:https://fr.apanews.net/business/le-togo-mobilise-22-milliards-fcfa-apres-une-demande-cinq-fois-superieure-a-loffre": {
+    "date": "2026-08-10",
+    "title": "Le Togo  lève 22 Mrds FCFA sur une offre de 100 Mrds"
+  },
+  "u:https://fr.apanews.net/business/mali-b2gold-obtient-le-feu-vert-pour-menankoto-sud": {
+    "date": "2026-08-10",
+    "title": "Mali : B2Gold obtient le feu vert pour Menankoto-Sud"
+  },
   "u:https://fr.apanews.net/business/senegal-la-bnde-innove-avec-un-certificat-de-depot-covered": "2026-07-10",
   "u:https://fr.apanews.net/business/transition-energetique-le-groupe-sahara-appelle-a-des-financements-adaptes-aux-realites-africaines": "2026-07-24",
   "u:https://fr.apanews.net/cote-divoire/plus-de-1-000-investisseurs-a-abidjan-pour-le-pnd-2026-2030": "2026-07-10",
@@ -325,6 +349,10 @@
   },
   "u:https://rti.info/lobservatoire-de-la-fluidite-des-transports-oft-forme-ses-agents-a-lintelligence-artificielle-pour-moderniser-ses-missions": "2026-07-31",
   "u:https://www.agenceecofin.com/actualites-agro/0308-140730-burkina-lex-ministre-togolais-noel-koutera-bataka-prend-la-tete-du-bureau-du-fida": "2026-08-04",
+  "u:https://www.agenceecofin.com/actualites-agro/0708-140815-le-rwanda-mobilise-46-millions-chez-l-ue-pour-renforcer-la-resilience-de-son-secteur-agricole": {
+    "date": "2026-08-10",
+    "title": "Le Rwanda mobilise 46 millions $ chez l’UE pour renforcer la résilience de son secteur agricole"
+  },
   "u:https://www.agenceecofin.com/actualites-agro/2907-140603-senegal-exoneration-de-la-tva-sur-les-equipements-agricoles-pour-stimuler-la-mecanisation": "2026-07-30",
   "u:https://www.agenceecofin.com/actualites-agro/3107-140699-ghana-un-projet-de-production-d-engrais-organiques-de-10-millions-en-gestation": "2026-08-03",
   "u:https://www.agenceecofin.com/actualites-culture/0708-140812-locarno-2026-les-cineastes-issus-de-42-pays-africains-beneficient-du-programme-open-doors": {
@@ -350,6 +378,10 @@
     "date": "2026-08-10",
     "title": "Angola : une décennie après le départ de BP, Sonangol identifie un gisement gazier prometteur"
   },
+  "u:https://www.agenceecofin.com/actualites-industries/0708-140817-en-afrique-de-lest-hapag-lloyd-veut-renforcer-ses-liaisons-maritimes-face-a-la-concurrence": {
+    "date": "2026-08-10",
+    "title": "En Afrique de l'Est, Hapag-Lloyd veut renforcer ses liaisons maritimes face à la concurrence"
+  },
   "u:https://www.agenceecofin.com/actualites-industries/0708-140819-en-ethiopie-lorganisation-internationale-du-travail-sattaque-au-maillon-faible-de-lenseignement-technique": {
     "date": "2026-08-10",
     "title": "En Éthiopie, l'Organisation internationale du travail s'attaque au maillon faible de l'enseignement technique"
@@ -358,6 +390,14 @@
   "u:https://www.agenceecofin.com/actualites-industries/2707-140542-malawi-20-mw/40-mwh-de-stockage-pour-renforcer-un-reseau-electrique-sous-tension": "2026-07-28",
   "u:https://www.agenceecofin.com/actualites-industries/2807-140584-or-les-investisseurs-dans-les-coulisses-de-fekola-la-plus-grande-mine-du-mali-en-2025": "2026-07-29",
   "u:https://www.agenceecofin.com/actualites-infrastructures/2707-140548-senegal-sftp-civil-renforce-sa-flotte-avec-treize-engins-caterpillar-fournis-par-neemba": "2026-07-28",
+  "u:https://www.agenceecofin.com/actualites-numerique/0708-140813-l-algerie-forme-des-talents-ia-pour-soutenir-sa-vision-deconomie-numerique": {
+    "date": "2026-08-10",
+    "title": "L’Algérie forme des talents IA pour soutenir sa vision d'économie numérique"
+  },
+  "u:https://www.agenceecofin.com/actualites-numerique/0808-140820-lia-pourrait-faire-gagner-un-siecle-en-dix-ans-aux-pays-en-developpement-banque-mondiale": {
+    "date": "2026-08-10",
+    "title": "L'IA pourrait faire gagner un siècle en dix ans aux pays en développement (Banque mondiale)"
+  },
   "u:https://www.agenceecofin.com/actualites-numerique/2407-140496-cameroun-camtel-et-amazon-discutent-de-cloud-de-satellites-et-d-ia": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites-numerique/2407-140499-innovation-lab-mtn-benin-devoile-les-cinq-finalistes-de-la-deuxieme-edition": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites-numerique/2607-140510-les-revenus-dethio-telecom-en-hausse-de-33-2-en-2025/2026-portes-par-telebirr-et-lessor-de-la-4g": "2026-07-27",
