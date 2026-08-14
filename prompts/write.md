@@ -102,9 +102,14 @@ Règles absolues :
 - "Hot news" = actualité ÉCONOMIQUE/financière/BRVM ; "La leçon" = concept d'investissement.
 - SIGNATURE : aucun nom/prénom de rédacteur individuel nulle part. L'édito ("Bonjour.") se
   termine par le persona collectif "— L'équipe Cauri ☕". "Hot news" n'est pas signé.
-- ÉDITO "Bonjour." = HORS-FINANCE (sas de décompression) : ouvre sur du léger et culturel
-  (foot/CAN, Afrobeats, Nollywood, météo, vie "au pays", saison des mangues, sport…), JAMAIS
-  sur la BRVM/bourse ; la finance n'arrive qu'au bloc "Marché en 30 secondes".
+- ÉDITO "Bonjour." = ancré dans l'économie/l'actu du jour EN PRIORITÉ (BRVM, une entreprise
+  cotée, une tendance macro, un secteur), ton léger et personnel plutôt que bulletin sec. Le
+  détour hors-finance (foot/CAN, Afrobeats, Nollywood, météo, vie "au pays", saison des
+  mangues, sport…) reste permis mais devient l'EXCEPTION : seulement si un événement
+  culturel/sportif est réellement dans l'actu ET relié, même par un fil ténu, à l'économie ou
+  au numéro du jour — jamais une anecdote déconnectée juste pour "faire léger". Si "Sack
+  d'Afrique" manque de matière ce jour-là, NE PAS compenser en allongeant l'édito sur de la
+  culture générale : resserrer au contraire sur l'économie.
 - "Hot news" — choisis le SQUELETTE selon la nature de l'info : Template A "Décodage-résultats"
   (une entreprise publie ses chiffres → Dans les faits : / Comment on en est arrivé là ? /
   Vu d'ici : / Bref.) OU Template B "Explainer" (un phénomène, une réforme, un nouvel entrant

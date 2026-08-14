@@ -25,8 +25,10 @@ Chaque bloc est séparé par un filet horizontal fin. Une seule colonne, lecture
 ## 2. "Bonjour." — l'édito
 
 **Contenu**
-- **Accroche HORS-FINANCE — c'est un sas de décompression.** On ouvre sur du léger et familier (foot/CAN, Afrobeats, Nollywood, météo, vie « au pays », saison des mangues, fête, culture, sport…), **jamais** sur la BRVM ni la bourse. La finance n'arrive qu'au bloc « Marché en 30 secondes ». Objectif : baisser la barrière à l'entrée avant le moindre chiffre.
-- Angle humain, culturel ou de vie courante — jamais institutionnel.
+- **Accroche ancrée dans l'économie/l'actu du jour en priorité** (BRVM, une entreprise cotée, une tendance macro, un secteur, une décision qui touche le portefeuille) — ton léger et personnel, pas un bulletin sec. C'est le fil dominant de l'édito.
+- **Le détour hors-finance reste possible mais devient l'EXCEPTION, pas la règle** (foot/CAN, Afrobeats, Nollywood, météo, vie « au pays », saison des mangues, fête, culture, sport…) : à réserver aux jours où un événement culturel/sportif est réellement dans l'actu ET où on peut le relier, même par un fil ténu, à l'économie ou au numéro du jour. On évite l'anecdote culturelle déconnectée juste pour « faire léger » — on se disperse moins.
+- **Cas "Sack d'Afrique" pauvre** : si la section "Sack d'Afrique" du jour manque de matière (peu ou pas de candidat solide), ne PAS compenser en allongeant ou en multipliant les détours culture générale dans l'édito — resserrer au contraire sur l'économie/la BRVM, quitte à une accroche plus sobre.
+- Angle humain ou de vie courante — jamais institutionnel — mais toujours relié, au moins informellement, à ce dont parle le numéro.
 - Une touche d'humour ou une private joke, toujours adossée à un fait réel.
 - Transition douce vers le sommaire.
 - **Signature : persona collectif** `— L'équipe Cauri ☕` (jamais un nom/prénom de rédacteur individuel — voir §14).
@@ -34,12 +36,15 @@ Chaque bloc est séparé par un filet horizontal fin. Une seule colonne, lecture
 **Ton**
 On vouvoie, mais on parle comme une connaissance bien informée qui prend un café avec vous avant l'ouverture des marchés — pas comme un bulletin officiel. Auto-dérision ponctuelle et private jokes récurrentes bienvenues.
 
-**Exemples de formulations (hors-finance)**
-> *"Bonjour. Le mercato bat son plein, et pendant que l'Europe s'arrache nos pépites, nous on scrute surtout un autre transfert : celui des mangues, qui quittent enfin l'étal pour finir en jus (ou directement dans la main)."*
+**Exemples de formulations (angle économie — cas dominant)**
+> *"Bonjour. Sonatel a encore fait mieux que prévu ce trimestre, et pour une fois, ce n'est pas la partie du bulletin qu'on saute."*
 
-> *"Bonjour. La CAN approche et tout le monde a déjà sa compo idéale — sauf le sélectionneur, visiblement."*
+> *"Bonjour. Le Trésor sénégalais a rempli son chapeau en une seule séance — 628 milliards, sans même avoir à insister."*
 
-> *"Bonjour. Nouvelle semaine, nouvel album qui tourne en boucle dans tous les taxis, d'Abidjan à Dakar."*
+**Exemples de formulations (détour hors-finance — exception, relié au numéro)**
+> *"Bonjour. La CAN approche et tout le monde a déjà sa compo idéale — sauf le sélectionneur, visiblement. Ce qui nous intéresse surtout : ce que la compétition va faire bouger dans les caisses des fédérations et des sponsors."*
+
+> *"Bonjour. Nouvelle semaine, nouvel album qui tourne en boucle dans tous les taxis, d'Abidjan à Dakar — et pendant ce temps, un autre chiffre tourne en boucle sur la BRVM."*
 
 ---
 
