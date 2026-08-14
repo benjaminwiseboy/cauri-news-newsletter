@@ -1,0 +1,1263 @@
+# Banque de leçons — Cauri News, rubrique « La leçon »
+#
+# Réservoir de notions à enseigner, écrites DANS NOTRE TON (charte §7) : une idée à la
+# fois, zéro jargon, une analogie du quotidien ouest-africain, une phrase pour briller
+# en société. Le pipeline y pioche à chaque numéro (agents/lecons.py → prompts/select.md).
+#
+# Les thématiques s'inspirent de l'offre pédagogique publique de Richbourse
+# (lexique + mini-bourse + articles) : on en reprend les SUJETS, jamais les formulations.
+# Tout le texte ci-dessous est original. Ce qui a déjà été dépouillé côté source est
+# tracé dans lecons-source-index.json (voir refresh_lecons.py).
+#
+# Champs par leçon :
+#   id        identifiant stable (logs, suivi)
+#   notion    le concept, tel que le rédacteur l'écrira en `LECON:` — c'est la CLÉ
+#             anti-répétition comparée à topics.json
+#   famille   pour la rotation thématique (on n'enchaîne pas 4 leçons dividende)
+#   niveau    1 = fondamental · 2 = intermédiaire · 3 = pointu (ordre de service)
+#   titre     titre pédagogique proposé (le rédacteur peut l'affiner)
+#   metaphore l'analogie du quotidien — le cœur de la leçon
+#   angle     ce que le lecteur doit comprendre / la fausse croyance à corriger
+#   brille    la phrase « atout social » de clôture (pédagogie-flex)
+#   origine   traçabilité de la thématique : lexique | mini | article | cauri
+#
+# Épuisement : quand toutes les notions ont été publiées, deux mécanismes prennent le
+# relais — voir refresh_lecons.py (ré-ingestion des nouveautés Richbourse) et le
+# recyclage automatique par ancienneté (agents/lecons.py). Ne pas supprimer d'entrée
+# publiée : c'est elle qui porte la traçabilité du cycle.
+
+version: 1
+
+lecons:
+
+  # ─── Les bases ────────────────────────────────────────────────────────────
+  - id: role-de-la-bourse
+    notion: "à quoi sert la bourse"
+    famille: les-bases
+    niveau: 1
+    titre: "La bourse, c'est quoi au juste ?"
+    metaphore: "Votre voisine veut agrandir sa boutique mais n'a pas les 10 millions. Elle propose à 100 personnes de mettre 100 000 FCFA chacune, et de devenir co-propriétaires de la boutique. La bourse, c'est ce marché-là, en plus grand et avec des règles."
+    angle: "La bourse n'est pas un casino : c'est l'endroit où les entreprises viennent chercher de l'argent pour grandir, et où ceux qui en prêtent deviennent propriétaires d'un morceau."
+    brille: "La prochaine fois qu'on dira devant vous que la bourse c'est du jeu, vous pourrez expliquer que c'est d'abord une caisse commune pour faire grandir des entreprises."
+    origine: article
+
+  - id: action-part-entreprise
+    notion: "l'action (une part d'entreprise)"
+    famille: les-bases
+    niveau: 1
+    titre: "Acheter une action, c'est acheter quoi exactement ?"
+    metaphore: "Imaginez un grand champ d'anacarde découpé en 10 000 petits carrés. Acheter une action, c'est acheter un carré : vous ne possédez pas le champ entier, mais tout ce qui pousse sur votre carré vous revient."
+    angle: "Une action n'est pas un ticket qui monte et descend : c'est un titre de propriété sur une vraie entreprise, avec de vrais salariés et de vrais bénéfices."
+    brille: "Vous pourrez dire au prochain repas de famille que vous êtes co-propriétaire d'une banque ou d'une usine — techniquement, c'est vrai."
+    origine: lexique
+
+  - id: brvm-marche-regional
+    notion: "la BRVM, une bourse pour huit pays"
+    famille: les-bases
+    niveau: 1
+    titre: "Une seule bourse, huit pays"
+    metaphore: "C'est un grand marché central où huit villages viennent vendre et acheter au même endroit, avec la même monnaie et le même gardien de la balance — plutôt que huit petits marchés qui s'ignorent."
+    angle: "La BRVM est le seul cas au monde d'une bourse totalement intégrée partagée par huit États. Un Sénégalais peut acheter une action ivoirienne sans changer de monnaie ni de règles."
+    brille: "Peu de gens savent que c'est une exception mondiale — vous, oui."
+    origine: article
+
+  - id: indice-boursier
+    notion: "l'indice boursier (BRVM Composite)"
+    famille: les-bases
+    niveau: 1
+    titre: "Le Composite monte : ça veut dire quoi pour vous ?"
+    metaphore: "C'est la moyenne de la classe. Un élève peut avoir 18 pendant que la moyenne baisse : l'indice raconte l'ambiance générale, pas votre bulletin à vous."
+    angle: "Un indice résume en un chiffre le mouvement d'un panier d'actions. Il sert à comparer, pas à décider : votre portefeuille peut très bien faire l'inverse."
+    brille: "Vous saurez répondre à celui qui dit « la BRVM a monté, j'ai gagné » : pas forcément, ça dépend de ce qu'il a en portefeuille."
+    origine: lexique
+
+  - id: cours-de-bourse
+    notion: "le cours d'une action"
+    famille: les-bases
+    niveau: 1
+    titre: "Qui décide du prix d'une action ?"
+    metaphore: "Personne ne fixe le prix de la tomate au marché : il monte quand il y a beaucoup d'acheteurs et peu de paniers, il baisse quand tout le monde en vend le même jour."
+    angle: "Le cours n'est décidé ni par l'entreprise, ni par la BRVM : c'est la rencontre entre ce que les acheteurs acceptent de payer et ce que les vendeurs acceptent de céder."
+    brille: "Vous pourrez expliquer pourquoi une bonne entreprise peut voir son cours baisser un jour sans avoir rien fait de mal."
+    origine: lexique
+
+  - id: seance-de-bourse
+    notion: "la séance de bourse"
+    famille: les-bases
+    niveau: 1
+    titre: "La BRVM travaille à quelle heure ?"
+    metaphore: "Comme le marché de quartier : il ouvre, il ferme, et ce qui se passe la nuit attend le lendemain matin pour se voir sur les prix."
+    angle: "La bourse n'est pas ouverte en continu. Les ordres passés hors séance attendent l'ouverture suivante — d'où les écarts parfois brutaux le matin."
+    brille: "Vous comprendrez pourquoi une nouvelle tombée un samedi ne bouge le cours que le lundi."
+    origine: lexique
+
+  - id: flottant
+    notion: "le flottant"
+    famille: les-bases
+    niveau: 2
+    titre: "Toutes les actions ne sont pas à vendre"
+    metaphore: "Dans un immeuble de 20 appartements, le propriétaire en garde 17 pour sa famille et n'en met que 3 en location. Ce sont ces 3-là qui font le prix du quartier."
+    angle: "Le flottant, c'est la part des actions réellement disponibles à l'achat. Quand il est petit, quelques ordres suffisent à faire bouger le cours dans tous les sens."
+    brille: "Vous saurez pourquoi certaines valeurs de la BRVM bondissent de 7 % sur une poignée de transactions."
+    origine: lexique
+
+  - id: liquidite-action
+    notion: "la liquidité d'une action"
+    famille: les-bases
+    niveau: 2
+    titre: "Facile à acheter, difficile à revendre"
+    metaphore: "Revendre un téléphone très courant prend une journée. Revendre un vieux modèle rare peut prendre trois mois — au prix que vous vouliez, jamais."
+    angle: "La liquidité, c'est la facilité à sortir d'un placement sans casser le prix. Une action peu échangée peut vous garder prisonnier plus longtemps que prévu."
+    brille: "Vous poserez la seule question que les débutants oublient : « et le jour où je veux revendre ? »"
+    origine: lexique
+
+  - id: introduction-en-bourse
+    notion: "l'introduction en bourse (IPO / OPV)"
+    famille: les-bases
+    niveau: 1
+    titre: "Quand une entreprise ouvre son capital au public"
+    metaphore: "C'est le jour où la boutique familiale accroche une pancarte : « on cherche des associés, entrée à 6 750 FCFA la part »."
+    angle: "Une introduction en bourse permet à une société d'ouvrir son capital à tous. Souscrire n'est pas automatiquement une bonne affaire : tout dépend du prix demandé."
+    brille: "Vous pourrez expliquer la différence entre « l'entreprise est bonne » et « le prix proposé est bon » — deux questions distinctes."
+    origine: article
+
+  - id: compte-titres
+    notion: "le compte-titres"
+    famille: les-bases
+    niveau: 1
+    titre: "Où dorment vos actions ?"
+    metaphore: "Votre compte bancaire garde vos francs ; votre compte-titres garde vos parts d'entreprise. Deux tiroirs différents, deux clés différentes."
+    angle: "On n'achète pas d'actions depuis un compte bancaire ordinaire : il faut un compte-titres, ouvert chez une SGI, qui enregistre ce que vous possédez."
+    brille: "Vous saurez répondre à la première question de tout débutant : « je commence par quoi ? » — par ce compte-là."
+    origine: article
+
+  - id: actionnaire-droit-de-vote
+    notion: "le droit de vote de l'actionnaire"
+    famille: les-bases
+    niveau: 2
+    titre: "Votre action vous donne aussi la parole"
+    metaphore: "Dans une tontine, chaque cotisante a son mot à dire sur l'ordre des tours. En bourse, chaque action donne une voix à l'assemblée annuelle."
+    angle: "Être actionnaire, ce n'est pas seulement encaisser : c'est aussi voter les comptes, les dividendes et parfois les dirigeants. Beaucoup de petits porteurs ignorent qu'ils y ont droit."
+    brille: "Vous pourrez dire que vous avez voté chez Sonatel ou Ecobank — et ce ne sera pas une blague."
+    origine: lexique
+
+  - id: valeur-mobiliere
+    notion: "action ou obligation, deux façons de placer"
+    famille: les-bases
+    niveau: 1
+    titre: "Associé ou prêteur : il faut choisir"
+    metaphore: "Vous pouvez entrer dans le commerce de votre cousin comme associée — vous partagez les bons et les mauvais mois. Ou lui prêter 500 000 FCFA remboursables en un an — vous ne partagez rien, mais vous êtes payée d'abord."
+    angle: "L'action fait de vous un propriétaire (gain illimité, risque réel). L'obligation fait de vous un prêteur (revenu prévu, priorité de remboursement). Tout le reste en découle."
+    brille: "Cette distinction-là suffit à comprendre 80 % de ce qui se dit sur les marchés."
+    origine: lexique
+
+  # ─── Acheter et vendre ────────────────────────────────────────────────────
+  - id: ordre-de-bourse
+    notion: "l'ordre de bourse"
+    famille: acheter-vendre
+    niveau: 1
+    titre: "On n'achète pas une action, on passe un ordre"
+    metaphore: "Vous ne prenez pas le sac de riz vous-même dans l'entrepôt : vous laissez votre commande au grossiste, qui la sert quand un lot arrive au prix convenu."
+    angle: "Vous ne vous servez pas directement : vous transmettez une instruction à votre SGI, qui l'exécute si une contrepartie apparaît. Un ordre passé n'est pas un achat réalisé."
+    brille: "Vous ne direz plus « j'ai acheté » avant d'avoir vu l'avis d'exécution."
+    origine: lexique
+
+  - id: ordre-marche-vs-limite
+    notion: "ordre au marché ou ordre à cours limité"
+    famille: acheter-vendre
+    niveau: 2
+    titre: "Payer tout de suite, ou payer son prix"
+    metaphore: "Au marché, vous pouvez dire « donnez-moi ce poisson, quel que soit le prix » — vous repartez à coup sûr, parfois cher. Ou « je le prends à 2 000 FCFA, pas un franc de plus » — vous payez votre prix, parfois vous rentrez les mains vides."
+    angle: "L'ordre au marché privilégie la certitude d'être servi ; l'ordre à cours limité privilégie la maîtrise du prix. Aucun n'est meilleur : ils répondent à deux situations différentes."
+    brille: "Vous saurez dire lequel utiliser sur une valeur peu échangée — et pourquoi l'autre y coûte cher."
+    origine: mini
+
+  - id: carnet-d-ordres
+    notion: "le carnet d'ordres"
+    famille: acheter-vendre
+    niveau: 2
+    titre: "Regardez la file d'attente avant d'acheter"
+    metaphore: "Avant de faire la queue à la station-service, vous regardez combien de voitures attendent et combien de pompes fonctionnent. Le carnet d'ordres, c'est cette file d'attente, côté acheteurs et côté vendeurs."
+    angle: "Le carnet montre qui veut acheter et à quel prix, qui veut vendre et à quel prix. Un carnet vide d'un côté annonce un cours qui va sauter, pas glisser."
+    brille: "Vous regarderez ce que 90 % des investisseurs particuliers ne regardent jamais avant de cliquer."
+    origine: mini
+
+  - id: fixing
+    notion: "le fixing"
+    famille: acheter-vendre
+    niveau: 3
+    titre: "Un seul prix pour tout le monde"
+    metaphore: "Plutôt que de marchander client par client, le vendeur attend que tout le monde soit là, écoute toutes les offres, puis annonce un prix unique qui arrange le plus grand nombre."
+    angle: "Sur les valeurs peu échangées, la BRVM regroupe les ordres et fixe un prix unique par séance. C'est ce qui explique qu'un cours puisse ne pas bouger de la journée."
+    brille: "Vous comprendrez pourquoi votre ordre n'a « rien fait » pendant des heures avant de s'exécuter d'un coup."
+    origine: lexique
+
+  - id: reglement-livraison
+    notion: "le délai de règlement-livraison"
+    famille: acheter-vendre
+    niveau: 2
+    titre: "Pourquoi votre transaction n'est pas réglée le jour même"
+    metaphore: "Le taxi vous dépose, mais le paiement par mobile money met quelques minutes à s'afficher. Ici, c'est pareil, à l'échelle de quelques jours : la marchandise et l'argent se croisent chez un tiers de confiance."
+    angle: "Entre l'exécution de votre ordre et l'arrivée effective des titres, un organisme (le dépositaire central) vérifie et enregistre. Ce n'est pas un bug, c'est la sécurité du système."
+    brille: "Vous pourrez rassurer celui qui panique parce que ses actions « n'apparaissent pas encore »."
+    origine: mini
+
+  - id: frais-de-courtage
+    notion: "les frais de courtage"
+    famille: acheter-vendre
+    niveau: 1
+    titre: "Ce que votre achat coûte vraiment"
+    metaphore: "Le prix du sac de ciment, ce n'est pas seulement le prix affiché : il y a le transport, le déchargement, le petit quelque chose pour l'apprenti. Votre ordre de bourse aussi voyage avec des frais."
+    angle: "À chaque achat et à chaque vente, une commission part chez la SGI et chez le marché. Sur de petits montants, elle peut manger plusieurs mois de dividende."
+    brille: "Vous saurez calculer votre vrai prix de revient — celui à partir duquel vous gagnez réellement."
+    origine: article
+
+  - id: droits-de-garde
+    notion: "les droits de garde"
+    famille: acheter-vendre
+    niveau: 2
+    titre: "Le loyer discret de votre portefeuille"
+    metaphore: "Comme le gardien qui surveille votre boutique la nuit : on ne le voit pas travailler, mais il faut le payer chaque mois."
+    angle: "Conserver des titres a un coût annuel, prélevé sans que vous fassiez rien. Petit en apparence, il pèse sur un portefeuille modeste laissé dormant."
+    brille: "Vous poserez à votre SGI la question qu'on ne pense jamais à poser : « ça me coûte combien de NE RIEN faire ? »"
+    origine: lexique
+
+  - id: comparer-tarifs-sgi
+    notion: "comparer les tarifs des SGI"
+    famille: acheter-vendre
+    niveau: 2
+    titre: "Deux SGI, le même ordre, pas la même facture"
+    metaphore: "Le même trajet Abidjan-Yamoussoukro coûte trois prix différents selon la compagnie de car. Personne ne monte sans demander."
+    angle: "Les commissions ne sont pas identiques d'un intermédiaire à l'autre. Sur dix ans, l'écart se compte en centaines de milliers de FCFA, sans aucun rapport avec la qualité des conseils."
+    brille: "Vous serez la personne qui demande la grille tarifaire avant d'ouvrir un compte."
+    origine: article
+
+  - id: quand-vendre
+    notion: "quand vendre une action"
+    famille: acheter-vendre
+    niveau: 2
+    titre: "La décision dont personne ne parle"
+    metaphore: "On apprend à choisir son terrain, jamais à savoir quand le revendre. Résultat : beaucoup gardent un terrain qui ne vaut plus rien, par attachement."
+    angle: "On vend pour une raison écrite à l'avance : la thèse de départ ne tient plus, le prix dépasse la valeur, ou l'argent sert ailleurs. Jamais parce que le cours a bougé aujourd'hui."
+    brille: "Vous aurez une réponse là où la plupart improvisent : « je vends quand… »"
+    origine: article
+
+  - id: prix-de-revient
+    notion: "le prix de revient moyen"
+    famille: acheter-vendre
+    niveau: 2
+    titre: "Votre vrai prix d'achat n'est pas celui que vous croyez"
+    metaphore: "La revendeuse qui achète trois cartons à trois prix différents ne calcule pas trois marges : elle fait une moyenne, frais de transport compris."
+    angle: "Quand on renforce une ligne à plusieurs reprises, seul le prix moyen (frais inclus) dit à partir de quand on gagne. Le prix du premier achat n'a plus d'importance."
+    brille: "Vous saurez si vous êtes réellement en gain — beaucoup se trompent de repère."
+    origine: article
+
+  - id: ordre-non-execute
+    notion: "un ordre qui ne s'exécute pas"
+    famille: acheter-vendre
+    niveau: 2
+    titre: "Votre ordre est passé… et rien ne se passe"
+    metaphore: "Vous avez laissé votre commande de 50 sacs chez le grossiste, mais personne n'en apporte à votre prix. Votre commande reste au clou, elle n'est pas perdue."
+    angle: "Un ordre limité n'est exécuté que si quelqu'un accepte votre prix. Sur une valeur peu liquide, il peut attendre des jours — ou expirer sans rien."
+    brille: "Vous ne conclurez plus « le marché est bloqué » alors que c'est simplement votre prix qui ne trouve pas preneur."
+    origine: mini
+
+  - id: gre-a-gre
+    notion: "la transaction de gré à gré"
+    famille: acheter-vendre
+    niveau: 3
+    titre: "Le gros bloc qui change de mains en silence"
+    metaphore: "Le grossiste ne vend pas ses 500 sacs un par un sur l'étal : il traite directement avec un acheteur, dans l'arrière-boutique, puis déclare la vente."
+    angle: "Certaines grosses transactions se négocient hors carnet, puis sont déclarées au marché. Cela explique un volume énorme un jour donné, sans mouvement de cours."
+    brille: "Vous saurez lire un volume anormal sans crier au complot."
+    origine: lexique
+
+  # ─── Dividendes et revenus ────────────────────────────────────────────────
+  - id: detachement-dividende
+    notion: "le détachement du dividende"
+    famille: dividendes-et-revenus
+    niveau: 1
+    titre: "Votre action baisse le jour où on vous paie : normal"
+    metaphore: "Un panier de mangues à 5 000 FCFA. On vous en retire deux pour vous les donner en main propre : le panier ne vaut plus que 4 000 FCFA, mais vous avez les mangues. Vous n'avez rien perdu."
+    angle: "Le jour du détachement, le cours baisse mécaniquement du montant du dividende. Ce n'est pas une chute du marché : c'est de l'argent qui sort de l'entreprise pour entrer chez vous."
+    brille: "Vous rassurerez tous ceux qui, chaque année entre avril et juillet, croient s'être fait avoir."
+    origine: mini
+
+  - id: date-de-detachement
+    notion: "la date de détachement et l'éligibilité au dividende"
+    famille: dividendes-et-revenus
+    niveau: 2
+    titre: "Acheter la veille suffit-il pour toucher le dividende ?"
+    metaphore: "Pour manger au baptême, il faut être inscrit sur la liste avant le jour J — arriver pendant le repas ne suffit pas."
+    angle: "Seuls ceux qui détiennent l'action avant une date précise reçoivent le dividende. Acheter juste après le détachement, c'est acheter le panier sans les mangues."
+    brille: "Vous éviterez l'erreur classique : courir après une action « parce qu'elle verse bientôt »."
+    origine: lexique
+
+  - id: payout
+    notion: "le taux de distribution (payout)"
+    famille: dividendes-et-revenus
+    niveau: 2
+    titre: "Quelle part du bénéfice vous revient vraiment ?"
+    metaphore: "Le champ a rapporté 100 sacs. La famille en vend 60 et en garde 40 pour les semences de l'an prochain. Le payout, c'est la part vendue."
+    angle: "Une entreprise partage son bénéfice entre les actionnaires et ses propres besoins. Distribuer 100 % fait plaisir aujourd'hui et prive l'entreprise de sa croissance de demain."
+    brille: "Vous saurez repérer le dividende trop généreux — celui qui mange les semences."
+    origine: lexique
+
+  - id: dividende-nest-pas-rendement
+    notion: "dividende et rendement, ce n'est pas la même chose"
+    famille: dividendes-et-revenus
+    niveau: 1
+    titre: "500 FCFA de dividende, c'est beaucoup ou pas ?"
+    metaphore: "Un vendeur vous dit qu'il gagne 20 000 FCFA par mois avec sa machine. Bonne affaire ? Impossible à dire tant qu'on ne sait pas si la machine coûte 100 000 ou 3 millions."
+    angle: "Le montant du dividende ne veut rien dire seul. Ce qui compte, c'est ce qu'il représente par rapport au prix payé pour l'action — c'est ça, le rendement."
+    brille: "Vous couperez court à la comparaison la plus fausse du marché : « celle-là verse plus »."
+    origine: mini
+
+  - id: reserves-vs-dividendes
+    notion: "grosses réserves ne veut pas dire gros dividendes"
+    famille: dividendes-et-revenus
+    niveau: 3
+    titre: "L'entreprise est riche, alors elle va payer ? Pas forcément"
+    metaphore: "Votre oncle possède trois terrains et une maison. Cela ne veut pas dire qu'il a 2 millions en liquide dans sa poche ce mois-ci."
+    angle: "Les réserves sont un stock accumulé au bilan, souvent déjà investi en machines ou en crédits. Le dividende, lui, se paie avec la trésorerie de l'année."
+    brille: "Vous ferez la différence entre être riche et avoir de l'argent disponible — deux choses très différentes."
+    origine: mini
+
+  - id: irvm
+    notion: "l'IRVM, l'impôt sur vos dividendes"
+    famille: dividendes-et-revenus
+    niveau: 2
+    titre: "Le dividende annoncé n'est pas celui que vous recevez"
+    metaphore: "Le salaire négocié et le salaire viré ne sont jamais le même chiffre. Il y a toujours un passage à la caisse de l'État entre les deux."
+    angle: "Un prélèvement s'applique aux dividendes avant qu'ils n'arrivent sur votre compte. Le rendement réel se calcule après cet impôt, pas avant."
+    brille: "Vous serez celui qui annonce le vrai chiffre, net, quand les autres citent le brut."
+    origine: lexique
+
+  - id: reinvestir-dividendes
+    notion: "réinvestir ses dividendes"
+    famille: dividendes-et-revenus
+    niveau: 2
+    titre: "Le dividende qu'on dépense et celui qui travaille"
+    metaphore: "La poule qui pond dix œufs : on peut tous les manger, ou en remettre trois à couver. Au bout de quelques années, les deux familles ne mangent plus du tout la même chose."
+    angle: "Encaisser ses dividendes, c'est un revenu. Les réinvestir, c'est augmenter chaque année le nombre d'actions qui vous versent un dividende. C'est le moteur silencieux du long terme."
+    brille: "Vous expliquerez pourquoi deux investisseurs partis avec la même somme finissent à des années-lumière l'un de l'autre."
+    origine: article
+
+  - id: societe-sans-dividende
+    notion: "une entreprise qui ne verse pas de dividende"
+    famille: dividendes-et-revenus
+    niveau: 2
+    titre: "Ne rien vous verser peut être une bonne nouvelle"
+    metaphore: "Le jeune tailleur qui ne se paie pas cette année parce qu'il achète une deuxième machine à coudre : dans deux ans, il produit le double."
+    angle: "Une société en croissance garde son bénéfice pour investir. L'actionnaire est payé plus tard, par la valeur créée, pas chaque année par un virement."
+    brille: "Vous ne jugerez plus une entreprise sur le seul fait qu'elle « ne donne rien »."
+    origine: article
+
+  - id: calendrier-dividendes
+    notion: "le calendrier des dividendes à la BRVM"
+    famille: dividendes-et-revenus
+    niveau: 2
+    titre: "La saison des dividendes a ses dates"
+    metaphore: "Comme la récolte : elle ne tombe pas quand ça nous arrange, elle tombe quand la saison le décide. On s'organise autour, pas l'inverse."
+    angle: "Résultats annuels, assemblée générale, détachement, paiement : la chaîne est toujours la même et s'étale sur plusieurs mois. Connaître l'ordre évite les mauvaises surprises."
+    brille: "Vous saurez dire à quel moment de l'année la BRVM s'anime — et pourquoi."
+    origine: article
+
+  - id: dividende-ajuste
+    notion: "le dividende ajusté"
+    famille: dividendes-et-revenus
+    niveau: 3
+    titre: "Comparer 2019 et aujourd'hui sans se tromper"
+    metaphore: "Un litre d'huile en 2015 et un litre en 2026, ce n'est pas comparable sans corriger le prix. Un dividende d'avant un fractionnement non plus."
+    angle: "Quand le nombre d'actions change (fractionnement, action gratuite), les dividendes passés doivent être recalculés pour rester comparables. Sinon l'historique raconte n'importe quoi."
+    brille: "Vous saurez pourquoi un historique brut de dividendes peut être trompeur."
+    origine: lexique
+
+  # ─── Prix et valeur ───────────────────────────────────────────────────────
+  - id: prix-nest-pas-valeur
+    notion: "le prix n'est pas la valeur"
+    famille: prix-et-valeur
+    niveau: 1
+    titre: "Ce que ça coûte, ce que ça vaut"
+    metaphore: "Deux boutiques identiques, même rue, même chiffre d'affaires. L'une se vend 5 millions parce que le propriétaire est pressé, l'autre 9 millions parce qu'il y a trois acheteurs. Le prix a changé, la boutique non."
+    angle: "Le prix est ce que le marché demande aujourd'hui ; la valeur est ce que l'entreprise produit réellement. Investir, c'est chercher les moments où les deux s'écartent."
+    brille: "Cette phrase-là résume l'investissement en une ligne — et vous saurez l'expliquer."
+    origine: mini
+
+  - id: action-chere-en-fcfa
+    notion: "une action « chère » en FCFA n'est pas une action chère"
+    famille: prix-et-valeur
+    niveau: 1
+    titre: "20 000 FCFA l'action, c'est cher ?"
+    metaphore: "Un régime de bananes à 3 000 FCFA et une banane à 100 FCFA : le régime est-il « plus cher » ? Cela dépend du nombre de bananes dedans."
+    angle: "Le prix affiché ne dit rien : tout dépend de ce que l'action contient en bénéfices et en actifs. Une action à 500 FCFA peut être bien plus chère qu'une à 20 000."
+    brille: "Vous démonterez l'erreur de débutant la plus répandue de la cote."
+    origine: mini
+
+  - id: bnpa
+    notion: "le bénéfice par action (BNPA)"
+    famille: prix-et-valeur
+    niveau: 2
+    titre: "Combien votre part gagne-t-elle réellement ?"
+    metaphore: "Le champ familial a rapporté 1,2 million cette année et il y a 12 héritiers : chacun pèse 100 000 FCFA de récolte, qu'on la distribue ou non."
+    angle: "Le bénéfice par action ramène le résultat total à une seule action. C'est la brique de base : sans elle, aucun ratio de valorisation n'a de sens."
+    brille: "Vous saurez d'où sort le fameux PER — c'est simplement le prix divisé par ce chiffre-là."
+    origine: lexique
+
+  - id: pbr
+    notion: "le PBR (cours sur actif net)"
+    famille: prix-et-valeur
+    niveau: 3
+    titre: "Payez-vous plus cher que ce que l'entreprise possède ?"
+    metaphore: "Un garage possède pour 10 millions d'outils et de terrain. Si on vous le vend 8 millions, vous payez moins que le matériel ; à 30 millions, vous payez la réputation du mécanicien."
+    angle: "Le PBR compare le prix payé à ce que l'entreprise possède vraiment, dettes déduites. Utile pour les banques et les sociétés à gros actifs, trompeur pour les autres."
+    brille: "Vous saurez quand une action « pas chère » l'est vraiment — et quand c'est un piège."
+    origine: lexique
+
+  - id: comparer-meme-secteur
+    notion: "comparer ce qui est comparable (les ratios sectoriels)"
+    famille: prix-et-valeur
+    niveau: 2
+    titre: "Une banque ne se compare pas à une usine"
+    metaphore: "On ne juge pas un boulanger et un transporteur sur le même critère : l'un fait tourner un four, l'autre des camions. Leurs bons chiffres ne se ressemblent pas."
+    angle: "Un ratio n'a de sens que face aux entreprises du même métier. Comparer le PER d'une banque à celui d'une société agricole ne dit rien d'utile."
+    brille: "Vous poserez la bonne question : « chère par rapport à qui ? »"
+    origine: lexique
+
+  - id: valeur-nominale
+    notion: "la valeur nominale d'une action"
+    famille: prix-et-valeur
+    niveau: 3
+    titre: "Le chiffre écrit sur le titre ne sert pas à grand-chose"
+    metaphore: "Le prix imprimé au dos d'un vieux billet de tombola : c'est une information d'origine, pas ce que quelqu'un accepterait de payer aujourd'hui."
+    angle: "La valeur nominale est une valeur comptable d'origine, utile pour le capital social et les opérations sur titres. Elle n'a aucun lien avec le cours de bourse."
+    brille: "Vous ne confondrez plus valeur nominale, valeur comptable et cours — trois chiffres, trois usages."
+    origine: lexique
+
+  - id: valorisation
+    notion: "à quoi sert la valorisation"
+    famille: prix-et-valeur
+    niveau: 2
+    titre: "Mettre un prix sur une entreprise, comme sur un terrain"
+    metaphore: "Avant d'acheter un terrain, on regarde le prix du mètre carré dans le quartier, ce qu'on peut y construire et ce que ça rapporterait en location. Personne ne se contente du prix affiché sur la pancarte."
+    angle: "Valoriser, c'est estimer ce qu'une entreprise vaut, à partir de ce qu'elle gagne et de ce qu'elle possède. Le but n'est pas d'être exact, mais d'éviter de payer beaucoup trop cher."
+    brille: "Vous saurez pourquoi deux analystes sérieux peuvent donner deux prix différents sans que l'un mente."
+    origine: article
+
+  # ─── Lire une entreprise ──────────────────────────────────────────────────
+  - id: bilan
+    notion: "le bilan d'une entreprise"
+    famille: lire-une-entreprise
+    niveau: 2
+    titre: "La photo de ce que l'entreprise possède et doit"
+    metaphore: "Un inventaire de fin d'année dans la boutique : d'un côté le stock, le frigo et la caisse ; de l'autre, ce qu'on doit au fournisseur et à la banque. Ce qui reste est à vous."
+    angle: "Le bilan est une photo à une date donnée : les biens d'un côté, les dettes de l'autre. Il ne dit pas si l'année a été bonne, seulement dans quel état on la termine."
+    brille: "Vous saurez distinguer une entreprise solide d'une entreprise simplement rentable."
+    origine: lexique
+
+  - id: compte-de-resultat
+    notion: "le compte de résultat"
+    famille: lire-une-entreprise
+    niveau: 2
+    titre: "Le film de l'année, pas la photo"
+    metaphore: "Le cahier de la vendeuse : tout ce qui est entré, tout ce qui est sorti, du 1er janvier au 31 décembre. À la fin, ce qui reste dans le cahier."
+    angle: "Le compte de résultat raconte l'activité de l'année : ventes, charges, bénéfice. Avec le bilan, c'est l'autre moitié de l'histoire."
+    brille: "Vous saurez quel document regarder selon la question posée."
+    origine: lexique
+
+  - id: chiffre-affaires-vs-benefice
+    notion: "chiffre d'affaires et bénéfice, deux choses différentes"
+    famille: lire-une-entreprise
+    niveau: 1
+    titre: "Vendre beaucoup ne veut pas dire gagner"
+    metaphore: "La vendeuse d'attiéké encaisse 40 000 FCFA dans la journée. Après le poisson, le charbon, la place au marché et le transport, il lui reste 6 000. C'est ça, son bénéfice."
+    angle: "Le chiffre d'affaires, c'est tout ce qui entre. Le bénéfice, c'est ce qui reste après tout ce qui sort. Une entreprise peut battre des records de ventes et perdre de l'argent."
+    brille: "Vous ne serez plus impressionné par un « chiffre d'affaires en hausse » tout seul."
+    origine: lexique
+
+  - id: marge-nette
+    notion: "la marge nette"
+    famille: lire-une-entreprise
+    niveau: 2
+    titre: "Sur 1 000 FCFA vendus, combien restent ?"
+    metaphore: "Deux commerçants encaissent chacun 1 million. Le premier garde 200 000, le second 30 000. Même caisse, deux métiers très différents."
+    angle: "La marge nette dit combien de francs restent pour l'entreprise sur 100 francs vendus. Elle révèle la solidité d'un modèle mieux que la taille du chiffre d'affaires."
+    brille: "Vous comparerez deux sociétés sans vous laisser éblouir par la plus grosse."
+    origine: lexique
+
+  - id: benefice-vs-tresorerie
+    notion: "bénéfice comptable et argent disponible"
+    famille: lire-une-entreprise
+    niveau: 3
+    titre: "De beaux bénéfices, et pourtant pas un franc en caisse"
+    metaphore: "Le grossiste a livré pour 3 millions de marchandise ce mois-ci. Sur le papier, il a gagné. Mais ses clients paieront dans 90 jours, et le loyer, lui, tombe vendredi."
+    angle: "Le bénéfice s'enregistre quand la vente est faite ; l'argent arrive quand le client paie. Beaucoup d'entreprises rentables meurent de ce décalage."
+    brille: "Vous poserez la question des vrais analystes : « et la trésorerie ? »"
+    origine: mini
+
+  - id: pnb-banque
+    notion: "le produit net bancaire"
+    famille: lire-une-entreprise
+    niveau: 3
+    titre: "Le chiffre d'affaires d'une banque n'existe pas"
+    metaphore: "Le changeur de monnaie ne compte pas les billets qui passent entre ses mains : il compte l'écart entre ce qu'il achète et ce qu'il revend. C'est sa vraie recette."
+    angle: "Une banque gagne sur l'écart entre les intérêts encaissés et versés, plus les commissions. C'est ce solde, le produit net bancaire, qui joue le rôle de chiffre d'affaires."
+    brille: "Comme la BRVM est très bancaire, cette notion vous ouvre la moitié de la cote."
+    origine: lexique
+
+  - id: coefficient-exploitation
+    notion: "le coefficient net d'exploitation"
+    famille: lire-une-entreprise
+    niveau: 3
+    titre: "Combien coûte à une banque le fait de fonctionner ?"
+    metaphore: "Sur 100 FCFA gagnés, le maquis en dépense 70 en personnel, électricité et loyer. Le voisin n'en dépense que 45. Devinez lequel tient le mieux une mauvaise saison."
+    angle: "Ce coefficient mesure la part des recettes avalée par les frais de fonctionnement. Plus il est bas, plus la banque est efficace — et résistante."
+    brille: "Vous aurez un critère de comparaison des banques que peu de particuliers utilisent."
+    origine: lexique
+
+  - id: roe
+    notion: "le ROE (rentabilité des capitaux propres)"
+    famille: lire-une-entreprise
+    niveau: 2
+    titre: "L'argent des associés travaille-t-il bien ?"
+    metaphore: "Vous confiez 1 million à un neveu pour lancer un commerce. S'il vous rapporte 200 000 par an, c'est 20 %. S'il vous rapporte 30 000, autant laisser l'argent tranquille."
+    angle: "Le ROE rapporte le bénéfice à l'argent des actionnaires. C'est le rendement du capital confié — le juge de paix de la performance d'une direction."
+    brille: "Vous saurez évaluer des dirigeants sur un chiffre, pas sur un discours."
+    origine: lexique
+
+  - id: endettement-gearing
+    notion: "l'endettement d'une entreprise"
+    famille: lire-une-entreprise
+    niveau: 2
+    titre: "La dette qui fait grandir et celle qui étouffe"
+    metaphore: "Emprunter pour acheter un deuxième taxi qui roule tous les jours, ce n'est pas la même chose qu'emprunter pour payer le carburant du premier."
+    angle: "La dette n'est pas un défaut en soi : elle est saine quand elle finance ce qui produit, dangereuse quand elle bouche des trous. La question n'est jamais « combien », mais « pour quoi »."
+    brille: "Vous éviterez le jugement paresseux : « elle est endettée, donc c'est mauvais »."
+    origine: lexique
+
+  - id: comptes-consolides
+    notion: "comptes consolidés et comptes sociaux"
+    famille: lire-une-entreprise
+    niveau: 3
+    titre: "Le groupe entier ou la maison mère ?"
+    metaphore: "Le budget d'une seule cuisine, ou le budget de toute la concession avec les enfants mariés. Deux totaux justes, deux réalités différentes."
+    angle: "Les comptes sociaux ne montrent qu'une société ; les comptes consolidés additionnent le groupe et ses filiales. Comparer l'un à l'autre fausse toute analyse."
+    brille: "Vous saurez pourquoi deux chiffres publiés par la même société peuvent différer sans que personne ne mente."
+    origine: lexique
+
+  - id: resultat-exceptionnel
+    notion: "le résultat exceptionnel"
+    famille: lire-une-entreprise
+    niveau: 3
+    titre: "Le bénéfice qui ne reviendra pas l'an prochain"
+    metaphore: "Le mécanicien a vendu son vieux terrain cette année : son revenu explose. Mais il n'a pas un deuxième terrain à vendre l'année suivante."
+    angle: "Une vente d'actif ou une indemnité gonfle le résultat une seule fois. Il faut la retirer pour voir la performance réelle du métier."
+    brille: "Vous décoderez le communiqué triomphant qui cache un bénéfice non reproductible."
+    origine: lexique
+
+  - id: calendrier-etats-financiers
+    notion: "le calendrier des publications financières"
+    famille: lire-une-entreprise
+    niveau: 2
+    titre: "Les résultats tombent quand ?"
+    metaphore: "Comme les bulletins scolaires : il y a une date officielle, et il y a les élèves qui rendent toujours en retard. Le retard, lui aussi, est une information."
+    angle: "Les sociétés cotées ont des échéances de publication. Un retard répété est rarement un détail administratif : c'est souvent le premier signal d'un problème."
+    brille: "Vous saurez lire le silence d'une entreprise, pas seulement ses annonces."
+    origine: article
+
+  # ─── Risque et temps ──────────────────────────────────────────────────────
+  - id: concentrer-ou-diversifier
+    notion: "concentrer ou diversifier son portefeuille"
+    famille: risque-et-temps
+    niveau: 2
+    titre: "Jusqu'où faut-il diversifier ?"
+    metaphore: "Mettre tous ses œufs dans un panier est risqué. Mais les répartir dans trente paniers qu'on ne peut pas surveiller, c'est juste se garantir d'en oublier."
+    angle: "La diversification protège d'un accident isolé ; l'excès de diversification dilue tout et rend le suivi impossible. Sur une cote comme la BRVM, quelques lignes bien choisies suffisent."
+    brille: "Vous sortirez du slogan « il faut diversifier » pour poser la vraie question : jusqu'où ?"
+    origine: mini
+
+  - id: beta
+    notion: "le bêta (sensibilité au marché)"
+    famille: risque-et-temps
+    niveau: 3
+    titre: "Certaines actions amplifient tout"
+    metaphore: "Sur une piste en latérite, la petite voiture saute à chaque trou pendant que le camion passe sans broncher. Même route, deux ressentis."
+    angle: "Le bêta mesure l'ampleur avec laquelle une action réagit aux mouvements du marché. Élevé, elle amplifie les hausses comme les baisses."
+    brille: "Vous saurez expliquer pourquoi un portefeuille « tranquille » et un portefeuille « nerveux » ne se pilotent pas pareil."
+    origine: lexique
+
+  - id: horizon-de-placement
+    notion: "l'horizon de placement"
+    famille: risque-et-temps
+    niveau: 1
+    titre: "Cet argent, vous en avez besoin quand ?"
+    metaphore: "On ne met pas l'argent de la rentrée scolaire de septembre dans un projet qui ne rapporte que dans cinq ans. Chaque argent a son échéance."
+    angle: "La bonne question n'est pas « quelle action acheter » mais « pour combien de temps ». L'argent dont on aura besoin dans six mois n'a rien à faire en bourse."
+    brille: "Vous ferez le tri que la plupart des débutants ne font jamais : quel argent, pour quand."
+    origine: lexique
+
+  - id: moins-value-latente
+    notion: "la perte latente et la perte réelle"
+    famille: risque-et-temps
+    niveau: 2
+    titre: "Tant que vous n'avez pas vendu, vous n'avez rien perdu"
+    metaphore: "Votre terrain vaut moins cher cette année parce que personne n'achète dans le quartier. Vous n'avez perdu de l'argent que le jour où vous signez chez le notaire."
+    angle: "Une baisse affichée n'est pas une perte encaissée. Elle le devient au moment de la vente — et c'est souvent la panique, pas le marché, qui transforme l'une en l'autre."
+    brille: "Vous garderez la tête froide quand la ligne rouge apparaîtra sur votre relevé."
+    origine: article
+
+  - id: risque-de-liquidite
+    notion: "le risque de liquidité"
+    famille: risque-et-temps
+    niveau: 2
+    titre: "Le risque de ne pas pouvoir sortir"
+    metaphore: "Vous pouvez avoir 2 millions en marchandise dans votre magasin et être incapable de payer 50 000 FCFA de loyer lundi matin."
+    angle: "Posséder de la valeur ne suffit pas : encore faut-il pouvoir la transformer en argent au moment voulu. Sur les petites valeurs, c'est le risque le plus sous-estimé."
+    brille: "Vous distinguerez « riche sur le papier » et « capable de payer demain »."
+    origine: lexique
+
+  - id: risque-de-taux
+    notion: "le risque de taux"
+    famille: risque-et-temps
+    niveau: 3
+    titre: "Quand les taux montent, vos obligations baissent"
+    metaphore: "Vous avez prêté à un ami pour un intérêt de 5 %. Le lendemain, tout le monde prête à 8 %. Votre prêt devient le moins intéressant du quartier — sa valeur baisse."
+    angle: "Le prix d'une obligation évolue à l'inverse des taux du marché. Ce n'est pas un défaut de l'émetteur, c'est de l'arithmétique."
+    brille: "Vous comprendrez pourquoi un placement « sans risque » peut quand même perdre de la valeur."
+    origine: lexique
+
+  - id: risque-de-change
+    notion: "le risque de change"
+    famille: risque-et-temps
+    niveau: 2
+    titre: "Gagner en naira, perdre en FCFA"
+    metaphore: "Le commerçant qui vend à Lagos et compte ses gains à Cotonou peut faire une bonne saison et rentrer avec moins d'argent qu'espéré, simplement parce que la monnaie a bougé entre-temps."
+    angle: "Quand une entreprise gagne dans une monnaie et publie dans une autre, la variation de change peut effacer une bonne performance. Le FCFA étant arrimé à l'euro, c'est surtout hors zone que ça se joue."
+    brille: "Vous saurez pourquoi une filiale nigériane peut plomber un groupe pourtant bien géré."
+    origine: lexique
+
+  - id: risque-de-credit
+    notion: "le risque de crédit (ou de contrepartie)"
+    famille: risque-et-temps
+    niveau: 2
+    titre: "Et si l'emprunteur ne rembourse pas ?"
+    metaphore: "Prêter 100 000 FCFA à un ami salarié depuis dix ans, ou au jeune qui vient d'ouvrir son commerce : le montant est le même, le risque non."
+    angle: "Prêter à un État ou à une entreprise, c'est parier sur sa capacité à rembourser. C'est ce risque-là que rémunère un taux d'intérêt élevé — jamais la générosité."
+    brille: "Vous comprendrez enfin pourquoi certaines obligations paient beaucoup plus que d'autres."
+    origine: lexique
+
+  - id: prime-de-risque
+    notion: "la prime de risque"
+    famille: risque-et-temps
+    niveau: 3
+    titre: "Pourquoi accepter de perdre le sommeil ?"
+    metaphore: "Personne ne conduit de nuit sur une mauvaise route pour le même tarif que de jour. Le supplément, c'est le prix du risque pris."
+    angle: "Un placement risqué doit rapporter davantage qu'un placement sûr, sinon personne n'y va. Cet écart attendu, c'est la prime de risque."
+    brille: "Vous saurez dire si une action « rapporte assez » pour ce qu'elle fait subir."
+    origine: lexique
+
+  - id: risque-marche-vs-specifique
+    notion: "risque de marché et risque propre à une société"
+    famille: risque-et-temps
+    niveau: 3
+    titre: "Deux risques très différents dans votre portefeuille"
+    metaphore: "Quand il pleut sur tout le marché, tous les étals sont mouillés. Quand le toit d'un seul étal s'effondre, le voisin continue de vendre."
+    angle: "Le risque de marché touche tout le monde en même temps : on ne peut pas s'en protéger en achetant d'autres actions. Le risque propre à une société, si — c'est tout l'intérêt de diversifier."
+    brille: "Vous saurez enfin ce que la diversification protège… et ce qu'elle ne protégera jamais."
+    origine: lexique
+
+  - id: saisonnalite
+    notion: "la saisonnalité des marchés"
+    famille: risque-et-temps
+    niveau: 3
+    titre: "La bourse a-t-elle ses saisons ?"
+    metaphore: "Le vendeur de parapluies fait ses meilleures semaines pendant les pluies. Cela ne veut pas dire qu'il faut acheter son fonds de commerce en juin."
+    angle: "Certaines périodes reviennent régulièrement (résultats, dividendes, budgets). Mais une régularité passée n'est pas une promesse : c'est une tendance à connaître, pas une stratégie."
+    brille: "Vous saurez distinguer une habitude de calendrier d'une martingale."
+    origine: lexique
+
+  # ─── Opérations sur titres ────────────────────────────────────────────────
+  - id: dps
+    notion: "le droit préférentiel de souscription (DPS)"
+    famille: operations-sur-titres
+    niveau: 2
+    titre: "Le ticket prioritaire des anciens actionnaires"
+    metaphore: "La tontine s'agrandit et accepte de nouvelles membres. Les anciennes ont un droit de passage : elles entrent avant les autres, à tarif préférentiel. Ce droit se revend."
+    angle: "Quand une société émet de nouvelles actions, les actionnaires existants reçoivent un droit de souscrire en priorité. On peut l'utiliser… ou le vendre, mais jamais l'ignorer : le laisser expirer, c'est perdre de l'argent."
+    brille: "Vous saurez pourquoi certains actionnaires se réveillent trop tard et râlent d'avoir été « dilués »."
+    origine: article
+
+  - id: droit-attribution
+    notion: "le droit d'attribution (DA)"
+    famille: operations-sur-titres
+    niveau: 3
+    titre: "Des actions gratuites, vraiment gratuites ?"
+    metaphore: "Le gâteau est coupé en 8 parts au lieu de 6 : chacun reçoit une part de plus, mais le gâteau n'a pas grossi."
+    angle: "L'attribution gratuite augmente le nombre d'actions sans enrichir personne : la valeur totale ne change pas, elle se répartit autrement. C'est un geste de lisibilité, pas un cadeau."
+    brille: "Vous ne crierez pas victoire pour une opération purement mécanique."
+    origine: article
+
+  - id: fractionnement
+    notion: "le fractionnement d'action"
+    famille: operations-sur-titres
+    niveau: 2
+    titre: "Diviser l'action pour la rendre accessible"
+    metaphore: "Le bidon de 20 litres ne trouve pas preneur au quartier. Le vendeur le reconditionne en sachets d'un litre : même huile, mêmes 20 litres, mais tout le monde peut acheter."
+    angle: "Fractionner divise le prix par action sans changer la valeur de l'entreprise ni celle de votre position. L'objectif est de rendre le titre abordable aux petits porteurs."
+    brille: "Vous rassurerez ceux qui voient le cours « divisé par 10 » et croient à un krach."
+    origine: lexique
+
+  - id: regroupement-actions
+    notion: "le regroupement d'actions"
+    famille: operations-sur-titres
+    niveau: 3
+    titre: "L'opération inverse du fractionnement"
+    metaphore: "Dix sachets d'un litre reconditionnés en un bidon : c'est toujours la même huile, mais l'étiquette fait plus sérieuse."
+    angle: "Regrouper réduit le nombre d'actions et multiplie le cours d'autant. Souvent utilisé pour sortir d'un cours trop bas — cela ne règle jamais le problème de fond."
+    brille: "Vous saurez lire ce que cette opération dit, en creux, de la situation d'une société."
+    origine: lexique
+
+  - id: opa
+    notion: "l'offre publique d'achat (OPA)"
+    famille: operations-sur-titres
+    niveau: 2
+    titre: "Quand quelqu'un veut racheter toute l'entreprise"
+    metaphore: "Un acheteur passe dans la cour et propose à chaque copropriétaire de racheter son appartement, au même prix, au-dessus du marché — pour finir par posséder l'immeuble entier."
+    angle: "Une OPA est une proposition faite à tous les actionnaires d'acheter leurs titres, souvent avec une prime. Accepter ou refuser reste un choix individuel."
+    brille: "Vous saurez pourquoi une action bondit du jour au lendemain sans que l'entreprise ait rien publié."
+    origine: lexique
+
+  - id: radiation
+    notion: "la radiation de la cote"
+    famille: operations-sur-titres
+    niveau: 3
+    titre: "Quand une société quitte la bourse"
+    metaphore: "Le commerçant ferme son étal du marché central et vend désormais uniquement depuis sa maison. Il existe toujours, mais vous ne pouvez plus le croiser au marché."
+    angle: "Une société retirée de la cote n'est plus échangeable en bourse. Les actionnaires restants se retrouvent avec des titres très difficiles à revendre."
+    brille: "Vous comprendrez pourquoi une radiation est une vraie nouvelle pour un petit porteur, pas une formalité."
+    origine: lexique
+
+  - id: souscription-opv
+    notion: "la souscription à une OPV et la sursouscription"
+    famille: operations-sur-titres
+    niveau: 2
+    titre: "J'ai demandé 100 actions, j'en reçois 12"
+    metaphore: "Cent personnes se présentent pour trente places dans le car. On ne renvoie personne les mains vides : on réduit la part de chacun, et on rend la monnaie."
+    angle: "Quand une offre attire plus de demandes que de titres disponibles, chaque souscripteur est servi partiellement et remboursé du reste. C'est la règle, pas une injustice."
+    brille: "Vous saurez à quoi vous attendre avant de bloquer votre épargne dans une souscription."
+    origine: article
+
+  - id: titrisation
+    notion: "la titrisation"
+    famille: operations-sur-titres
+    niveau: 3
+    titre: "Transformer des créances en titres à vendre"
+    metaphore: "Le vendeur à crédit du quartier a 200 clients qui lui doivent chacun 10 000 FCFA. Plutôt que d'attendre un an, il cède ce carnet de dettes à un tiers, contre de l'argent tout de suite."
+    angle: "La titrisation transforme des créances futures en titres achetables aujourd'hui. Elle libère de l'argent immédiatement, en transférant le risque à ceux qui achètent."
+    brille: "Vous pourrez expliquer un mot que beaucoup citent depuis 2008 sans jamais l'avoir compris."
+    origine: lexique
+
+  # ─── Obligations et taux ──────────────────────────────────────────────────
+  - id: bon-du-tresor
+    notion: "le bon du Trésor (BAT)"
+    famille: obligations-et-taux
+    niveau: 1
+    titre: "Prêter à l'État pour quelques mois"
+    metaphore: "C'est la tontine où le tourneur, c'est l'État : vous mettez votre argent pour une durée courte et connue, et il vous rend la somme avec un petit plus à la date dite."
+    angle: "Un bon du Trésor est un prêt de courte durée consenti à l'État. Le rendement est modeste mais la date de remboursement est connue à l'avance."
+    brille: "Vous saurez qu'on peut prêter à un État sans être milliardaire."
+    origine: lexique
+
+  - id: oat
+    notion: "l'obligation du Trésor à long terme (OAT)"
+    famille: obligations-et-taux
+    niveau: 2
+    titre: "Le même prêt, mais sur plusieurs années"
+    metaphore: "Prêter à l'État pour trois mois, c'est dépanner. Lui prêter pour sept ans, c'est financer une route — et attendre plus longtemps son argent."
+    angle: "Plus la durée du prêt est longue, plus le prêteur exige d'être rémunéré, car l'incertitude grandit. C'est pour cela qu'une OAT rapporte plus qu'un bon du Trésor."
+    brille: "Vous saurez expliquer pourquoi le temps se paie, sur tous les marchés du monde."
+    origine: lexique
+
+  - id: coupon
+    notion: "le coupon d'une obligation"
+    famille: obligations-et-taux
+    niveau: 2
+    titre: "Le loyer de l'argent prêté"
+    metaphore: "Le propriétaire encaisse son loyer chaque mois, que le locataire ait fait une bonne ou une mauvaise année. Le coupon fonctionne pareil."
+    angle: "Le coupon est l'intérêt versé à date fixe au détenteur d'une obligation. Contrairement au dividende, il ne dépend pas des bénéfices : il est dû."
+    brille: "Vous expliquerez la différence entre un revenu promis et un revenu espéré."
+    origine: lexique
+
+  - id: echeance-remboursement
+    notion: "l'échéance d'une obligation"
+    famille: obligations-et-taux
+    niveau: 2
+    titre: "La date où l'on vous rend votre argent"
+    metaphore: "Le contrat de location a une fin écrite noir sur blanc : à cette date, les clés reviennent. L'obligation aussi a sa date de restitution."
+    angle: "À l'échéance, l'émetteur rembourse le capital prêté. C'est la grande différence avec une action, qui n'a pas de date de fin."
+    brille: "Vous saurez pourquoi une obligation « se termine » et pas une action."
+    origine: lexique
+
+  - id: emprunt-obligataire-etat
+    notion: "l'emprunt obligataire d'un État de l'UEMOA"
+    famille: obligations-et-taux
+    niveau: 2
+    titre: "Quand un pays vient chercher de l'argent sur le marché"
+    metaphore: "La commune veut construire un marché couvert. Plutôt que d'attendre dix ans d'impôts, elle demande à ses habitants d'avancer l'argent, en promettant de rembourser avec un intérêt."
+    angle: "Les États de la région financent régulièrement leurs projets par des émissions ouvertes au public. Ce sont souvent les placements les plus accessibles pour un particulier."
+    brille: "Vous pourrez dire que vous avez financé une route ou un hôpital — et être payé pour ça."
+    origine: article
+
+  - id: notation-financiere
+    notion: "la notation financière"
+    famille: obligations-et-taux
+    niveau: 2
+    titre: "Le bulletin de confiance d'un emprunteur"
+    metaphore: "Avant de prêter, le tontinier se renseigne : est-ce que cette personne a déjà remboursé ? La note fait ce travail, publiquement et avec une méthode."
+    angle: "Des agences (WARA, Bloomfield dans notre région) évaluent la capacité d'un État ou d'une entreprise à rembourser. Une note basse impose un taux plus élevé pour convaincre les prêteurs."
+    brille: "Vous saurez pourquoi une dégradation de note coûte cher à un pays, très concrètement."
+    origine: lexique
+
+  - id: obligation-ou-action
+    notion: "faut-il préférer une obligation ou une action"
+    famille: obligations-et-taux
+    niveau: 2
+    titre: "Dormir tranquille ou viser plus haut"
+    metaphore: "Louer sa boutique à un locataire fiable rapporte un loyer sûr et modeste. L'exploiter soi-même peut rapporter beaucoup plus — ou rien du tout cette année."
+    angle: "L'obligation offre un revenu prévisible et un capital rendu à date ; l'action offre un potentiel sans plafond et sans garantie. La bonne réponse dépend de votre horizon, pas de la mode."
+    brille: "Vous saurez répondre autre chose que « ça dépend » — en expliquant de quoi ça dépend."
+    origine: article
+
+  - id: marche-monetaire
+    notion: "le marché monétaire"
+    famille: obligations-et-taux
+    niveau: 3
+    titre: "Là où l'argent se prête à très court terme"
+    metaphore: "Entre commerçants du même marché, on se dépanne de 50 000 FCFA jusqu'à samedi. Ce n'est pas un crédit d'investissement, c'est de la trésorerie."
+    angle: "Le marché monétaire est celui des prêts très courts, notamment entre banques. C'est là que se transmet la politique de la banque centrale — et, de proche en proche, le coût de votre crédit."
+    brille: "Vous ferez le lien entre une décision de la BCEAO et le taux de votre prêt bancaire."
+    origine: lexique
+
+  # ─── Placements collectifs ────────────────────────────────────────────────
+  - id: sicav
+    notion: "la SICAV"
+    famille: placements-collectifs
+    niveau: 2
+    titre: "Acheter un panier tout prêt"
+    metaphore: "Plutôt que d'acheter oignon, tomate et piment séparément, vous achetez le panier déjà composé par quelqu'un dont c'est le métier."
+    angle: "Une SICAV réunit l'argent de nombreux épargnants pour acheter un ensemble de titres. Vous devenez propriétaire d'une part du panier, pas de chaque action."
+    brille: "Vous saurez proposer une porte d'entrée à quelqu'un qui n'a ni le temps ni l'envie de choisir ses actions."
+    origine: lexique
+
+  - id: fcp
+    notion: "le FCP (fonds commun de placement)"
+    famille: placements-collectifs
+    niveau: 3
+    titre: "Le cousin de la SICAV"
+    metaphore: "Deux tontines du même quartier : l'une est déclarée en association avec un bureau élu, l'autre fonctionne comme une caisse commune sans bureau. Le principe est le même, le statut non."
+    angle: "SICAV et FCP poursuivent le même but — mutualiser — mais avec une forme juridique différente. Pour l'épargnant, ce qui compte reste les frais et ce que le fonds contient."
+    brille: "Vous ne serez plus impressionné par un sigle de plus."
+    origine: lexique
+
+  - id: valeur-liquidative
+    notion: "la valeur liquidative"
+    famille: placements-collectifs
+    niveau: 3
+    titre: "Combien vaut une part de fonds aujourd'hui ?"
+    metaphore: "On pèse tout ce qu'il y a dans le panier, on retire ce qu'on doit au porteur, et on divise par le nombre de personnes qui ont cotisé."
+    angle: "La valeur liquidative est la valeur du portefeuille du fonds divisée par le nombre de parts. C'est à ce prix-là qu'on entre et qu'on sort — pas à un cours de bourse."
+    brille: "Vous saurez pourquoi un fonds n'a pas de cours qui clignote toute la journée."
+    origine: lexique
+
+  - id: frais-de-fonds
+    notion: "les frais d'un fonds d'investissement"
+    famille: placements-collectifs
+    niveau: 2
+    titre: "Le gestionnaire se paie avant vous"
+    metaphore: "Le meunier prend sa part de farine avant de vous rendre le sac. Une petite part chaque fois, mais prélevée à chaque passage, année après année."
+    angle: "Frais d'entrée, frais de gestion annuels, parfois frais de sortie : ils sont prélevés que le fonds gagne ou perde. Sur dix ans, ils décident d'une grande partie du résultat."
+    brille: "Vous poserez la question qui gêne : « et vos frais, ils font combien par an ? »"
+    origine: article
+
+  - id: club-investissement
+    notion: "le club d'investissement"
+    famille: placements-collectifs
+    niveau: 2
+    titre: "La tontine qui achète des actions"
+    metaphore: "Huit collègues mettent 20 000 FCFA par mois dans une caisse commune. Au lieu de se distribuer le pot à tour de rôle, ils achètent ensemble des actions et gardent le portefeuille en commun."
+    angle: "Un club permet d'atteindre des montants utiles à plusieurs et d'apprendre en groupe. Il exige en revanche des règles écrites dès le départ : qui décide, qui signe, comment on sort."
+    brille: "Vous saurez proposer une formule concrète à ceux qui trouvent la bourse trop chère pour eux seuls."
+    origine: article
+
+  - id: gestion-sous-mandat
+    notion: "la gestion sous mandat"
+    famille: placements-collectifs
+    niveau: 3
+    titre: "Confier le volant à un professionnel"
+    metaphore: "Vous possédez le taxi, mais vous laissez un chauffeur expérimenté conduire. Il choisit la route ; vous fixez la destination et vous payez sa journée."
+    angle: "Le mandat confie les décisions d'achat et de vente à un professionnel, dans un cadre que vous définissez. Vous restez propriétaire — et vous restez responsable du cadre fixé."
+    brille: "Vous saurez la différence entre déléguer et abandonner."
+    origine: lexique
+
+  - id: fonds-vs-direct
+    notion: "fonds ou actions en direct"
+    famille: placements-collectifs
+    niveau: 2
+    titre: "Choisir soi-même ou laisser choisir ?"
+    metaphore: "Cuisiner soi-même coûte moins cher et vous savez ce qu'il y a dans le plat. Le restaurant coûte plus, mais vous ne passez pas deux heures en cuisine."
+    angle: "Le direct coûte moins de frais mais demande du temps et de la méthode. Le fonds coûte plus cher mais mutualise et évite les erreurs de débutant. Beaucoup commencent par le second."
+    brille: "Vous saurez conseiller selon le temps disponible de la personne, pas selon la mode."
+    origine: article
+
+  # ─── Qui fait quoi ────────────────────────────────────────────────────────
+  - id: sgi
+    notion: "la SGI, votre porte d'entrée à la BRVM"
+    famille: qui-fait-quoi
+    niveau: 1
+    titre: "On n'entre pas à la bourse tout seul"
+    metaphore: "Au marché de gros, seuls les grossistes agréés ont le droit d'entrer dans la halle. Pour acheter, vous passez par l'un d'eux."
+    angle: "Seules les Sociétés de Gestion et d'Intermédiation, agréées, peuvent passer des ordres sur la BRVM. C'est chez elles qu'on ouvre son compte-titres — il en existe une trentaine."
+    brille: "Vous saurez répondre précisément à « comment on fait pour acheter, concrètement ? »"
+    origine: article
+
+  - id: amf-umoa
+    notion: "l'AMF-UMOA, le gendarme du marché"
+    famille: qui-fait-quoi
+    niveau: 2
+    titre: "Qui surveille la bourse ?"
+    metaphore: "Le contrôleur des poids et mesures qui passe vérifier que la balance du vendeur n'est pas truquée. Il ne vend rien : il s'assure que personne ne triche."
+    angle: "L'Autorité des Marchés Financiers de l'UMOA agrée les intermédiaires, vise les opérations et peut sanctionner. C'est elle qu'on interroge avant de confier son argent à quiconque."
+    brille: "Vous saurez où vérifier qu'un « conseiller en placement » est réellement agréé."
+    origine: lexique
+
+  - id: depositaire-central
+    notion: "le dépositaire central (DC/BR)"
+    famille: qui-fait-quoi
+    niveau: 3
+    titre: "Le grand cahier qui note qui possède quoi"
+    metaphore: "Au village, le cahier du chef de terre dit quelle parcelle appartient à qui. Sans ce cahier, chacun pourrait affirmer n'importe quoi."
+    angle: "Le dépositaire central enregistre la propriété des titres et organise les échanges argent contre titres. Vos actions n'existent pas dans un tiroir : elles existent dans ce registre."
+    brille: "Vous saurez expliquer pourquoi vos actions ne peuvent pas « disparaître » si votre SGI ferme."
+    origine: lexique
+
+  - id: agence-de-notation
+    notion: "les agences de notation de la BRVM"
+    famille: qui-fait-quoi
+    niveau: 3
+    titre: "Qui donne les notes, et qui les paie ?"
+    metaphore: "L'inspecteur qui note le restaurant est payé par le restaurant. Cela n'invalide pas la note, mais cela mérite d'être su."
+    angle: "WARA et Bloomfield notent les emprunteurs de la région. Leur note oriente les taux, mais elle reste une opinion, produite dans un cadre commercial."
+    brille: "Vous lirez une note pour ce qu'elle est : un avis argumenté, pas une vérité révélée."
+    origine: lexique
+
+  - id: demarcheur-apporteur
+    notion: "démarcheurs et apporteurs d'affaires"
+    famille: qui-fait-quoi
+    niveau: 2
+    titre: "La personne qui vous propose d'investir est-elle autorisée ?"
+    metaphore: "Un rabatteur devant la gare peut vous placer dans un vrai car… ou dans un véhicule sans assurance. La différence tient à un agrément, pas à son assurance à lui."
+    angle: "Le démarchage financier est encadré : celui qui vous sollicite doit être agréé et rattaché à un acteur agréé. Une promesse de rendement garanti est, elle, toujours un signal d'alarme."
+    brille: "Vous aurez le réflexe qui évite la plupart des arnaques : demander le nom de la structure agréée."
+    origine: lexique
+
+  - id: assemblee-generale
+    notion: "l'assemblée générale des actionnaires"
+    famille: qui-fait-quoi
+    niveau: 2
+    titre: "Le jour où les propriétaires décident"
+    metaphore: "La réunion annuelle de la coopérative : on présente les comptes, on décide de ce qu'on partage et de ce qu'on garde, et on renouvelle le bureau."
+    angle: "C'est l'assemblée qui approuve les comptes et vote le dividende — pas la direction seule. Le montant que vous recevez y est décidé, souvent en avril ou mai."
+    brille: "Vous saurez à quel moment précis se décide le dividende que tout le monde attend."
+    origine: lexique
+
+  - id: commissaire-aux-comptes
+    notion: "le commissaire aux comptes"
+    famille: qui-fait-quoi
+    niveau: 3
+    titre: "Qui vérifie que les chiffres sont vrais ?"
+    metaphore: "Le contrôleur qui recompte le stock à la fin de l'inventaire, sans faire partie de l'équipe de la boutique."
+    angle: "Un auditeur indépendant certifie les comptes publiés. Quand il émet des réserves, ou quand il refuse de certifier, c'est l'un des signaux les plus sérieux du marché."
+    brille: "Vous saurez où regarder dans un rapport annuel avant même de lire les bénéfices."
+    origine: lexique
+
+  # ─── La tête et la méthode ────────────────────────────────────────────────
+  - id: investir-ou-esperer
+    notion: "investir ou espérer"
+    famille: tete-et-methode
+    niveau: 1
+    titre: "Décidez-vous vraiment, ou est-ce que vous espérez ?"
+    metaphore: "Ouvrir une boutique parce qu'on a compté les passants, comparé les loyers et calculé sa marge, ce n'est pas la même chose que l'ouvrir parce qu'un ami a dit que ça marchait bien."
+    angle: "Une décision d'investissement repose sur une raison écrite qu'on peut vérifier plus tard. Sans elle, il n'y a ni apprentissage possible, ni correction possible."
+    brille: "Vous pourrez poser à un ami la question qui dérange : « pourquoi as-tu acheté celle-là ? »"
+    origine: mini
+
+  - id: attendre-que-ca-baisse
+    notion: "attendre le bon moment pour entrer"
+    famille: tete-et-methode
+    niveau: 2
+    titre: "« J'attends que ça baisse »"
+    metaphore: "Celui qui attend le prix du terrain d'il y a cinq ans attend encore aujourd'hui — et pendant ce temps, il paie un loyer."
+    angle: "Attendre un point d'entrée parfait est confortable mais coûteux : le temps passé hors du marché a un prix, souvent supérieur à la remise espérée."
+    brille: "Vous saurez expliquer que ne rien faire est aussi une décision, avec sa facture."
+    origine: mini
+
+  - id: acheter-apres-une-baisse
+    notion: "acheter après une baisse"
+    famille: tete-et-methode
+    niveau: 2
+    titre: "Ça a chuté de 20 % : bonne affaire ?"
+    metaphore: "Un téléphone soldé à moitié prix est une affaire s'il fonctionne, et une perte sèche si l'écran est cassé. La remise ne dit rien de l'état de l'appareil."
+    angle: "Une baisse n'est ni un bon ni un mauvais signal : tout dépend de sa raison. La vraie question n'est pas « combien ça a baissé » mais « qu'est-ce qui a changé »."
+    brille: "Vous éviterez le réflexe le plus coûteux du marché : confondre baisse et solde."
+    origine: mini
+
+  - id: biais-ancrage
+    notion: "le biais d'ancrage"
+    famille: tete-et-methode
+    niveau: 2
+    titre: "Le prix que vous avez payé n'intéresse personne"
+    metaphore: "Vous avez acheté votre terrain 3 millions. L'acheteur d'en face s'en moque : il paie ce que le quartier vaut aujourd'hui, pas ce que vous avez déboursé hier."
+    angle: "Se raccrocher à son prix d'achat pour décider de vendre ou garder est une erreur de raisonnement. Le marché ne connaît pas votre prix de revient."
+    brille: "Vous nommerez précisément le piège qui fait garder des lignes perdantes pendant des années."
+    origine: article
+
+  - id: aversion-a-la-perte
+    notion: "l'aversion à la perte"
+    famille: tete-et-methode
+    niveau: 2
+    titre: "On vend ses gagnantes et on garde ses perdantes"
+    metaphore: "On brade le carton de marchandise qui part bien pour encaisser vite, et on garde celui qui prend la poussière en espérant qu'un client finira par en vouloir."
+    angle: "Encaisser un gain fait plaisir, acter une perte fait mal. Ce réflexe pousse à couper ce qui marche et à conserver ce qui ne marche pas — exactement l'inverse de ce qu'il faudrait."
+    brille: "Vous mettrez un nom sur un comportement que presque tout le monde a, sans le voir."
+    origine: article
+
+  - id: effet-de-troupeau
+    notion: "l'effet de troupeau"
+    famille: tete-et-methode
+    niveau: 2
+    titre: "Tout le monde en parle, donc j'achète ?"
+    metaphore: "Quand tout le quartier se met à vendre du même produit, ce n'est plus une opportunité : c'est le moment où les marges s'effondrent."
+    angle: "Quand une valeur devient le sujet de toutes les conversations, une partie de la hausse est déjà passée. Suivre la foule, c'est souvent arriver en dernier."
+    brille: "Vous saurez pourquoi les meilleures affaires sont rarement celles dont tout le monde parle."
+    origine: mini
+
+  - id: opportunites-ennuyeuses
+    notion: "les bonnes opportunités sont souvent ennuyeuses"
+    famille: tete-et-methode
+    niveau: 2
+    titre: "Pourquoi ce qui rapporte n'est pas ce qui excite"
+    metaphore: "La boutique de bougies et de savon ne fait rêver personne. Elle nourrit trois familles depuis quinze ans, sans un mois d'interruption."
+    angle: "Une entreprise régulière, peu spectaculaire, bien gérée, produit rarement des histoires excitantes — et souvent les meilleurs résultats sur la durée."
+    brille: "Vous saurez pourquoi les investisseurs expérimentés s'ennuient — et s'en félicitent."
+    origine: mini
+
+  - id: plan-investissement
+    notion: "le plan d'investissement écrit"
+    famille: tete-et-methode
+    niveau: 1
+    titre: "La page qui vous sauvera le jour où ça chutera"
+    metaphore: "On décide de la conduite à tenir en cas de panne avant de prendre la route, pas au bord du fossé à minuit."
+    angle: "Écrire à l'avance combien on investit, dans quoi, pour combien de temps, et ce qu'on fait en cas de baisse, évite de décider sous le coup de la peur. La feuille vaut plus que la stratégie."
+    brille: "Vous aurez, noir sur blanc, ce que 95 % des investisseurs gardent dans leur tête — et oublient en pleine panique."
+    origine: article
+
+  - id: profil-investisseur
+    notion: "le profil d'investisseur"
+    famille: tete-et-methode
+    niveau: 1
+    titre: "Prudent, équilibré, offensif : ça se décide comment ?"
+    metaphore: "On ne charge pas la même chose dans une moto, une bâchée et un camion. Avant de choisir la marchandise, on regarde le véhicule."
+    angle: "Votre profil dépend de votre horizon, de vos revenus et de votre capacité réelle à voir votre épargne baisser sans paniquer. Ce n'est pas une question de courage, mais de situation."
+    brille: "Vous saurez pourquoi le « meilleur placement » n'existe pas dans l'absolu."
+    origine: lexique
+
+  - id: calculer-son-rendement
+    notion: "calculer le rendement de son portefeuille"
+    famille: tete-et-methode
+    niveau: 2
+    titre: "Vous gagnez combien, vraiment ?"
+    metaphore: "La commerçante qui ne compte jamais sa caisse peut travailler dix ans sans savoir si elle gagne réellement sa vie. Elle a l'impression, pas le chiffre."
+    angle: "Le rendement réel tient compte des versements successifs, des frais et des dividendes. Sans ce calcul, impossible de savoir si vous faites mieux que de laisser l'argent dormir."
+    brille: "Vous serez capable de dire un chiffre là où les autres disent « ça va, je crois »."
+    origine: mini
+
+  - id: fondamentale-vs-technique
+    notion: "analyse fondamentale et analyse technique"
+    famille: tete-et-methode
+    niveau: 2
+    titre: "Deux façons de regarder la même action"
+    metaphore: "Pour acheter un poisson, l'un regarde l'œil et les branchies ; l'autre observe la file d'attente devant l'étal. Les deux apprennent quelque chose de différent."
+    angle: "L'analyse fondamentale étudie l'entreprise (bénéfices, dettes, métier) ; l'analyse technique étudie le comportement du cours et des volumes. Elles répondent à deux questions distinctes : quoi acheter, et quand."
+    brille: "Vous sortirez du faux débat « laquelle est la bonne ? »"
+    origine: mini
+
+  - id: analyse-quantitative
+    notion: "l'analyse quantitative"
+    famille: tete-et-methode
+    niveau: 3
+    titre: "Quand ce sont les chiffres qui trient"
+    metaphore: "Au lieu de goûter 200 mangues une par une, on les passe au calibreur : taille, poids, couleur. Il reste 20 mangues à goûter."
+    angle: "L'approche quantitative applique des critères chiffrés à toute la cote pour réduire le champ. Elle ne remplace pas le jugement : elle lui évite de se noyer."
+    brille: "Vous connaîtrez la troisième approche, celle dont personne ne parle entre les deux autres."
+    origine: mini
+
+  - id: lire-les-volumes
+    notion: "lire les volumes d'échange"
+    famille: tete-et-methode
+    niveau: 3
+    titre: "Ce que le nombre d'échanges raconte"
+    metaphore: "Un prix qui monte avec la foule au marché, ce n'est pas la même chose qu'un prix qui monte alors que deux personnes seulement ont acheté."
+    angle: "Une variation sur un très faible volume ne dit presque rien. La même variation sur un volume inhabituel signale que quelque chose bouge réellement."
+    brille: "Vous ne réagirez plus à un « +7 % » sans regarder combien de titres ont changé de mains."
+    origine: mini
+
+  - id: attentes-vs-resultats
+    notion: "le marché réagit aux attentes, pas aux chiffres"
+    famille: tete-et-methode
+    niveau: 3
+    titre: "Bons résultats, action qui baisse : pourquoi ?"
+    metaphore: "L'élève rentre avec 14 sur 20. Bravo — sauf que toute la famille attendait 17. L'ambiance à table dépend de l'attente, pas de la note."
+    angle: "Le cours intègre à l'avance ce que le marché anticipe. Ce qui le fait bouger, c'est l'écart entre le résultat publié et ce qui était attendu."
+    brille: "Vous expliquerez le paradoxe qui déroute tous les débutants après une publication."
+    origine: mini
+
+  - id: trois-questions-avant-achat
+    notion: "les trois questions à se poser avant chaque achat"
+    famille: tete-et-methode
+    niveau: 1
+    titre: "Avant de cliquer, trois questions"
+    metaphore: "Avant de charger la marchandise, le transporteur vérifie trois choses : où ça va, combien ça pèse, et qui paie le carburant. Toujours les mêmes trois."
+    angle: "Pourquoi cette entreprise ? À quel prix est-ce raisonnable ? Et dans quel cas j'aurai eu tort ? La troisième est celle que tout le monde saute."
+    brille: "Vous aurez une check-list de trente secondes qui évite la plupart des mauvaises décisions."
+    origine: mini
+
+  - id: trading-rente-croissance
+    notion: "trading, rente ou croissance : pourquoi vous achetez"
+    famille: tete-et-methode
+    niveau: 2
+    titre: "Vous achetez pour quoi, au juste ?"
+    metaphore: "On n'achète pas la même moto pour faire le taxi tous les jours, pour la revendre dans trois mois, ou pour la prêter à son frère au village."
+    angle: "Chercher un revenu régulier, viser une plus-value dans quelques années, ou spéculer à court terme : trois intentions, trois façons de choisir. Les mélanger, c'est se contredire."
+    brille: "Vous saurez dire en une phrase pourquoi chaque ligne est dans votre portefeuille."
+    origine: mini
+
+  # ─── L'argent du quotidien ────────────────────────────────────────────────
+  - id: epargner-vs-investir
+    notion: "épargner et investir, ce n'est pas la même chose"
+    famille: argent-du-quotidien
+    niveau: 1
+    titre: "Mettre de côté, ou faire travailler"
+    metaphore: "Le sac de maïs rangé dans la chambre est en sécurité, mais il ne fait pas de petits — et les charançons finissent par en manger une partie. Le même maïs semé peut nourrir plus l'an prochain."
+    angle: "Épargner protège ; investir fait croître, avec un risque. Les deux sont nécessaires, dans cet ordre : on n'investit jamais avant d'avoir une réserve de sécurité."
+    brille: "Vous poserez la première question utile à quiconque veut « se lancer » : as-tu déjà ta réserve ?"
+    origine: article
+
+  - id: combien-pour-commencer
+    notion: "combien faut-il pour commencer en bourse"
+    famille: argent-du-quotidien
+    niveau: 1
+    titre: "Faut-il être riche pour investir à la BRVM ?"
+    metaphore: "On n'attend pas d'avoir de quoi remplir un camion pour commencer à vendre : on démarre avec une cuvette, et on grandit."
+    angle: "L'obstacle n'est pas le montant mais la régularité et les frais fixes. Mieux vaut de petits versements réguliers qu'un gros versement remis à plus tard depuis trois ans."
+    brille: "Vous démonterez l'excuse numéro un de ceux qui n'ont jamais commencé."
+    origine: article
+
+  - id: inflation-epargne-dormante
+    notion: "l'inflation qui grignote l'épargne dormante"
+    famille: argent-du-quotidien
+    niveau: 1
+    titre: "L'argent qui dort perd du poids"
+    metaphore: "Les 100 000 FCFA cachés dans l'armoire il y a cinq ans sont toujours 100 000 FCFA. Mais le sac de riz qu'ils achetaient a changé de prix, lui."
+    angle: "Ne pas placer son argent n'est pas neutre : c'est accepter une perte silencieuse de pouvoir d'achat, chaque année, sans relevé pour vous le rappeler."
+    brille: "Vous rendrez visible la perte que personne ne voit — parce qu'elle n'apparaît sur aucun relevé."
+    origine: article
+
+  - id: se-payer-d-abord
+    notion: "se payer d'abord"
+    famille: argent-du-quotidien
+    niveau: 1
+    titre: "Épargner ce qui reste ne marche jamais"
+    metaphore: "La vendeuse qui met sa part de côté avant de payer le fournisseur finit l'année avec quelque chose. Celle qui attend « ce qui restera » finit avec le fond de la cuvette."
+    angle: "Le virement automatique le jour de la paie transforme une intention en habitude. C'est la seule méthode qui résiste aux imprévus du mois."
+    brille: "Vous donnerez le conseil le plus banal et le plus efficace de la finance personnelle."
+    origine: article
+
+  - id: tontine-et-bourse
+    notion: "la tontine et la bourse, ce qui change"
+    famille: argent-du-quotidien
+    niveau: 1
+    titre: "Vous connaissez déjà la moitié du sujet"
+    metaphore: "La tontine met en commun l'argent d'un groupe pour financer un projet à tour de rôle. La bourse fait pareil à l'échelle d'un pays — sauf que le tour ne revient pas, et que ce qu'on reçoit dépend de la réussite de l'entreprise."
+    angle: "Le réflexe de mise en commun existe déjà partout dans la région. La bourse ajoute deux choses : la liquidité (on peut sortir) et le partage du risque de l'entreprise."
+    brille: "Vous ferez comprendre la bourse en trente secondes à quelqu'un qui n'y connaît rien."
+    origine: cauri
+
+  - id: investir-a-credit
+    notion: "investir avec de l'argent emprunté"
+    famille: argent-du-quotidien
+    niveau: 2
+    titre: "Emprunter pour investir : accélérateur ou piège ?"
+    metaphore: "Le crédit, c'est un moteur plus puissant sur la même route : ça va plus vite dans la bonne direction, et beaucoup plus vite dans le fossé."
+    angle: "L'emprunt multiplie les gains comme les pertes, mais l'échéance de remboursement, elle, ne se négocie pas avec le marché. C'est le décalage entre les deux qui ruine."
+    brille: "Vous saurez expliquer pourquoi une bonne idée financée à crédit peut mal finir."
+    origine: article
+
+  - id: fonds-d-urgence
+    notion: "le matelas de sécurité avant la bourse"
+    famille: argent-du-quotidien
+    niveau: 1
+    titre: "Ce qu'il faut avoir AVANT d'acheter sa première action"
+    metaphore: "On ne part pas en voyage sans la roue de secours, même si on n'a jamais crevé. Le jour où ça arrive, ce n'est pas le moment de vendre le pneu avant."
+    angle: "Trois à six mois de dépenses disponibles évitent d'avoir à vendre ses actions au pire moment, en cas de coup dur. C'est cette réserve qui rend l'investissement supportable."
+    brille: "Vous saurez expliquer pourquoi la meilleure décision boursière se prend avant d'acheter."
+    origine: article
+
+  - id: immobilier-vs-bourse
+    notion: "l'immobilier et la bourse"
+    famille: argent-du-quotidien
+    niveau: 2
+    titre: "Le terrain ou les actions ?"
+    metaphore: "Un terrain, ça se montre à la belle-famille. Un portefeuille, non. Mais le terrain se vend en six mois et par blocs entiers, alors qu'on peut vendre trois actions un mardi matin."
+    angle: "L'immobilier est visible, tangible, financé à crédit, mais lourd à revendre et coûteux en frais. La bourse est liquide, divisible, accessible avec peu — et invisible. Les deux se complètent plus qu'ils ne s'opposent."
+    brille: "Vous tiendrez la conversation la plus fréquente des familles ouest-africaines avec des arguments, pas des convictions."
+    origine: cauri
+
+  - id: diaspora-investir-au-pays
+    notion: "investir au pays depuis l'étranger"
+    famille: argent-du-quotidien
+    niveau: 2
+    titre: "Envoyer de l'argent, ou le faire travailler ?"
+    metaphore: "Envoyer 200 000 FCFA chaque mois nourrit une famille. Mettre une partie dans un commerce qui tourne finit par nourrir la famille sans l'envoi."
+    angle: "Les transferts de la diaspora dépassent souvent l'aide publique reçue par les pays. Orientés vers des placements productifs plutôt que la seule consommation, ils changent d'échelle."
+    brille: "Vous donnerez une réponse concrète à ceux qui disent vouloir « investir au pays » sans savoir par où."
+    origine: cauri
+
+  - id: reconnaitre-une-arnaque
+    notion: "reconnaître une arnaque financière"
+    famille: argent-du-quotidien
+    niveau: 1
+    titre: "Le rendement garanti, ce mot qui doit vous alerter"
+    metaphore: "Personne ne vous garantit que la pluie tombera. Celui qui vous garantit 10 % par mois vous garantit surtout qu'il a besoin de votre argent maintenant."
+    angle: "Trois signaux suffisent : un rendement élevé présenté comme certain, l'urgence à décider, et une structure non agréée. Un seul des trois justifie déjà de refuser."
+    brille: "Vous donnerez à votre entourage un filtre en trois points qui évite l'essentiel des pièges."
+    origine: article
+
+  - id: transmettre-son-portefeuille
+    notion: "transmettre son portefeuille"
+    famille: argent-du-quotidien
+    niveau: 3
+    titre: "Et si demain, vous n'êtes plus là ?"
+    metaphore: "Le champ familial dont personne ne connaît les limites finit toujours par créer une dispute. Le compte-titres dont personne ne connaît l'existence, c'est pire : il disparaît."
+    angle: "Un compte-titres se transmet, mais encore faut-il que quelqu'un sache qu'il existe et chez quelle SGI. Le dire à un proche coûte cinq minutes."
+    brille: "Vous poserez la question que personne n'ose poser dans les familles."
+    origine: cauri
+
+  - id: d-ou-vient-l-argent-a-investir
+    notion: "dégager de quoi investir"
+    famille: argent-du-quotidien
+    niveau: 1
+    titre: "Investir avec quel argent ?"
+    metaphore: "On ne trouve pas d'eau en creusant plus fort au même endroit : on cherche là où elle passe. Le premier gisement, c'est ce qui sort du budget sans qu'on s'en rende compte."
+    angle: "L'argent à investir vient rarement d'une augmentation : il vient d'une dépense identifiée et redirigée. Écrire ses dépenses un mois suffit souvent à trouver de quoi commencer."
+    brille: "Vous transformerez « je n'ai pas les moyens » en un exercice concret d'un mois."
+    origine: article

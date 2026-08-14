@@ -24,6 +24,10 @@ OUT_DIR = ROOT / "out"
 CHARTE_PATH = ROOT / "charte-editoriale-newsletter-brvm.md"
 FILTRE_PATH = ROOT / "filtre-selection-editoriale-newsletter-brvm.md"
 SOURCES_PATH = ROOT / "sources.yaml"
+# Réservoir de notions pour « La leçon » (rédigées dans notre ton) + trace de ce qui a
+# déjà été dépouillé côté source pédagogique, pour que le refresh ne repasse pas dessus.
+BANQUE_LECONS_PATH = ROOT / "banque-lecons.yaml"
+LECONS_SOURCE_INDEX_PATH = ROOT / "lecons-source-index.json"
 # Template canonique : sert d'exemple ton/style au rédacteur ET de source du <style>
 # (le CSS du modèle est remplacé par celui-ci après génération → styles verrouillés).
 TEMPLATE_PATH = ROOT / "newsletter-template.html"
@@ -40,6 +44,10 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 MODEL_QUALIFY = os.environ.get("MODEL_QUALIFY", "anthropic/claude-sonnet-4.6")
 MODEL_SELECT = os.environ.get("MODEL_SELECT", "google/gemini-2.5-flash-lite")
 MODEL_WRITE = os.environ.get("MODEL_WRITE", "anthropic/claude-sonnet-4.6")
+# Rédaction des nouvelles entrées de la banque de leçons (refresh_lecons.py, manuel et
+# rare) : c'est de l'écriture de ton, pas du tri — on y met le même modèle que la
+# rédaction, pas un modèle léger.
+MODEL_LECONS = os.environ.get("MODEL_LECONS", MODEL_WRITE)
 
 # --- Ghost ---
 GHOST_URL = os.environ.get("GHOST_URL", "").rstrip("/")
@@ -83,6 +91,29 @@ HISTORY_RETENTION_DAYS = int(os.environ.get("HISTORY_RETENTION_DAYS", "45"))
 # pas avant des mois).
 TOPICS_PATH = ROOT / "topics.json"
 TOPICS_RETENTION_DAYS = int(os.environ.get("TOPICS_RETENTION_DAYS", "120"))
+
+# --- Banque de leçons ---
+# Nombre de notions proposées au sélectionneur à chaque numéro (il n'en gardera qu'une,
+# mais un choix de 6 lui laisse de quoi préférer celle qui colle à l'actu du jour).
+LECONS_PAR_NUMERO = int(os.environ.get("LECONS_PAR_NUMERO", "6"))
+# En dessous de ce stock de notions inédites, le run alerte : il est temps de lancer
+# `python refresh_lecons.py --refresh` (≈ 3 semaines de marge à 5 numéros/semaine).
+LECONS_SEUIL_ALERTE = int(os.environ.get("LECONS_SEUIL_ALERTE", "15"))
+# Source pédagogique dépouillée par le refresh. ⚠️ UA : richbourse.com renvoie 403 à
+# l'User-Agent du scraper (CauriNewsBot) — testé le 2026-08-13 — mais 200 à un UA
+# navigateur. Leur robots.txt autorise explicitement les crawlers d'IA sur le contenu
+# pédagogique gratuit (seul /site/premium est fermé). Ne pas « corriger » cet UA.
+LECONS_SOURCE_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+)
+LECONS_SOURCE_PAGES = {
+    "mini": "https://www.richbourse.com/common/apprendre/mini-bourse",
+    "articles": "https://www.richbourse.com/common/apprendre/articles",
+    "lexique": "https://www.richbourse.com/common/lexique/index",
+}
+# Garde-fou coût : nombre max de nouvelles thématiques rédigées en un seul refresh.
+LECONS_REFRESH_MAX = int(os.environ.get("LECONS_REFRESH_MAX", "25"))
 
 # Liens fonctionnels toujours autorisés (en plus des URLs scrapées, vivantes par
 # construction). Tout <a> pointant ailleurs est délié à la publication (anti-URL morte).

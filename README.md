@@ -40,6 +40,44 @@ scrape → [fraîcheur + anti-répétition] → qualify → select → write →
 Chaque étape valide sa sortie avec **Pydantic** (`agents/models.py`) et persiste un
 artefact dans `out/<date>/` pour inspection.
 
+## Banque de leçons (« La leçon »)
+
+`banque-lecons.yaml` est un réservoir de **notions déjà rédigées dans notre ton** (charte
+§7) : une notion, un titre, une métaphore du quotidien ouest-africain, un angle, une phrase
+« pour briller ». À chaque numéro, `agents/lecons.py` en propose quelques-unes au
+sélectionneur, qui doit y piocher `la_lecon` — la métaphore et l'angle descendent jusqu'au
+rédacteur via `faits_cles`. Objectif : plus de leçon générique ressortie faute d'idée, et
+une progression pédagogique (les fondamentaux d'abord).
+
+- **Filtrage** : une notion déjà publiée (rapprochement avec `topics.json`) sort du pool.
+  Le rapprochement est volontairement strict — un faux positif brûlerait une leçon jamais
+  donnée, alors qu'un faux négatif reste rattrapé par la liste « leçons déjà données »
+  envoyée en parallèle au sélectionneur et au rédacteur.
+- **Rotation** : à niveau égal, les familles servies aux derniers numéros passent derrière
+  (pas quatre leçons « dividende » d'affilée).
+- **Épuisement — deux mécanismes** :
+  1. `python refresh_lecons.py --refresh` **agrandit** la banque : il relit l'offre
+     pédagogique publique de Richbourse (mini-bourse, articles, lexique), écarte tout ce qui
+     est déjà dépouillé (`lecons-source-index.json`), et fait rédiger les nouveautés dans
+     notre ton (`prompts/lecons-refresh.md`). On ne reprend que des **sujets** : aucun texte
+     de la source n'est copié. Manuel, car il coûte des tokens et mérite une relecture.
+  2. **Recyclage automatique** (filet de sécurité) : si plus aucune notion inédite n'est
+     disponible, `agents/lecons.py` repropose les plus anciennes en imposant au rédacteur un
+     angle et une métaphore neufs. Le pipeline ne se retrouve jamais sans matière.
+
+```bash
+python -m agents.lecons                  # état de la banque + prochaines notions
+python refresh_lecons.py                 # idem, avec les seuils d'alerte
+python refresh_lecons.py --scan          # + relève les thématiques inédites (sans LLM)
+python refresh_lecons.py --refresh --dry-run   # + rédige et affiche, sans rien écrire
+python refresh_lecons.py --refresh       # + ajoute à la banque (à relire avant commit)
+```
+
+⚠️ `richbourse.com` renvoie **403** à l'User-Agent du scraper (`CauriNewsBot`) et **200** à
+un UA navigateur (`config.LECONS_SOURCE_UA`) — l'inverse du piège habituel. Leur robots.txt
+autorise nommément les crawlers d'IA sur le contenu pédagogique gratuit ; seule la page de
+tarifs leur est fermée.
+
 ## Choix techniques
 
 - **Pas de framework d'agents** : chaîne déterministe → Python nu + SDK OpenAI sur OpenRouter.
@@ -64,7 +102,8 @@ python run.py --no-publish          # génère sans publier (test, nécessite OP
 python run.py                       # génère + publie (status = PUBLISH_STATUS)
 python run.py --date 2026-07-06     # forcer une date
 
-python smoke_test.py 2026-07-07     # test hors-LLM : scrape + dates + fraîcheur + marché (aucune clé requise)
+python smoke_test.py 2026-07-07     # test hors-LLM : scrape + dates + fraîcheur + marché + banque de leçons (aucune clé requise)
+python -m agents.lecons             # état de la banque de leçons (ni réseau, ni clé)
 ```
 
 ## Sources câblées (`sources.yaml`)

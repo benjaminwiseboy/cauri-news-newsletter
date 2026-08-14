@@ -4,7 +4,8 @@ import sys
 from collections import Counter
 
 from agents import scrape
-from agents.curate import filter_fresh
+from agents.curate import TopicsMemory, filter_fresh
+from agents.lecons import Banque
 
 edition = sys.argv[1] if len(sys.argv) > 1 else "2026-07-07"
 
@@ -34,3 +35,16 @@ print("\n----- Répartition des dates gardées -----")
 for d, n in sorted(Counter(it.published_at for it in fresh).items(), key=lambda kv: kv[0] or ""):
     print(f"  {d or '(exempté/sans date)'}: {n}")
 print(f"\nRÉSULTAT : {len(out.items)} scrapées → {len(fresh)} fraîches pour l'édition {edition}")
+
+print("\n########## BANQUE DE LEÇONS ##########")
+banque, topics = Banque.load(), TopicsMemory.load()
+e = banque.etat(topics, exclude_date=edition)
+print(f"{e['restantes']}/{e['total']} notions inédites ({e['publiees']} déjà publiées)"
+      + ("  ⚠️ ÉPUISÉE" if e["epuisee"] else "  ⚠️ SOUS LE SEUIL" if e["alerte"] else ""))
+for x in banque.propose(topics, exclude_date=edition, n=3):
+    print(f"  [{x.niveau}·{x.famille}] {x.notion}" + (f"  (RAPPEL {x.rappel})" if x.rappel else ""))
+# Le recyclage doit tenir même si toutes les notions ont été données.
+epuisee = TopicsMemory({"lecon": {x.notion: "2026-01-01" for x in banque.lecons}})
+recyc = banque.propose(epuisee, n=2)
+print(f"Recyclage à vide : {len(recyc)} candidat(s), "
+      f"rappel daté = {all(x.rappel for x in recyc)}")

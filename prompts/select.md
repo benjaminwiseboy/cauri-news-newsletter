@@ -31,11 +31,15 @@ Consignes fortes par section :
   3. puis économie africaine plus large ayant un lien avec la BRVM/l'UEMOA.
   JAMAIS de politique/conflit/fait divers/santé/sport en hot_news. Le candidat de tête
   (score le plus haut) doit être, si une telle info existe, DIRECTEMENT BRVM.
-- **la_lecon** : privilégier un concept d'INVESTISSEMENT ou de bourse concret et utile
-  au lecteur (ex. dividende, PER, rendement, diversification, ordre de bourse, OPCVM/SICAV,
-  capitalisation boursière, risque/volatilité, marché primaire vs secondaire, obligation…).
-  Éviter les leçons macro vagues. Le concept doit pouvoir s'expliquer SIMPLEMENT, via une
-  analogie du quotidien africain (peu technique) — écarte ce qui exige trop de bagage.
+- **la_lecon** : une BANQUE DE LEÇONS te sera fournie (notions déjà calibrées à notre ton,
+  avec métaphore et angle). Quand elle est là, tes candidats `la_lecon` en viennent
+  EXCLUSIVEMENT — tu recopies la métaphore, l'angle et la phrase « pour briller » dans
+  `faits_cles`, ce sont eux qui portent le ton jusqu'au rédacteur. Tu peux réordonner les
+  notions pour remonter celle qui éclaire le mieux l'actu du jour. À défaut de banque
+  seulement : un concept d'INVESTISSEMENT ou de bourse concret et utile au lecteur
+  (ex. dividende, PER, rendement, diversification, ordre de bourse, OPCVM/SICAV, risque…),
+  jamais une leçon macro vague, et toujours explicable SIMPLEMENT par une analogie du
+  quotidien africain — écarte ce qui exige trop de bagage.
 - **sur_le_continent** : actus africaines à angle économique/structurel (changement
   structurel, business, reconnexion diaspora), pas du pur politique/conflit. La rédaction
   choisira 3 candidats de PAYS DIFFÉRENTS parmi tes propositions : dans la mesure du

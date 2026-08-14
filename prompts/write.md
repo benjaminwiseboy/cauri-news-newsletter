@@ -26,6 +26,11 @@ seules les infos du jour font foi.
   jamais les initiales ("SN", "MR"…).
 - "La leçon" : simple et digeste, sans jargon, expliquée par une ANALOGIE du quotidien
   africain (marché, tontine, mobile money, transport, champ, boutique de quartier…).
+  Si les `faits_cles` du candidat "La leçon" contiennent déjà une métaphore, un angle et
+  une phrase « pour briller », ils viennent de NOTRE banque de leçons : sers-t'en comme
+  matière première. Tu peux les reformuler, les développer, les relier à l'actu du jour —
+  mais ne remplace pas la métaphore fournie par un décor générique, et garde la phrase
+  finale qui fait du savoir un atout social.
 
 Entrées :
 - La DATE d'édition déjà formatée en français (à utiliser TELLE QUELLE dans l'en-tête et

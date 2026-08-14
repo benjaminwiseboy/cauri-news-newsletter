@@ -16,7 +16,7 @@ import sys
 from datetime import date
 
 import config
-from agents import digest, publish, qualify, scrape, select, write
+from agents import digest, lecons, publish, qualify, scrape, select, write
 from agents.curate import History, TopicsMemory, filter_fresh
 
 
@@ -64,13 +64,19 @@ def main() -> int:
     avoid_chiffres = topics.recent("sack_chiffre", exclude_date=day)
     avoid_funfacts = topics.recent("sack_funfact", exclude_date=day)
 
+    # Banque de leçons : notions inédites déjà calibrées à notre ton, proposées au
+    # sélectionneur. Épuisée, elle recycle d'elle-même les plus anciennes (et le log
+    # rappelle de lancer refresh_lecons.py pour la réalimenter à la source).
+    banque_bloc, _ = lecons.bloc_du_jour(topics, day)
+
     # 2. Qualifie
     qualified = qualify.run(scraped)
     _save(day_dir, "02_qualified.json", qualified.model_dump_json(indent=2))
 
     # 3. Sélectionne 5 candidats/section (leçons déjà données exclues)
     selection = select.run(scraped, qualified, avoid_lecons=avoid_lecons,
-                           avoid_recent_topics=avoid_recent_topics)
+                           avoid_recent_topics=avoid_recent_topics,
+                           banque_lecons=banque_bloc)
     _save(day_dir, "03_selection.json", selection.model_dump_json(indent=2))
 
     # 4a. Brouillon BRUT (draft 1) : infos candidates + score, non formatées — déterministe.

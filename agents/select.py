@@ -10,7 +10,8 @@ from agents.models import QualifyOutput, ScrapeOutput, SelectOutput
 
 def run(scraped: ScrapeOutput, qualified: QualifyOutput,
         avoid_lecons: list[str] | None = None,
-        avoid_recent_topics: list[str] | None = None) -> SelectOutput:
+        avoid_recent_topics: list[str] | None = None,
+        banque_lecons: str = "") -> SelectOutput:
     # System prompt volontairement allégé : prompts/select.md porte à lui seul toutes les
     # consignes de sélection (par section + anti-redondance). La charte éditoriale complète
     # (~19K car. : ton, HTML, gabarit...) ne concerne que la RÉDACTION (write.py) — l'injecter
@@ -53,6 +54,7 @@ def run(scraped: ScrapeOutput, qualified: QualifyOutput,
         f"5 candidats (titre + angle + faits_clés + score de priorité 0-100), "
         f"TRIÉS du plus au moins pertinent, en respectant les seuils et l'anti-redondance "
         f"de la charte."
+        f"{banque_lecons}"
         f"{avoid_block}"
         f"{recent_block}\n\n"
         f"ACTUS QUALIFIÉES :\n{json.dumps(retained, ensure_ascii=False, indent=2)}"
