@@ -135,6 +135,14 @@
     "date": "2026-08-17",
     "title": "De la recherche au champ : transformer les systèmes semenciers africains"
   },
+  "u:http://fr.africanews.com/2026/08/16/rdc-la-riposte-contre-ebola-fragilisee-par-le-manque-de-moyens": {
+    "date": "2026-08-18",
+    "title": "RDC : la riposte contre Ebola fragilisée par le manque de moyens"
+  },
+  "u:http://fr.africanews.com/2026/08/16/soudan-du-sud-laide-humanitaire-est-au-bord-de-la-rupture": {
+    "date": "2026-08-18",
+    "title": "Soudan du Sud : l’aide humanitaire est au bord de la rupture selon l'ONU"
+  },
   "u:https://api.worldbank.org/v2/country/ben/indicator/fx.own.totl.zs": "2026-07-10",
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": "2026-07-10",
   "u:https://api.worldbank.org/v2/country/bfa/indicator/fx.own.totl.zs": {
@@ -243,6 +251,10 @@
   },
   "u:https://ecomatin.net/kribi-le-projet-dusine-de-45-milliards-fcfa-de-noubru-holding-vire-au-contentieux-judiciaire": "2026-08-04",
   "u:https://ecomatin.net/rca-bangui-recoit-des-drones-starlink-et-gps-pour-moderniser-la-prospection-miniere": "2026-07-29",
+  "u:https://ecomatin.net/rdc-rdc-afriland-first-bank-congo-se-rapproche-du-depot-de-bilan-trois-ans-apres-leviction-de-paul-kammogne-fokam": {
+    "date": "2026-08-18",
+    "title": "RDC : Afriland First Bank Congo  se rapproche du dépôt de bilan, trois ans après l'éviction de Paul Kammogne Fokam"
+  },
   "u:https://ecomatin.net/republique-centrafricaine-la-centrale-solaire-de-sakai-2-livre-ses-premiers-15-megawatts-delectricite": "2026-08-06",
   "u:https://ecomatin.net/tchad-la-filiale-de-castel-retire-du-marche-deux-lots-de-leau-minerale-cristal": "2026-07-30",
   "u:https://fr.allafrica.com/stories/202607060675.html": "2026-07-07",
@@ -430,6 +442,22 @@
   "u:https://fr.allafrica.com/stories/202608150189.html": {
     "date": "2026-08-17",
     "title": "S&#xe9;n&#xe9;gal: Esport - Ndeye Fatma Diop, premi&#xe8;re S&#xe9;n&#xe9;galaise qualifi&#xe9;e pour une phase finale mondiale"
+  },
+  "u:https://fr.allafrica.com/stories/202608170179.html": {
+    "date": "2026-08-18",
+    "title": "Afrique de l'Ouest: AES - Vers une souverainet&#xe9; m&#xe9;dicale d&#xe9;cisive d'ici novembre 2026"
+  },
+  "u:https://fr.allafrica.com/stories/202608170638.html": {
+    "date": "2026-08-18",
+    "title": "Nigeria: La raffinerie Dangote exclut pour l'instant une cotation &#xe0; l'&#xe9;tranger dans le cadre de son projet d'introduction en bourse"
+  },
+  "u:https://fr.allafrica.com/stories/202608170650.html": {
+    "date": "2026-08-18",
+    "title": "S&#xe9;n&#xe9;gal: Trafic a&#xe9;rien - L'Aibd franchit le cap des 258 000 passagers en mai, le fret recule"
+  },
+  "u:https://fr.allafrica.com/stories/202608170651.html": {
+    "date": "2026-08-18",
+    "title": "Burkina Faso: Gouvernance mini&#xe8;re - Une forte mobilisation citoyenne autour du rapport ITIE 2024 &#xe0; Sapouy, L&#xe9;o et Orodara"
   },
   "u:https://fr.apanews.net/business/african-mining-week-2026-la-guinee-legypte-et-le-nigeria-en-vedette": "2026-08-05",
   "u:https://fr.apanews.net/business/afrique-australe-airlink-ouvrira-une-liaison-directe-lanseria-harare-en-novembre": "2026-08-04",
@@ -662,6 +690,10 @@
     "date": "2026-08-17",
     "title": "Jumia réduit sa voilure et lève 50 millions de dollars pour viser la rentabilité"
   },
+  "u:https://www.agenceecofin.com/actualites/1708-140911-niger-le-canadien-zimar-va-investir-1-9-milliard-dans-un-complexe-de-raffinage": {
+    "date": "2026-08-18",
+    "title": "Niger : le canadien Zimar va investir 1,9 milliard $ dans un complexe de raffinage"
+  },
   "u:https://www.agenceecofin.com/actualites/2407-140498-au-dela-de-la-victoire-de-didier-drogba-les-e1-series-peuvent-elles-accelerer-leconomie-bleue-africaine": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites/2407-140501-international-budget-partnership-ouvre-a-dakar-son-bureau-regional-afrique-francophone": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites/2707-140528-le-nigeria-elargit-lacces-au-credit-des-jeunes-entrepreneurs-pour-developper-les-pme": "2026-07-28",
@@ -674,6 +706,10 @@
     "title": "Moody's relève la note du Bénin d'un cran, à \"Ba3"
   },
   "u:https://www.aip.ci/cote-divoire-aip-diplomatie-economique-lambassadeur-du-royaume-des-pays-bas-conduit-une-mission-decoute-a-bouake": "2026-07-30",
+  "u:https://www.aip.ci/cote-divoire-aip-la-depute-maire-mariatou-kone-inaugure-le-marche-de-gros-de-guinguereni": {
+    "date": "2026-08-18",
+    "title": "Côte d’Ivoire-AIP/ La député-maire Mariatou Koné inaugure le marché de gros de Guinguéréni"
+  },
   "u:https://www.aip.ci/cote-divoire-aip-le-conseil-municipal-du-sandegue-adopte-un-programme-triennal-2027-2029-de-84-projets": "2026-08-04",
   "u:https://www.brvm.org/sites/default/files/20260707_-_calendrier_de_paiement_des_dividendes_-_exercice_2025.pdf": "2026-07-09",
   "u:https://www.brvm.org/sites/default/files/20260708_-_calendrier_de_paiement_des_dividendes_-_exercice_2025.pdf": "2026-07-10",
@@ -721,6 +757,18 @@
     "date": "2026-08-14",
     "title": "Le versement du dividende 2025 de la Société Africaine de Plantation d’Hévéas fixé au 28 août 2026"
   },
+  "u:https://www.financialafrik.com/2026/08/17/afrique-du-sud-22-milliards-pour-moderniser-transnet-et-relancer-les-exportations-sud-africaines": {
+    "date": "2026-08-18",
+    "title": "Afrique du Sud : 2,2 milliards $ pour moderniser Transnet et relancer les exportations sud-africaines"
+  },
+  "u:https://www.financialafrik.com/2026/08/17/can-feminine-2026-triomphe-des-lionnes-indomptables-sur-fonds-dun-financement-public-de-pres-de-5-millions-usd": {
+    "date": "2026-08-18",
+    "title": "CAN féminine 2026 : triomphe des Lionnes Indomptables sur fonds d’un financement public de près de 5 millions USD"
+  },
+  "u:https://www.financialafrik.com/2026/08/17/egypte-first-abu-dhabi-bank-misr-degage-1547-millions-usd-de-benefice-au-s1": {
+    "date": "2026-08-18",
+    "title": "Egypte: First Abu Dhabi Bank Misr dégage 154,7 millions USD de bénéfice au S1"
+  },
   "u:https://www.rfi.fr/fr/afrique/20260706-cinquante-et-un-apr%c3%a8s-l-ind%c3%a9pendance-de-leurs-pays-quatre-comoriens-entre-bilan-contrast%c3%a9-et-espoirs-mesur%c3%a9s": "2026-07-07",
   "u:https://www.rfi.fr/fr/afrique/20260709-afrique-du-sud-l-%c3%a9tat-g%c3%a8le-une-dotation-de-200-millions-de-dollars-destin%c3%a9e-johannesburg-%c3%a9pingl%c3%a9e-pour-sa-mauvaise-gestion": "2026-07-10",
   "u:https://www.rfi.fr/fr/afrique/20260709-c%c3%b4te-d-ivoire-80-milliards-de-dollars-promis-par-des-partenaires-pour-financer-le-plan-national-de-d%c3%a9veloppement": "2026-07-10",
@@ -728,6 +776,10 @@
   "u:https://www.rfi.fr/fr/afrique/20260709-rdc-le-s%c3%a9nat-valide-une-r%c3%a9vision-%c3%a0-la-baisse-du-budget-de-l-%c3%a9tat-marqu%c3%a9e-par-une-hausse-des-d%c3%a9penses-s%c3%a9curitaires": "2026-07-10",
   "u:https://www.rfi.fr/fr/afrique/20260709-s%c3%a9n%c3%a9gal-la-fili%c3%a8re-riz-presse-l-%c3%a9tat-d-agir-face-%c3%a0-l-accumulation-des-stocks-de-production-locale": "2026-07-10",
   "u:https://www.rfi.fr/fr/podcasts/invit%c3%a9-international/20260709-coupe-du-monde-2026-les-raisons-de-la-r%c3%a9ussite-et-l-ascension-du-football-marocain": "2026-07-10",
+  "u:https://www.rfi.fr/fr/podcasts/le-grand-invit%c3%a9-afrique/20260817-la-sadc-est-devenue-quasi-impuissante-selon-al-kitenge-expert-en-strat%c3%a9gie-%c3%a9conomique-et-en-innovation": {
+    "date": "2026-08-18",
+    "title": "«La SADC est devenue quasi impuissante», selon Al Kitenge, expert en stratégie économique et en innovation"
+  },
   "u:https://www.rfi.fr/fr/sports/20260709-coupe-du-monde-2026-gr%c3%a2ce-%c3%a0-mbapp%c3%a9-et-demb%c3%a9l%c3%a9-la-france-dompte-le-maroc-et-rallie-les-demi-finales": "2026-07-10",
   "u:https://www.sikafinance.com/marches/5g-le-ghana-a-laube-dune-nouvelle-ere-de-connectivite-plus-fluide-et-flexible_63206": "2026-07-27",
   "u:https://www.sikafinance.com/marches/afrique-apres-plusieurs-reports-l-agence-continentale-de-notation-de-credit-portee-par-l-ua-sera-lancee-le-6-octobre-a-maurice_63317": "2026-07-31",
@@ -754,6 +806,10 @@
   "u:https://www.sikafinance.com/marches/brvm-semaine-31-entre-fondamentaux-et-speculation-les-investisseurs-redefinissent-leurs-positions_63502": {
     "date": "2026-08-11",
     "title": "BRVM / SEMAINE 31 : Entre fondamentaux et spéculation, les investisseurs redéfinissent leurs positions"
+  },
+  "u:https://www.sikafinance.com/marches/brvm-semaine-32-lappetit-des-investisseurs-sintensifie-au-seuil-des-500-points_63631": {
+    "date": "2026-08-18",
+    "title": "BRVM / SEMAINE 32 : L’appétit des investisseurs s’intensifie au seuil des 500 points"
   },
   "u:https://www.sikafinance.com/marches/brvm-sicor-ci-signe-une-cinquieme-hausse-consecutive-et-franchit-le-cap-des-10-000-fcfa_63606": {
     "date": "2026-08-17",
@@ -848,6 +904,10 @@
   "u:https://www.sikafinance.com/marches/le-nigeria-mise-sur-le-conseil-agricole-numerique-pour-soutenir-des-millions-de-petits-producteurs_63320": "2026-07-31",
   "u:https://www.sikafinance.com/marches/le-nigeria-veut-mettre-fin-aux-exportations-de-cacao-brut-pour-developper-son-industrie-locale_62988": "2026-07-16",
   "u:https://www.sikafinance.com/marches/le-tresor-ivoirien-reporte-sa-prochaine-emission-sur-le-marche-regional-de-la-dette-publique-en-raison-dexcedents-de-tresorerie_63205": "2026-07-27",
+  "u:https://www.sikafinance.com/marches/magazine-sika-finance-les-grands-defis-de-la-logistique-africaine-au-cœur-du-24e-numero_63635": {
+    "date": "2026-08-18",
+    "title": "Magazine Sika Finance : Les grands défis de la logistique africaine au cœur du 24e numéro"
+  },
   "u:https://www.sikafinance.com/marches/malgre-un-debut-d-annee-difficile-les-startups-africaines-levent-1-4-milliard-usd-au-premier-semestre-2026_62814": "2026-07-08",
   "u:https://www.sikafinance.com/marches/mali-creation-de-la-societe-des-textiles-du-mali-une-usine-de-40-000-tonnesan-pour-accelerer-la-transformation-locale-du-coton_63308": "2026-07-31",
   "u:https://www.sikafinance.com/marches/mali-plus-de-760-milliards-fcfa-darrieres-dimpots-et-redevances-recuperes-en-5-ans-aupres-des-compagnies-minieres_62899": "2026-07-13",
@@ -859,6 +919,10 @@
   "u:https://www.sikafinance.com/marches/mineraux-critiques-l-afrique-veut-transformer-son-sous-sol-en-puissance-industrielle_62898": "2026-07-13",
   "u:https://www.sikafinance.com/marches/niger-ecobank-confie-sa-direction-generale-a-faycal-younoussou_63018": "2026-07-17",
   "u:https://www.sikafinance.com/marches/niger-la-mine-dor-de-samira-libiri-obtient-un-renouvellement-de-son-permis-pour-5-ans-avec-une-production-attendue-de-2-3-tonnes-dor_63053": "2026-07-20",
+  "u:https://www.sikafinance.com/marches/niger-pres-de-2-milliards-usd-pour-un-projet-de-raffinerie-de-100-000-bj-et-un-complexe-petrochimique_63632": {
+    "date": "2026-08-18",
+    "title": "Niger : Près de 2 milliards USD pour un projet de raffinerie de 100 000 b/j et un complexe pétrochimique"
+  },
   "u:https://www.sikafinance.com/marches/nigeria-aliko-dangote-prevoit-de-ceder-33-de-sa-fortune-a-des-œuvres-caritatives_63255": "2026-07-29",
   "u:https://www.sikafinance.com/marches/nigeria-nnpc-signe-six-accords-gaziers-pour-accelerer-lindustrialisation-et-renforcer-lapprovisionnement-energetique_62842": "2026-07-09",
   "u:https://www.sikafinance.com/marches/nigeria-seplat-energy-cede-10-de-sa-coentreprise-avec-la-nnpc-pour-281-6-millions-usd_63361": "2026-08-03",
