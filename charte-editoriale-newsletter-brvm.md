@@ -25,21 +25,30 @@ Chaque bloc est séparé par un filet horizontal fin. Une seule colonne, lecture
 ## 2. "Bonjour." — l'édito
 
 **Contenu**
-- **Accroche HORS-FINANCE — c'est un sas de décompression.** On ouvre sur du léger et familier (foot/CAN, Afrobeats, Nollywood, météo, vie « au pays », saison des mangues, fête, culture, sport…), **jamais** sur la BRVM ni la bourse. La finance n'arrive qu'au bloc « Marché en 30 secondes ». Objectif : baisser la barrière à l'entrée avant le moindre chiffre.
-- Angle humain, culturel ou de vie courante — jamais institutionnel.
+- **Accroche : deux régimes, dans cet ordre de priorité.**
+  1. **S'il existe un fait culturel ou sportif MAJEUR en cours**, on ouvre dessus (CAN ou grande compétition, album qui tourne partout, sortie Nollywood, Tabaski/Ramadan/fêtes, festival, sacre, disparition d'une figure…). « Majeur » = un événement réel, situé dans le temps, dont tout le monde parle **cette semaine-là**.
+  2. **Sinon, on ouvre sur la Hot news du jour**, prise par son angle le plus étonnant ou le plus savoureux — jamais son résumé sec. L'édito devient la bande-annonce du sujet principal du numéro, et c'est très bien ainsi : mieux vaut une vraie accroche sur l'info du jour qu'un crochet culturel forcé.
+- **Interdit absolu : fabriquer une accroche.** Pas de fait culturel exhumé, vague ou approximatif faute de mieux ; pas de généralité de saison (« c'est la saison des mangues », « le lundi est dur pour tout le monde ») ; pas de météo prétexte. **Test simple : si on ne peut pas NOMMER l'événement, précis et récent, on bascule sur le régime 2.** Un jour sans actualité culturelle est un jour normal, pas un problème à combler.
+- Si « Sack d'Afrique » manque de matière ce jour-là, ce n'est pas une raison pour étoffer l'édito en culture générale — resserrer au contraire sur l'info du jour.
+- Angle humain ou de vie courante — jamais institutionnel.
 - Une touche d'humour ou une private joke, toujours adossée à un fait réel.
 - Transition douce vers le sommaire.
 - **Signature : persona collectif** `— L'équipe Cauri ☕` (jamais un nom/prénom de rédacteur individuel — voir §14).
 
-**Ton**
-On vouvoie, mais on parle comme une connaissance bien informée qui prend un café avec vous avant l'ouverture des marchés — pas comme un bulletin officiel. Auto-dérision ponctuelle et private jokes récurrentes bienvenues.
+**Ton — identique dans les deux régimes : léger, un peu drôle, relax.**
+On vouvoie, mais on parle comme une connaissance bien informée qui prend un café avec vous avant l'ouverture des marchés — pas comme un bulletin officiel. Auto-dérision ponctuelle et private jokes récurrentes bienvenues. **Ouvrir sur la Hot news ne veut PAS dire changer de ton** : on annonce l'info du jour avec le sourire, pas avec la voix du journal de 20h.
 
-**Exemples de formulations (hors-finance)**
-> *"Bonjour. Le mercato bat son plein, et pendant que l'Europe s'arrache nos pépites, nous on scrute surtout un autre transfert : celui des mangues, qui quittent enfin l'étal pour finir en jus (ou directement dans la main)."*
-
+**Exemples — régime 1 (un fait culturel majeur est réellement en cours)**
 > *"Bonjour. La CAN approche et tout le monde a déjà sa compo idéale — sauf le sélectionneur, visiblement."*
 
 > *"Bonjour. Nouvelle semaine, nouvel album qui tourne en boucle dans tous les taxis, d'Abidjan à Dakar."*
+
+**Exemples — régime 2 (rien de majeur côté culture : on ouvre sur la Hot news, en léger)**
+> *"Bonjour. Sonatel a publié ses résultats hier soir. Disons-le : il y a des trimestres où l'opérateur fait semblant de forcer."*
+
+> *"Bonjour. Le Trésor sénégalais espérait 400 milliards. Il est reparti avec 628. Il y a des jours où il ne faut vraiment pas insister longtemps."*
+
+> *"Bonjour. Une banque de la place entre en bourse, et la souscription a fermé en 24 heures. Vingt-quatre heures. On a connu des ventes de tickets de concert plus lentes."*
 
 ---
 
@@ -326,7 +335,7 @@ Date
 (En partenariat avec [logo], si applicable)
 
 Bonjour.
-[Accroche HORS-FINANCE du jour — culture/sport/vie courante, jamais la bourse]
+[Accroche : le fait culturel MAJEUR du moment s'il en existe un — sinon la Hot news du jour, prise par son angle le plus léger]
 — L'équipe Cauri ☕
 
 Le menu
