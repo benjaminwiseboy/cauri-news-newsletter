@@ -154,9 +154,21 @@
     "date": "2026-08-25",
     "title": "Au Soudan, El Niño et la flambée des coûts menacent les récoltes"
   },
+  "u:http://fr.africanews.com/2026/08/25/kenya-au-coeur-de-la-folie-cosplay-qui-gagne-nairobi": {
+    "date": "2026-08-26",
+    "title": "Kenya : au cœur de la folie cosplay qui gagne Nairobi"
+  },
+  "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": {
+    "date": "2026-08-26",
+    "title": "Croissance du PIB (%) — Benin (2025) : 8.07408453688336"
+  },
   "u:https://api.worldbank.org/v2/country/bfa/indicator/fx.own.totl.zs": {
     "date": "2026-08-13",
     "title": "Adultes ayant un compte (%) — Burkina Faso (2024) : 51.4274911911242"
+  },
+  "u:https://api.worldbank.org/v2/country/civ/indicator/sp.pop.totl": {
+    "date": "2026-08-26",
+    "title": "Population totale — Cote d'Ivoire (2025) : 32711547"
   },
   "u:https://api.worldbank.org/v2/country/mli/indicator/fx.own.totl.zs": {
     "date": "2026-08-13",
@@ -231,6 +243,10 @@
   "u:https://ecomatin.net/cameroun-le-chinois-cfhec-decroche-un-marche-de-438-milliards-fcfa-sur-la-route-edea-kribi": {
     "date": "2026-08-12",
     "title": "Cameroun : le chinois CFHEC décroche un marché de 43,8 milliards FCFA sur la route Edéa-Kribi"
+  },
+  "u:https://ecomatin.net/cameroun-les-actionnaires-de-camrail-injectent-plus-de-16-milliards-fcfa-dans-le-capital": {
+    "date": "2026-08-26",
+    "title": "Cameroun : les actionnaires de Camrail injectent plus de 16 milliards FCFA dans le capital"
   },
   "u:https://ecomatin.net/cameroun-une-hausse-des-taxes-sur-le-tabac-pourrait-faire-reculer-65-000-fumeurs-dici-2028": "2026-07-30",
   "u:https://ecomatin.net/capital-naturel-pourquoi-la-bad-presse-le-cameroun-de-reviser-le-calcul-de-son-pib": {
@@ -581,6 +597,22 @@
     "date": "2026-08-25",
     "title": "Afrique: La Guin&#xe9;e souhaite co-organiser la CAN 2032 avec le pays"
   },
+  "u:https://fr.allafrica.com/stories/202608250258.html": {
+    "date": "2026-08-26",
+    "title": "Mauritanie: Le gouvernement souhaite &#xab;relever les d&#xe9;fis&#xbb; pour relancer le tourisme"
+  },
+  "u:https://fr.allafrica.com/stories/202608250351.html": {
+    "date": "2026-08-26",
+    "title": "Burkina Faso: Lutte contre la fraude - Plus de 144 millions F CFA de marchandises saisies"
+  },
+  "u:https://fr.allafrica.com/stories/202608250441.html": {
+    "date": "2026-08-26",
+    "title": "Afrique de l'Ouest: BRVM - La premi&#xe8;re cotation des Diasporas Bonds du Burkina Faso de plus de 151 milliards FCFA fix&#xe9;e au 3 septembre 2026"
+  },
+  "u:https://fr.allafrica.com/stories/202608250576.html": {
+    "date": "2026-08-26",
+    "title": "Cote d'Ivoire: Sant&#xe9; des architectes - La mutuelle organise la 2e &#xe9;dition de son bilan annuel &#xe0; Cocody"
+  },
   "u:https://fr.apanews.net/business/african-mining-week-2026-la-guinee-legypte-et-le-nigeria-en-vedette": "2026-08-05",
   "u:https://fr.apanews.net/business/afrique-australe-airlink-ouvrira-une-liaison-directe-lanseria-harare-en-novembre": "2026-08-04",
   "u:https://fr.apanews.net/business/botswana-un-diamant-brut-de-1-305-carats-decouvert-a-la-mine-de-karowe": "2026-07-31",
@@ -593,6 +625,10 @@
   "u:https://fr.apanews.net/business/mali-b2gold-obtient-le-feu-vert-pour-menankoto-sud": {
     "date": "2026-08-10",
     "title": "Mali : B2Gold obtient le feu vert pour Menankoto-Sud"
+  },
+  "u:https://fr.apanews.net/business/namibie-premiere-unite-dhydrogene-vert-integree-dafrique-inauguree": {
+    "date": "2026-08-26",
+    "title": "Namibie : la 1e unité d’hydrogène vert intégrée en Afrique"
   },
   "u:https://fr.apanews.net/business/tchad-afreximbank-accorde-un-financement-record-de-110-millions-deuros": {
     "date": "2026-08-11",
@@ -669,6 +705,10 @@
     "date": "2026-08-17",
     "title": "Tinubu vows return of Nigeria’s refineries to operation, gives no timeline"
   },
+  "u:https://nairametrics.com/2026/08/25/dangote-refinery-drives-767-surge-in-nigerias-petroleum-exports-to-europe": {
+    "date": "2026-08-26",
+    "title": "Dangote Refinery drives 767% surge in Nigeria’s petroleum exports to Europe"
+  },
   "u:https://rti.info/colloque-national-femmes-leadership-et-nation-le-cepici-place-linvestissement-feminin-au-coeur-de-la-transformation-economique": {
     "date": "2026-08-12",
     "title": "Colloque national « Femmes, Leadership et Nation » : le CEPICI place l’investissement féminin au cœur de la transformation économique"
@@ -733,6 +773,14 @@
     "date": "2026-08-25",
     "title": "UMOA : les dépôts et emprunts ont crû près de trois fois plus vite que les crédits en 2025"
   },
+  "u:https://www.agenceecofin.com/actualites-finance/2508-141023-umoa-la-commission-bancaire-durcit-sa-surveillance-avec-40-injonctions-en-2025": {
+    "date": "2026-08-26",
+    "title": "La Commission bancaire de l'UMOA durcit sa surveillance avec 40 injonctions en 2025"
+  },
+  "u:https://www.agenceecofin.com/actualites-finance/2508-141025-classement-2025-des-10-premieres-banques-de-l-umoa-en-termes-de-total-bilan": {
+    "date": "2026-08-26",
+    "title": "Classement 2025 des 10 premières banques de l’UMOA en termes de total bilan"
+  },
   "u:https://www.agenceecofin.com/actualites-finance/2607-140511-la-sgpme-et-orange-bank-africa-mobiliseront-jusqua-29-5-millions-pour-faciliter-le-credit-aux-pme-en-cote-divoire": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites-finance/2707-140519-la-boad-conserve-sa-note-investment-grade-baa1-aupres-de-moodys": "2026-07-28",
   "u:https://www.agenceecofin.com/actualites-finance/2707-140527-sonatel-depasse-1-5-md-de-chiffre-d-affaires-au-1er-semestre-mais": "2026-07-28",
@@ -775,6 +823,10 @@
   "u:https://www.agenceecofin.com/actualites-industries/1908-140928-au-mali-la-production-industrielle-d-or-depasse-les-previsions-au-premier-semestre-2026": {
     "date": "2026-08-20",
     "title": "Au Mali, la production industrielle d’or dépasse les prévisions au premier semestre 2026"
+  },
+  "u:https://www.agenceecofin.com/actualites-industries/2508-140999-l-or-a-4-600-usd/oz-apres-un-premier-semestre-mitige-les-prix-repartent-a-la-hausse": {
+    "date": "2026-08-26",
+    "title": "L’or à 4 600 USD/oz : après un premier semestre mitigé, les prix repartent à la hausse"
   },
   "u:https://www.agenceecofin.com/actualites-industries/2607-140512-transformation-du-manganese-apres-le-protocole-daccord-entre-eramet-et-le-gabon-quid-de-linterdiction-de-2029": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites-industries/2707-140542-malawi-20-mw/40-mwh-de-stockage-pour-renforcer-un-reseau-electrique-sous-tension": "2026-07-28",
@@ -988,6 +1040,10 @@
   "u:https://www.financialafrik.com/2026/08/20/egypte-le-top-10-de-limmobilier-enregistre-132-milliards-de-dollars-de-ventes-au-premier-semestre-2026": {
     "date": "2026-08-21",
     "title": "Égypte : le top 10 de l’immobilier enregistre 13,2 milliards de dollars de ventes au premier semestre 2026"
+  },
+  "u:https://www.financialafrik.com/2026/08/25/kenya-les-banques-conservent-3545-millions-usd-de-liquidites-excedentaires": {
+    "date": "2026-08-26",
+    "title": "Kenya : les banques conservent 354,5 millions USD de liquidités excédentaires"
   },
   "u:https://www.rfi.fr/fr/afrique-foot/20260820-l-attaquante-ivoirienne-habibou-ou%c3%a9draogo-buteuse-prolifique-d%c3%a9barque-%c3%a0-l-om": {
     "date": "2026-08-21",
