@@ -154,9 +154,25 @@
     "date": "2026-08-25",
     "title": "Au Soudan, El Niño et la flambée des coûts menacent les récoltes"
   },
+  "u:http://fr.africanews.com/2026/08/25/au-soudan-des-footballeurs-de-petite-taille-poursuivent-leur-reve-de-mondial": {
+    "date": "2026-08-27",
+    "title": "Au Soudan, des footballeurs de petite taille poursuivent leur rêve de Mondial"
+  },
   "u:http://fr.africanews.com/2026/08/25/kenya-au-coeur-de-la-folie-cosplay-qui-gagne-nairobi": {
     "date": "2026-08-26",
     "title": "Kenya : au cœur de la folie cosplay qui gagne Nairobi"
+  },
+  "u:http://fr.africanews.com/2026/08/25/lethiopie-officiellement-candidate-pour-accueillir-la-can-2028": {
+    "date": "2026-08-27",
+    "title": "L'Éthiopie officiellement candidate pour accueillir la CAN 2028"
+  },
+  "u:http://fr.africanews.com/2026/08/26/detroit-dormuz-liran-et-oman-definissent-un-couloir-maritime-temporaire": {
+    "date": "2026-08-27",
+    "title": "Détroit d'Ormuz : l'Iran et Oman définissent un couloir maritime \"temporaire\""
+  },
+  "u:http://fr.africanews.com/2026/08/26/football-carlos-baleba-rejoint-manchester-united-pour-95-millions-de-dollars": {
+    "date": "2026-08-27",
+    "title": "Football : Carlos Baleba rejoint Manchester United pour 95 millions de dollars"
   },
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": {
     "date": "2026-08-26",
@@ -257,6 +273,10 @@
     "date": "2026-08-19",
     "title": "Centrafrique : le secteur informel ne contribue qu'à 12 % des recettes fiscales du pays (Rapport)"
   },
+  "u:https://ecomatin.net/centrafrique-les-salaires-des-fonctionnaires-ont-absorbe-81-des-recettes-fiscales-et-douanieres-a-mi-2026": {
+    "date": "2026-08-27",
+    "title": "Centrafrique : les salaires des fonctionnaires ont absorbé 81% des recettes fiscales et douanières à mi-2026"
+  },
   "u:https://ecomatin.net/ciment-cimaf-gabon-annonce-un-investissement-de-125-milliards-de-fcfa-pour-porter-sa-production-a-185-million-de-tonnes": {
     "date": "2026-08-13",
     "title": "Ciment : Cimaf Gabon annonce un investissement de 125 milliards de FCFA pour porter sa production à 1,85 million de tonnes"
@@ -269,6 +289,10 @@
   "u:https://ecomatin.net/congo-les-ventes-de-vehicules-ont-genere-18-milliards-fcfa-a-fin-mars": {
     "date": "2026-08-12",
     "title": "Congo : les ventes de véhicules ont généré 18 milliards FCFA à fin mars"
+  },
+  "u:https://ecomatin.net/coris-bank-devient-le-plus-grand-groupe-bancaire-de-luemoa-aux-cotes-decobank": {
+    "date": "2026-08-27",
+    "title": "Coris Bank devient le plus grand groupe bancaire de l’UEMOA aux côtés d’Ecobank"
   },
   "u:https://ecomatin.net/cote-divoire-la-bei-mobilise-pres-de-100-milliards-fcfa-pour-financer-la-filiere-cacao-via-nsia-banque": "2026-07-29",
   "u:https://ecomatin.net/cote-divoire-le-litre-de-super-grimpe-a-905-fcfa-la-societe-civile-monte-au-creneau": "2026-08-04",
@@ -613,6 +637,14 @@
     "date": "2026-08-26",
     "title": "Cote d'Ivoire: Sant&#xe9; des architectes - La mutuelle organise la 2e &#xe9;dition de son bilan annuel &#xe0; Cocody"
   },
+  "u:https://fr.allafrica.com/stories/202608260415.html": {
+    "date": "2026-08-27",
+    "title": "Afrique de l'Ouest: R&#xe9;silience agricole"
+  },
+  "u:https://fr.allafrica.com/stories/202608260467.html": {
+    "date": "2026-08-27",
+    "title": "S&#xe9;n&#xe9;gal: Mawloud - le ministre Alpha Thiam annonce le bitumage de l'axe Koussanar-Makacolibantang-M&#xe9;r&#xe9;to-Koumpentoum"
+  },
   "u:https://fr.apanews.net/business/african-mining-week-2026-la-guinee-legypte-et-le-nigeria-en-vedette": "2026-08-05",
   "u:https://fr.apanews.net/business/afrique-australe-airlink-ouvrira-une-liaison-directe-lanseria-harare-en-novembre": "2026-08-04",
   "u:https://fr.apanews.net/business/botswana-un-diamant-brut-de-1-305-carats-decouvert-a-la-mine-de-karowe": "2026-07-31",
@@ -708,6 +740,10 @@
   "u:https://nairametrics.com/2026/08/25/dangote-refinery-drives-767-surge-in-nigerias-petroleum-exports-to-europe": {
     "date": "2026-08-26",
     "title": "Dangote Refinery drives 767% surge in Nigeria’s petroleum exports to Europe"
+  },
+  "u:https://nairametrics.com/2026/08/26/crude-oil-sheds-nearly-9-as-iran-oman-work-to-reopen-strait-of-hormuz": {
+    "date": "2026-08-27",
+    "title": "Crude oil sheds nearly $9 as Iran, Oman work to reopen Strait of Hormuz"
   },
   "u:https://rti.info/colloque-national-femmes-leadership-et-nation-le-cepici-place-linvestissement-feminin-au-coeur-de-la-transformation-economique": {
     "date": "2026-08-12",
@@ -829,6 +865,10 @@
     "title": "L’or à 4 600 USD/oz : après un premier semestre mitigé, les prix repartent à la hausse"
   },
   "u:https://www.agenceecofin.com/actualites-industries/2607-140512-transformation-du-manganese-apres-le-protocole-daccord-entre-eramet-et-le-gabon-quid-de-linterdiction-de-2029": "2026-07-27",
+  "u:https://www.agenceecofin.com/actualites-industries/2608-141035-cote-d-ivoire-apres-la-saph-olam-agri-se-renforce-dans-l-hevea-avec-une-acquisition": {
+    "date": "2026-08-27",
+    "title": "Côte d’Ivoire : après la SAPH, Olam Agri se renforce dans l’hévéa avec une acquisition"
+  },
   "u:https://www.agenceecofin.com/actualites-industries/2707-140542-malawi-20-mw/40-mwh-de-stockage-pour-renforcer-un-reseau-electrique-sous-tension": "2026-07-28",
   "u:https://www.agenceecofin.com/actualites-industries/2807-140584-or-les-investisseurs-dans-les-coulisses-de-fekola-la-plus-grande-mine-du-mali-en-2025": "2026-07-29",
   "u:https://www.agenceecofin.com/actualites-infrastructures/2008-140946-rail-pourquoi-l-ouganda-finance-differemment-le-sgr-et-ses-routes": {
@@ -867,6 +907,14 @@
   "u:https://www.agenceecofin.com/actualites-numerique/2407-140496-cameroun-camtel-et-amazon-discutent-de-cloud-de-satellites-et-d-ia": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites-numerique/2407-140499-innovation-lab-mtn-benin-devoile-les-cinq-finalistes-de-la-deuxieme-edition": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites-numerique/2607-140510-les-revenus-dethio-telecom-en-hausse-de-33-2-en-2025/2026-portes-par-telebirr-et-lessor-de-la-4g": "2026-07-27",
+  "u:https://www.agenceecofin.com/actualites-numerique/2608-141044-tanzanie-yas-lance-la-fibre-a-dodoma-et-renforce-son-reseau-fixe": {
+    "date": "2026-08-27",
+    "title": "Tanzanie : Yas lance la fibre à Dodoma et renforce son réseau fixe"
+  },
+  "u:https://www.agenceecofin.com/actualites-numerique/2608-141050-nigeria-un-pas-de-plus-vers-l-operationnalisation-de-ladressage-numerique": {
+    "date": "2026-08-27",
+    "title": "Nigeria : un pas de plus vers l’opérationnalisation de l'adressage numérique"
+  },
   "u:https://www.agenceecofin.com/actualites-numerique/2907-140611-rwanda-retrait-de-la-3g-en-2027-suivi-d-une-sortie-progressive-de-la-2g": "2026-07-30",
   "u:https://www.agenceecofin.com/actualites-numerique/2907-140619-cybersecurite-le-lesotho-lance-son-equipe-nationale-de-reponse-aux-incidents": "2026-07-30",
   "u:https://www.agenceecofin.com/actualites-numerique/3007-140645-mauritanie-cherche-a-tirer-parti-de-l-expertise-d-oman-pour-sa-transformation-numerique": "2026-07-31",
@@ -922,6 +970,10 @@
   },
   "u:https://www.agenceecofin.com/actualites/2407-140498-au-dela-de-la-victoire-de-didier-drogba-les-e1-series-peuvent-elles-accelerer-leconomie-bleue-africaine": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites/2407-140501-international-budget-partnership-ouvre-a-dakar-son-bureau-regional-afrique-francophone": "2026-07-27",
+  "u:https://www.agenceecofin.com/actualites/2608-141037-carburant-au-sein-de-luemoa-le-litre-varie-du-simple-au-double": {
+    "date": "2026-08-27",
+    "title": "Carburant : au sein de l'UEMOA, le litre varie du simple au double"
+  },
   "u:https://www.agenceecofin.com/actualites/2707-140528-le-nigeria-elargit-lacces-au-credit-des-jeunes-entrepreneurs-pour-developper-les-pme": "2026-07-28",
   "u:https://www.agenceecofin.com/actualites/3007-140643-le-ghana-et-le-gabon-posent-les-bases-d-une-cooperation-dans-des-secteurs-essentiels": "2026-07-31",
   "u:https://www.agenceecofin.com/actualites/3007-140654-ethiopian-airlines-transporte-20-7-millions-de-voyageurs-et-franchit-9-1-milliards-de-ca-en-2025/2026": "2026-07-31",
@@ -1044,6 +1096,14 @@
   "u:https://www.financialafrik.com/2026/08/25/kenya-les-banques-conservent-3545-millions-usd-de-liquidites-excedentaires": {
     "date": "2026-08-26",
     "title": "Kenya : les banques conservent 354,5 millions USD de liquidités excédentaires"
+  },
+  "u:https://www.financialafrik.com/2026/08/26/le-fonds-ventures-platform-ii-attire-la-berd-comme-premier-investisseur-institutionnel-panafricain": {
+    "date": "2026-08-27",
+    "title": "Le fonds Ventures Platform II attire la BERD comme premier investisseur institutionnel panafricain"
+  },
+  "u:https://www.financialafrik.com/2026/08/26/partenariat-maroc-inde-vers-un-nouvel-eldorado-commercial-de-26-milliards-de-dollars": {
+    "date": "2026-08-27",
+    "title": "Partenariat Maroc-Inde : vers un nouvel eldorado commercial de 2,6 milliards de dollars"
   },
   "u:https://www.rfi.fr/fr/afrique-foot/20260820-l-attaquante-ivoirienne-habibou-ou%c3%a9draogo-buteuse-prolifique-d%c3%a9barque-%c3%a0-l-om": {
     "date": "2026-08-21",
@@ -1173,6 +1233,10 @@
     "title": "Famine mondiale : 645 millions de personnes touchées en 2025, près de la moitié vivant en Afrique"
   },
   "u:https://www.sikafinance.com/marches/ghana--maroc-11-accords-de-cooperation-signes-pour-accelerer-les-echanges-commerciaux-et-lintegration-economique-africaine_63213": "2026-07-27",
+  "u:https://www.sikafinance.com/marches/ghana-goldbod-impose-le-raffinage-local-de-lor-artisanal-avant-son-exportation_63823": {
+    "date": "2026-08-27",
+    "title": "Ghana : GoldBod impose le raffinage local de l’or artisanal avant son exportation"
+  },
   "u:https://www.sikafinance.com/marches/ghana-la-mine-d-or-d-iduapriem-passe-aux-mains-du-sud-africain-anglogold-ashanti-pour-66-5-millions-usd_63153": "2026-07-23",
   "u:https://www.sikafinance.com/marches/ghana-la-nouvelle-loi-de-protection-des-plantations-de-cacao-suscite-la-colere-des-producteurs_63585": {
     "date": "2026-08-14",
@@ -1210,6 +1274,10 @@
   },
   "u:https://www.sikafinance.com/marches/le-nigeria-mise-sur-le-conseil-agricole-numerique-pour-soutenir-des-millions-de-petits-producteurs_63320": "2026-07-31",
   "u:https://www.sikafinance.com/marches/le-nigeria-veut-mettre-fin-aux-exportations-de-cacao-brut-pour-developper-son-industrie-locale_62988": "2026-07-16",
+  "u:https://www.sikafinance.com/marches/le-rendez-vous-de-vos-projets-societe-generale-cote-divoire-engagee-aux-cotes-de-ses-clients-dans-la-realisation-de-leurs-projets_63819": {
+    "date": "2026-08-27",
+    "title": "‘’Le Rendez-vous de vos projets’’ : Société Générale Côte d’Ivoire engagée aux cotés de ses clients dans la réalisation de leurs projets"
+  },
   "u:https://www.sikafinance.com/marches/le-tresor-ivoirien-reporte-sa-prochaine-emission-sur-le-marche-regional-de-la-dette-publique-en-raison-dexcedents-de-tresorerie_63205": "2026-07-27",
   "u:https://www.sikafinance.com/marches/magazine-sika-finance-les-grands-defis-de-la-logistique-africaine-au-cœur-du-24e-numero_63635": {
     "date": "2026-08-18",
@@ -1286,5 +1354,9 @@
   "u:https://www.sikafinance.com/marches/umoa-le-ratio-de-solvabilite-des-banques-atteint-14-7-en-2025-3-points-au-dessus-du-minimum-reglementaire_63575": {
     "date": "2026-08-14",
     "title": "UMOA : Le ratio de solvabilité des banques atteint 14,7% en 2025, 3 points au-dessus du minimum réglementaire"
+  },
+  "u:https://www.sikafinance.com/marches/umoa-les-banques-consolident-leurs-benefices-a-1-252-milliards-fcfa-en-2025_63824": {
+    "date": "2026-08-27",
+    "title": "UMOA : Les banques consolident leurs bénéfices à 1 252 milliards FCFA en 2025"
   }
 }
