@@ -1,9 +1,4 @@
 {
-  "u:http://fr.africanews.com/2026/07/10/lhippopotame-pygmee-mise-sur-moo-deng-sa-star-planetaire-pour-survivre": "2026-07-13",
-  "u:http://fr.africanews.com/2026/07/11/afrique-du-sud-les-manifestations-anti-migrants-font-peser-un-risque-sur-leconomie": "2026-07-13",
-  "u:http://fr.africanews.com/2026/07/11/au-nigeria-lerosion-du-littoral-dorimedu-menace-les-villages": "2026-07-13",
-  "u:http://fr.africanews.com/2026/07/13/afrique-du-sud-le-groupe-de-beers-ferme-sa-plus-grande-mine-de-diamants-pour-deux-ans": "2026-07-14",
-  "u:http://fr.africanews.com/2026/07/13/senegal-pape-thiaw-limoge-apres-lechec-de-son-equipe-au-mondial-2026": "2026-07-14",
   "u:http://fr.africanews.com/2026/07/14/les-tensions-sintensifient-au-moyen-orient": "2026-07-16",
   "u:http://fr.africanews.com/2026/07/14/matieres-premieres-agricoles-les-cultures-de-rentabilite-en-afrique-menacees": "2026-07-15",
   "u:http://fr.africanews.com/2026/07/16/le-zimbabwe-attend-le-retour-massif-de-ses-ressortissants-dafrique-du-sud": "2026-07-17",
@@ -182,6 +177,10 @@
     "date": "2026-08-13",
     "title": "Adultes ayant un compte (%) — Burkina Faso (2024) : 51.4274911911242"
   },
+  "u:https://api.worldbank.org/v2/country/civ/indicator/ny.gdp.mktp.kd.zg": {
+    "date": "2026-08-29",
+    "title": "Croissance du PIB (%) — Cote d'Ivoire (2025) : 6.4999999999999"
+  },
   "u:https://api.worldbank.org/v2/country/civ/indicator/sp.pop.totl": {
     "date": "2026-08-26",
     "title": "Population totale — Cote d'Ivoire (2025) : 32711547"
@@ -194,9 +193,25 @@
     "date": "2026-08-13",
     "title": "Adultes ayant un compte (%) — Niger (2024) : 14.8268991865027"
   },
+  "u:https://api.worldbank.org/v2/country/ner/indicator/ny.gdp.mktp.kd.zg": {
+    "date": "2026-08-29",
+    "title": "Croissance du PIB (%) — Niger (2025) : 7.00782960149"
+  },
+  "u:https://api.worldbank.org/v2/country/sen/indicator/fx.own.totl.zs": {
+    "date": "2026-08-29",
+    "title": "Adultes ayant un compte (%) — Senegal (2024) : 76.4609257473503"
+  },
+  "u:https://api.worldbank.org/v2/country/sen/indicator/ny.gdp.mktp.kd.zg": {
+    "date": "2026-08-29",
+    "title": "Croissance du PIB (%) — Senegal (2025) : 6.68227744849194"
+  },
   "u:https://api.worldbank.org/v2/country/tgo/indicator/fx.own.totl.zs": {
     "date": "2026-08-13",
     "title": "Adultes ayant un compte (%) — Togo (2024) : 57.4329534151865"
+  },
+  "u:https://api.worldbank.org/v2/country/tgo/indicator/ny.gdp.mktp.kd.zg": {
+    "date": "2026-08-29",
+    "title": "Croissance du PIB (%) — Togo (2025) : 6.31032671625633"
   },
   "u:https://beninwebtv.com/cybercriminalite-lafrique-a-perdu-au-moins-5-milliards-de-dollars-en-2025-selon-interpol": "2026-08-05",
   "u:https://beninwebtv.com/le-mozambique-prevoit-12-milliard-deuros-pour-moderniser-cahora-bassa": "2026-08-05",
@@ -326,8 +341,6 @@
     "date": "2026-08-25",
     "title": "Tchad: Pourquoi Idriss Déby fait le choix de l’Economiste Idriss Ahmed Idriss"
   },
-  "u:https://fr.allafrica.com/stories/202607110057.html": "2026-07-13",
-  "u:https://fr.allafrica.com/stories/202607130807.html": "2026-07-14",
   "u:https://fr.allafrica.com/stories/202607140164.html": "2026-07-15",
   "u:https://fr.allafrica.com/stories/202607140495.html": "2026-07-15",
   "u:https://fr.allafrica.com/stories/202607140626.html": "2026-07-15",
@@ -1147,7 +1160,6 @@
   "u:https://www.sikafinance.com/marches/brvm-eti-perd-90-milliards-fcfa-de-capitalisation-et-freine-le-marche_63265": "2026-07-29",
   "u:https://www.sikafinance.com/marches/brvm-nsia-banque-ci-maintient-son-elan-dans-un-marche-sous-pression_63049": "2026-07-20",
   "u:https://www.sikafinance.com/marches/brvm-pres-de-4-milliards-fcfa-engages-dans-un-marche-resolument-haussier_62966": "2026-07-15",
-  "u:https://www.sikafinance.com/marches/brvm-semaine-27-le-marche-actions-poursuit-son-ascension-coris-bank-enflamme-la-cote-a-29-000-fcfa_62923": "2026-07-14",
   "u:https://www.sikafinance.com/marches/brvm-semaine-28-la-dynamique-haussiere-s-intensifie-uniwax-ci-bondit-de-38-_63077": "2026-07-21",
   "u:https://www.sikafinance.com/marches/brvm-semaine-30-le-marche-entre-en-phase-de-digestion-entre-securisation-et-recherche-d-opportunites_63373": "2026-08-04",
   "u:https://www.sikafinance.com/marches/brvm-semaine-31-entre-fondamentaux-et-speculation-les-investisseurs-redefinissent-leurs-positions_63502": {
@@ -1173,7 +1185,6 @@
     "title": "Burkina Faso : La Caisse des dépôts boucle 2025 avec 844 millions FCFA de bénéfice"
   },
   "u:https://www.sikafinance.com/marches/burkina-faso-la-production-delectricite-bondit-de-17-13-a-1-65-milliard-de-kwh-a-fin-2025_63279": "2026-07-30",
-  "u:https://www.sikafinance.com/marches/burkina-lafc-decaisse-une-1ere-tranche-de-60-millions-usd-pour-la-realisation-de-la-plus-grande-centrale-electrique_62906": "2026-07-13",
   "u:https://www.sikafinance.com/marches/burkina-mise-en-service-dune-centrale-thermique-de-50-mw-dun-cout-de-18-milliards-fcfa_63160": "2026-07-23",
   "u:https://www.sikafinance.com/marches/cacao-la-cote-divoire-le-ghana-le-nigeria-et-le-cameroun-sunissent-pour-reduire-les-exportations-de-feves-brutes_63012": "2026-07-17",
   "u:https://www.sikafinance.com/marches/cloud-souverain-orange-cloud-cyber-solutions-saffirme-comme-linterlocuteur-local-de-reference-des-entreprises_63185": "2026-07-24",
@@ -1225,7 +1236,6 @@
     "date": "2026-08-17",
     "title": "Côte d’Ivoire : NSIA Banque transforme son agence mobile de Bondoukou en implantation permanente"
   },
-  "u:https://www.sikafinance.com/marches/cyber-africa-forum-2026-la-confiance-numerique-nouvel-enjeu-de-competitivite-pour-les-entreprises-africaines_62894": "2026-07-13",
   "u:https://www.sikafinance.com/marches/datacenters-et-ia-le-nouveau-moteur-de-la-souverainete-electrique-pour-un-pib-africain-a-7-800-milliards-usd-dici-2050_63258": "2026-07-29",
   "u:https://www.sikafinance.com/marches/etats-unis-europe-chine-le-face-a-face-a-15-000-satellites-qui-cible-20-millions-d-exclus-du-reseau-internet-ouest-africain_63075": "2026-07-21",
   "u:https://www.sikafinance.com/marches/famine-mondiale-645-millions-de-personnes-touchees-en-2025-pres-de-la-moitie-vivant-en-afrique_63662": {
@@ -1245,13 +1255,11 @@
   "u:https://www.sikafinance.com/marches/groupe-ecobank-un-resultat-net-de-167-milliards-fcfa-a-fin-juin-freine-par-le-cout-du-risque_63286": "2026-07-30",
   "u:https://www.sikafinance.com/marches/ia-administration-emploi-la-cote-divoire-accelere-sa-transformation-numerique_63253": "2026-07-29",
   "u:https://www.sikafinance.com/marches/ide-en-afrique-la-cote-divoire-seul-pays-de-la-zone-franc-a-integrer-le-top-10-des-destinations-les-plus-attractives-en-2025_62953": "2026-07-15",
-  "u:https://www.sikafinance.com/marches/ifc-renforce-son-partenariat-avec-bridge-bank-group-cote-divoire-pour-accelerer-le-financement-des-pme-et-soutenir-la-creation-demplois_62935": "2026-07-14",
   "u:https://www.sikafinance.com/marches/intelligence-artificielle-la-banque-mondiale-estime-que-les-pays-en-developpement-peuvent-gagner-un-siecle-de-progres-en-seulement-10-ans_63434": "2026-08-06",
   "u:https://www.sikafinance.com/marches/ipo-plus-de-17-000-nouveaux-actionnaires-de-45-pays-integrent-lactionnariat-de-bridge-bank-ci_63511": {
     "date": "2026-08-11",
     "title": "IPO : Plus de 17 000 nouveaux actionnaires de 45 pays intègrent l’actionnariat de Bridge Bank CI"
   },
-  "u:https://www.sikafinance.com/marches/jean-charles-kwao-dg-de-societe-generale-capital-securities-west-africa--afinhab-le-social-bond-qui-conjugue-rendement-securite-et-impact-_62926": "2026-07-14",
   "u:https://www.sikafinance.com/marches/l-academie-britannique-d-ingenierie-lance-le-prix-africain-de-l-innovation-2027-dote-de-plus-de-115-000-usd_63801": {
     "date": "2026-08-25",
     "title": "L'académie britannique d'ingénierie lance le Prix africain de l'innovation 2027 doté de plus de 115 000 USD"
@@ -1292,13 +1300,11 @@
     "date": "2026-08-21",
     "title": "Mali : La production d’or dépasse les prévisions, atteignant 30% au 1er semestre 2026"
   },
-  "u:https://www.sikafinance.com/marches/mali-plus-de-760-milliards-fcfa-darrieres-dimpots-et-redevances-recuperes-en-5-ans-aupres-des-compagnies-minieres_62899": "2026-07-13",
   "u:https://www.sikafinance.com/marches/mali-pres-de-1-300-milliards-fcfa-de-dette-a-rembourser-d-ici-fin-2026_63044": "2026-07-20",
   "u:https://www.sikafinance.com/marches/matieres-premieres-le-cacao-s-envole-de-27-7-en-juillet-pendant-que-l-energie-plonge_63534": {
     "date": "2026-08-12",
     "title": "Matières premières : Le cacao s'envole de 27,7% en juillet pendant que l'énergie plonge"
   },
-  "u:https://www.sikafinance.com/marches/mineraux-critiques-l-afrique-veut-transformer-son-sous-sol-en-puissance-industrielle_62898": "2026-07-13",
   "u:https://www.sikafinance.com/marches/niger-ecobank-confie-sa-direction-generale-a-faycal-younoussou_63018": "2026-07-17",
   "u:https://www.sikafinance.com/marches/niger-la-mine-dor-de-samira-libiri-obtient-un-renouvellement-de-son-permis-pour-5-ans-avec-une-production-attendue-de-2-3-tonnes-dor_63053": "2026-07-20",
   "u:https://www.sikafinance.com/marches/niger-pres-de-2-milliards-usd-pour-un-projet-de-raffinerie-de-100-000-bj-et-un-complexe-petrochimique_63632": {
@@ -1339,7 +1345,6 @@
     "title": "Sénégal : Le recul de l’activité des industries extractives fait chuter de 7,3% la production industrielle en juin 2026"
   },
   "u:https://www.sikafinance.com/marches/senegal-les-exportations-de-ciment-vers-la-gambie-multipliees-par-10-au-premier-trimestre-2026_63226": "2026-07-28",
-  "u:https://www.sikafinance.com/marches/senegal-les-exportations-reculent-de-8-2-au-mois-de-mai-2026_62901": "2026-07-13",
   "u:https://www.sikafinance.com/marches/senegal-les-investissements-directs-etrangers-chutent-de-3-300-milliards-a-37-millions-de-dollars-en-2025_63285": "2026-07-30",
   "u:https://www.sikafinance.com/marches/sika-commodities-weekly-29-le-petrole-flirte-avec-les-95-dollars-le-cacao-et-le-cafe-digerent-leurs-exces_63228": "2026-07-28",
   "u:https://www.sikafinance.com/marches/sitab-un-benefice-stable-a-18-milliards-fcfa-au-s1-2026-malgre-une-progression-de-lactivite_63656": {
@@ -1347,9 +1352,6 @@
     "title": "SITAB : Un bénéfice stable à 18 milliards FCFA au S1 2026, malgré une progression de l’activité"
   },
   "u:https://www.sikafinance.com/marches/uemoa-857-milliards-fcfa-d-excedent-courant-au-1er-trimestre-2026-un-retournement-porte-par-les-exportations_63230": "2026-07-28",
-  "u:https://www.sikafinance.com/marches/uemoa-la-boad-et-la-cica-re-scellent-un-partenariat-pour-renforcer-lassurance-au-service-du-financement-du-developpement_62900": "2026-07-13",
-  "u:https://www.sikafinance.com/marches/uemoa-la-boad-titrisation-mobilise-4-5-milliards-fcfa-pour-renforcer-le-financement-du-logement_62893": "2026-07-13",
-  "u:https://www.sikafinance.com/marches/uemoa-la-cote-d-ivoire-et-le-burkina-faso-generent-plus-de-3-600-milliards-fcfa-d-excedent-commercial-au-1er-trimestre-2026_62918": "2026-07-14",
   "u:https://www.sikafinance.com/marches/uemoa-plus-de-6-200-milliards-fcfa-de-recettes-publiques-mobilises-au-1er-trimestre-2026_63091": "2026-07-21",
   "u:https://www.sikafinance.com/marches/umoa-le-ratio-de-solvabilite-des-banques-atteint-14-7-en-2025-3-points-au-dessus-du-minimum-reglementaire_63575": {
     "date": "2026-08-14",
