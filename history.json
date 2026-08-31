@@ -189,6 +189,18 @@
     "date": "2026-09-01",
     "title": "São Tomé-et-Principe : d'anciennes plantations coloniales au patrimoine de l'Unesco"
   },
+  "u:http://fr.africanews.com/2026/08/31/guinee-bissau-depouillement-en-cours-apres-le-referendum-constitutionnel": {
+    "date": "2026-09-01",
+    "title": "Guinée-Bissau : dépouillement en cours après le référendum constitutionnel"
+  },
+  "u:http://fr.africanews.com/2026/08/31/libye-les-camps-rivaux-saccordent-sur-une-feuille-de-route-vers-les-elections": {
+    "date": "2026-09-01",
+    "title": "Libye : les camps rivaux s'accordent sur une feuille de route vers les élections"
+  },
+  "u:http://fr.africanews.com/2026/08/31/zambie-le-temple-shaolin-de-lusaka-forge-bien-plus-que-des-combattants": {
+    "date": "2026-09-01",
+    "title": "Zambie : le temple Shaolin de Lusaka forge bien plus que des combattants"
+  },
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": {
     "date": "2026-08-26",
     "title": "Croissance du PIB (%) — Benin (2025) : 8.07408453688336"
@@ -746,18 +758,38 @@
     "date": "2026-09-01",
     "title": "Afrique de l'Ouest: UEMOA - Le S&#xe9;n&#xe9;gal en t&#xea;te sur la microfinance et la monnaie &#xe9;lectronique en 2025"
   },
+  "u:https://fr.allafrica.com/stories/202608310704.html": {
+    "date": "2026-09-01",
+    "title": "S&#xe9;n&#xe9;gal: Le gouvernement autorise de nouveau les importations d'oignon"
+  },
   "u:https://fr.allafrica.com/stories/202608310707.html": {
     "date": "2026-09-01",
     "title": "Afrique: Thi&#xe9;r&#xe9; Mboum, Garba ou autres, des plats traditionnels contre la standardisation"
+  },
+  "u:https://fr.allafrica.com/stories/202608310708.html": {
+    "date": "2026-09-01",
+    "title": "S&#xe9;n&#xe9;gal: La d&#xe9;gradation de la note souveraine du pays , sujet le plus en exergue"
   },
   "u:https://fr.allafrica.com/stories/202608310711.html": {
     "date": "2026-09-01",
     "title": "Afrique: Kolda abrite un forum de la Fraternit&#xe9; mancagne, &#xe0; partir de mardi"
   },
+  "u:https://fr.allafrica.com/stories/202608310742.html": {
+    "date": "2026-09-01",
+    "title": "Togo: Les transformatrices pas pr&#xea;tes &#xe0; se faire enfumer"
+  },
+  "u:https://fr.allafrica.com/stories/202608310743.html": {
+    "date": "2026-09-01",
+    "title": "Togo: Plus difficile d'&#xe9;couler de l'essence de contrebande"
+  },
   "u:https://fr.apanews.net/business/african-mining-week-2026-la-guinee-legypte-et-le-nigeria-en-vedette": "2026-08-05",
   "u:https://fr.apanews.net/business/afrique-australe-airlink-ouvrira-une-liaison-directe-lanseria-harare-en-novembre": "2026-08-04",
   "u:https://fr.apanews.net/business/botswana-un-diamant-brut-de-1-305-carats-decouvert-a-la-mine-de-karowe": "2026-07-31",
   "u:https://fr.apanews.net/business/cedeao-accord-intergouvernemental-pour-le-gazoduc-nigeria-maroc": "2026-07-20",
+  "u:https://fr.apanews.net/business/la-namibie-accueille-le-sommet-africain-de-lenergie-en-octobre": {
+    "date": "2026-09-01",
+    "title": "La Namibie accueille le sommet africain de l’énergie en octobre"
+  },
   "u:https://fr.apanews.net/business/la-rci-leve-5318-milliards-fcfa-sur-le-marche-des-titres-publics": "2026-08-05",
   "u:https://fr.apanews.net/business/le-togo-mobilise-22-milliards-fcfa-apres-une-demande-cinq-fois-superieure-a-loffre": {
     "date": "2026-08-10",
@@ -965,6 +997,10 @@
     "date": "2026-09-01",
     "title": "Nigeria : la fintech OPay prépare une entrée à la Bourse de Lagos"
   },
+  "u:https://www.agenceecofin.com/actualites-finance/3108-141163-continental-reinsurance-deviendra-le-1er-reassureur-cote-sur-la-bourse-du-botswana": {
+    "date": "2026-09-01",
+    "title": "Continental Reinsurance deviendra le 1er réassureur coté sur la Bourse du Botswana"
+  },
   "u:https://www.agenceecofin.com/actualites-industries/0308-140727-hydroelectricite-le-mozambique-engage-1-3-milliard-pour-moderniser-cahora-bassa": "2026-08-04",
   "u:https://www.agenceecofin.com/actualites-industries/0708-140802-ghana-quatre-ans-apres-la-crise-le-fmi-avertit-contre-les-subventions-carburant": {
     "date": "2026-08-10",
@@ -1068,6 +1104,10 @@
   "u:https://www.agenceecofin.com/actualites-numerique/2907-140611-rwanda-retrait-de-la-3g-en-2027-suivi-d-une-sortie-progressive-de-la-2g": "2026-07-30",
   "u:https://www.agenceecofin.com/actualites-numerique/2907-140619-cybersecurite-le-lesotho-lance-son-equipe-nationale-de-reponse-aux-incidents": "2026-07-30",
   "u:https://www.agenceecofin.com/actualites-numerique/3007-140645-mauritanie-cherche-a-tirer-parti-de-l-expertise-d-oman-pour-sa-transformation-numerique": "2026-07-31",
+  "u:https://www.agenceecofin.com/actualites-numerique/3108-141168-internet-par-satellite-starlink-cible-16-nouveaux-marches-africains-d-ici-fin-2026": {
+    "date": "2026-09-01",
+    "title": "Internet par satellite : Starlink cible 16 nouveaux marchés africains d’ici fin 2026"
+  },
   "u:https://www.agenceecofin.com/actualites-numerique/3108-141179-le-tchad-explore-des-solutions-numeriques-azerbaidjanaises-pour-ses-services-publics": {
     "date": "2026-09-01",
     "title": "Le Tchad explore des solutions numériques azerbaïdjanaises pour ses services publics"
