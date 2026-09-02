@@ -201,6 +201,22 @@
     "date": "2026-09-01",
     "title": "Zambie : le temple Shaolin de Lusaka forge bien plus que des combattants"
   },
+  "u:http://fr.africanews.com/2026/09/01/burkina-faso-la-culture-de-lananas-gagne-du-terrain-au-sahel": {
+    "date": "2026-09-03",
+    "title": "Burkina Faso : la culture de l'ananas gagne du terrain au Sahel"
+  },
+  "u:http://fr.africanews.com/2026/09/01/le-fmi-et-le-senegal-scellent-un-accord-de-22-milliards-de-dollars": {
+    "date": "2026-09-03",
+    "title": "Le FMI et le Sénégal scellent un accord de 2,2 milliards de dollars"
+  },
+  "u:http://fr.africanews.com/2026/09/02/a-88-ans-mariam-bagayoko-fait-vivre-les-rythmes-dun-mali-ancestral": {
+    "date": "2026-09-03",
+    "title": "À 88 ans, Mariam Bagayoko fait vivre les rythmes d’un Mali ancestral"
+  },
+  "u:http://fr.africanews.com/2026/09/02/arret-sur-images-du-2-septembre-2026-xi-jinping-en-visite-en-egypte": {
+    "date": "2026-09-03",
+    "title": "Arrêt sur images du 2 septembre 2026 : Xi Jinping en visite en Égypte"
+  },
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": {
     "date": "2026-08-26",
     "title": "Croissance du PIB (%) — Benin (2025) : 8.07408453688336"
@@ -834,6 +850,22 @@
     "date": "2026-09-02",
     "title": "S&#xe9;n&#xe9;gal: Le FMI et le pays reprennent leur coop&#xe9;ration, un pr&#xea;t de 2,2 milliards de dollars en vue pour Dakar"
   },
+  "u:https://fr.allafrica.com/stories/202609020207.html": {
+    "date": "2026-09-03",
+    "title": "S&#xe9;n&#xe9;gal: La date de la DPG fix&#xe9;e au mardi 8 septembre par l'Assembl&#xe9;e nationale"
+  },
+  "u:https://fr.allafrica.com/stories/202609020215.html": {
+    "date": "2026-09-03",
+    "title": "Cote d'Ivoire: Nouvel organe &#xe9;lectoral - Des partis et groupements politiques confortent leurs positions"
+  },
+  "u:https://fr.allafrica.com/stories/202609020239.html": {
+    "date": "2026-09-03",
+    "title": "Afrique: Diomand&#xe9;, Bouaddi, Jackson... les transferts des joueurs africains ont anim&#xe9; le mercato estival"
+  },
+  "u:https://fr.allafrica.com/stories/202609020651.html": {
+    "date": "2026-09-03",
+    "title": "Togo: Une nouvelle initiative de formation"
+  },
   "u:https://fr.apanews.net/business/african-mining-week-2026-la-guinee-legypte-et-le-nigeria-en-vedette": "2026-08-05",
   "u:https://fr.apanews.net/business/afrique-australe-airlink-ouvrira-une-liaison-directe-lanseria-harare-en-novembre": "2026-08-04",
   "u:https://fr.apanews.net/business/botswana-un-diamant-brut-de-1-305-carats-decouvert-a-la-mine-de-karowe": "2026-07-31",
@@ -871,6 +903,10 @@
   "u:https://fr.apanews.net/diplomacy/egypte-tchad-un-corridor-de-4-300-km-vers-lafrique-centrale": {
     "date": "2026-08-14",
     "title": "Égypte-Tchad : un corridor de 4 300 km vers l’Afrique centrale"
+  },
+  "u:https://fr.apanews.net/education/tunisie-allemagne-100-millions-deuros-de-projets-annonces": {
+    "date": "2026-09-03",
+    "title": "Tunisie–Allemagne : 100 millions d’euros de projets annoncés"
   },
   "u:https://fr.apanews.net/integration/giaba-le-gambien-mam-cherno-jallow-nomme-directeur-general": {
     "date": "2026-09-01",
@@ -1027,6 +1063,18 @@
     "date": "2026-09-02",
     "title": "Le FAGACE dévoile ses Executive Programs 2026 et organise un webinaire gratuit de présentation le 15 septembre"
   },
+  "u:https://www.agenceecofin.com/actualites-finance/0209-141234-coris-bank-le-cout-du-risque-bondit-de-48-a-fin-juin-2026-au-plus-haut-depuis-2018": {
+    "date": "2026-09-03",
+    "title": "Coris Bank : le coût du risque bondit de 48 % à fin juin 2026, au plus haut depuis 2018"
+  },
+  "u:https://www.agenceecofin.com/actualites-finance/0209-141242-climat-des-affaires-la-cote-d-ivoire-le-senegal-et-le-togo-en-tete-dans-l-uemoa-en-2025": {
+    "date": "2026-09-03",
+    "title": "Climat des affaires : la Côte d’Ivoire, le Sénégal et le Togo en tête dans l’UEMOA en 2025"
+  },
+  "u:https://www.agenceecofin.com/actualites-finance/0209-141259-pourquoi-goldman-sachs-prevoit-que-l-afrique-du-sud-retrouve-sa-notation-investment-grade-des-2028": {
+    "date": "2026-09-03",
+    "title": "Pourquoi Goldman Sachs prévoit que l’Afrique du Sud retrouve sa notation « Investment grade » dès 2028"
+  },
   "u:https://www.agenceecofin.com/actualites-finance/0308-140728-hsbc-cede-sa-banque-de-detail-en-egypte-et-renforce-son-recentrage-strategique": "2026-08-04",
   "u:https://www.agenceecofin.com/actualites-finance/0408-140748-umoa-le-taux-de-degradation-du-portefeuille-des-microfinances-recul-a-7-5-a-fin-2025": "2026-08-05",
   "u:https://www.agenceecofin.com/actualites-finance/0408-140754-le-benefice-d-agl-cote-d-ivoire-chute-de-96-3-en-2025-malgre-la-hausse-du-chiffre-d-affaires": "2026-08-05",
@@ -1129,6 +1177,10 @@
   },
   "u:https://www.agenceecofin.com/actualites-industries/2707-140542-malawi-20-mw/40-mwh-de-stockage-pour-renforcer-un-reseau-electrique-sous-tension": "2026-07-28",
   "u:https://www.agenceecofin.com/actualites-industries/2807-140584-or-les-investisseurs-dans-les-coulisses-de-fekola-la-plus-grande-mine-du-mali-en-2025": "2026-07-29",
+  "u:https://www.agenceecofin.com/actualites-infrastructures/0209-141247-dakhla-face-a-abidjan-lagos-et-lome-la-bataille-des-hubs-logistiques-s-intensifie": {
+    "date": "2026-09-03",
+    "title": "Dakhla face à Abidjan, Lagos et Lomé : la bataille des hubs logistiques s’intensifie"
+  },
   "u:https://www.agenceecofin.com/actualites-infrastructures/2008-140946-rail-pourquoi-l-ouganda-finance-differemment-le-sgr-et-ses-routes": {
     "date": "2026-08-21",
     "title": "Rail : pourquoi l’Ouganda finance différemment le SGR et ses routes"
@@ -1213,6 +1265,10 @@
     "title": "En Afrique, les fondations philanthropiques deviennent des acteurs clés de l'éducation publique"
   },
   "u:https://www.agenceecofin.com/actualites/0108-140705-dakar-2026-les-jeux-olympiques-de-la-jeunesse-comme-laboratoire-d-une-economie-du-sport": "2026-08-03",
+  "u:https://www.agenceecofin.com/actualites/0209-141241-les-exportations-togolaises-en-hausse-de-29-5-au-2e-trimestre-portees-par-les-phosphates": {
+    "date": "2026-09-03",
+    "title": "Les exportations togolaises en hausse de 29,5 % au 2e trimestre, portées par les phosphates"
+  },
   "u:https://www.agenceecofin.com/actualites/0308-140715-pourquoi-la-bad-estime-que-lafrique-de-louest-a-moins-un-probleme-dargent-quun-probleme-de-tuyauterie": "2026-08-04",
   "u:https://www.agenceecofin.com/actualites/0608-140772-raffinerie-dangote-johannesburg-veut-sa-part-de-la-plus-grosse-introduction-en-bourse-jamais-tentee-en-afrique": {
     "date": "2026-08-07",
@@ -1458,6 +1514,10 @@
   "u:https://www.sikafinance.com/marches/benin-la-banque-mondiale-mobilise-320-millions-usd-pour-un-barrage-hydroelectrique-et-le-developpement-du-capital-humain_63058": "2026-07-20",
   "u:https://www.sikafinance.com/marches/biic-le-benefice-bondit-de-48-au-premier-trimestre-2026_63175": "2026-07-24",
   "u:https://www.sikafinance.com/marches/brvm-au-seuil-des-17-000-fcfa-orange-ci-ravive-l-elan-des-indices_63353": "2026-08-03",
+  "u:https://www.sikafinance.com/marches/brvm-coris-bank-propulse-les-indices-dans-le-vert-malgre-une-cote-majoritairement-baissiere_63991": {
+    "date": "2026-09-03",
+    "title": "BRVM : Coris Bank propulse les indices dans le vert malgré une cote majoritairement baissière"
+  },
   "u:https://www.sikafinance.com/marches/brvm-eti-perd-90-milliards-fcfa-de-capitalisation-et-freine-le-marche_63265": "2026-07-29",
   "u:https://www.sikafinance.com/marches/brvm-les-indices-tiennent-bon-societe-generale-ci-concentre-20-des-echanges_63892": {
     "date": "2026-08-31",
@@ -1628,6 +1688,10 @@
     "title": "Niger : Près de 2 milliards USD pour un projet de raffinerie de 100 000 b/j et un complexe pétrochimique"
   },
   "u:https://www.sikafinance.com/marches/nigeria-aliko-dangote-prevoit-de-ceder-33-de-sa-fortune-a-des-œuvres-caritatives_63255": "2026-07-29",
+  "u:https://www.sikafinance.com/marches/nigeria-la-croissance-accelere-a-4-43-au-2e-trimestre-portee-par-le-petrole-et-les-services_63980": {
+    "date": "2026-09-03",
+    "title": "Nigeria : La croissance accélère à 4,43% au 2e trimestre, portée par le pétrole et les services"
+  },
   "u:https://www.sikafinance.com/marches/nigeria-moodys-releve-la-perspective-a-positive-et-ouvre-la-voie-a-une-nouvelle-amelioration-de-la-note_63906": {
     "date": "2026-08-31",
     "title": "Nigeria : Moody’s relève la perspective à ‘’positive’’ et ouvre la voie à une nouvelle amélioration de la note"
@@ -1646,6 +1710,10 @@
   "u:https://www.sikafinance.com/marches/rdc-2-4-millions-usd-pour-ameliorer-la-navigabilite-de-voies-fluviales-et-faciliter-levacuation-des-produits-agricoles_63903": {
     "date": "2026-08-31",
     "title": "RDC : 2,4 millions USD pour améliorer la navigabilité de voies fluviales et faciliter l’évacuation des produits agricoles"
+  },
+  "u:https://www.sikafinance.com/marches/rdc-semlex-operateur-des-passeports-biometriques-devant-la-justice-belge-pour-un-detournement-presume-de-60-millions-usd_63982": {
+    "date": "2026-09-03",
+    "title": "RDC : Semlex, opérateur des passeports biométriques, devant la justice belge pour un détournement présumé de 60 millions USD"
   },
   "u:https://www.sikafinance.com/marches/regime-de-change-fixe-81-economies-sous-pression-pour-preserver-leur-credibilite_63946": {
     "date": "2026-09-02",
