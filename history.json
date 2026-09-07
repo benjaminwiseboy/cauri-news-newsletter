@@ -1,8 +1,4 @@
 {
-  "u:http://fr.africanews.com/2026/07/22/le-nigeria-et-lallemagne-sengagent-a-renforcer-leurs-relations-commerciales": "2026-07-24",
-  "u:http://fr.africanews.com/2026/07/23/football-laes-veut-accueillir-la-can-2032-malgre-la-crise-securitaire": "2026-07-24",
-  "u:http://fr.africanews.com/2026/07/23/lunion-africaine-alerte-sur-la-crise-du-financement-de-la-sante-en-afrique": "2026-07-24",
-  "u:http://fr.africanews.com/2026/07/23/patrice-motsepe-devoile-la-nouvelle-can-a-28-equipes": "2026-07-24",
   "u:http://fr.africanews.com/2026/07/24/lafrique-du-sud-touchee-par-les-nouveaux-droits-de-douane-americains": "2026-07-27",
   "u:http://fr.africanews.com/2026/07/24/togo-les-evala-un-rite-de-passage-au-coeur-de-la-tradition-kabye": "2026-07-27",
   "u:http://fr.africanews.com/2026/07/25/comores-six-anciennes-medinas-sur-la-liste-du-patrimoine-mondial-de-lunesco": "2026-07-27",
@@ -288,6 +284,10 @@
     "title": "RDC : le gouvernement met en avant près de 29 000 milliards CDF de recettes intérieures en 2025 - Bénin Web TV"
   },
   "u:https://beninwebtv.com/rdc-les-societes-minieres-doivent-ceder-10-de-leur-capital-aux-nationaux-des-2026": "2026-08-05",
+  "u:https://beninwebtv.com/tanzanie-les-exportations-grimpent-de-165-a-pres-de-20-milliards-de-dollars": {
+    "date": "2026-09-08",
+    "title": "Tanzanie : les exportations grimpent de 16,5 % à près de 20 milliards de dollars - Bénin Web TV"
+  },
   "u:https://beninwebtv.com/uemoa-4-institutions-de-microfinance-homologuees-pour-la-finance-islamique-en-2025": "2026-08-05",
   "u:https://beninwebtv.com/woodside-retire-deux-objectifs-bas-carbone-et-avance-sur-sangomar-au-senegal": {
     "date": "2026-08-28",
@@ -296,6 +296,10 @@
   "u:https://businessday.ng/energy/article/abu-dhabi-firm-acquires-90-stake-in-azura-to-capture-africas-power-hungry-markets": {
     "date": "2026-09-01",
     "title": "Abu Dhabi firm acquires 90% stake in Azura to capture Africa’s power-hungry markets"
+  },
+  "u:https://businessday.ng/energy/article/dangote-opens-refinery-ownership-to-africans-for-n5250": {
+    "date": "2026-09-08",
+    "title": "Dangote opens refinery ownership to Africans for N5,250"
   },
   "u:https://businessday.ng/energy/article/key-credit-risk-considerations-geregu-power-default": {
     "date": "2026-08-17",
@@ -473,10 +477,6 @@
     "date": "2026-08-25",
     "title": "Tchad: Pourquoi Idriss Déby fait le choix de l’Economiste Idriss Ahmed Idriss"
   },
-  "u:https://fr.allafrica.com/stories/202607230278.html": "2026-07-24",
-  "u:https://fr.allafrica.com/stories/202607230467.html": "2026-07-24",
-  "u:https://fr.allafrica.com/stories/202607230649.html": "2026-07-24",
-  "u:https://fr.allafrica.com/stories/202607230654.html": "2026-07-24",
   "u:https://fr.allafrica.com/stories/202607250229.html": "2026-07-27",
   "u:https://fr.allafrica.com/stories/202607250231.html": "2026-07-27",
   "u:https://fr.allafrica.com/stories/202607260038.html": "2026-07-27",
@@ -889,6 +889,26 @@
     "date": "2026-09-07",
     "title": "S&#xe9;n&#xe9;gal: Diw-nior - Quand le lait caill&#xe9; se transforme en or pour les femmes du Ferlo"
   },
+  "u:https://fr.allafrica.com/stories/202609070133.html": {
+    "date": "2026-09-08",
+    "title": "Afrique de l'Ouest: IIe Jeux de l'AES - Ouagadougou fin pr&#xea;te pour accueillir les trois nations du Sahel"
+  },
+  "u:https://fr.allafrica.com/stories/202609070323.html": {
+    "date": "2026-09-08",
+    "title": "S&#xe9;n&#xe9;gal: Espace - Maram Kair&#xe9;, une voix s&#xe9;n&#xe9;galaise au comit&#xe9; &#xe9;ditorial de la revue &#xab; Deep Space Exploration &#xbb;"
+  },
+  "u:https://fr.allafrica.com/stories/202609070426.html": {
+    "date": "2026-09-08",
+    "title": "Afrique de l'Ouest: Mauritanie - Des commer&#xe7;ants s&#xe9;n&#xe9;galais saluent l'interdiction de taxes &#xe0; un bac reliant les deux pays"
+  },
+  "u:https://fr.allafrica.com/stories/202609070431.html": {
+    "date": "2026-09-08",
+    "title": "Nigeria: La m&#xe9;ga-raffinerie Dangote bient&#xf4;t cot&#xe9;e en bourse pour financer un doublement de sa production"
+  },
+  "u:https://fr.allafrica.com/stories/202609070724.html": {
+    "date": "2026-09-08",
+    "title": "Cameroun: Ngannou construit un h&#xf4;tel &#xe0; bati&#xe9;, son village natal"
+  },
   "u:https://fr.apanews.net/business/african-mining-week-2026-la-guinee-legypte-et-le-nigeria-en-vedette": "2026-08-05",
   "u:https://fr.apanews.net/business/afrique-australe-airlink-ouvrira-une-liaison-directe-lanseria-harare-en-novembre": "2026-08-04",
   "u:https://fr.apanews.net/business/botswana-un-diamant-brut-de-1-305-carats-decouvert-a-la-mine-de-karowe": "2026-07-31",
@@ -921,7 +941,6 @@
     "date": "2026-08-11",
     "title": "Tchad : facilité de financement de €110 millions par Afreximbank"
   },
-  "u:https://fr.apanews.net/business/transition-energetique-le-groupe-sahara-appelle-a-des-financements-adaptes-aux-realites-africaines": "2026-07-24",
   "u:https://fr.apanews.net/diplomacy/egypte-tchad-un-corridor-de-4-300-km-vers-lafrique-centrale": {
     "date": "2026-08-14",
     "title": "Égypte-Tchad : un corridor de 4 300 km vers l’Afrique centrale"
@@ -974,6 +993,10 @@
   "u:https://fr.apanews.net/society/prosperite-le-maroc-au-76e-rang-mondial-du-legatum-index": {
     "date": "2026-08-19",
     "title": "Prospérité : le Maroc au 76e rang mondial du Legatum Index"
+  },
+  "u:https://fr.apanews.net/society/tunisie-coordination-entre-la-banque-centrale-et-le-cmf": {
+    "date": "2026-09-08",
+    "title": "Tunisie : coordination entre la Banque centrale et le CMF"
   },
   "u:https://fr.apanews.net/society/tunisie-plus-dun-jeune-sur-deux-envisage-lemigration": {
     "date": "2026-08-11",
@@ -1204,6 +1227,10 @@
     "date": "2026-08-10",
     "title": "En Éthiopie, l'Organisation internationale du travail s'attaque au maillon faible de l'enseignement technique"
   },
+  "u:https://www.agenceecofin.com/actualites-industries/0709-141347-energies-renouvelables-odyssey-mobilise-74-millions-pour-financer-les-pme-avant-les-chantiers": {
+    "date": "2026-09-08",
+    "title": "Énergies renouvelables : Odyssey mobilise 74 millions $ pour financer les PME avant les chantiers"
+  },
   "u:https://www.agenceecofin.com/actualites-industries/1008-140832-afrique-du-sud-le-sa-h2-fund-mobilise-185-millions-usd-pour-l-hydrogene-vert-et-ses-derives": {
     "date": "2026-08-11",
     "title": "Afrique du Sud : le SA H2 Fund mobilise 185 millions USD pour l’hydrogène vert et ses dérivés"
@@ -1275,6 +1302,10 @@
   "u:https://www.agenceecofin.com/actualites-numerique/0708-140813-l-algerie-forme-des-talents-ia-pour-soutenir-sa-vision-deconomie-numerique": {
     "date": "2026-08-10",
     "title": "L’Algérie forme des talents IA pour soutenir sa vision d'économie numérique"
+  },
+  "u:https://www.agenceecofin.com/actualites-numerique/0709-141342-burkina-faso-260-000-d-amendes-generes-par-la-video-verbalisation-en-un-mois": {
+    "date": "2026-09-08",
+    "title": "Burkina Faso : 260 000 $ d’amendes générés par la vidéo verbalisation en un mois"
   },
   "u:https://www.agenceecofin.com/actualites-numerique/0808-140820-lia-pourrait-faire-gagner-un-siecle-en-dix-ans-aux-pays-en-developpement-banque-mondiale": {
     "date": "2026-08-10",
@@ -1465,6 +1496,10 @@
     "date": "2026-08-20",
     "title": "Côte d’Ivoire-AIP/ Taxe de développement touristique: l’État table sur 4 milliards FCFA de recettes supplémentaires par an"
   },
+  "u:https://www.brvm.org/sites/default/files/20260709_-_avis_ndeg262_brvmdg_-_report_de_la_date_de_premiere_cotation_-_emprunts_etat_du_senegal.pdf": {
+    "date": "2026-09-08",
+    "title": "Emprunts ETAT DU SENEGAL 6,40 % 2026-2029, ETAT DU SENEGAL 6,60 % 2026-2031, ETAT DU SENEGAL 6,75 % 2026-2033 et ETAT DU SENEGAL 6,95 % 2026-2036 : Report de la date de première cotation"
+  },
   "u:https://www.brvm.org/sites/default/files/20260724_-_avis_ndeg220_brvmdg_-_admission_a_la_cote_actions_nouvelles_safca_ci.pdf": "2026-07-27",
   "u:https://www.brvm.org/sites/default/files/20260730_-_calendrier_de_paiement_des_dividendes_-_exercice_2025.pdf": "2026-08-03",
   "u:https://www.brvm.org/sites/default/files/20260804_-_avis_ndeg229_brvmdg_-_rappel_7_aout_2026_jour_ferie.pdf": "2026-08-06",
@@ -1608,6 +1643,10 @@
     "date": "2026-09-03",
     "title": "Afrique : L’AFC et le Saoudien Vision Invest injectent 300 millions USD dans l'infrastructure de connectivité"
   },
+  "u:https://www.sikafinance.com/marches/afrique-les-ventes-de-smartphones-chutent-de-7-plombees-par-la-penurie-mondiale-de-puces_64078": {
+    "date": "2026-09-08",
+    "title": "Afrique : Les ventes de smartphones chutent de 7%, plombées par la pénurie mondiale de puces"
+  },
   "u:https://www.sikafinance.com/marches/afrique-plus-de-4-millions-usd-de-la-bad-pour-integrer-le-capital-naturel-dans-les-politiques-publiques-de-13-pays_63436": "2026-08-06",
   "u:https://www.sikafinance.com/marches/axe-nigeria–burkina-90-000-km-de-fibre-pour-diviser-les-couts-internet-et-securiser-la-connectivite_63699": {
     "date": "2026-08-20",
@@ -1621,7 +1660,6 @@
     "date": "2026-08-12",
     "title": "Banques ivoiriennes : Le ROE redistribue les cartes et consacre un nouveau leader"
   },
-  "u:https://www.sikafinance.com/marches/biic-le-benefice-bondit-de-48-au-premier-trimestre-2026_63175": "2026-07-24",
   "u:https://www.sikafinance.com/marches/brvm-alios-finance-ci-plebiscite-apres-un-benefice-semestriel-remarquable_64056": {
     "date": "2026-09-07",
     "title": "BRVM : Alios Finance CI plébiscité après un bénéfice semestriel remarquable"
@@ -1640,6 +1678,10 @@
     "date": "2026-08-31",
     "title": "BRVM : Les indices tiennent bon, Société Générale CI concentre 20 % des échanges"
   },
+  "u:https://www.sikafinance.com/marches/brvm-nsia-banque-se-hisse-a-un-sommet-historique-a-loree-des-25-000-fcfa_64086": {
+    "date": "2026-09-08",
+    "title": "BRVM : NSIA Banque se hisse à un sommet historique, à l’orée des 25 000 FCFA"
+  },
   "u:https://www.sikafinance.com/marches/brvm-semaine-30-le-marche-entre-en-phase-de-digestion-entre-securisation-et-recherche-d-opportunites_63373": "2026-08-04",
   "u:https://www.sikafinance.com/marches/brvm-semaine-31-entre-fondamentaux-et-speculation-les-investisseurs-redefinissent-leurs-positions_63502": {
     "date": "2026-08-11",
@@ -1648,6 +1690,10 @@
   "u:https://www.sikafinance.com/marches/brvm-semaine-32-lappetit-des-investisseurs-sintensifie-au-seuil-des-500-points_63631": {
     "date": "2026-08-18",
     "title": "BRVM / SEMAINE 32 : L’appétit des investisseurs s’intensifie au seuil des 500 points"
+  },
+  "u:https://www.sikafinance.com/marches/brvm-semaine-35-biic-remporte-22-dans-un-marche-ou-la-selectivite-devient-strategique_64074": {
+    "date": "2026-09-08",
+    "title": "BRVM/ SEMAINE 35 : BIIC remporte 22% dans un marché où la sélectivité devient stratégique"
   },
   "u:https://www.sikafinance.com/marches/brvm-sicor-ci-signe-une-cinquieme-hausse-consecutive-et-franchit-le-cap-des-10-000-fcfa_63606": {
     "date": "2026-08-17",
@@ -1675,7 +1721,6 @@
     "date": "2026-09-04",
     "title": "Burkina Faso/BRVM  : Le Groupe Vista fait coter les 151,5 milliards FCFA des Diaspora Bonds"
   },
-  "u:https://www.sikafinance.com/marches/cloud-souverain-orange-cloud-cyber-solutions-saffirme-comme-linterlocuteur-local-de-reference-des-entreprises_63185": "2026-07-24",
   "u:https://www.sikafinance.com/marches/congo-deux-defauts-un-historique-qui-continue-de-peser-sur-la-prime-de-risque_63659": {
     "date": "2026-08-19",
     "title": "Congo : Deux défauts, un historique qui continue de peser sur la prime de risque"
@@ -1709,7 +1754,6 @@
     "title": "Côte d’Ivoire : Etat et secteur privé proposent des solutions pour améliorer l'inclusion financière de l'agro-industrie rurale"
   },
   "u:https://www.sikafinance.com/marches/cote-divoire-l-administration-fiscale-depasse-de-67-5-milliards-fcfa-son-objectif-de-recouvrement-au-2e-trimestre_63363": "2026-08-03",
-  "u:https://www.sikafinance.com/marches/cote-divoire-la-bad-decaisse-plus-de-127-milliards-fcfa-pour-permettre-a-la-sir-de-produire-des-carburants-ultra-propres_63176": "2026-07-24",
   "u:https://www.sikafinance.com/marches/cote-divoire-la-bni-mobilise-300-milliards-fcfa-pour-soutenir-la-campagne-cafe-cacao-2026-2027_63799": {
     "date": "2026-08-25",
     "title": "Côte d’Ivoire : La BNI mobilise 300 milliards FCFA pour soutenir la campagne café-cacao 2026-2027"
@@ -1872,6 +1916,14 @@
   "u:https://www.sikafinance.com/marches/sitab-un-benefice-stable-a-18-milliards-fcfa-au-s1-2026-malgre-une-progression-de-lactivite_63656": {
     "date": "2026-08-19",
     "title": "SITAB : Un bénéfice stable à 18 milliards FCFA au S1 2026, malgré une progression de l’activité"
+  },
+  "u:https://www.sikafinance.com/marches/sp-abaisse-la-note-du-senegal-a-cc-tout-ce-quil-faut-comprendre_64069": {
+    "date": "2026-09-08",
+    "title": "S&P abaisse la note du Sénégal à ‘’CC’’ : Tout ce qu’il faut comprendre"
+  },
+  "u:https://www.sikafinance.com/marches/startups-africaines-2-10-milliards-usd-leves-entre-janvier-et-aout-2026_64081": {
+    "date": "2026-09-08",
+    "title": "Startups africaines : 2,10 milliards USD levés entre janvier et août 2026"
   },
   "u:https://www.sikafinance.com/marches/uemoa-857-milliards-fcfa-d-excedent-courant-au-1er-trimestre-2026-un-retournement-porte-par-les-exportations_63230": "2026-07-28",
   "u:https://www.sikafinance.com/marches/umoa-le-ratio-de-solvabilite-des-banques-atteint-14-7-en-2025-3-points-au-dessus-du-minimum-reglementaire_63575": {
