@@ -1,11 +1,5 @@
 {
-  "u:http://fr.africanews.com/2026/07/24/lafrique-du-sud-touchee-par-les-nouveaux-droits-de-douane-americains": "2026-07-27",
-  "u:http://fr.africanews.com/2026/07/24/togo-les-evala-un-rite-de-passage-au-coeur-de-la-tradition-kabye": "2026-07-27",
-  "u:http://fr.africanews.com/2026/07/25/comores-six-anciennes-medinas-sur-la-liste-du-patrimoine-mondial-de-lunesco": "2026-07-27",
-  "u:http://fr.africanews.com/2026/07/25/ouganda-12-girafes-transferees-dans-un-effort-de-restauration-ecologique": "2026-07-27",
   "u:http://fr.africanews.com/2026/07/26/climat-un-super-el-nino-imminent-pourrait-couter-cher-a-lafrique": "2026-07-28",
-  "u:http://fr.africanews.com/2026/07/26/tunisie-la-ville-de-sidi-bou-said-au-patrimoine-mondial-de-lunesco": "2026-07-27",
-  "u:http://fr.africanews.com/2026/07/26/un-super-el-nino-imminent-pourrait-coute-cher-a-lafrique": "2026-07-27",
   "u:http://fr.africanews.com/2026/07/27/benin-porto-novo-celebre-ses-masques-et-ses-traditions-ancestrales": "2026-07-28",
   "u:http://fr.africanews.com/2026/07/27/football-le-psg-se-retire-diomande-en-route-vers-le-real-madrid": "2026-07-28",
   "u:http://fr.africanews.com/2026/07/28/les-rocas-de-sao-tome-et-principe-rejoignent-le-patrimoine-mondial-de-lunesco": "2026-07-29",
@@ -212,6 +206,22 @@
   "u:http://fr.africanews.com/2026/09/07/a-zanzibar-sur-les-traces-de-freddie-mercury-dans-la-maison-de-son-enfance": {
     "date": "2026-09-09",
     "title": "À Zanzibar, sur les traces de Freddie Mercury dans la maison de son enfance"
+  },
+  "u:http://fr.africanews.com/2026/09/09/mali-lintelligence-artificielle-alimente-la-guerre-de-linformation": {
+    "date": "2026-09-11",
+    "title": "Mali : l'intelligence artificielle alimente la guerre de l'information"
+  },
+  "u:http://fr.africanews.com/2026/09/10/algerie-le-pari-de-la-diversification-economique-business-africa": {
+    "date": "2026-09-11",
+    "title": "Algérie : le pari de la diversification économique [Business Africa]"
+  },
+  "u:http://fr.africanews.com/2026/09/10/kenya-des-acrobates-de-rue-divertissent-les-automobilistes": {
+    "date": "2026-09-11",
+    "title": "Kenya : des acrobates de rue divertissent les automobilistes"
+  },
+  "u:http://fr.africanews.com/2026/09/10/la-flamme-olympique-allumee-a-athenes-avant-les-jo-de-la-jeunesse-a-dakar": {
+    "date": "2026-09-11",
+    "title": "La flamme olympique allumée à Athènes avant les JO de la Jeunesse à Dakar"
   },
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": {
     "date": "2026-08-26",
@@ -461,6 +471,10 @@
     "date": "2026-08-13",
     "title": "Congo : la Banque mondiale débloque 60 millions de dollars pour réduire les importations de poisson et d'œufs"
   },
+  "u:https://ecomatin.net/congo-les-interets-de-la-dette-publique-vont-bondir-de-46-en-2027": {
+    "date": "2026-09-11",
+    "title": "Congo : les intérêts de la dette publique vont bondir de 46 % en 2027"
+  },
   "u:https://ecomatin.net/congo-les-ventes-de-vehicules-ont-genere-18-milliards-fcfa-a-fin-mars": {
     "date": "2026-08-12",
     "title": "Congo : les ventes de véhicules ont généré 18 milliards FCFA à fin mars"
@@ -490,6 +504,10 @@
     "title": "IDE : 595 milliards FCFA attendus au Cameroun en 2026 (BAD)"
   },
   "u:https://ecomatin.net/kribi-le-projet-dusine-de-45-milliards-fcfa-de-noubru-holding-vire-au-contentieux-judiciaire": "2026-08-04",
+  "u:https://ecomatin.net/la-centrafrique-sollicite-les-banques-pour-racheter-10-milliards-fcfa-de-dette-sur-le-marche-des-titres-publics": {
+    "date": "2026-09-11",
+    "title": "La Centrafrique sollicite les banques pour racheter 10 milliards FCFA de dette sur le marché des titres publics"
+  },
   "u:https://ecomatin.net/rca-bangui-recoit-des-drones-starlink-et-gps-pour-moderniser-la-prospection-miniere": "2026-07-29",
   "u:https://ecomatin.net/rdc-rdc-afriland-first-bank-congo-se-rapproche-du-depot-de-bilan-trois-ans-apres-leviction-de-paul-kammogne-fokam": {
     "date": "2026-08-18",
@@ -509,12 +527,6 @@
     "date": "2026-08-25",
     "title": "Tchad: Pourquoi Idriss Déby fait le choix de l’Economiste Idriss Ahmed Idriss"
   },
-  "u:https://fr.allafrica.com/stories/202607250229.html": "2026-07-27",
-  "u:https://fr.allafrica.com/stories/202607250231.html": "2026-07-27",
-  "u:https://fr.allafrica.com/stories/202607260038.html": "2026-07-27",
-  "u:https://fr.allafrica.com/stories/202607260045.html": "2026-07-27",
-  "u:https://fr.allafrica.com/stories/202607260049.html": "2026-07-27",
-  "u:https://fr.allafrica.com/stories/202607260068.html": "2026-07-27",
   "u:https://fr.allafrica.com/stories/202607270052.html": "2026-07-28",
   "u:https://fr.allafrica.com/stories/202607270433.html": "2026-07-28",
   "u:https://fr.allafrica.com/stories/202607270508.html": "2026-07-28",
@@ -997,6 +1009,18 @@
     "date": "2026-09-10",
     "title": "Burkina Faso: Le capitaine Ibrahim Traor&#xe9; inaugure TEXFORCES-BF pour produire les tenues des FDS et des civils"
   },
+  "u:https://fr.allafrica.com/stories/202609100134.html": {
+    "date": "2026-09-11",
+    "title": "S&#xe9;n&#xe9;gal: One Health - Les partenaires techniques et financiers r&#xe9;affirment leur engagement aux c&#xf4;t&#xe9;s du pays"
+  },
+  "u:https://fr.allafrica.com/stories/202609100151.html": {
+    "date": "2026-09-11",
+    "title": "Nigeria: Dangote entre en bourse - Quel impact pour les investisseurs &#xe9;trangers ?"
+  },
+  "u:https://fr.allafrica.com/stories/202609100352.html": {
+    "date": "2026-09-11",
+    "title": "Burkina Faso: Inauguration d'un complexe industriel pour &#xab;affirmer la souverainet&#xe9;&#xbb; du pays dans le textile"
+  },
   "u:https://fr.apanews.net/business/african-mining-week-2026-la-guinee-legypte-et-le-nigeria-en-vedette": "2026-08-05",
   "u:https://fr.apanews.net/business/afrique-australe-airlink-ouvrira-une-liaison-directe-lanseria-harare-en-novembre": "2026-08-04",
   "u:https://fr.apanews.net/business/botswana-un-diamant-brut-de-1-305-carats-decouvert-a-la-mine-de-karowe": "2026-07-31",
@@ -1110,7 +1134,6 @@
     "date": "2026-09-02",
     "title": "Mondial féminin 2027 : deux places africaines encore en jeu"
   },
-  "u:https://fr.apanews.net/technologies/burkina-les-negociations-avec-starlink-avancent-ministre": "2026-07-27",
   "u:https://fr.apanews.net/tv/can-feminine-lafrique-du-sud-et-la-cote-divoire-en-quarts-2": "2026-08-06",
   "u:https://nairametrics.com/2026/08/09/lekki-residents-groan-as-2-week-blackout-sends-fuel-spending-soaring": {
     "date": "2026-08-10",
@@ -1172,6 +1195,10 @@
     "date": "2026-09-10",
     "title": "Meet the Dangote Petroleum Refinery Board of Directors"
   },
+  "u:https://nairametrics.com/2026/09/10/nerc-orders-discos-to-channel-60-of-operating-funds-into-capex-from-2027": {
+    "date": "2026-09-11",
+    "title": "NERC orders DisCos to channel 60% of operating funds into CapEx from 2027"
+  },
   "u:https://rti.info/colloque-national-femmes-leadership-et-nation-le-cepici-place-linvestissement-feminin-au-coeur-de-la-transformation-economique": {
     "date": "2026-08-12",
     "title": "Colloque national « Femmes, Leadership et Nation » : le CEPICI place l’investissement féminin au cœur de la transformation économique"
@@ -1209,6 +1236,10 @@
   "u:https://www.agenceecofin.com/actualites-agro/0809-141383-le-belge-sipef-etend-ses-activites-bananieres-en-cote-d-ivoire-avec-l-acquisition-de-tiabam": {
     "date": "2026-09-09",
     "title": "Le Belge Sipef étend ses activités bananières en Côte d’Ivoire avec l’acquisition de Tiabam"
+  },
+  "u:https://www.agenceecofin.com/actualites-agro/1009-141450-benin-la-filiere-soja-accelere-sa-transformation-avec-un-investissement-de-50-millions": {
+    "date": "2026-09-11",
+    "title": "Bénin : la filière soja accélère sa transformation avec un investissement de 50 millions $"
   },
   "u:https://www.agenceecofin.com/actualites-agro/1408-140900-rwanda-les-recettes-d-exportation-agricoles-atteignent-le-milliard-de-dollars-en-2025/2026": {
     "date": "2026-08-17",
@@ -1267,6 +1298,14 @@
     "date": "2026-09-10",
     "title": "BRVM : après une OPV souscrite à 142 %, Bridge Bank sera cotée le 24 septembre"
   },
+  "u:https://www.agenceecofin.com/actualites-finance/1009-141452-eco-la-cedeao-presse-les-dirigeants-ouest-africains-de-lever-les-derniers-blocages": {
+    "date": "2026-09-11",
+    "title": "ECO : la CEDEAO presse les dirigeants ouest-africains de lever les derniers blocages"
+  },
+  "u:https://www.agenceecofin.com/actualites-finance/1009-141461-ecobank-ci-le-cout-du-risque-bondit-et-fait-reculer-le-benefice-net-de-8-6-a-fin-juin-2026": {
+    "date": "2026-09-11",
+    "title": "Ecobank CI : le coût du risque bondit et fait reculer le bénéfice net de 8,6 % à fin juin 2026"
+  },
   "u:https://www.agenceecofin.com/actualites-finance/1108-140850-tchad-127-millions-d-afreximbank-pour-financer-les-infrastructures-commerciales": {
     "date": "2026-08-12",
     "title": "Tchad : 127 millions $ d’Afreximbank pour financer les infrastructures commerciales"
@@ -1279,7 +1318,6 @@
     "date": "2026-08-17",
     "title": "Tanzanie : Stanbic Bank lance un service de règlement direct en yuan"
   },
-  "u:https://www.agenceecofin.com/actualites-finance/2407-140494-uemoa-apres-une-annee-a-zero-la-bceao-attend-le-retour-de-linflation-vers-2-en-2026": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites-finance/2408-140984-umoa-les-imf-de-grande-taille-renouent-avec-les-benefices-a-63-3-millions-en-2025": {
     "date": "2026-08-25",
     "title": "UMOA : les IMF de grande taille renouent avec les bénéfices, à 63,3 millions $ en 2025"
@@ -1296,7 +1334,6 @@
     "date": "2026-08-26",
     "title": "Classement 2025 des 10 premières banques de l’UMOA en termes de total bilan"
   },
-  "u:https://www.agenceecofin.com/actualites-finance/2607-140511-la-sgpme-et-orange-bank-africa-mobiliseront-jusqua-29-5-millions-pour-faciliter-le-credit-aux-pme-en-cote-divoire": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites-finance/2707-140519-la-boad-conserve-sa-note-investment-grade-baa1-aupres-de-moodys": "2026-07-28",
   "u:https://www.agenceecofin.com/actualites-finance/2707-140527-sonatel-depasse-1-5-md-de-chiffre-d-affaires-au-1er-semestre-mais": "2026-07-28",
   "u:https://www.agenceecofin.com/actualites-finance/2807-140577-afinhab-cloture-son-emission-de-social-bond-de-40-milliards-fcfa-et-franchit-le-cap-des-100-milliards-fcfa-d-obligations-sociales": "2026-07-29",
@@ -1375,7 +1412,6 @@
     "date": "2026-08-26",
     "title": "L’or à 4 600 USD/oz : après un premier semestre mitigé, les prix repartent à la hausse"
   },
-  "u:https://www.agenceecofin.com/actualites-industries/2607-140512-transformation-du-manganese-apres-le-protocole-daccord-entre-eramet-et-le-gabon-quid-de-linterdiction-de-2029": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites-industries/2608-141035-cote-d-ivoire-apres-la-saph-olam-agri-se-renforce-dans-l-hevea-avec-une-acquisition": {
     "date": "2026-08-27",
     "title": "Côte d’Ivoire : après la SAPH, Olam Agri se renforce dans l’hévéa avec une acquisition"
@@ -1447,6 +1483,10 @@
     "date": "2026-09-10",
     "title": "La Tunisie veut numériser le parcours de soins de la mère à l'enfant"
   },
+  "u:https://www.agenceecofin.com/actualites-numerique/1009-141468-la-guinee-equatoriale-veut-encadrer-la-commercialisation-de-starlink-dans-le-pays": {
+    "date": "2026-09-11",
+    "title": "La Guinée équatoriale veut encadrer la commercialisation de Starlink dans le pays"
+  },
   "u:https://www.agenceecofin.com/actualites-numerique/1108-140856-le-soudan-annonce-le-lancement-d-une-plateforme-numerique-de-marches-publics": {
     "date": "2026-08-12",
     "title": "Le Soudan annonce le lancement d’une plateforme numérique de marchés publics"
@@ -1467,9 +1507,6 @@
     "date": "2026-08-21",
     "title": "Communications par satellite : le Liberia renforce son cadre réglementaire"
   },
-  "u:https://www.agenceecofin.com/actualites-numerique/2407-140496-cameroun-camtel-et-amazon-discutent-de-cloud-de-satellites-et-d-ia": "2026-07-27",
-  "u:https://www.agenceecofin.com/actualites-numerique/2407-140499-innovation-lab-mtn-benin-devoile-les-cinq-finalistes-de-la-deuxieme-edition": "2026-07-27",
-  "u:https://www.agenceecofin.com/actualites-numerique/2607-140510-les-revenus-dethio-telecom-en-hausse-de-33-2-en-2025/2026-portes-par-telebirr-et-lessor-de-la-4g": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites-numerique/2608-141044-tanzanie-yas-lance-la-fibre-a-dodoma-et-renforce-son-reseau-fixe": {
     "date": "2026-08-27",
     "title": "Tanzanie : Yas lance la fibre à Dodoma et renforce son réseau fixe"
@@ -1555,6 +1592,18 @@
     "date": "2026-08-11",
     "title": "Maroc : l’Ordre des médecins lance sa plateforme numérique"
   },
+  "u:https://www.agenceecofin.com/actualites/1009-141463-totalenergies-prevoit-10-milliards-d-investissements-en-angola-sur-cinq-ans": {
+    "date": "2026-09-11",
+    "title": "TotalEnergies prévoit 10 milliards $ d’investissements en Angola sur cinq ans"
+  },
+  "u:https://www.agenceecofin.com/actualites/1009-141465-kenya-15-nouveaux-hopitaux-annonces-pour-elargir-l-offre-de-soins-dans-les-comtes": {
+    "date": "2026-09-11",
+    "title": "Kenya : 15 nouveaux hôpitaux annoncés pour élargir l’offre de soins dans les comtés"
+  },
+  "u:https://www.agenceecofin.com/actualites/1009-141474-dangote-refinery-l-ipo-qui-revele-les-limites-de-l-integration-financiere-africaine": {
+    "date": "2026-09-11",
+    "title": "Dangote Refinery : l’IPO qui révèle les limites de l’intégration financière africaine"
+  },
   "u:https://www.agenceecofin.com/actualites/1108-140853-egypte-le-chinois-jasan-group-lance-un-projet-textile-de-117-millions": {
     "date": "2026-08-12",
     "title": "Égypte : le chinois Jasan Group lance un projet textile de 117 millions $"
@@ -1583,8 +1632,6 @@
     "date": "2026-08-24",
     "title": "Clôture de la deuxième édition de la Grande Foire Agricole du Congo"
   },
-  "u:https://www.agenceecofin.com/actualites/2407-140498-au-dela-de-la-victoire-de-didier-drogba-les-e1-series-peuvent-elles-accelerer-leconomie-bleue-africaine": "2026-07-27",
-  "u:https://www.agenceecofin.com/actualites/2407-140501-international-budget-partnership-ouvre-a-dakar-son-bureau-regional-afrique-francophone": "2026-07-27",
   "u:https://www.agenceecofin.com/actualites/2608-141037-carburant-au-sein-de-luemoa-le-litre-varie-du-simple-au-double": {
     "date": "2026-08-27",
     "title": "Carburant : au sein de l'UEMOA, le litre varie du simple au double"
@@ -1626,9 +1673,17 @@
     "date": "2026-09-04",
     "title": "Banque mondiale : Aissatou Diallo prend la tête d’un portefeuille de 1,2 milliard $ en Sierra Leone"
   },
+  "u:https://www.agenceecofin.com/nominations/1009-141460-conakry-terminal-annonce-la-nomination-d-edouard-leno-au-poste-de-directeur-general": {
+    "date": "2026-09-11",
+    "title": "Conakry Terminal annonce la nomination d’Édouard LENO au poste de Directeur Général"
+  },
   "u:https://www.agenceecofin.com/reflexion/0809-141387-la-majorite-des-fonds-d-impact-actifs-en-afrique-ont-des-pratiques-rudimentaires-de-mesure-des-retombees-ferdi": {
     "date": "2026-09-09",
     "title": "La majorité des fonds d’impact actifs en Afrique ont des pratiques rudimentaires de mesure des retombées (Ferdi)"
+  },
+  "u:https://www.agenceecofin.com/reflexion/1009-141453-la-prochaine-frontiere-de-la-competitivite-est-humaine-tribune": {
+    "date": "2026-09-11",
+    "title": "La prochaine frontière de la compétitivité est humaine (Tribune)"
   },
   "u:https://www.aip.ci/cote-divoire-aip-diplomatie-economique-lambassadeur-du-royaume-des-pays-bas-conduit-une-mission-decoute-a-bouake": "2026-07-30",
   "u:https://www.aip.ci/cote-divoire-aip-la-depute-maire-mariatou-kone-inaugure-le-marche-de-gros-de-guinguereni": {
@@ -1648,7 +1703,6 @@
     "date": "2026-09-08",
     "title": "Emprunts ETAT DU SENEGAL 6,40 % 2026-2029, ETAT DU SENEGAL 6,60 % 2026-2031, ETAT DU SENEGAL 6,75 % 2026-2033 et ETAT DU SENEGAL 6,95 % 2026-2036 : Report de la date de première cotation"
   },
-  "u:https://www.brvm.org/sites/default/files/20260724_-_avis_ndeg220_brvmdg_-_admission_a_la_cote_actions_nouvelles_safca_ci.pdf": "2026-07-27",
   "u:https://www.brvm.org/sites/default/files/20260730_-_calendrier_de_paiement_des_dividendes_-_exercice_2025.pdf": "2026-08-03",
   "u:https://www.brvm.org/sites/default/files/20260804_-_avis_ndeg229_brvmdg_-_rappel_7_aout_2026_jour_ferie.pdf": "2026-08-06",
   "u:https://www.brvm.org/sites/default/files/20260806_-_calendrier_de_paiement_des_dividendes_-_exercice_2025.pdf": {
@@ -1784,7 +1838,6 @@
     "date": "2026-09-10",
     "title": "'' Le Sénégal a choisi de traiter sa dette plutôt que de la restructurer '', Ahmadou Al Aminou Lô"
   },
-  "u:https://www.sikafinance.com/marches/5g-le-ghana-a-laube-dune-nouvelle-ere-de-connectivite-plus-fluide-et-flexible_63206": "2026-07-27",
   "u:https://www.sikafinance.com/marches/aerien-quels-sont-les-10-plus-grands-transporteurs-dafrique_63791": {
     "date": "2026-08-25",
     "title": "Aérien : Quels sont les 10 plus grands transporteurs d’Afrique"
@@ -1956,11 +2009,14 @@
     "title": "Cryptomonnaie : Un investisseur perd 1 milliard FCFA à cause d'un lien piégé relayé par ChatGPT"
   },
   "u:https://www.sikafinance.com/marches/datacenters-et-ia-le-nouveau-moteur-de-la-souverainete-electrique-pour-un-pib-africain-a-7-800-milliards-usd-dici-2050_63258": "2026-07-29",
+  "u:https://www.sikafinance.com/marches/ecobank-ci-une-croissance-resiliente-et-un-total-bilan-franchissant-les-2-000-milliards-fcfa-au-s1-2026_64168": {
+    "date": "2026-09-11",
+    "title": "Ecobank CI : Une croissance résiliente et un total bilan franchissant les 2 000 milliards FCFA au S1 2026"
+  },
   "u:https://www.sikafinance.com/marches/famine-mondiale-645-millions-de-personnes-touchees-en-2025-pres-de-la-moitie-vivant-en-afrique_63662": {
     "date": "2026-08-19",
     "title": "Famine mondiale : 645 millions de personnes touchées en 2025, près de la moitié vivant en Afrique"
   },
-  "u:https://www.sikafinance.com/marches/ghana--maroc-11-accords-de-cooperation-signes-pour-accelerer-les-echanges-commerciaux-et-lintegration-economique-africaine_63213": "2026-07-27",
   "u:https://www.sikafinance.com/marches/ghana-goldbod-impose-le-raffinage-local-de-lor-artisanal-avant-son-exportation_63823": {
     "date": "2026-08-27",
     "title": "Ghana : GoldBod impose le raffinage local de l’or artisanal avant son exportation"
@@ -2007,7 +2063,6 @@
     "date": "2026-08-27",
     "title": "‘’Le Rendez-vous de vos projets’’ : Société Générale Côte d’Ivoire engagée aux cotés de ses clients dans la réalisation de leurs projets"
   },
-  "u:https://www.sikafinance.com/marches/le-tresor-ivoirien-reporte-sa-prochaine-emission-sur-le-marche-regional-de-la-dette-publique-en-raison-dexcedents-de-tresorerie_63205": "2026-07-27",
   "u:https://www.sikafinance.com/marches/magazine-sika-finance-les-grands-defis-de-la-logistique-africaine-au-cœur-du-24e-numero_63635": {
     "date": "2026-08-18",
     "title": "Magazine Sika Finance : Les grands défis de la logistique africaine au cœur du 24e numéro"
