@@ -1,5 +1,4 @@
 {
-  "u:http://fr.africanews.com/2026/07/30/fifa-infantino-veut-ouvrir-la-coupe-du-monde-aux-investisseurs-prives": "2026-07-31",
   "u:http://fr.africanews.com/2026/07/31/fifa-le-projet-financier-dinfantino-divise-les-grandes-confederations": "2026-08-03",
   "u:http://fr.africanews.com/2026/08/03/bresil-des-cheveux-recycles-pour-depolluer-la-baie-de-guanabara": "2026-08-05",
   "u:http://fr.africanews.com/2026/08/03/en-afrique-du-sud-la-xenophobie-a-brise-le-reve-dun-entrepreneur-ghaneen": "2026-08-05",
@@ -331,6 +330,10 @@
     "title": "RDC : le gouvernement met en avant près de 29 000 milliards CDF de recettes intérieures en 2025 - Bénin Web TV"
   },
   "u:https://beninwebtv.com/rdc-les-societes-minieres-doivent-ceder-10-de-leur-capital-aux-nationaux-des-2026": "2026-08-05",
+  "u:https://beninwebtv.com/senegal-1013-milliards-fcfa-leves-apres-lannonce-du-reprofilage-de-la-dette": {
+    "date": "2026-09-15",
+    "title": "Sénégal : 101,3 milliards FCFA levés après l’annonce du reprofilage de la dette - Bénin Web TV"
+  },
   "u:https://beninwebtv.com/tanzanie-les-exportations-grimpent-de-165-a-pres-de-20-milliards-de-dollars": {
     "date": "2026-09-08",
     "title": "Tanzanie : les exportations grimpent de 16,5 % à près de 20 milliards de dollars - Bénin Web TV"
@@ -414,7 +417,6 @@
     "date": "2026-08-19",
     "title": "Benedict Oramah et Simon Tiemtoré structurent 1 milliard $ pour accompagner l’ouverture du capital de Dangote Refinery"
   },
-  "u:https://ecomatin.net/blanchiment-des-capitaux-le-cameroun-proche-dune-sortie-de-la-liste-grise-selon-le-gabac": "2026-07-31",
   "u:https://ecomatin.net/boissons-du-cameroun-700-kits-a-28-millions-fcfa-pour-encourager-lexcellence-scolaire-dans-le-noso": {
     "date": "2026-09-02",
     "title": "Boissons du Cameroun : 700 kits à 28 millions FCFA pour encourager l’excellence scolaire dans le NOSO"
@@ -471,7 +473,6 @@
     "date": "2026-08-13",
     "title": "Ciment : Cimaf Gabon annonce un investissement de 125 milliards de FCFA pour porter sa production à 1,85 million de tonnes"
   },
-  "u:https://ecomatin.net/concours-annule-de-la-beac-25-candidats-reclament-plus-de-30-milliards-fcfa-a-la-banque-centrale": "2026-07-31",
   "u:https://ecomatin.net/congo-en-quete-de-diversification-la-filiere-champignon-souvre-au-marche-chinois-en-franchise-de-douane": {
     "date": "2026-09-04",
     "title": "Congo : en quête de diversification, la filière champignon s’ouvre au marché chinois en franchise de douane"
@@ -497,7 +498,6 @@
     "date": "2026-08-11",
     "title": "Diamant : les exportations de la Centrafrique chutent à 4,6 milliards FCFA un an après la levée de l’embargo"
   },
-  "u:https://ecomatin.net/eurobonds-le-gabon-leve-avec-succes-920-millions-de-dollars-sur-les-marches-internationaux": "2026-07-31",
   "u:https://ecomatin.net/gabon-laustralien-rapid-critical-metals-abandonne-le-projet-de-nickel-cuivre-de-nyanga": "2026-08-06",
   "u:https://ecomatin.net/gabon-letat-mobilise-51-milliards-fcfa-pour-reduire-sa-dette-envers-les-entreprises": {
     "date": "2026-08-12",
@@ -533,10 +533,6 @@
     "date": "2026-08-25",
     "title": "Tchad: Pourquoi Idriss Déby fait le choix de l’Economiste Idriss Ahmed Idriss"
   },
-  "u:https://fr.allafrica.com/stories/202607300335.html": "2026-07-31",
-  "u:https://fr.allafrica.com/stories/202607300336.html": "2026-07-31",
-  "u:https://fr.allafrica.com/stories/202607300340.html": "2026-07-31",
-  "u:https://fr.allafrica.com/stories/202607300502.html": "2026-07-31",
   "u:https://fr.allafrica.com/stories/202607310314.html": "2026-08-03",
   "u:https://fr.allafrica.com/stories/202608010101.html": "2026-08-03",
   "u:https://fr.allafrica.com/stories/202608030813.html": "2026-08-04",
@@ -1043,9 +1039,28 @@
     "date": "2026-09-14",
     "title": "S&#xe9;n&#xe9;gal: La SONACOS SA veut collecter plus de 250 000 tonnes dans le Sud"
   },
+  "u:https://fr.allafrica.com/stories/202609140171.html": {
+    "date": "2026-09-15",
+    "title": "Afrique de l'Ouest: Production de donn&#xe9;es statistiques - Le Burkina 1er en Open data dans la r&#xe9;gion"
+  },
+  "u:https://fr.allafrica.com/stories/202609140184.html": {
+    "date": "2026-09-15",
+    "title": "Afrique de l'Ouest: Le BRVM atteint les 555 points alors que la reprise se prolonge en septembre"
+  },
+  "u:https://fr.allafrica.com/stories/202609140203.html": {
+    "date": "2026-09-15",
+    "title": "Cameroun: La Sonara perd son dernier recours judiciaire face &#xe0; une soci&#xe9;t&#xe9; nig&#xe9;riane"
+  },
+  "u:https://fr.allafrica.com/stories/202609140255.html": {
+    "date": "2026-09-15",
+    "title": "S&#xe9;n&#xe9;gal: Les exportations &#xe0; la hausse, dop&#xe9;es par le p&#xe9;trole"
+  },
+  "u:https://fr.allafrica.com/stories/202609140716.html": {
+    "date": "2026-09-15",
+    "title": "Afrique: Dangote lance la plus grande introduction en bourse du continent"
+  },
   "u:https://fr.apanews.net/business/african-mining-week-2026-la-guinee-legypte-et-le-nigeria-en-vedette": "2026-08-05",
   "u:https://fr.apanews.net/business/afrique-australe-airlink-ouvrira-une-liaison-directe-lanseria-harare-en-novembre": "2026-08-04",
-  "u:https://fr.apanews.net/business/botswana-un-diamant-brut-de-1-305-carats-decouvert-a-la-mine-de-karowe": "2026-07-31",
   "u:https://fr.apanews.net/business/la-namibie-accueille-le-sommet-africain-de-lenergie-en-octobre": {
     "date": "2026-09-01",
     "title": "La Namibie accueille le sommet africain de l’énergie en octobre"
@@ -1117,7 +1132,6 @@
     "date": "2026-09-09",
     "title": "Burkina/nucléaire : vers un régime de sanctions administratives"
   },
-  "u:https://fr.apanews.net/security/bassin-du-nil-risque-de-secheresse-encore-incertain": "2026-07-31",
   "u:https://fr.apanews.net/security/burkina-141-millions-fcfa-de-produits-frauduleux-saisis": {
     "date": "2026-08-07",
     "title": "Burkina : 141 millions FCFA de produits frauduleux saisis"
@@ -1130,7 +1144,6 @@
     "date": "2026-08-24",
     "title": "Egypte-Tanzanie : Inauguration du grand barrage Julius Nyerere,"
   },
-  "u:https://fr.apanews.net/society/la-rci-se-mobilise-face-au-piege-des-arnaques-en-ligne": "2026-07-31",
   "u:https://fr.apanews.net/society/libye-un-jeune-sur-deux-au-chomage-en-2025": {
     "date": "2026-08-19",
     "title": "Libye : un jeune sur deux au chômage en 2025"
@@ -1240,7 +1253,6 @@
     "date": "2026-08-21",
     "title": "La dette publique américaine franchit le seuil des 40 000 milliards de dollars"
   },
-  "u:https://rti.info/lobservatoire-de-la-fluidite-des-transports-oft-forme-ses-agents-a-lintelligence-artificielle-pour-moderniser-ses-missions": "2026-07-31",
   "u:https://rti.info/parcs-de-loisirs-et-dattractions-immersion-dans-lun-des-piliers-strategiques-de-sublime-cote-divoire": {
     "date": "2026-08-11",
     "title": "Parcs de loisirs et d’attractions : immersion dans l’un des piliers stratégiques de Sublime Côte d’Ivoire"
@@ -1439,6 +1451,10 @@
     "date": "2026-09-14",
     "title": "Avec le rachat de Vida, Shoprite étend son empreinte africaine hors des supermarchés"
   },
+  "u:https://www.agenceecofin.com/actualites-industries/1409-141544-petrole-entre-offre-en-chute-et-routes-menacees-l-aie-repousse-la-sortie-de-crise": {
+    "date": "2026-09-15",
+    "title": "Pétrole : entre offre en chute et routes menacées, l’AIE repousse la sortie de crise"
+  },
   "u:https://www.agenceecofin.com/actualites-industries/1808-140923-etain-la-namibie-veut-produire-plus-mais-la-transformation-se-fait-toujours-ailleurs": {
     "date": "2026-08-19",
     "title": "Étain : la Namibie veut produire plus, mais la transformation se fait toujours ailleurs"
@@ -1563,7 +1579,6 @@
     "date": "2026-08-28",
     "title": "Qualité de services télécoms : le Gabon s’attaque au vandalisme des câbles"
   },
-  "u:https://www.agenceecofin.com/actualites-numerique/3007-140645-mauritanie-cherche-a-tirer-parti-de-l-expertise-d-oman-pour-sa-transformation-numerique": "2026-07-31",
   "u:https://www.agenceecofin.com/actualites-numerique/3108-141168-internet-par-satellite-starlink-cible-16-nouveaux-marches-africains-d-ici-fin-2026": {
     "date": "2026-09-01",
     "title": "Internet par satellite : Starlink cible 16 nouveaux marchés africains d’ici fin 2026"
@@ -1674,6 +1689,10 @@
     "date": "2026-08-17",
     "title": "Jumia réduit sa voilure et lève 50 millions de dollars pour viser la rentabilité"
   },
+  "u:https://www.agenceecofin.com/actualites/1409-141524-congo-la-dette-publique-devrait-atteindre-86-2-du-pib-en-2027": {
+    "date": "2026-09-15",
+    "title": "Congo : la dette publique devrait atteindre 86,2 % du PIB en 2027"
+  },
   "u:https://www.agenceecofin.com/actualites/1708-140911-niger-le-canadien-zimar-va-investir-1-9-milliard-dans-un-complexe-de-raffinage": {
     "date": "2026-08-18",
     "title": "Niger : le canadien Zimar va investir 1,9 milliard $ dans un complexe de raffinage"
@@ -1698,8 +1717,6 @@
     "date": "2026-08-31",
     "title": "Café : du Nigeria à Madagascar, un vent de relance souffle chez les petits acteurs africains"
   },
-  "u:https://www.agenceecofin.com/actualites/3007-140643-le-ghana-et-le-gabon-posent-les-bases-d-une-cooperation-dans-des-secteurs-essentiels": "2026-07-31",
-  "u:https://www.agenceecofin.com/actualites/3007-140654-ethiopian-airlines-transporte-20-7-millions-de-voyageurs-et-franchit-9-1-milliards-de-ca-en-2025/2026": "2026-07-31",
   "u:https://www.agenceecofin.com/actualites/3107-140689-controle-qualite-le-togo-exige-une-verification-prealable-avant-toute-mise-en-marche": "2026-08-03",
   "u:https://www.agenceecofin.com/actualites/3107-140696-rdc-prolongation-des-limitations-sur-l-entree-du-ciment-et-de-la-chaux": "2026-08-03",
   "u:https://www.agenceecofin.com/actualites/3108-141157-libye-apres-plus-d-une-decennie-de-divisions-ce-qu-une-reunification-peut-changer-pour-l-economie": {
@@ -1737,6 +1754,10 @@
   "u:https://www.agenceecofin.com/reflexion/1009-141453-la-prochaine-frontiere-de-la-competitivite-est-humaine-tribune": {
     "date": "2026-09-11",
     "title": "La prochaine frontière de la compétitivité est humaine (Tribune)"
+  },
+  "u:https://www.agenceecofin.com/reflexion/1409-141546-blaise-pascal-tanguy-le-probleme-du-cinema-africain-ce-ne-sont-pas-les-talents-ce-sont-les-canaux": {
+    "date": "2026-09-15",
+    "title": "Blaise Pascal Tanguy : « Le problème du cinéma africain, ce ne sont pas les talents, ce sont les canaux »"
   },
   "u:https://www.aip.ci/cote-divoire-aip-la-depute-maire-mariatou-kone-inaugure-le-marche-de-gros-de-guinguereni": {
     "date": "2026-08-18",
@@ -1898,7 +1919,6 @@
     "date": "2026-08-25",
     "title": "Aérien : Quels sont les 10 plus grands transporteurs d’Afrique"
   },
-  "u:https://www.sikafinance.com/marches/afrique-apres-plusieurs-reports-l-agence-continentale-de-notation-de-credit-portee-par-l-ua-sera-lancee-le-6-octobre-a-maurice_63317": "2026-07-31",
   "u:https://www.sikafinance.com/marches/afrique-de-louest-coris-holding-obtient-80-millions-deuros-pour-financer-lagriculture-lenergie-et-lagro-industrie_63413": "2026-08-05",
   "u:https://www.sikafinance.com/marches/afrique-lafc-et-le-saoudien-vision-invest-injectent-300-millions-usd-dans-l-infrastructure-de-connectivite_63983": {
     "date": "2026-09-03",
@@ -1925,6 +1945,10 @@
     "date": "2026-08-12",
     "title": "Banques ivoiriennes : Le ROE redistribue les cartes et consacre un nouveau leader"
   },
+  "u:https://www.sikafinance.com/marches/baobab-cote-d-ivoire-lance-le-premier-sustainability-linked-bond-emis-par-une-institution-de-microfinance-sur-le-marche-financier-regional-de-l-umoa_64235": {
+    "date": "2026-09-15",
+    "title": "Baobab Côte d'Ivoire lance le premier Sustainability-Linked Bond émis par une institution de microfinance sur le marché financier régional de l'UMOA"
+  },
   "u:https://www.sikafinance.com/marches/brvm-alios-finance-ci-plebiscite-apres-un-benefice-semestriel-remarquable_64056": {
     "date": "2026-09-07",
     "title": "BRVM : Alios Finance CI plébiscité après un bénéfice semestriel remarquable"
@@ -1937,6 +1961,10 @@
   "u:https://www.sikafinance.com/marches/brvm-coris-bank-propulse-les-indices-dans-le-vert-malgre-une-cote-majoritairement-baissiere_63991": {
     "date": "2026-09-03",
     "title": "BRVM : Coris Bank propulse les indices dans le vert malgré une cote majoritairement baissière"
+  },
+  "u:https://www.sikafinance.com/marches/brvm-eti-tg-soutient-le-marche-malgre-une-balance-de-variations-negative_64242": {
+    "date": "2026-09-15",
+    "title": "BRVM : ETI TG soutient le marché malgré une balance de variations négative"
   },
   "u:https://www.sikafinance.com/marches/brvm-le-marche-consolide-apres-une-ouverture-optimiste_64120": {
     "date": "2026-09-09",
@@ -2013,7 +2041,6 @@
     "title": "Congo : Faute de financement, l’avenir du gisement géant de potasse de Kola s’assombrit"
   },
   "u:https://www.sikafinance.com/marches/connectivite-au-cloud-le-manque-de-fiabilite-ralentit-les-entreprises-de-plus-de-10-heures-par-semaine-etude_63420": "2026-08-05",
-  "u:https://www.sikafinance.com/marches/cote-d-ivoire-fortuna-mining-investit-61-milliards-fcfa-pour-augmenter-de-30-la-capacite-de-la-mine-d-or-de-seguela_63305": "2026-07-31",
   "u:https://www.sikafinance.com/marches/cote-d-ivoire-l-etat-valide-3-projets-totalisant-735-mw-pour-renforcer-l-approvisionnement-du-reseau-electrique_63463": {
     "date": "2026-08-07",
     "title": "Côte d'Ivoire : L'État valide 3 projets totalisant 735 MW pour renforcer l'approvisionnement du réseau électrique"
@@ -2092,6 +2119,10 @@
     "date": "2026-08-14",
     "title": "Ghana : La nouvelle loi de protection des plantations de cacao suscite la colère des producteurs"
   },
+  "u:https://www.sikafinance.com/marches/ghana-les-etats-unis-financent-une-etude-pour-deployer-un-reseau-de-fibre-optique-dans-le-nord_64238": {
+    "date": "2026-09-15",
+    "title": "Ghana : Les Etats-Unis financent une étude pour déployer un réseau de fibre optique dans le Nord"
+  },
   "u:https://www.sikafinance.com/marches/ghana-mahama-inaugure-northshore-apparel-une-usine-de-production-de-vetements-dans-le-nord-du-pays_63908": {
     "date": "2026-08-31",
     "title": "Ghana : Mahama inaugure Northshore Apparel, une usine de production de vêtements dans le Nord du pays"
@@ -2105,7 +2136,6 @@
     "date": "2026-08-25",
     "title": "L'académie britannique d'ingénierie lance le Prix africain de l'innovation 2027 doté de plus de 115 000 USD"
   },
-  "u:https://www.sikafinance.com/marches/l-afrique-vise-la-lune-en-2029-quels-enjeux-economiques-pour-le-continent-_63319": "2026-07-31",
   "u:https://www.sikafinance.com/marches/la-cote-d-ivoire-prepare-une-strategie-de-plus-de-1-000-milliards-fcfa-pour-developper-la-filiere-palmier-a-huile_63375": "2026-08-04",
   "u:https://www.sikafinance.com/marches/laboratoire-de-la--tax-administration-30--la-gambie-voit-ses-recettes-fiscales-s-envoler-de-127-_63438": "2026-08-06",
   "u:https://www.sikafinance.com/marches/le-benefice-de-boa-bf-bondit-de-31-au-30-juin-2026-porte-par-une-amelioration-du-cout-du-risque_63464": {
@@ -2123,7 +2153,6 @@
     "date": "2026-08-10",
     "title": "Le Nigeria durcit la fiscalité sur les cryptomonnaies pour accroître les recettes publiques"
   },
-  "u:https://www.sikafinance.com/marches/le-nigeria-mise-sur-le-conseil-agricole-numerique-pour-soutenir-des-millions-de-petits-producteurs_63320": "2026-07-31",
   "u:https://www.sikafinance.com/marches/le-rendez-vous-de-vos-projets-societe-generale-cote-divoire-engagee-aux-cotes-de-ses-clients-dans-la-realisation-de-leurs-projets_63819": {
     "date": "2026-08-27",
     "title": "‘’Le Rendez-vous de vos projets’’ : Société Générale Côte d’Ivoire engagée aux cotés de ses clients dans la réalisation de leurs projets"
@@ -2136,7 +2165,6 @@
     "date": "2026-08-21",
     "title": "Magazine Sika Finance : Spécial CDC-CI, dans les coulisses de l’investisseur public ivoirien"
   },
-  "u:https://www.sikafinance.com/marches/mali-creation-de-la-societe-des-textiles-du-mali-une-usine-de-40-000-tonnesan-pour-accelerer-la-transformation-locale-du-coton_63308": "2026-07-31",
   "u:https://www.sikafinance.com/marches/mali-la-production-dor-depasse-les-previsions-atteignant-30-au-1er-semestre-2026_63724": {
     "date": "2026-08-21",
     "title": "Mali : La production d’or dépasse les prévisions, atteignant 30% au 1er semestre 2026"
