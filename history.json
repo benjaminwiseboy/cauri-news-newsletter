@@ -243,6 +243,14 @@
     "date": "2026-09-22",
     "title": "Brésil : les huiles usagées des acarajés comme ressource énergétique"
   },
+  "u:http://fr.africanews.com/2026/09/21/le-festival-international-du-film-de-la-mer-rouge-reporte-a-2027": {
+    "date": "2026-09-23",
+    "title": "Le Festival international du film de la mer Rouge reporté à 2027"
+  },
+  "u:http://fr.africanews.com/2026/09/22/fifa-gianni-infantino-propose-une-reforme-de-la-gouvernance": {
+    "date": "2026-09-23",
+    "title": "Football : Infantino propose une réforme de la gouvernance de la FIFA"
+  },
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": {
     "date": "2026-08-26",
     "title": "Croissance du PIB (%) — Benin (2025) : 8.07408453688336"
@@ -362,6 +370,10 @@
   "u:https://businessday.ng/energy/article/abu-dhabi-firm-acquires-90-stake-in-azura-to-capture-africas-power-hungry-markets": {
     "date": "2026-09-01",
     "title": "Abu Dhabi firm acquires 90% stake in Azura to capture Africa’s power-hungry markets"
+  },
+  "u:https://businessday.ng/energy/article/cheap-chinese-solar-panels-fuel-global-race-for-rooftop-power": {
+    "date": "2026-09-23",
+    "title": "Cheap Chinese solar panels fuel global race for rooftop power"
   },
   "u:https://businessday.ng/energy/article/dangote-opens-refinery-ownership-to-africans-for-n5250": {
     "date": "2026-09-08",
@@ -1135,6 +1147,26 @@
     "date": "2026-09-22",
     "title": "S&#xe9;n&#xe9;gal: Le MUCTAT en Europe pour attirer des milliards d'euros dans le logement et les villes nouvelles"
   },
+  "u:https://fr.allafrica.com/stories/202609220320.html": {
+    "date": "2026-09-23",
+    "title": "Cameroun: Pr&#xe8;s de 6 000 fonctionnaires et agents de l'&#xc9;tat menac&#xe9;s de suspension de salaire pour absent&#xe9;isme"
+  },
+  "u:https://fr.allafrica.com/stories/202609220390.html": {
+    "date": "2026-09-23",
+    "title": "Afrique de l'Ouest: Les paradoxes inh&#xe9;rents &#xe0; la r&#xe9;volution au sein de l'Alliance des &#xc9;tats du Sahel"
+  },
+  "u:https://fr.allafrica.com/stories/202609220424.html": {
+    "date": "2026-09-23",
+    "title": "S&#xe9;n&#xe9;gal: Hausse de 6% du r&#xe9;sultat net de BOA S&#xe9;n&#xe9;gal au premier semestre 2026"
+  },
+  "u:https://fr.allafrica.com/stories/202609220425.html": {
+    "date": "2026-09-23",
+    "title": "S&#xe9;n&#xe9;gal: JOJ Dakar 2026 - La flamme olympique traverse Mermoz-Sacr&#xe9;-Coeur dans une ambiance festive"
+  },
+  "u:https://fr.allafrica.com/stories/202609220435.html": {
+    "date": "2026-09-23",
+    "title": "Afrique: Coris Bank Togo lance deux nouvelles offres - Epargne et assistance voyage"
+  },
   "u:https://fr.apanews.net/benin/mondial-u-20-le-nigeria-represente-lafrique-en-huitiemes": {
     "date": "2026-09-16",
     "title": "Mondial U-20 : le Nigéria représente l’Afrique en huitièmes"
@@ -1190,6 +1222,10 @@
   "u:https://fr.apanews.net/diplomacy/egypte-tchad-un-corridor-de-4-300-km-vers-lafrique-centrale": {
     "date": "2026-08-14",
     "title": "Égypte-Tchad : un corridor de 4 300 km vers l’Afrique centrale"
+  },
+  "u:https://fr.apanews.net/diplomacy/le-nigeria-appelle-a-mettre-fin-a-lexploitation-des-ressources-minerales-de-lafrique": {
+    "date": "2026-09-23",
+    "title": "Mettre fin à l’exploitation des mines de l’Afrique (Tinubu)"
   },
   "u:https://fr.apanews.net/diplomacy/senegal-emirats-vers-un-nouveau-partenariat-economique": {
     "date": "2026-09-17",
@@ -1631,6 +1667,14 @@
     "date": "2026-09-22",
     "title": "Mali : vers une nouvelle baisse annuelle de la production d’or à la mine Syama en 2026"
   },
+  "u:https://www.agenceecofin.com/actualites-industries/2209-141778-bauxite-apres-la-chine-la-guinee-explore-l-appui-americain-dans-le-raffinage-local": {
+    "date": "2026-09-23",
+    "title": "Bauxite : après la Chine, la Guinée explore l’appui américain dans le raffinage local"
+  },
+  "u:https://www.agenceecofin.com/actualites-industries/2209-141783-minerais-critiques-le-malawi-veut-lancer-un-plan-de-5-milliards-pour-convertir-son-potentiel": {
+    "date": "2026-09-23",
+    "title": "Minerais critiques : le Malawi veut lancer un plan de 5 milliards $ pour convertir son potentiel"
+  },
   "u:https://www.agenceecofin.com/actualites-industries/2508-140999-l-or-a-4-600-usd/oz-apres-un-premier-semestre-mitige-les-prix-repartent-a-la-hausse": {
     "date": "2026-08-26",
     "title": "L’or à 4 600 USD/oz : après un premier semestre mitigé, les prix repartent à la hausse"
@@ -1803,6 +1847,10 @@
     "date": "2026-09-18",
     "title": "Ethiopian Airlines renforcera la desserte de Durban avec une liaison directe vers Addis-Abeba"
   },
+  "u:https://www.agenceecofin.com/actualites-services/2209-141784-fondation-orange-tunisie-un-engagement-renforce-pour-l-education-numerique-et-la-solidarite": {
+    "date": "2026-09-23",
+    "title": "Fondation Orange Tunisie : un engagement renforcé pour l’éducation numérique et la solidarité"
+  },
   "u:https://www.agenceecofin.com/actualites/0209-141241-les-exportations-togolaises-en-hausse-de-29-5-au-2e-trimestre-portees-par-les-phosphates": {
     "date": "2026-09-03",
     "title": "Les exportations togolaises en hausse de 29,5 % au 2e trimestre, portées par les phosphates"
@@ -1911,6 +1959,10 @@
     "date": "2026-08-24",
     "title": "Clôture de la deuxième édition de la Grande Foire Agricole du Congo"
   },
+  "u:https://www.agenceecofin.com/actualites/2209-141789-gabon-les-charges-financieres-de-la-dette-sont-projetees-en-hausse-de-37-en-2027": {
+    "date": "2026-09-23",
+    "title": "Gabon : les charges financières de la dette sont projetées en hausse de 37 % en 2027"
+  },
   "u:https://www.agenceecofin.com/actualites/2608-141037-carburant-au-sein-de-luemoa-le-litre-varie-du-simple-au-double": {
     "date": "2026-08-27",
     "title": "Carburant : au sein de l'UEMOA, le litre varie du simple au double"
@@ -2010,6 +2062,14 @@
   "u:https://www.brvm.org/sites/default/files/20260911_-_avis_ndeg267_brvmdg_-_transactions_sur_dossier.pdf": {
     "date": "2026-09-14",
     "title": "Avis : Transactions sur dossier"
+  },
+  "u:https://www.brvm.org/sites/default/files/20260921_-_avis_de_nomination_-_saph_ci.pdf": {
+    "date": "2026-09-23",
+    "title": "SAPH CI : Avis de nomination"
+  },
+  "u:https://www.brvm.org/sites/default/files/20260921_-_avis_ndeg276_brvmdg_-_levee_de_la_suspension_sucrivoire_s.a.pdf": {
+    "date": "2026-09-23",
+    "title": "SUCRIVOIRE S.A. : Levée de suspension de la cotation"
   },
   "u:https://www.financialafrik.com/2026/08/10/dette-souveraine-le-gabon-depasse-le-senegal-dans-la-course-a-la-confiance-des-marches": {
     "date": "2026-08-11",
@@ -2147,6 +2207,10 @@
     "date": "2026-09-15",
     "title": "Baobab Côte d'Ivoire lance le premier Sustainability-Linked Bond émis par une institution de microfinance sur le marché financier régional de l'UMOA"
   },
+  "u:https://www.sikafinance.com/marches/biic-benin-le-benefice-poursuit-sa-progression-a-11-au-1er-semestre-2026_64428": {
+    "date": "2026-09-23",
+    "title": "BIIC Bénin : Le bénéfice poursuit sa progression à +11% au 1er semestre 2026"
+  },
   "u:https://www.sikafinance.com/marches/brvm-26-valeurs-en-baisse-freinent-lelan-haussier-du-marche_64277": {
     "date": "2026-09-16",
     "title": "BRVM : 26 valeurs en baisse freinent l’élan haussier du marché"
@@ -2170,6 +2234,10 @@
   "u:https://www.sikafinance.com/marches/brvm-eti-tg-soutient-le-marche-malgre-une-balance-de-variations-negative_64242": {
     "date": "2026-09-15",
     "title": "BRVM : ETI TG soutient le marché malgré une balance de variations négative"
+  },
+  "u:https://www.sikafinance.com/marches/brvm-la-baisse-se-generalise-35-valeurs-dans-le-rouge_64435": {
+    "date": "2026-09-23",
+    "title": "BRVM : La baisse se généralise, 35 valeurs dans le rouge"
   },
   "u:https://www.sikafinance.com/marches/brvm-laction-sonatel-devrait-etre-plus-accessible-aux-petits-epargnants-des-le-26-octobre_64345": {
     "date": "2026-09-21",
@@ -2498,6 +2566,10 @@
   "u:https://www.sikafinance.com/marches/uemoa-les-finances-publiques-affichent-pres-de-2-500-milliards-fcfa-de-deficit-a-mi-2026_64356": {
     "date": "2026-09-21",
     "title": "UEMOA : Les finances publiques affichent près de 2 500 milliards FCFA de déficit à mi-2026"
+  },
+  "u:https://www.sikafinance.com/marches/uemoa-plus-de-2-000-milliards-fcfa-mobilises-a-lexterieur-par-les-etats-au-1er-semestre-2026_64434": {
+    "date": "2026-09-23",
+    "title": "UEMOA : Plus de 2 000 milliards FCFA mobilisés à l’extérieur par les Etats au 1er semestre 2026"
   },
   "u:https://www.sikafinance.com/marches/uemoa-pres-de-2-000-milliards-fcfa-dorment-sur-les-comptes-mobile-money_64146": {
     "date": "2026-09-10",
