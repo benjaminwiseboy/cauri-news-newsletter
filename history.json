@@ -251,6 +251,10 @@
     "date": "2026-09-23",
     "title": "Football : Infantino propose une réforme de la gouvernance de la FIFA"
   },
+  "u:http://fr.africanews.com/2026/09/22/soudan-du-sud-salva-kiir-dissout-le-gouvernement-de-transition-avant-les-elections": {
+    "date": "2026-09-24",
+    "title": "Soudan du Sud : Salva Kiir dissout le gouvernement de transition avant les élections"
+  },
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": {
     "date": "2026-08-26",
     "title": "Croissance du PIB (%) — Benin (2025) : 8.07408453688336"
@@ -394,6 +398,10 @@
   "u:https://businessday.ng/energy/article/nuprc-to-revoke-gas-flare-permits-over-inaction": {
     "date": "2026-09-10",
     "title": "NUPRC to revoke gas flare permits over inaction"
+  },
+  "u:https://businessday.ng/energy/article/oil-falls-for-sixth-day-as-us-iran-talks-ease-supply-fears": {
+    "date": "2026-09-24",
+    "title": "Oil falls for sixth straight day as US-Iran talks ease supply fears"
   },
   "u:https://businessday.ng/energy/oilandgas/article/oil-prices-hit-4-day-run-as-hormuz-traffic-slows": {
     "date": "2026-08-20",
@@ -1167,6 +1175,34 @@
     "date": "2026-09-23",
     "title": "Afrique: Coris Bank Togo lance deux nouvelles offres - Epargne et assistance voyage"
   },
+  "u:https://fr.allafrica.com/stories/202609230077.html": {
+    "date": "2026-09-24",
+    "title": "Alg&#xe9;rie: Arkab re&#xe7;u &#xe0; Niamey par le pr&#xe9;sident de la R&#xe9;publique du Niger"
+  },
+  "u:https://fr.allafrica.com/stories/202609230085.html": {
+    "date": "2026-09-24",
+    "title": "Afrique de l'Ouest: Rencontre &#xe9;conomique Togo-Ghana"
+  },
+  "u:https://fr.allafrica.com/stories/202609230108.html": {
+    "date": "2026-09-24",
+    "title": "Afrique de l'Ouest: Bridge Bank fera son entr&#xe9;e &#xe0; la BRVM le 24 septembre apr&#xe8;s une introduction en bourse sursouscrite"
+  },
+  "u:https://fr.allafrica.com/stories/202609230308.html": {
+    "date": "2026-09-24",
+    "title": "S&#xe9;n&#xe9;gal: La Senelec s'explique sur les raisons des nombreuses coupures &#xe9;lectriques"
+  },
+  "u:https://fr.allafrica.com/stories/202609230562.html": {
+    "date": "2026-09-24",
+    "title": "S&#xe9;n&#xe9;gal: Gana Gu&#xe8;ye rejoint le groupe d'actionnaires du Mans FC"
+  },
+  "u:https://fr.allafrica.com/stories/202609230567.html": {
+    "date": "2026-09-24",
+    "title": "Guin&#xe9;e: Afriland First Bank, la banque de Paul FOKAM, arrangeur de l'emprunt APE Simandou 2040 pour 2500 milliards GFN lanc&#xe9; par l'&#xc9;tat"
+  },
+  "u:https://fr.allafrica.com/stories/202609230570.html": {
+    "date": "2026-09-24",
+    "title": "Cote d'Ivoire: Cacao - Le Syst&#xe8;me national de tra&#xe7;abilit&#xe9; monte en puissance d&#xe8;s les premi&#xe8;res semaines de campagne"
+  },
   "u:https://fr.apanews.net/benin/mondial-u-20-le-nigeria-represente-lafrique-en-huitiemes": {
     "date": "2026-09-16",
     "title": "Mondial U-20 : le Nigéria représente l’Afrique en huitièmes"
@@ -1202,6 +1238,10 @@
   "u:https://fr.apanews.net/business/namibie-premiere-unite-dhydrogene-vert-integree-dafrique-inauguree": {
     "date": "2026-08-26",
     "title": "Namibie : la 1e unité d’hydrogène vert intégrée en Afrique"
+  },
+  "u:https://fr.apanews.net/business/nigeria-la-banque-centrale-abaisse-son-taux-directeur-a-23": {
+    "date": "2026-09-24",
+    "title": "Nigéria : la Banque centrale abaisse son taux directeur à 23 %"
   },
   "u:https://fr.apanews.net/business/nigeria-le-pib-progresse-de-44-au-deuxieme-trimestre": {
     "date": "2026-09-02",
@@ -1675,6 +1715,22 @@
     "date": "2026-09-23",
     "title": "Minerais critiques : le Malawi veut lancer un plan de 5 milliards $ pour convertir son potentiel"
   },
+  "u:https://www.agenceecofin.com/actualites-industries/2309-141817-au-nigeria-un-fonds-de-300-millions-vient-renforcer-le-financement-de-lenergie-hors-reseau": {
+    "date": "2026-09-24",
+    "title": "Au Nigeria, un fonds de 300 millions $ vient renforcer le financement de l'énergie hors-réseau"
+  },
+  "u:https://www.agenceecofin.com/actualites-industries/2309-141828-boundiali-aurum-veut-lever-37-millions-pour-progresser-vers-une-mine-d-or-en-cote-d-ivoire": {
+    "date": "2026-09-24",
+    "title": "Boundiali : Aurum veut lever 37 millions $ pour progresser vers une mine d’or en Côte d’Ivoire"
+  },
+  "u:https://www.agenceecofin.com/actualites-industries/2309-141830-benin-28-ans-apres-les-derniers-barils-de-bruts-extraits-la-production-petroliere-se-prepare-a-la-commercialisation": {
+    "date": "2026-09-24",
+    "title": "Bénin : 28 ans après, les derniers barils de bruts extraits la production pétrolière se prépare à la commercialisation"
+  },
+  "u:https://www.agenceecofin.com/actualites-industries/2309-141834-libye-de-nouveaux-blocages-enregistres-sur-le-champ-petrolier-d-al-sharara": {
+    "date": "2026-09-24",
+    "title": "Libye : de nouveaux blocages enregistrés sur le champ pétrolier d’al Sharara"
+  },
   "u:https://www.agenceecofin.com/actualites-industries/2508-140999-l-or-a-4-600-usd/oz-apres-un-premier-semestre-mitige-les-prix-repartent-a-la-hausse": {
     "date": "2026-08-26",
     "title": "L’or à 4 600 USD/oz : après un premier semestre mitigé, les prix repartent à la hausse"
@@ -1963,6 +2019,14 @@
     "date": "2026-09-23",
     "title": "Gabon : les charges financières de la dette sont projetées en hausse de 37 % en 2027"
   },
+  "u:https://www.agenceecofin.com/actualites/2309-141809-dette-le-fmi-et-la-banque-mondiale-reforment-leur-cadre-d-evaluation-des-pays-a-faible-revenu": {
+    "date": "2026-09-24",
+    "title": "Dette : le FMI et la Banque mondiale réforment leur cadre d’évaluation des pays à faible revenu"
+  },
+  "u:https://www.agenceecofin.com/actualites/2309-141815-la-rdc-prepare-un-nouveau-cadre-pour-developper-ses-echanges-avec-le-royaume-uni-et-l-ukraine": {
+    "date": "2026-09-24",
+    "title": "La RDC prépare un nouveau cadre pour développer ses échanges avec le Royaume-Uni et l’Ukraine"
+  },
   "u:https://www.agenceecofin.com/actualites/2608-141037-carburant-au-sein-de-luemoa-le-litre-varie-du-simple-au-double": {
     "date": "2026-08-27",
     "title": "Carburant : au sein de l'UEMOA, le litre varie du simple au double"
@@ -2247,6 +2311,10 @@
     "date": "2026-09-09",
     "title": "BRVM : Le marché consolide après une ouverture optimiste"
   },
+  "u:https://www.sikafinance.com/marches/brvm-le-marche-retient-son-souffle-le-composite-cedant-plus-de-3_64464": {
+    "date": "2026-09-24",
+    "title": "BRVM : Le marché retient son souffle, le composite cédant plus de 3%"
+  },
   "u:https://www.sikafinance.com/marches/brvm-les-acheteurs-gardent-la-main-le-composite-signant-un-nouveau-sommet-a-556-points_64212": {
     "date": "2026-09-14",
     "title": "BRVM : Les acheteurs gardent la main, le Composite signant un nouveau sommet à 556 points"
@@ -2382,6 +2450,10 @@
   "u:https://www.sikafinance.com/marches/cote-divoire-nsia-banque-transforme-son-agence-mobile-de-bondoukou-en-implantation-permanente_63610": {
     "date": "2026-08-17",
     "title": "Côte d’Ivoire : NSIA Banque transforme son agence mobile de Bondoukou en implantation permanente"
+  },
+  "u:https://www.sikafinance.com/marches/cote-divoire-sir-eni-olam-cocoa-les-dix-premieres-entreprises-ont-passe-7-500-milliards-fcfa-de-chiffre-daffaires-en-2025_64453": {
+    "date": "2026-09-24",
+    "title": "Côte d’Ivoire : SIR, Eni, Olam Cocoa… les dix premières entreprises ont passé 7 500 milliards FCFA de chiffre d’affaires en 2025"
   },
   "u:https://www.sikafinance.com/marches/cryptomonnaie-un-investisseur-perd-1-milliard-fcfa-a-cause-d-un-lien-piege-relaye-par-chatgpt_64131": {
     "date": "2026-09-10",
