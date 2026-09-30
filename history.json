@@ -219,6 +219,14 @@
     "date": "2026-09-28",
     "title": "L'Afrique du Sud tente le record Guinness du plus grand barbecue du monde"
   },
+  "u:http://fr.africanews.com/2026/09/30/maroc-la-nomination-dune-femme-premiere-ministre-suscite-la-fierte-des-citoyens": {
+    "date": "2026-10-01",
+    "title": "La nomination d’une femme Première ministre suscite la fierté au Maroc"
+  },
+  "u:http://fr.africanews.com/2026/09/30/nigeria-ben-dancer-vise-le-record-du-monde-du-plus-long-marathon-de-danse": {
+    "date": "2026-10-01",
+    "title": "Nigeria : Ben Dancer vise le record du monde du plus long marathon de danse"
+  },
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": {
     "date": "2026-08-26",
     "title": "Croissance du PIB (%) — Benin (2025) : 8.07408453688336"
@@ -350,6 +358,10 @@
   "u:https://businessday.ng/energy/article/oil-falls-for-sixth-day-as-us-iran-talks-ease-supply-fears": {
     "date": "2026-09-24",
     "title": "Oil falls for sixth straight day as US-Iran talks ease supply fears"
+  },
+  "u:https://businessday.ng/energy/article/tamrose-expands-into-angola-with-five-year-offshore-support-contract": {
+    "date": "2026-10-01",
+    "title": "Tamrose expands into Angola with five-year offshore support contract"
   },
   "u:https://businessday.ng/energy/oilandgas/article/oil-prices-hit-4-day-run-as-hormuz-traffic-slows": {
     "date": "2026-08-20",
@@ -1123,6 +1135,34 @@
     "date": "2026-09-30",
     "title": "Afrique: Lom&#xe9; et Rostock signent un accord de codiplomation en &#xe9;nergies"
   },
+  "u:https://fr.allafrica.com/stories/202609300132.html": {
+    "date": "2026-10-01",
+    "title": "Afrique de l'Ouest: Un Forum de l'investissement en 2027 &#xe0; Lom&#xe9;"
+  },
+  "u:https://fr.allafrica.com/stories/202609300137.html": {
+    "date": "2026-10-01",
+    "title": "Cote d'Ivoire: R&#xe9;forme de l'organe &#xe9;lectoral - Le CNDH recueille les attentes des partis politiques"
+  },
+  "u:https://fr.allafrica.com/stories/202609300178.html": {
+    "date": "2026-10-01",
+    "title": "Afrique: Eliminatoires CAN 2027 - Le Ghana et le Nig&#xe9;ria surpris par la Gambie et la Guin&#xe9;e-Bissau"
+  },
+  "u:https://fr.allafrica.com/stories/202609300579.html": {
+    "date": "2026-10-01",
+    "title": "S&#xe9;n&#xe9;gal: Thi&#xe8;s accueille &#xe0; bras ouverts la flamme olympique"
+  },
+  "u:https://fr.allafrica.com/stories/202609300589.html": {
+    "date": "2026-10-01",
+    "title": "S&#xe9;n&#xe9;gal: Commerce ext&#xe9;rieur - Un redressement de la balance commerciale du pays not&#xe9; en juillet dernier"
+  },
+  "u:https://fr.allafrica.com/stories/202609300594.html": {
+    "date": "2026-10-01",
+    "title": "Afrique: Morad Montazami, un pont culturel entre le continent et le monde arabe"
+  },
+  "u:https://fr.allafrica.com/stories/202609300650.html": {
+    "date": "2026-10-01",
+    "title": "Afrique: Restaurer les for&#xea;ts pour mieux nourrir le continent"
+  },
   "u:https://fr.apanews.net/benin/mondial-u-20-le-nigeria-represente-lafrique-en-huitiemes": {
     "date": "2026-09-16",
     "title": "Mondial U-20 : le Nigéria représente l’Afrique en huitièmes"
@@ -1342,6 +1382,10 @@
   "u:https://nairametrics.com/2026/09/25/totalenergies-falls-10-as-ngx-oil-and-gas-index-retreats-from-record-high": {
     "date": "2026-09-28",
     "title": "TotalEnergies falls 10% as NGX Oil and Gas Index retreats from record high"
+  },
+  "u:https://nairametrics.com/2026/09/30/benin-togo-niger-leave-10-17-million-unpaid-on-q2-2026-power-invoices-nerc": {
+    "date": "2026-10-01",
+    "title": "Benin, Togo, Niger leave $10.17 million unpaid on Q2 2026 power invoices — NERC"
   },
   "u:https://rti.info/hevea-la-campagne-2026-de-commercialisation-de-la-graine-vise-64-500-tonnes": {
     "date": "2026-08-19",
@@ -1623,6 +1667,10 @@
     "date": "2026-09-30",
     "title": "L'ONU lance le Global Grids Accelerator pour soutenir le renforcement des réseaux électriques en Afrique"
   },
+  "u:https://www.agenceecofin.com/actualites-industries/3009-142018-la-libye-envisage-le-gnl-pour-securiser-son-approvisionnement-electrique": {
+    "date": "2026-10-01",
+    "title": "La Libye envisage le GNL pour sécuriser son approvisionnement électrique"
+  },
   "u:https://www.agenceecofin.com/actualites-infrastructures/0209-141247-dakhla-face-a-abidjan-lagos-et-lome-la-bataille-des-hubs-logistiques-s-intensifie": {
     "date": "2026-09-03",
     "title": "Dakhla face à Abidjan, Lagos et Lomé : la bataille des hubs logistiques s’intensifie"
@@ -1646,6 +1694,10 @@
   "u:https://www.agenceecofin.com/actualites-infrastructures/3008-141149-de-nouveaux-essais-annonces-en-octobre-pour-le-monorail-du-nil-occidental-en-egypte": {
     "date": "2026-08-31",
     "title": "De nouveaux essais annoncés en octobre pour le monorail du Nil occidental en Egypte"
+  },
+  "u:https://www.agenceecofin.com/actualites-infrastructures/3009-142029-benin-l-aiib-prepare-une-nouvelle-enveloppe-de-730-millions-le-transport-parmi-les-secteurs-cibles": {
+    "date": "2026-10-01",
+    "title": "Bénin : l’AIIB prépare une nouvelle enveloppe de 730 millions $, le transport parmi les secteurs ciblés"
   },
   "u:https://www.agenceecofin.com/actualites-infrastructures/3108-141166-chengdu-addis-abeba-ce-que-revele-la-strategie-d-ethiopian-airlines-en-chine": {
     "date": "2026-09-01",
@@ -1762,6 +1814,10 @@
   "u:https://www.agenceecofin.com/actualites-numerique/2909-141984-a-madagascar-la-baisse-du-prix-de-l-internet-met-les-reseaux-sous-pression": {
     "date": "2026-09-30",
     "title": "À Madagascar, la baisse du prix de l’Internet met les réseaux sous pression"
+  },
+  "u:https://www.agenceecofin.com/actualites-numerique/3009-142012-infrastructure-numerique-la-tanzanie-prevoit-2-6-milliards-d-investissements-d-ici-2031": {
+    "date": "2026-10-01",
+    "title": "Infrastructure numérique : la Tanzanie prévoit 2,6 milliards $ d’investissements d’ici 2031"
   },
   "u:https://www.agenceecofin.com/actualites-numerique/3108-141168-internet-par-satellite-starlink-cible-16-nouveaux-marches-africains-d-ici-fin-2026": {
     "date": "2026-09-01",
@@ -1946,6 +2002,14 @@
   "u:https://www.agenceecofin.com/actualites/2909-141989-huiles-vegetales-le-colza-et-le-tournesol-porteront-le-commerce-mondial-en-2026/2027-usda": {
     "date": "2026-09-30",
     "title": "Huiles végétales : le colza et le tournesol porteront le commerce mondial en 2026/2027 (USDA)"
+  },
+  "u:https://www.agenceecofin.com/actualites/3009-142026-ouganda-fine-spinners-prevoit-d-investir-420-millions-dans-le-coton-textile": {
+    "date": "2026-10-01",
+    "title": "Ouganda : Fine Spinners prévoit d’investir 420 millions $ dans le coton-textile"
+  },
+  "u:https://www.agenceecofin.com/actualites/3009-142028-l-ouganda-accelere-son-rapprochement-economique-avec-l-italie": {
+    "date": "2026-10-01",
+    "title": "L’Ouganda accélère son rapprochement économique avec l’Italie"
   },
   "u:https://www.agenceecofin.com/actualites/3108-141157-libye-apres-plus-d-une-decennie-de-divisions-ce-qu-une-reunification-peut-changer-pour-l-economie": {
     "date": "2026-09-01",
@@ -2251,6 +2315,10 @@
     "date": "2026-08-17",
     "title": "BRVM : SICOR CI signe une cinquième hausse consécutive et franchit le cap des 10 000 FCFA"
   },
+  "u:https://www.sikafinance.com/marches/brvm-sonatel-atteint-un-seuil-psychologique-a-45-000-fcfa_64622": {
+    "date": "2026-10-01",
+    "title": "BRVM : Sonatel atteint un seuil psychologique à 45 000 FCFA"
+  },
   "u:https://www.sikafinance.com/marches/brvm-sonatel-realise-sa-plus-forte-hausse-journaliere-depuis-pres-de-six-ans_63763": {
     "date": "2026-08-24",
     "title": "BRVM : SONATEL réalise sa plus forte hausse journalière depuis près de six ans"
@@ -2390,6 +2458,10 @@
   "u:https://www.sikafinance.com/marches/ghana-goldbod-impose-le-raffinage-local-de-lor-artisanal-avant-son-exportation_63823": {
     "date": "2026-08-27",
     "title": "Ghana : GoldBod impose le raffinage local de l’or artisanal avant son exportation"
+  },
+  "u:https://www.sikafinance.com/marches/ghana-le-groupe-petrolier-britannique-tullow-oil-condamne-a-payer-197-millions-usd-apres-un-litige-fiscal_64606": {
+    "date": "2026-10-01",
+    "title": "Ghana : Le groupe pétrolier britannique Tullow Oil condamné à payer 197 millions USD après un litige fiscal"
   },
   "u:https://www.sikafinance.com/marches/ghana-les-etats-unis-financent-une-etude-pour-deployer-un-reseau-de-fibre-optique-dans-le-nord_64238": {
     "date": "2026-09-15",
@@ -2562,6 +2634,10 @@
   "u:https://www.sikafinance.com/marches/uemoa-pres-de-2-000-milliards-fcfa-dorment-sur-les-comptes-mobile-money_64146": {
     "date": "2026-09-10",
     "title": "UEMOA : Près de 2 000 milliards FCFA dorment sur les comptes mobile money"
+  },
+  "u:https://www.sikafinance.com/marches/uemoa-pres-de-23-000-milliards-fcfa-de-credits-bancaires-mis-en-place-en-2025_64620": {
+    "date": "2026-10-01",
+    "title": "UEMOA : Près de 23 000 milliards FCFA de crédits bancaires mis en place en 2025"
   },
   "u:https://www.sikafinance.com/marches/umoa-3-operateurs-concentrent-65-des-encours-de-monnaie-electronique_64526": {
     "date": "2026-09-28",
