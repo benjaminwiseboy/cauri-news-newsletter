@@ -93,6 +93,24 @@ Issues de `rapport-sources-scrapables-newsletter-brvm.md` :
    génère le numéro **la veille** : il tourne dimanche→jeudi (`0-4`) et produit l'édition
    de J+1 (dimanche→lundi, …, jeudi→vendredi). Le brouillon est donc prêt la veille au soir.
 
+## Filet de secours : chemin script complet (manuel)
+
+Le cron quotidien ne fait que le **scrape** (`run.py --scrape-only` → `out/<date>/01_scrape.json`,
+artefact `scrape-<run_id>`). Le chemin complet `scrape → qualify → select → write → publish`
+reste disponible dans le job `legacy-full` de `.github/workflows/daily.yml`, **uniquement en
+`workflow_dispatch`** :
+
+- Onglet Actions → « Newsletter BRVM quotidienne » → *Run workflow*, ou
+  `gh workflow run daily.yml -f edition_date=YYYY-MM-DD -f no_publish=false`.
+- Inputs : `edition_date` (vide = demain), `no_publish` (`true` = génère sans Ghost).
+- Utilise `OPENROUTER_API_KEY`, `MODEL_QUALIFY/SELECT/WRITE`, `GHOST_*`, `PUBLISH_STATUS`
+  (garder `draft`). Coût : quelques dizaines de centimes d'OpenRouter par run.
+- Produit : un brouillon Ghost, l'artefact `newsletter-<run_id>` (`out/<date>/01…05`), et un
+  commit de `history.json` / `topics.json`.
+- **Fin du filet : 2 semaines après la mise en service du chemin agent** (clôture de la tâche
+  « Runbook éditorial »). Date à inscrire ici une fois cette tâche close : `____-__-__`.
+  À cette date, supprimer le job `legacy-full` puis `OPENROUTER_API_KEY` / `MODEL_*`.
+
 ## Points d'attention
 
 - **Timezone & retards GHA** : cron en UTC, pas d'heure d'été, décalage possible de 5-30 min.
@@ -100,3 +118,38 @@ Issues de `rapport-sources-scrapables-newsletter-brvm.md` :
   à `published` une fois la qualité prouvée.
 - **Jours fériés / marché fermé** : le cron produit des éditions lun→ven mais ne gère pas les fériés UEMOA.
 - **Coût** : router les étapes de tri vers un modèle bon marché, la rédaction vers un modèle fort.
+
+## Git / GitHub depuis un run Paperclip (Windows)
+
+Deux pièges d'environnement, tous deux contournés dans ce dépôt — à connaître avant de
+diagnostiquer un « problème de connexion à GitHub » :
+
+1. **Le launcher GitHub de Paperclip ne fonctionne pas sous Windows.** Le shim
+   `$PAPERCLIP_GITHUB_LAUNCHER_DIR/git` cherche un exécutable nommé `git` (sans extension)
+   et échoue donc toujours en `Paperclip: requested GitHub command is not installed.`
+   (code 127). En repli, `git.exe` tourne sans identifiants : la lecture d'un dépôt public
+   passe en anonyme, mais tout `push` échoue sur
+   `fatal: could not read Username for 'https://github.com'`.
+   → Corrigé par un credential helper local, `.git/paperclip-credential.js`, déclaré dans
+   `.git/config`. Il demande un jeton court au broker Paperclip à chaque appel de Git et
+   n'écrit aucun secret sur le disque. **Il vit dans `.git/`, donc il n'est pas versionné :
+   après un nouveau clone, le rejouer** (le fichier est reproductible depuis ce README et
+   l'issue CAU-10).
+
+2. **Les variables d'identité Git sont exportées vides.** `GIT_AUTHOR_NAME`,
+   `GIT_COMMITTER_NAME`, etc. valent `""`, ce qui écrase `user.name` du dépôt et fait
+   échouer tout commit sur `fatal: empty ident name (for <>) not allowed`.
+   → Passer par `pwsh tools/pgit.ps1 <commande git>`, qui nettoie ces variables vides
+   avant d'appeler `git.exe`. En bash, le profil du launcher le fait déjà.
+
+`.gitattributes` impose `eol=lf` : sans cela, un outil Windows qui réécrit un fichier en
+CRLF produit un diff « tout le fichier a changé » et masque la vraie modification.
+
+## CLI de publication (pour agents)
+
+```
+python -m agents.publish --html <numero.html> --date YYYY-MM-DD --title "<titre>"   [--status draft|published] [--digest-html <brut.html> | --no-brut] [--scrape-json <01_scrape.json>]   [--subject ...] [--preview ...] [--test] [--dry-run]
+```
+
+Codes de retour : 0 OK, 1 erreur Ghost, 2 entrée manquante, 3 `published` non autorisé, 4 URL non sourcée.
+`published` exige `CAURI_ALLOW_PUBLISH=yes-publish`. Dernière ligne : `GHOST_DRAFT brut=<url> formaté=<url> status=<s>`.

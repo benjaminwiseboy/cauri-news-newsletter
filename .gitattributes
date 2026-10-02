@@ -1,0 +1,5 @@
+# Normaliser les fins de ligne à l'indexation : sans cette règle, un outil
+# Windows qui réécrit un fichier en CRLF produit un diff « tout le fichier a
+# changé » alors que seules quelques lignes diffèrent (constaté sur
+# .github/workflows/daily.yml).
+* text=auto eol=lf

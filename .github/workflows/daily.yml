@@ -14,8 +14,11 @@ on:
     # 13:16 UTC = 15:16 Paris (été, nominal) ; en hiver, mêmes minutes mais UTC+1 au lieu
     # de UTC+2 → passer à "16 14 * * 0-4" pour conserver la même cible ~15-16h Paris.
     - cron: "16 13 * * 0-4"
-  workflow_dispatch:          # permet de lancer à la main depuis l'onglet Actions
+  workflow_dispatch:          # FILET DE SECOURS : chemin script complet, lancé à la main uniquement
     inputs:
+      scrape_only:
+        description: "Ne lancer que le job scrape (preuve CAU-2, aucun modèle) au lieu du filet legacy-full (true/false)"
+        default: "false"
       no_publish:
         description: "Générer sans publier sur Ghost (true/false)"
         default: "false"
@@ -28,10 +31,55 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write   # nécessaire pour committer history.json (mémoire anti-répétition)
+  contents: write   # nécessaire pour committer out/<date>/01_scrape.json
 
 jobs:
-  build-and-publish:
+  scrape:
+    if: github.event_name == 'schedule' || github.event.inputs.scrape_only == 'true'   # le cron ne fait que le scrape
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Scraper les sources (fraîcheur + anti-répétition, sans modèle)
+        run: |
+          # Date d'édition = celle fournie à la main, sinon DEMAIN (numéro de la veille).
+          DATE="${{ github.event.inputs.edition_date }}"
+          if [ -z "$DATE" ]; then DATE=$(date -u -d '+1 day' +%Y-%m-%d); fi
+          echo "Édition scrapée : $DATE"
+          python run.py --date "$DATE" --scrape-only
+          echo "EDITION_DATE=$DATE" >> "$GITHUB_ENV"
+
+      - name: Persister le scrape (out/<date>/01_scrape.json)
+        run: |
+          git config user.name "cauri-bot"
+          git config user.email "cauri-bot@users.noreply.github.com"
+          # out/ est gitignoré : on force uniquement l'artefact du scrape.
+          git add -f "out/$EDITION_DATE/01_scrape.json"
+          git diff --cached --quiet || git commit -m "chore: scrape $EDITION_DATE [skip ci]"
+          git pull --rebase || true
+          git push || echo "rien à pousser"
+
+      - name: Archiver les artefacts (HTML + JSON intermédiaires)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-${{ github.run_id }}
+          path: out/
+          retention-days: 14
+
+  # Filet de secours (CAU-4) : chemin complet scrape → qualify → select → write → publish.
+  # Déclenchement manuel uniquement. À supprimer 2 semaines après la mise en service du
+  # chemin agent (clôture de « Runbook éditorial »), cf. README.
+  legacy-full:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.scrape_only != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
