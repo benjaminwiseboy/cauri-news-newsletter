@@ -119,6 +119,32 @@ reste disponible dans le job `legacy-full` de `.github/workflows/daily.yml`, **u
 - **Jours fériés / marché fermé** : le cron produit des éditions lun→ven mais ne gère pas les fériés UEMOA.
 - **Coût** : router les étapes de tri vers un modèle bon marché, la rédaction vers un modèle fort.
 
+## Git / GitHub depuis un run Paperclip (Windows)
+
+Deux pièges d'environnement, tous deux contournés dans ce dépôt — à connaître avant de
+diagnostiquer un « problème de connexion à GitHub » :
+
+1. **Le launcher GitHub de Paperclip ne fonctionne pas sous Windows.** Le shim
+   `$PAPERCLIP_GITHUB_LAUNCHER_DIR/git` cherche un exécutable nommé `git` (sans extension)
+   et échoue donc toujours en `Paperclip: requested GitHub command is not installed.`
+   (code 127). En repli, `git.exe` tourne sans identifiants : la lecture d'un dépôt public
+   passe en anonyme, mais tout `push` échoue sur
+   `fatal: could not read Username for 'https://github.com'`.
+   → Corrigé par un credential helper local, `.git/paperclip-credential.js`, déclaré dans
+   `.git/config`. Il demande un jeton court au broker Paperclip à chaque appel de Git et
+   n'écrit aucun secret sur le disque. **Il vit dans `.git/`, donc il n'est pas versionné :
+   après un nouveau clone, le rejouer** (le fichier est reproductible depuis ce README et
+   l'issue CAU-10).
+
+2. **Les variables d'identité Git sont exportées vides.** `GIT_AUTHOR_NAME`,
+   `GIT_COMMITTER_NAME`, etc. valent `""`, ce qui écrase `user.name` du dépôt et fait
+   échouer tout commit sur `fatal: empty ident name (for <>) not allowed`.
+   → Passer par `pwsh tools/pgit.ps1 <commande git>`, qui nettoie ces variables vides
+   avant d'appeler `git.exe`. En bash, le profil du launcher le fait déjà.
+
+`.gitattributes` impose `eol=lf` : sans cela, un outil Windows qui réécrit un fichier en
+CRLF produit un diff « tout le fichier a changé » et masque la vraie modification.
+
 ## CLI de publication (pour agents)
 
 ```
