@@ -8,6 +8,7 @@ Usage :
   python run.py                 # pipeline complet + publication des 2 brouillons
   python run.py --no-publish    # tout sauf la publication Ghost
   python run.py --date 2026-07-20
+  python run.py --scrape-only   # scrape + fraîcheur + anti-répétition → 01_scrape.json, sans LLM
 """
 from __future__ import annotations
 
@@ -29,6 +30,9 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", default=date.today().isoformat())
     parser.add_argument("--no-publish", action="store_true")
+    parser.add_argument("--scrape-only", action="store_true",
+                         help="S'arrête après 01_scrape.json (fraîcheur + anti-répétition). "
+                              "Aucun appel modèle, aucune écriture dans history.json.")
     parser.add_argument("--hybrid-body", action="store_true",
                          help="Publie le corps du numéro final en blocs Ghost natifs "
                               "(éditables) ; header/footer restent en carte HTML.")
@@ -52,6 +56,10 @@ def main() -> int:
     scraped.items = history.filter_unseen(scraped.items, day)
     avoid_recent_topics = history.recent_titles(day)
     _save(day_dir, "01_scrape.json", scraped.model_dump_json(indent=2))
+
+    if args.scrape_only:
+        print(f"[run] --scrape-only : {len(scraped.items)} actu(s) retenue(s) → {day_dir / '01_scrape.json'}")
+        return 0
 
     if not scraped.items:
         print("[run] aucune actu fraîche et inédite — pas de numéro à générer.")
