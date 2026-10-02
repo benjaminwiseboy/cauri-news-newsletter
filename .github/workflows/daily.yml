@@ -16,6 +16,9 @@ on:
     - cron: "16 13 * * 0-4"
   workflow_dispatch:          # FILET DE SECOURS : chemin script complet, lancé à la main uniquement
     inputs:
+      scrape_only:
+        description: "Ne lancer que le job scrape (preuve CAU-2, aucun modèle) au lieu du filet legacy-full (true/false)"
+        default: "false"
       no_publish:
         description: "Générer sans publier sur Ghost (true/false)"
         default: "false"
@@ -32,7 +35,7 @@ permissions:
 
 jobs:
   scrape:
-    if: github.event_name == 'schedule'   # le cron ne fait que le scrape
+    if: github.event_name == 'schedule' || github.event.inputs.scrape_only == 'true'   # le cron ne fait que le scrape
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -76,7 +79,7 @@ jobs:
   # Déclenchement manuel uniquement. À supprimer 2 semaines après la mise en service du
   # chemin agent (clôture de « Runbook éditorial »), cf. README.
   legacy-full:
-    if: github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.scrape_only != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
