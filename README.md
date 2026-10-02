@@ -118,3 +118,12 @@ reste disponible dans le job `legacy-full` de `.github/workflows/daily.yml`, **u
   à `published` une fois la qualité prouvée.
 - **Jours fériés / marché fermé** : le cron produit des éditions lun→ven mais ne gère pas les fériés UEMOA.
 - **Coût** : router les étapes de tri vers un modèle bon marché, la rédaction vers un modèle fort.
+
+## CLI de publication (pour agents)
+
+```
+python -m agents.publish --html <numero.html> --date YYYY-MM-DD --title "<titre>"   [--status draft|published] [--digest-html <brut.html> | --no-brut] [--scrape-json <01_scrape.json>]   [--subject ...] [--preview ...] [--test] [--dry-run]
+```
+
+Codes de retour : 0 OK, 1 erreur Ghost, 2 entrée manquante, 3 `published` non autorisé, 4 URL non sourcée.
+`published` exige `CAURI_ALLOW_PUBLISH=yes-publish`. Dernière ligne : `GHOST_DRAFT brut=<url> formaté=<url> status=<s>`.
