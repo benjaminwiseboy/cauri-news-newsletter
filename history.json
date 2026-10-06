@@ -223,6 +223,22 @@
     "date": "2026-10-05",
     "title": "Égypte : un sommet pour stimuler les échanges africains"
   },
+  "u:http://fr.africanews.com/2026/10/06/cemac-le-trafic-de-medicaments-constitue-une-menace-majeure-pour-la-sante-publique": {
+    "date": "2026-10-07",
+    "title": "Cemac :  le trafic de médicaments constitue une menace majeure pour la santé publique"
+  },
+  "u:http://fr.africanews.com/2026/10/06/fievre-aphteuse-lue-suspend-temporairement-plusieurs-importations-de-viande-namibienne": {
+    "date": "2026-10-07",
+    "title": "Fièvre aphteuse : l’UE suspend plusieurs importations de viande namibienne"
+  },
+  "u:http://fr.africanews.com/2026/10/06/france-benin-pres-de-100-millions-deuros-dengagements-annonces-a-paris": {
+    "date": "2026-10-07",
+    "title": "La France annonce près de 100 millions d’euros d’engagements avec le Bénin"
+  },
+  "u:http://fr.africanews.com/2026/10/06/senegal-des-pluies-diluviennes-provoquent-des-inondations-meurtrieres": {
+    "date": "2026-10-07",
+    "title": "Sénégal : au moins 5 morts dans des inondations après des pluies diluviennes"
+  },
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": {
     "date": "2026-08-26",
     "title": "Croissance du PIB (%) — Benin (2025) : 8.07408453688336"
@@ -298,6 +314,10 @@
   "u:https://beninwebtv.com/kenya-ncba-et-basigo-lancent-un-financement-pour-1-000-vehicules-electriques": {
     "date": "2026-08-28",
     "title": "Kenya : NCBA et BasiGo lancent un financement pour 1 000 véhicules électriques - Bénin Web TV"
+  },
+  "u:https://beninwebtv.com/la-banque-mondiale-prevoit-78-de-croissance-au-benin-en-2026": {
+    "date": "2026-10-07",
+    "title": "La Banque mondiale prévoit 7,8 % de croissance au Bénin en 2026 - Bénin Web TV"
   },
   "u:https://beninwebtv.com/nigeria-1747-milliards-dobligations-integrent-un-nouvel-indice-jpmorgan": {
     "date": "2026-09-15",
@@ -1091,6 +1111,10 @@
     "date": "2026-10-06",
     "title": "S&#xe9;n&#xe9;gal: Sidiki Bakaba ouvre l'album-souvenirs du film 'L'Aventure Ambigu&#xeb;' dont il incarnait le personnage Samba Diallo"
   },
+  "u:https://fr.allafrica.com/stories/202610060147.html": {
+    "date": "2026-10-07",
+    "title": "Afrique de l'Ouest: CEDEAO - Des experts r&#xe9;unis pour fiabiliser les donn&#xe9;es &#xe9;nerg&#xe9;tiques"
+  },
   "u:https://fr.apanews.net/benin/mondial-u-20-le-nigeria-represente-lafrique-en-huitiemes": {
     "date": "2026-09-16",
     "title": "Mondial U-20 : le Nigéria représente l’Afrique en huitièmes"
@@ -1127,6 +1151,10 @@
     "date": "2026-08-26",
     "title": "Namibie : la 1e unité d’hydrogène vert intégrée en Afrique"
   },
+  "u:https://fr.apanews.net/business/nigeria-164-milliards-de-dollars-dentrees-de-capitaux-en-cinq-mois": {
+    "date": "2026-10-07",
+    "title": "Nigeria : 16,4 milliards de dollars d’entrées de capitaux en cinq mois"
+  },
   "u:https://fr.apanews.net/business/nigeria-la-banque-centrale-abaisse-son-taux-directeur-a-23": {
     "date": "2026-09-24",
     "title": "Nigéria : la Banque centrale abaisse son taux directeur à 23 %"
@@ -1134,6 +1162,10 @@
   "u:https://fr.apanews.net/business/nigeria-le-pib-progresse-de-44-au-deuxieme-trimestre": {
     "date": "2026-09-02",
     "title": "Nigéria : le PIB progresse de 4,4% au deuxième trimestre"
+  },
+  "u:https://fr.apanews.net/business/rdc-loba-veut-renforcer-la-protection-des-consommateurs": {
+    "date": "2026-10-07",
+    "title": "RDC : « LOBA » veut renforcer la protection des consommateurs"
   },
   "u:https://fr.apanews.net/cote-divoire/abidjan-accueille-la-cimdc-2026-sur-la-mobilite-durable": {
     "date": "2026-10-05",
@@ -1210,6 +1242,10 @@
   "u:https://fr.apanews.net/senegal/joj-dakar-2026-cinq-sports-populaires-au-programme": {
     "date": "2026-10-06",
     "title": "JOJ Dakar 2026 : cinq sports populaires au programme"
+  },
+  "u:https://fr.apanews.net/social/une-fintech-renove-un-terrain-de-basketball-a-abidjan": {
+    "date": "2026-10-07",
+    "title": "A Abidjan, une fintech rénove un terrain de basketball"
   },
   "u:https://fr.apanews.net/society/egypte-tanzanie-inauguration-du-grand-barrage-julius-nyerere": {
     "date": "2026-08-24",
@@ -1414,6 +1450,10 @@
   "u:https://www.agenceecofin.com/actualites-finance/0609-141332-samb-a-prepare-le-depot-de-sa-demande-d-agrement-pour-lancer-sa-micro-assurance-au-cameroun": {
     "date": "2026-09-07",
     "title": "Samb’a prépare le dépôt de sa demande d’agrément pour lancer sa micro-assurance au Cameroun"
+  },
+  "u:https://www.agenceecofin.com/actualites-finance/0610-142157-cote-d-ivoire-la-sgpme-accorde-une-garantie-de-5-1-millions-a-cofina-pour-les-pme": {
+    "date": "2026-10-07",
+    "title": "Côte d’Ivoire : la SGPME accorde une garantie de 5,1 millions $ à Cofina pour les PME"
   },
   "u:https://www.agenceecofin.com/actualites-finance/0909-141442-brvm-apres-une-opv-souscrite-a-142-bridge-bank-sera-cotee-le-24-septembre": {
     "date": "2026-09-10",
@@ -1827,6 +1867,10 @@
     "date": "2026-10-06",
     "title": "Bénin-France : 111,7 millions $ mobilisés pour l’électricité, l’agriculture et l’expertise ADN"
   },
+  "u:https://www.agenceecofin.com/actualites/0610-142160-royal-air-maroc-recoit-un-nouveau-boeing-737-8-pour-renforcer-sa-flotte": {
+    "date": "2026-10-07",
+    "title": "Royal Air Maroc reçoit un nouveau Boeing 737-8 pour renforcer sa flotte"
+  },
   "u:https://www.agenceecofin.com/actualites/0809-141384-stellantis-examine-des-partenariats-chinois-pour-relancer-ses-ambitions-en-afrique": {
     "date": "2026-09-09",
     "title": "Stellantis examine des partenariats chinois pour relancer ses ambitions en Afrique"
@@ -2043,6 +2087,10 @@
     "date": "2026-10-05",
     "title": "Avis N°289/BRVM/2026 – Composition de l'indice BRVM 30"
   },
+  "u:https://www.brvm.org/sites/default/files/20261005_-_avis_ndeg293_brvmdg_-_annulation_de_transaction.pdf": {
+    "date": "2026-10-07",
+    "title": "AVIS : Annulation de transaction"
+  },
   "u:https://www.financialafrik.com/2026/08/25/kenya-les-banques-conservent-3545-millions-usd-de-liquidites-excedentaires": {
     "date": "2026-08-26",
     "title": "Kenya : les banques conservent 354,5 millions USD de liquidités excédentaires"
@@ -2111,6 +2159,10 @@
     "date": "2026-09-30",
     "title": "BRVM : BICICI reprend de la hauteur avec plus de 7%"
   },
+  "u:https://www.sikafinance.com/marches/brvm-boa-la-rentabilite-prend-le-dessus-sur-la-croissance-au-1er-semestre-2026_64746": {
+    "date": "2026-10-07",
+    "title": "BRVM / BOA : La rentabilité prend le dessus sur la croissance au 1er semestre 2026"
+  },
   "u:https://www.sikafinance.com/marches/brvm-boa-niger-bondit-sous-la-houlette-des-resultats-semestriels_64563": {
     "date": "2026-09-29",
     "title": "BRVM : BOA Niger bondit sous la houlette des résultats semestriels"
@@ -2170,6 +2222,10 @@
   "u:https://www.sikafinance.com/marches/brvm-nsia-banque-se-hisse-a-un-sommet-historique-a-loree-des-25-000-fcfa_64086": {
     "date": "2026-09-08",
     "title": "BRVM : NSIA Banque se hisse à un sommet historique, à l’orée des 25 000 FCFA"
+  },
+  "u:https://www.sikafinance.com/marches/brvm-orange-ci-reprend-plus-de-7-et-dope-les-indices_64754": {
+    "date": "2026-10-07",
+    "title": "BRVM : Orange CI reprend plus de 7 % et dope les indices"
   },
   "u:https://www.sikafinance.com/marches/brvm-orange-ci-soutient-le-marche-avec-plus-de-45-milliards-fcfa-de-capitalisation_64652": {
     "date": "2026-10-02",
