@@ -239,6 +239,14 @@
     "date": "2026-10-07",
     "title": "Sénégal : au moins 5 morts dans des inondations après des pluies diluviennes"
   },
+  "u:http://fr.africanews.com/2026/10/07/le-ghana-veut-entrer-dans-le-club-des-brics-accra-prepare-sa-candidature": {
+    "date": "2026-10-08",
+    "title": "Le Ghana veut entrer dans le club des BRICS, Accra prépare sa candidature"
+  },
+  "u:http://fr.africanews.com/2026/10/07/senegal-la-rentree-scolaire-reportee-apres-les-fortes-pluies": {
+    "date": "2026-10-08",
+    "title": "Sénégal : la rentrée scolaire reportée après les fortes pluies"
+  },
   "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": {
     "date": "2026-08-26",
     "title": "Croissance du PIB (%) — Benin (2025) : 8.07408453688336"
@@ -415,6 +423,10 @@
     "date": "2026-09-16",
     "title": "Afrique de l’Ouest : comment BGFI Holding envisage une cotation à la BRVM"
   },
+  "u:https://ecomatin.net/augmentation-de-capital-bgfi-holding-boucle-au-cameroun-son-roadshow-pour-lever-80-milliards-fcfa": {
+    "date": "2026-10-08",
+    "title": "Augmentation de capital : BGFI Holding boucle au Cameroun son roadshow pour lever 80 milliards FCFA"
+  },
   "u:https://ecomatin.net/boissons-du-cameroun-700-kits-a-28-millions-fcfa-pour-encourager-lexcellence-scolaire-dans-le-noso": {
     "date": "2026-09-02",
     "title": "Boissons du Cameroun : 700 kits à 28 millions FCFA pour encourager l’excellence scolaire dans le NOSO"
@@ -447,6 +459,10 @@
     "date": "2026-09-11",
     "title": "Congo : les intérêts de la dette publique vont bondir de 46 % en 2027"
   },
+  "u:https://ecomatin.net/congo-patrice-raimbault-prend-les-commandes-du-projet-de-fer-zanaga": {
+    "date": "2026-10-08",
+    "title": "Congo : Patrice Raimbault prend les commandes du projet de fer Zanaga"
+  },
   "u:https://ecomatin.net/coris-bank-devient-le-plus-grand-groupe-bancaire-de-luemoa-aux-cotes-decobank": {
     "date": "2026-08-27",
     "title": "Coris Bank devient le plus grand groupe bancaire de l’UEMOA aux côtés d’Ecobank"
@@ -463,6 +479,10 @@
     "date": "2026-09-11",
     "title": "La Centrafrique sollicite les banques pour racheter 10 milliards FCFA de dette sur le marché des titres publics"
   },
+  "u:https://ecomatin.net/microfinance-acep-cameroun-cede-33-de-son-capital-a-sa-holding-mere-aace": {
+    "date": "2026-10-08",
+    "title": "Microfinance : ACEP Cameroun cède 33% de son capital à sa holding mère AACE"
+  },
   "u:https://ecomatin.net/savannah-energy-la-sentence-arbitrale-sur-le-pipeline-tchad-cameroun-reportee-a-fin-2026": {
     "date": "2026-09-04",
     "title": "Savannah Energy : la sentence arbitrale sur le pipeline Tchad-Cameroun reportée à fin 2026"
@@ -471,9 +491,17 @@
     "date": "2026-09-16",
     "title": "Sénégal : la restructuration de la dette fait planer une menace sur la BOAD(Fitch)"
   },
+  "u:https://ecomatin.net/taoureko-hemwue-temwa-promu-directeur-national-de-la-beac-au-tchad": {
+    "date": "2026-10-08",
+    "title": "Taoukreo Hemwue Temwa promu directeur national de la BEAC au Tchad"
+  },
   "u:https://ecomatin.net/tchad-pourquoi-idriss-deby-fait-le-choix-de-leconomiste-idriss-ahmed-idriss": {
     "date": "2026-08-25",
     "title": "Tchad: Pourquoi Idriss Déby fait le choix de l’Economiste Idriss Ahmed Idriss"
+  },
+  "u:https://ecomatin.net/transport-routier-plus-de-126-000-attestations-dassurance-vendues-par-des-intermediaires-clandestins-au-cameroun-en-2025": {
+    "date": "2026-10-08",
+    "title": "Transport routier : plus de 126 000 attestations d’assurance vendues par des intermédiaires clandestins au Cameroun en 2025"
   },
   "u:https://fr.allafrica.com/stories/202608210122.html": {
     "date": "2026-08-24",
@@ -1115,6 +1143,18 @@
     "date": "2026-10-07",
     "title": "Afrique de l'Ouest: CEDEAO - Des experts r&#xe9;unis pour fiabiliser les donn&#xe9;es &#xe9;nerg&#xe9;tiques"
   },
+  "u:https://fr.allafrica.com/stories/202610070392.html": {
+    "date": "2026-10-08",
+    "title": "Afrique: CAN 2025 - Le TAS examine l'appel du S&#xe9;n&#xe9;gal contre la CAF"
+  },
+  "u:https://fr.allafrica.com/stories/202610070602.html": {
+    "date": "2026-10-08",
+    "title": "Afrique de l'Ouest: La Banque de d&#xe9;veloppement Shelter Afrique annonce une obligation durable de 60 milliards de FCfa"
+  },
+  "u:https://fr.allafrica.com/stories/202610070749.html": {
+    "date": "2026-10-08",
+    "title": "Cote d'Ivoire: S&#xe9;curisation fonci&#xe8;re - L'Afor mise sur le num&#xe9;rique pour s&#xe9;curiser le foncier rural"
+  },
   "u:https://fr.apanews.net/benin/mondial-u-20-le-nigeria-represente-lafrique-en-huitiemes": {
     "date": "2026-09-16",
     "title": "Mondial U-20 : le Nigéria représente l’Afrique en huitièmes"
@@ -1266,6 +1306,10 @@
   "u:https://fr.apanews.net/society/tunisie-coordination-entre-la-banque-centrale-et-le-cmf": {
     "date": "2026-09-08",
     "title": "Tunisie : coordination entre la Banque centrale et le CMF"
+  },
+  "u:https://fr.apanews.net/society/tunisie-modernisation-de-ladministration-face-a-lexecution": {
+    "date": "2026-10-08",
+    "title": "Tunisie : modernisation de l’administration face à l’exécutif"
   },
   "u:https://fr.apanews.net/sport/mondial-feminin-2027-deux-places-africaines-encore-en-jeu": {
     "date": "2026-09-02",
@@ -1707,6 +1751,10 @@
     "date": "2026-09-08",
     "title": "Burkina Faso : 260 000 $ d’amendes générés par la vidéo verbalisation en un mois"
   },
+  "u:https://www.agenceecofin.com/actualites-numerique/0710-142201-l-angola-construit-ses-institutions-cyber-mais-doit-encore-renforcer-ses-capacites-operationnelles": {
+    "date": "2026-10-08",
+    "title": "L’Angola construit ses institutions cyber, mais doit encore renforcer ses capacités opérationnelles"
+  },
   "u:https://www.agenceecofin.com/actualites-numerique/0809-141392-le-ghana-veut-passer-dune-gestion-reactive-a-une-prevention-numerique-des-incendies": {
     "date": "2026-09-09",
     "title": "Le Ghana veut passer d'une gestion réactive à une prévention numérique des incendies"
@@ -1870,6 +1918,18 @@
   "u:https://www.agenceecofin.com/actualites/0610-142160-royal-air-maroc-recoit-un-nouveau-boeing-737-8-pour-renforcer-sa-flotte": {
     "date": "2026-10-07",
     "title": "Royal Air Maroc reçoit un nouveau Boeing 737-8 pour renforcer sa flotte"
+  },
+  "u:https://www.agenceecofin.com/actualites/0710-142192-commerce-intra-uemoa-les-echanges-progressent-de-11-8-au-2e-trimestre-2026": {
+    "date": "2026-10-08",
+    "title": "Commerce intra-UEMOA : les échanges progressent de 11,8 % au 2e trimestre 2026"
+  },
+  "u:https://www.agenceecofin.com/actualites/0710-142196-rwanda-le-deficit-budgetaire-recule-a-4-8-du-pib-en-2025/26": {
+    "date": "2026-10-08",
+    "title": "Rwanda : le déficit budgétaire recule à 4,8 % du PIB en 2025/26"
+  },
+  "u:https://www.agenceecofin.com/actualites/0710-142198-zimbabwe-les-entrees-de-devises-atteignent-15-9-milliards-en-9-mois": {
+    "date": "2026-10-08",
+    "title": "Zimbabwe : les entrées de devises atteignent 15,9 milliards $ en 9 mois"
   },
   "u:https://www.agenceecofin.com/actualites/0809-141384-stellantis-examine-des-partenariats-chinois-pour-relancer-ses-ambitions-en-afrique": {
     "date": "2026-09-09",
@@ -2091,6 +2151,10 @@
     "date": "2026-10-07",
     "title": "AVIS : Annulation de transaction"
   },
+  "u:https://www.brvm.org/sites/default/files/20261006_-_calendrier_de_paiement_des_dividendes_-_exercice_2025.pdf": {
+    "date": "2026-10-08",
+    "title": "BRVM : Calendrier de paiement de dividendes"
+  },
   "u:https://www.financialafrik.com/2026/08/25/kenya-les-banques-conservent-3545-millions-usd-de-liquidites-excedentaires": {
     "date": "2026-08-26",
     "title": "Kenya : les banques conservent 354,5 millions USD de liquidités excédentaires"
@@ -2254,6 +2318,10 @@
   "u:https://www.sikafinance.com/marches/brvm-sucrivoire-tutoie-des-sommets-historiques-dans-un-marche-toujours-porte-par-les-acheteurs_63935": {
     "date": "2026-09-01",
     "title": "BRVM : SUCRIVOIRE tutoie des sommets historiques dans un marché toujours porté par les acheteurs"
+  },
+  "u:https://www.sikafinance.com/marches/brvm-tractafric-gagne-pres-de-5-et-prolonge-son-envolee_64785": {
+    "date": "2026-10-08",
+    "title": "BRVM : Tractafric gagne près de 5 % et prolonge son envolée"
   },
   "u:https://www.sikafinance.com/marches/brvm-unilever-ci-decroche-a-la-limite-journaliere-dans-un-marche-en-consolidation_64305": {
     "date": "2026-09-17",
