@@ -1,12 +1,4 @@
 {
-  "u:http://fr.africanews.com/2026/08/21/afrique-du-sud-des-animaux-agents-dentretien-dun-domaine-viticole-au-cap": {
-    "date": "2026-08-24",
-    "title": "Afrique du Sud : des animaux, agents d'entretien d'un domaine viticole au Cap"
-  },
-  "u:http://fr.africanews.com/2026/08/21/cap-vert-a-16-ans-alicia-freitas-fait-resonner-une-nouvelle-generation": {
-    "date": "2026-08-24",
-    "title": "Cap-Vert : à 16 ans, Alicia Freitas fait résonner une nouvelle génération"
-  },
   "u:http://fr.africanews.com/2026/08/22/au-soudan-el-nino-et-la-flambee-des-couts-menacent-les-recoltes": {
     "date": "2026-08-25",
     "title": "Au Soudan, El Niño et la flambée des coûts menacent les récoltes"
@@ -243,6 +235,10 @@
     "date": "2026-10-08",
     "title": "Le Ghana veut entrer dans le club des BRICS, Accra prépare sa candidature"
   },
+  "u:http://fr.africanews.com/2026/10/07/louganda-ouvre-la-vente-dactions-de-la-raffinerie-dangote-a-ses-investisseurs": {
+    "date": "2026-10-09",
+    "title": "L’Ouganda ouvre la vente d’actions de la raffinerie Dangote à ses investisseurs"
+  },
   "u:http://fr.africanews.com/2026/10/07/senegal-la-rentree-scolaire-reportee-apres-les-fortes-pluies": {
     "date": "2026-10-08",
     "title": "Sénégal : la rentrée scolaire reportée après les fortes pluies"
@@ -451,6 +447,10 @@
     "date": "2026-08-27",
     "title": "Centrafrique : les salaires des fonctionnaires ont absorbé 81% des recettes fiscales et douanières à mi-2026"
   },
+  "u:https://ecomatin.net/communique-bantulab-ouvre-les-candidatures-pour-sa-deuxieme-cohorte-dediee-au-e-commerce-et-aux-plateformes-de-livraison": {
+    "date": "2026-10-09",
+    "title": "[COMMUNIQUÉ] : Bantulab ouvre les candidatures pour sa deuxième cohorte, dédiée au e-commerce et aux plateformes de livraison"
+  },
   "u:https://ecomatin.net/congo-en-quete-de-diversification-la-filiere-champignon-souvre-au-marche-chinois-en-franchise-de-douane": {
     "date": "2026-09-04",
     "title": "Congo : en quête de diversification, la filière champignon s’ouvre au marché chinois en franchise de douane"
@@ -502,38 +502,6 @@
   "u:https://ecomatin.net/transport-routier-plus-de-126-000-attestations-dassurance-vendues-par-des-intermediaires-clandestins-au-cameroun-en-2025": {
     "date": "2026-10-08",
     "title": "Transport routier : plus de 126 000 attestations d’assurance vendues par des intermédiaires clandestins au Cameroun en 2025"
-  },
-  "u:https://fr.allafrica.com/stories/202608210122.html": {
-    "date": "2026-08-24",
-    "title": "Afrique: Dakar lance IncubaSport, premier incubateur africain d&#xe9;di&#xe9; au sport"
-  },
-  "u:https://fr.allafrica.com/stories/202608210144.html": {
-    "date": "2026-08-24",
-    "title": "Guin&#xe9;e Bissau: Mpox - L'UNICEF sollicite un appui de 82 millions FCFA pour soutenir la riposte"
-  },
-  "u:https://fr.allafrica.com/stories/202608210518.html": {
-    "date": "2026-08-24",
-    "title": "Afrique: Dangote propose &#xe0; l'Afrique de l'Est une participation de 30 % dans une raffinerie au Kenya"
-  },
-  "u:https://fr.allafrica.com/stories/202608220001.html": {
-    "date": "2026-08-24",
-    "title": "S&#xe9;n&#xe9;gal: Agroalimentaire - Le &#xab; Madd &#xbb; de Casamance obtient une reconnaissance mondialL"
-  },
-  "u:https://fr.allafrica.com/stories/202608220007.html": {
-    "date": "2026-08-24",
-    "title": "S&#xe9;n&#xe9;gal: BAC 2026 - Un taux de r&#xe9;ussite de 54,5% not&#xe9; au niveau national avec 12 162 mentions"
-  },
-  "u:https://fr.allafrica.com/stories/202608220106.html": {
-    "date": "2026-08-24",
-    "title": "S&#xe9;n&#xe9;gal: BRVM - L'action Sonatel cot&#xe9;e &#xe0; pr&#xe8;s de 37 000 FCFA ce vendredi 21 ao&#xfb;t 2026."
-  },
-  "u:https://fr.allafrica.com/stories/202608220107.html": {
-    "date": "2026-08-24",
-    "title": "Afrique: United Bank for Africa - Emmanuel N. Nnorom, nouveau pr&#xe9;sident du Groupe"
-  },
-  "u:https://fr.allafrica.com/stories/202608220108.html": {
-    "date": "2026-08-24",
-    "title": "Cameroun: Manchester United s'offre Carlos Baleba pour 75 m&#x20ac;"
   },
   "u:https://fr.allafrica.com/stories/202608240617.html": {
     "date": "2026-08-25",
@@ -1155,6 +1123,18 @@
     "date": "2026-10-08",
     "title": "Cote d'Ivoire: S&#xe9;curisation fonci&#xe8;re - L'Afor mise sur le num&#xe9;rique pour s&#xe9;curiser le foncier rural"
   },
+  "u:https://fr.allafrica.com/stories/202610080151.html": {
+    "date": "2026-10-09",
+    "title": "Ghana: Le pays d&#xe9;pose sa candidature pour rejoindre les BRICS"
+  },
+  "u:https://fr.allafrica.com/stories/202610080155.html": {
+    "date": "2026-10-09",
+    "title": "Togo: Cuisson propre - Les Pays-Bas accompagnent le pays"
+  },
+  "u:https://fr.allafrica.com/stories/202610080645.html": {
+    "date": "2026-10-09",
+    "title": "Cote d'Ivoire: PME ivoiriennes - Le Canada mobilise 6,16 milliards de Fcfa pour booster les exportations"
+  },
   "u:https://fr.apanews.net/benin/mondial-u-20-le-nigeria-represente-lafrique-en-huitiemes": {
     "date": "2026-09-16",
     "title": "Mondial U-20 : le Nigéria représente l’Afrique en huitièmes"
@@ -1287,10 +1267,6 @@
     "date": "2026-10-07",
     "title": "A Abidjan, une fintech rénove un terrain de basketball"
   },
-  "u:https://fr.apanews.net/society/egypte-tanzanie-inauguration-du-grand-barrage-julius-nyerere": {
-    "date": "2026-08-24",
-    "title": "Egypte-Tanzanie : Inauguration du grand barrage Julius Nyerere,"
-  },
   "u:https://fr.apanews.net/society/maroc-bad-405-millions-deuros-pour-la-lgv-et-les-competences": {
     "date": "2026-09-18",
     "title": "Maroc-BAD : 405 millions d’euros pour la LGV et les compétences"
@@ -1310,6 +1286,10 @@
   "u:https://fr.apanews.net/society/tunisie-modernisation-de-ladministration-face-a-lexecution": {
     "date": "2026-10-08",
     "title": "Tunisie : modernisation de l’administration face à l’exécutif"
+  },
+  "u:https://fr.apanews.net/sport/football-la-conference-strategique-de-la-caf-souvre-a-sal": {
+    "date": "2026-10-09",
+    "title": "Football : la conférence stratégique de la CAF s’ouvre à Sal"
   },
   "u:https://fr.apanews.net/sport/mondial-feminin-2027-deux-places-africaines-encore-en-jeu": {
     "date": "2026-09-02",
@@ -1419,6 +1399,14 @@
     "date": "2026-09-09",
     "title": "Le Belge Sipef étend ses activités bananières en Côte d’Ivoire avec l’acquisition de Tiabam"
   },
+  "u:https://www.agenceecofin.com/actualites-agro/0810-142244-cacao-le-segment-de-la-transformation-suscite-un-interet-croissant-en-cote-d-ivoire": {
+    "date": "2026-10-09",
+    "title": "Cacao : le segment de la transformation suscite un intérêt croissant en Côte d’Ivoire"
+  },
+  "u:https://www.agenceecofin.com/actualites-agro/0810-142245-le-kenya-cherche-2-8-milliards-de-capitaux-prives-pour-developper-l-irrigation-agricole": {
+    "date": "2026-10-09",
+    "title": "Le Kenya cherche 2,8 milliards $ de capitaux privés pour développer l’irrigation agricole"
+  },
   "u:https://www.agenceecofin.com/actualites-agro/1009-141450-benin-la-filiere-soja-accelere-sa-transformation-avec-un-investissement-de-50-millions": {
     "date": "2026-09-11",
     "title": "Bénin : la filière soja accélère sa transformation avec un investissement de 50 millions $"
@@ -1498,6 +1486,14 @@
   "u:https://www.agenceecofin.com/actualites-finance/0610-142157-cote-d-ivoire-la-sgpme-accorde-une-garantie-de-5-1-millions-a-cofina-pour-les-pme": {
     "date": "2026-10-07",
     "title": "Côte d’Ivoire : la SGPME accorde une garantie de 5,1 millions $ à Cofina pour les PME"
+  },
+  "u:https://www.agenceecofin.com/actualites-finance/0810-142253-shelter-afrique-veut-lever-102-millions-pour-financer-le-logement-dans-l-uemoa": {
+    "date": "2026-10-09",
+    "title": "Shelter Afrique veut lever 102 millions $ pour financer le logement dans l’UEMOA"
+  },
+  "u:https://www.agenceecofin.com/actualites-finance/0810-142254-benin-le-gouvernement-adopte-un-projet-de-loi-de-finances-2027-en-hausse-de-14-7": {
+    "date": "2026-10-09",
+    "title": "Bénin : le gouvernement adopte un projet de Loi de finances 2027 en hausse de 14,7 %"
   },
   "u:https://www.agenceecofin.com/actualites-finance/0909-141442-brvm-apres-une-opv-souscrite-a-142-bridge-bank-sera-cotee-le-24-septembre": {
     "date": "2026-09-10",
@@ -1594,6 +1590,10 @@
   "u:https://www.agenceecofin.com/actualites-industries/0709-141347-energies-renouvelables-odyssey-mobilise-74-millions-pour-financer-les-pme-avant-les-chantiers": {
     "date": "2026-09-08",
     "title": "Énergies renouvelables : Odyssey mobilise 74 millions $ pour financer les PME avant les chantiers"
+  },
+  "u:https://www.agenceecofin.com/actualites-industries/0810-142256-dp-world-prolonge-sa-concession-au-port-de-luanda-et-prevoit-90-millions-d-investissements": {
+    "date": "2026-10-09",
+    "title": "DP World prolonge sa concession au port de Luanda et prévoit 90 millions $ d’investissements"
   },
   "u:https://www.agenceecofin.com/actualites-industries/0909-141443-platine-la-demande-en-baisse-wpic-anticipe-un-premier-excedent-sur-le-marche-depuis-2022": {
     "date": "2026-09-10",
@@ -1759,6 +1759,10 @@
     "date": "2026-09-09",
     "title": "Le Ghana veut passer d'une gestion réactive à une prévention numérique des incendies"
   },
+  "u:https://www.agenceecofin.com/actualites-numerique/0810-142240-le-mali-ouvre-une-nouvelle-route-vers-l-internet-mondial-par-le-senegal": {
+    "date": "2026-10-09",
+    "title": "Le Mali ouvre une nouvelle route vers l’Internet mondial par le Sénégal"
+  },
   "u:https://www.agenceecofin.com/actualites-numerique/0909-141429-plus-de-900-000-alertes-d-intrusion-en-deux-mois-le-gabon-renforce-la-cybersecurite": {
     "date": "2026-09-10",
     "title": "Plus de 900 000 alertes d’intrusion en deux mois : le Gabon renforce la cybersécurité"
@@ -1867,6 +1871,18 @@
     "date": "2026-10-05",
     "title": "En Afrique du Sud, le recul de l’emploi formel accentue la pression sur les ménages"
   },
+  "u:https://www.agenceecofin.com/actualites-services/0810-142237-senegal-1-7-milliards-d-engagements-de-financement-pour-atteindre-l-acces-universel-a-l-electricite-en-2029": {
+    "date": "2026-10-09",
+    "title": "Sénégal : 1,7 milliards $ d’engagements de financement pour atteindre l’accès universel à l’électricité en 2029"
+  },
+  "u:https://www.agenceecofin.com/actualites-services/0810-142248-apres-16-ans-d-exploitation-en-afrique-du-sud-le-gautrain-change-d-operateur-et-prepare-une-expansion": {
+    "date": "2026-10-09",
+    "title": "Après 16 ans d’exploitation en Afrique du Sud, le Gautrain change d’opérateur et prépare une expansion"
+  },
+  "u:https://www.agenceecofin.com/actualites-services/0810-142250-air-algerie-reprend-ses-vols-vers-tripoli-sur-fond-de-relance-du-transport-aerien-libyen": {
+    "date": "2026-10-09",
+    "title": "Air Algérie reprend ses vols vers Tripoli, sur fond de relance du transport aérien libyen"
+  },
   "u:https://www.agenceecofin.com/actualites-services/1709-141677-ethiopian-airlines-renforcera-la-desserte-de-durban-avec-une-liaison-directe-vers-addis-abeba": {
     "date": "2026-09-18",
     "title": "Ethiopian Airlines renforcera la desserte de Durban avec une liaison directe vers Addis-Abeba"
@@ -1935,6 +1951,10 @@
     "date": "2026-09-09",
     "title": "Stellantis examine des partenariats chinois pour relancer ses ambitions en Afrique"
   },
+  "u:https://www.agenceecofin.com/actualites/0810-142229-kenya-la-banque-centrale-maintient-son-taux-directeur-a-8-75": {
+    "date": "2026-10-09",
+    "title": "Kenya : la Banque centrale maintient son taux directeur à 8,75 %"
+  },
   "u:https://www.agenceecofin.com/actualites/0909-141439-afrique-du-sud-trois-secteurs-font-reculer-le-pib-de-0-2-au-deuxieme-trimestre": {
     "date": "2026-09-10",
     "title": "Afrique du Sud : trois secteurs font reculer le PIB de 0,2 % au deuxième trimestre"
@@ -1978,10 +1998,6 @@
   "u:https://www.agenceecofin.com/actualites/1709-141672-viande-de-poulet-lue-menacee-par-loffensive-bresilienne-sur-le-marche-africain": {
     "date": "2026-09-18",
     "title": "Viande de poulet : l'UE menacée par l'offensive brésilienne sur le marché africain"
-  },
-  "u:https://www.agenceecofin.com/actualites/2108-140958-cloture-de-la-deuxieme-edition-de-la-grande-foire-agricole-du-congo": {
-    "date": "2026-08-24",
-    "title": "Clôture de la deuxième édition de la Grande Foire Agricole du Congo"
   },
   "u:https://www.agenceecofin.com/actualites/2209-141789-gabon-les-charges-financieres-de-la-dette-sont-projetees-en-hausse-de-37-en-2027": {
     "date": "2026-09-23",
@@ -2102,14 +2118,6 @@
   "u:https://www.brvm.org/sites/default/files/20260709_-_avis_ndeg262_brvmdg_-_report_de_la_date_de_premiere_cotation_-_emprunts_etat_du_senegal.pdf": {
     "date": "2026-09-08",
     "title": "Emprunts ETAT DU SENEGAL 6,40 % 2026-2029, ETAT DU SENEGAL 6,60 % 2026-2031, ETAT DU SENEGAL 6,75 % 2026-2033 et ETAT DU SENEGAL 6,95 % 2026-2036 : Report de la date de première cotation"
-  },
-  "u:https://www.brvm.org/sites/default/files/20260821_-_avis_ndeg250_brvmdg_-_jour_ferie_-_fete_de_mawlid.pdf": {
-    "date": "2026-08-24",
-    "title": "Avis : Rappel, mardi 25 août 2026, jour férié"
-  },
-  "u:https://www.brvm.org/sites/default/files/20260821_-_calendrier_de_paiement_des_dividendes_-_exercice_2025.pdf": {
-    "date": "2026-08-24",
-    "title": "Avis : Calendrier de paiement de dividendes"
   },
   "u:https://www.brvm.org/sites/default/files/20260827_-_avis_ndeg253_brvmdg_-_resultats_de_premiere_cotation_-_etat_du_mali_655_2026-2036_eom.o23_-_etat_du_mali_635_2026-2033_eom.o24.pdf": {
     "date": "2026-08-28",
@@ -2307,10 +2315,6 @@
     "date": "2026-10-01",
     "title": "BRVM : Sonatel atteint un seuil psychologique à 45 000 FCFA"
   },
-  "u:https://www.sikafinance.com/marches/brvm-sonatel-realise-sa-plus-forte-hausse-journaliere-depuis-pres-de-six-ans_63763": {
-    "date": "2026-08-24",
-    "title": "BRVM : SONATEL réalise sa plus forte hausse journalière depuis près de six ans"
-  },
   "u:https://www.sikafinance.com/marches/brvm-sonatel-rebondit-et-propulse-les-indices-dans-le-vert_63865": {
     "date": "2026-08-28",
     "title": "BRVM : SONATEL rebondit et propulse les indices dans le vert"
@@ -2326,10 +2330,6 @@
   "u:https://www.sikafinance.com/marches/brvm-unilever-ci-decroche-a-la-limite-journaliere-dans-un-marche-en-consolidation_64305": {
     "date": "2026-09-17",
     "title": "BRVM : Unilever CI décroche à la limite journalière dans un marché en consolidation"
-  },
-  "u:https://www.sikafinance.com/marches/burkina-faso-la-caisse-des-depots-boucle-2025-avec-844-millions-fcfa-de-benefice_63766": {
-    "date": "2026-08-24",
-    "title": "Burkina Faso : La Caisse des dépôts boucle 2025 avec 844 millions FCFA de bénéfice"
   },
   "u:https://www.sikafinance.com/marches/burkina-faso-la-cote-divoire-simpose-comme-le-2e-investisseur-etranger-devant-la-russie_64145": {
     "date": "2026-09-10",
@@ -2354,10 +2354,6 @@
   "u:https://www.sikafinance.com/marches/congo-faute-de-financement-lavenir-du-gisement-geant-de-potasse-de-kola-sassombrit_64219": {
     "date": "2026-09-14",
     "title": "Congo : Faute de financement, l’avenir du gisement géant de potasse de Kola s’assombrit"
-  },
-  "u:https://www.sikafinance.com/marches/cote-d-ivoire-le-marche-de-l-assurance-affiche-436-milliards-fcfa-de-chiffre-d-affaires-a-fin-juin-2026_63773": {
-    "date": "2026-08-24",
-    "title": "Côte d'Ivoire : Le marché de l'assurance affiche 436 milliards FCFA de chiffre d'affaires à fin juin 2026"
   },
   "u:https://www.sikafinance.com/marches/cote-divoire-100-millions-fcfa-d-equipements-pour-le-deploiement-de-la-plateforme-mhealthci_63937": {
     "date": "2026-09-01",
@@ -2398,10 +2394,6 @@
   "u:https://www.sikafinance.com/marches/cote-divoire-le-secteur-prive-mobilise-pour-financer-70-2-du-pnd-et-investir-541-milliards-fcfa-dans-le-numerique_64322": {
     "date": "2026-09-18",
     "title": "Côte d’Ivoire : Le secteur privé mobilisé pour financer 70,2% du PND et investir 541 milliards FCFA dans le numérique"
-  },
-  "u:https://www.sikafinance.com/marches/cote-divoire-les-arrivages-de-cacao-dans-les-ports-bondissent-de-pres-de-21-a-2-millions-de-tonnes_63768": {
-    "date": "2026-08-24",
-    "title": "Côte d’Ivoire : Les arrivages de cacao dans les ports bondissent de près de 21% à 2 millions de tonnes"
   },
   "u:https://www.sikafinance.com/marches/cote-divoire-lhomme-daffaire-malien-cesse-kome-prepare-un-investissement-de-26-milliards-fcfa-dans-la-minoterie_64401": {
     "date": "2026-09-22",
