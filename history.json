@@ -1,8 +1,4 @@
 {
-  "u:http://fr.africanews.com/2026/08/27/nigeria-les-rancons-versees-aux-groupes-armes-atteignent-6-millions-de-dollars": {
-    "date": "2026-08-28",
-    "title": "Nigeria : les rançons versées aux groupes armés atteignent 6 millions de dollars"
-  },
   "u:http://fr.africanews.com/2026/08/28/kenya-les-commercants-manifestent-contre-la-hausse-des-taxes": {
     "date": "2026-08-31",
     "title": "Kenya : les commerçants manifestent contre la hausse des taxes"
@@ -231,6 +227,30 @@
     "date": "2026-10-12",
     "title": "Malaisie : coopération et crises internationales au menu de la visite du président égyptien"
   },
+  "u:http://fr.africanews.com/2026/10/11/tunisie-les-journees-musicales-de-carthage-de-retour-apres-deux-ans-dabsence": {
+    "date": "2026-10-13",
+    "title": "Journées Musicales de Carthage : la scène tunisienne retrouve son public"
+  },
+  "u:http://fr.africanews.com/2026/10/12/au-maroc-les-avocats-reprennent-leurs-activites-apres-quatre-mois-de-greve": {
+    "date": "2026-10-13",
+    "title": "Maroc : les avocats reprennent leurs activités après quatre mois de grève"
+  },
+  "u:http://fr.africanews.com/2026/10/12/de-nouvelles-attaques-frappent-les-principaux-aeroports-darabie-saoudite": {
+    "date": "2026-10-13",
+    "title": "Les Houthis revendiquent de nouvelles frappes contre des aéroports saoudiens"
+  },
+  "u:http://fr.africanews.com/2026/10/12/des-dizaines-de-milliers-de-personnes-defilent-a-bruxelles-pour-une-action-climatique-urge": {
+    "date": "2026-10-13",
+    "title": "Marche pour le climat à Bruxelles : la planète hurle contre les énergies fossiles"
+  },
+  "u:http://fr.africanews.com/2026/10/12/ethiopie-reprise-des-vols-vers-la-capitale-de-la-region-du-tigre": {
+    "date": "2026-10-13",
+    "title": "Éthiopie : reprise des vols vers la capitale de la région du Tigré"
+  },
+  "u:http://fr.africanews.com/2026/10/12/malawi-la-penurie-de-carburant-entre-dans-sa-deuxieme-semaine": {
+    "date": "2026-10-13",
+    "title": "Malawi : la pénurie de carburant entre dans sa deuxième semaine"
+  },
   "u:https://api.worldbank.org/v2/country/civ/indicator/ny.gdp.mktp.kd.zg": {
     "date": "2026-08-29",
     "title": "Croissance du PIB (%) — Cote d'Ivoire (2025) : 6.4999999999999"
@@ -267,10 +287,6 @@
     "date": "2026-09-03",
     "title": "Cannabis médical : l'industrie marocaine franchit un cap à l'export en Suisse - Bénin Web TV"
   },
-  "u:https://beninwebtv.com/cap-vert-la-musique-levier-economique-sous-contrainte-de-financement": {
-    "date": "2026-08-28",
-    "title": "Cap-Vert : la musique, levier économique sous contrainte de financement - Bénin Web TV"
-  },
   "u:https://beninwebtv.com/change-manuel-au-benin-lagrement-de-j-a-fils-retire-a-sa-demande": {
     "date": "2026-09-10",
     "title": "Change manuel au Bénin : l’agrément de J.A. & FILS retiré à sa demande - Bénin Web TV"
@@ -283,21 +299,9 @@
     "date": "2026-09-10",
     "title": "Côte d’Ivoire : le nouveau système de traçabilité ralentit les achats de cacao - Bénin Web TV"
   },
-  "u:https://beninwebtv.com/egypte-la-ligne-4-du-metro-du-caire-avance-lunesco-demande-des-etudes-patrimoniales-supplementaires": {
-    "date": "2026-08-28",
-    "title": "Égypte : la ligne 4 du métro du Caire avance, l'UNESCO demande des études patrimoniales supplémentaires - Bénin Web TV"
-  },
   "u:https://beninwebtv.com/ftse-frontier-50-six-groupes-nigerians-rejoignent-lindice-le-21-septembre": {
     "date": "2026-09-09",
     "title": "FTSE Frontier 50 : six groupes nigérians rejoignent l’indice le 21 septembre - Bénin Web TV"
-  },
-  "u:https://beninwebtv.com/kenya-le-procurement-doit-etre-relie-a-lifmis-dans-les-47-comtes-dici-fin-septembre": {
-    "date": "2026-08-28",
-    "title": "Kenya : l’e-procurement doit être relié à l’IFMIS dans les 47 comtés d’ici fin septembre - Bénin Web TV"
-  },
-  "u:https://beninwebtv.com/kenya-ncba-et-basigo-lancent-un-financement-pour-1-000-vehicules-electriques": {
-    "date": "2026-08-28",
-    "title": "Kenya : NCBA et BasiGo lancent un financement pour 1 000 véhicules électriques - Bénin Web TV"
   },
   "u:https://beninwebtv.com/la-banque-mondiale-prevoit-78-de-croissance-au-benin-en-2026": {
     "date": "2026-10-07",
@@ -306,10 +310,6 @@
   "u:https://beninwebtv.com/nigeria-1747-milliards-dobligations-integrent-un-nouvel-indice-jpmorgan": {
     "date": "2026-09-15",
     "title": "Nigeria : 17,47 milliards $ d’obligations intègrent un nouvel indice JPMorgan - Bénin Web TV"
-  },
-  "u:https://beninwebtv.com/rdc-le-gouvernement-met-en-avant-pres-de-29-000-milliards-cdf-de-recettes-interieures-en-2025": {
-    "date": "2026-08-28",
-    "title": "RDC : le gouvernement met en avant près de 29 000 milliards CDF de recettes intérieures en 2025 - Bénin Web TV"
   },
   "u:https://beninwebtv.com/senegal-1013-milliards-fcfa-leves-apres-lannonce-du-reprofilage-de-la-dette": {
     "date": "2026-09-15",
@@ -322,10 +322,6 @@
   "u:https://beninwebtv.com/tanzanie-les-exportations-grimpent-de-165-a-pres-de-20-milliards-de-dollars": {
     "date": "2026-09-08",
     "title": "Tanzanie : les exportations grimpent de 16,5 % à près de 20 milliards de dollars - Bénin Web TV"
-  },
-  "u:https://beninwebtv.com/woodside-retire-deux-objectifs-bas-carbone-et-avance-sur-sangomar-au-senegal": {
-    "date": "2026-08-28",
-    "title": "Woodside retire deux objectifs bas carbone et avance sur Sangomar au Sénégal - Bénin Web TV"
   },
   "u:https://businessday.ng/energy/article/abu-dhabi-firm-acquires-90-stake-in-azura-to-capture-africas-power-hungry-markets": {
     "date": "2026-09-01",
@@ -362,6 +358,10 @@
   "u:https://businessday.ng/energy/article/tamrose-expands-into-angola-with-five-year-offshore-support-contract": {
     "date": "2026-10-01",
     "title": "Tamrose expands into Angola with five-year offshore support contract"
+  },
+  "u:https://businessday.ng/energy/oilandgas/article/oil-jumps-2-as-saudi-attacks-threaten-hormuz-supply-recovery": {
+    "date": "2026-10-13",
+    "title": "Oil jumps 2% as Saudi attacks threaten Hormuz supply recovery"
   },
   "u:https://businessday.ng/energy/oilandgas/article/totalenergies-amni-reach-fid-on-ima-gas-project-eyes-4bn-in-lifetime-value": {
     "date": "2026-09-25",
@@ -411,10 +411,6 @@
     "date": "2026-09-04",
     "title": "Cameroun : la MAETUR compte sur 4,8 milliards dus par l’État pour solder sa dette au Crédit Foncier"
   },
-  "u:https://ecomatin.net/cameroun-les-menages-gros-pourvoyeurs-de-depots-mais-petits-beneficiaires-du-credit-bancaire": {
-    "date": "2026-08-28",
-    "title": "Cameroun : les ménages, gros pourvoyeurs de dépôts mais petits bénéficiaires du crédit bancaire"
-  },
   "u:https://ecomatin.net/communique-bantulab-ouvre-les-candidatures-pour-sa-deuxieme-cohorte-dediee-au-e-commerce-et-aux-plateformes-de-livraison": {
     "date": "2026-10-09",
     "title": "[COMMUNIQUÉ] : Bantulab ouvre les candidatures pour sa deuxième cohorte, dédiée au e-commerce et aux plateformes de livraison"
@@ -430,10 +426,6 @@
   "u:https://ecomatin.net/congo-patrice-raimbault-prend-les-commandes-du-projet-de-fer-zanaga": {
     "date": "2026-10-08",
     "title": "Congo : Patrice Raimbault prend les commandes du projet de fer Zanaga"
-  },
-  "u:https://ecomatin.net/guinee-equatoriale-malabo-negocie-lachat-de-six-atr-72-600-pour-ceiba-intercontinental": {
-    "date": "2026-08-28",
-    "title": "Guinée équatoriale : Malabo négocie l'achat de six ATR 72-600 pour Ceiba Intercontinental"
   },
   "u:https://ecomatin.net/la-beac-maintient-son-taux-directeur-a-45-malgre-une-croissance-revue-a-la-baisse": {
     "date": "2026-09-29",
@@ -462,18 +454,6 @@
   "u:https://ecomatin.net/transport-routier-plus-de-126-000-attestations-dassurance-vendues-par-des-intermediaires-clandestins-au-cameroun-en-2025": {
     "date": "2026-10-08",
     "title": "Transport routier : plus de 126 000 attestations d’assurance vendues par des intermédiaires clandestins au Cameroun en 2025"
-  },
-  "u:https://fr.allafrica.com/stories/202608270114.html": {
-    "date": "2026-08-28",
-    "title": "Afrique de l'Ouest: Fronti&#xe8;re C&#xf4;te d'Ivoire-Mali - Les deux pays adoptent d&#xe9;finitivement le trac&#xe9;"
-  },
-  "u:https://fr.allafrica.com/stories/202608270653.html": {
-    "date": "2026-08-28",
-    "title": "Togo: Recyclage - Une lueur d'espoir face &#xe0; l'explosion des d&#xe9;chets"
-  },
-  "u:https://fr.allafrica.com/stories/202608270656.html": {
-    "date": "2026-08-28",
-    "title": "Afrique de l'Ouest: Maintenance sur le gazoduc ouest-africain"
   },
   "u:https://fr.allafrica.com/stories/202608280144.html": {
     "date": "2026-08-31",
@@ -1059,6 +1039,18 @@
     "date": "2026-10-12",
     "title": "Cote d'Ivoire: Nord du pays - D&#xe9;couverte d'une importante mine d'or pr&#xe8;s de Boundiali"
   },
+  "u:https://fr.allafrica.com/stories/202610120169.html": {
+    "date": "2026-10-13",
+    "title": "Afrique: Revue de presse de l'Afrique Francophone du 12 octobre 2026"
+  },
+  "u:https://fr.allafrica.com/stories/202610120737.html": {
+    "date": "2026-10-13",
+    "title": "S&#xe9;n&#xe9;gal: BRVM - Deuxi&#xe8;me journ&#xe9;e de baisse ininterrompue des indices phares de la bourse ce lundi 12 octobre 2026."
+  },
+  "u:https://fr.allafrica.com/stories/202610120745.html": {
+    "date": "2026-10-13",
+    "title": "S&#xe9;n&#xe9;gal: Investissement - WE! Fund, filiale du FONSIS, mobilise un milliard de FCFA pour deux PME s&#xe9;n&#xe9;galaises"
+  },
   "u:https://fr.apanews.net/benin/mondial-u-20-le-nigeria-represente-lafrique-en-huitiemes": {
     "date": "2026-09-16",
     "title": "Mondial U-20 : le Nigéria représente l’Afrique en huitièmes"
@@ -1186,6 +1178,10 @@
   "u:https://fr.apanews.net/senegal/joj-dakar-2026-cinq-sports-populaires-au-programme": {
     "date": "2026-10-06",
     "title": "JOJ Dakar 2026 : cinq sports populaires au programme"
+  },
+  "u:https://fr.apanews.net/senegal/mondial-2030-la-caf-mise-sur-les-acquis-de-2026": {
+    "date": "2026-10-13",
+    "title": "Mondial 2030 : la CAF mise sur les acquis de 2026"
   },
   "u:https://fr.apanews.net/social/une-fintech-renove-un-terrain-de-basketball-a-abidjan": {
     "date": "2026-10-07",
@@ -1439,6 +1435,14 @@
     "date": "2026-09-14",
     "title": "Sénégal : Everest Finance mise sur Sama Naffa pour rapprocher l’épargne du marché financier"
   },
+  "u:https://www.agenceecofin.com/actualites-finance/1210-142334-mobile-money-la-bceao-assouplit-les-regles-de-placement-des-fonds-des-operateurs": {
+    "date": "2026-10-13",
+    "title": "Mobile money : la BCEAO assouplit les règles de placement des fonds des opérateurs"
+  },
+  "u:https://www.agenceecofin.com/actualites-finance/1210-142341-ghana-les-banques-doivent-ramener-leur-taux-de-creances-en-souffrance-a-10-d-ici-fin-2026": {
+    "date": "2026-10-13",
+    "title": "Ghana : les banques doivent ramener leur taux de créances en souffrance à 10 % d’ici fin 2026"
+  },
   "u:https://www.agenceecofin.com/actualites-finance/1509-141570-dangote-refinery-pres-de-69-de-l-ipo-souscrits-quelques-heures-apres-son-ouverture": {
     "date": "2026-09-16",
     "title": "Dangote Refinery : près de 69 % de l’IPO souscrits quelques heures après son ouverture"
@@ -1522,6 +1526,10 @@
   "u:https://www.agenceecofin.com/actualites-industries/1010-142301-competences-emplois-revenus--le-defi-de-l-afrique-de-l-ouest-face-a-une-jeunesse-croissante": {
     "date": "2026-10-12",
     "title": "Compétences, emplois, revenus... le défi de l’Afrique de l’Ouest face à une jeunesse croissante"
+  },
+  "u:https://www.agenceecofin.com/actualites-industries/1210-142319-terres-rares-la-future-mine-ampasindava-franchit-un-cap-vers-la-construction-a-madagascar": {
+    "date": "2026-10-13",
+    "title": "Terres rares : la future mine Ampasindava franchit un cap vers la construction à Madagascar"
   },
   "u:https://www.agenceecofin.com/actualites-industries/1309-141514-avec-le-rachat-de-vida-shoprite-etend-son-empreinte-africaine-hors-des-supermarches": {
     "date": "2026-09-14",
@@ -1731,10 +1739,6 @@
     "date": "2026-09-25",
     "title": "Télécommunications : les régulateurs de l’AES s’unissent pour harmoniser leurs pratiques"
   },
-  "u:https://www.agenceecofin.com/actualites-numerique/2708-141086-qualite-de-services-telecoms-le-gouvernement-s-attaque-au-vandalisme-des-cables": {
-    "date": "2026-08-28",
-    "title": "Qualité de services télécoms : le Gabon s’attaque au vandalisme des câbles"
-  },
   "u:https://www.agenceecofin.com/actualites-numerique/2809-141942-afrique-de-l-ouest-comment-la-cartographie-peut-accelerer-le-developpement-du-haut-debit": {
     "date": "2026-09-29",
     "title": "Afrique de l’Ouest : comment la cartographie peut accélérer le développement du haut débit"
@@ -1891,6 +1895,14 @@
     "date": "2026-09-14",
     "title": "Cacao : Global Witness accuse Mondelez de tenter d’affaiblir la loi européenne contre la déforestation"
   },
+  "u:https://www.agenceecofin.com/actualites/1210-142331-benin-44-7-millions-desormais-mobilises-pour-l-echangeur-de-vedoko": {
+    "date": "2026-10-13",
+    "title": "Bénin : 44,7 millions $ désormais mobilisés pour l’échangeur de Vêdoko"
+  },
+  "u:https://www.agenceecofin.com/actualites/1210-142338-paiements-afrique-chine-ecobank-s-allie-a-cips-pour-faciliter-les-reglements-en-yuans": {
+    "date": "2026-10-13",
+    "title": "Paiements Afrique–Chine : Ecobank signe un accord avec le système chinois CIPS"
+  },
   "u:https://www.agenceecofin.com/actualites/1409-141524-congo-la-dette-publique-devrait-atteindre-86-2-du-pib-en-2027": {
     "date": "2026-09-15",
     "title": "Congo : la dette publique devrait atteindre 86,2 % du PIB en 2027"
@@ -1934,10 +1946,6 @@
   "u:https://www.agenceecofin.com/actualites/2409-141873-senegal-le-turc-yamata-s-engage-dans-la-construction-de-la-deuxieme-raffinerie-du-pays": {
     "date": "2026-09-25",
     "title": "Sénégal : le turc Yamata s’engage dans la construction de la deuxième raffinerie du pays"
-  },
-  "u:https://www.agenceecofin.com/actualites/2708-141089-ocp-et-la-cooperative-americaine-chs-s-allient-pour-construire-une-usine-d-engrais-phosphates-aux-usa": {
-    "date": "2026-08-28",
-    "title": "OCP et la coopérative américaine CHS s’allient pour construire une usine d’engrais phosphatés aux USA"
   },
   "u:https://www.agenceecofin.com/actualites/2809-141934-nigeria-la-dette-publique-augmente-de-pres-de-6-milliards-en-trois-mois": {
     "date": "2026-09-29",
@@ -2019,10 +2027,6 @@
     "date": "2026-09-08",
     "title": "Emprunts ETAT DU SENEGAL 6,40 % 2026-2029, ETAT DU SENEGAL 6,60 % 2026-2031, ETAT DU SENEGAL 6,75 % 2026-2033 et ETAT DU SENEGAL 6,95 % 2026-2036 : Report de la date de première cotation"
   },
-  "u:https://www.brvm.org/sites/default/files/20260827_-_avis_ndeg253_brvmdg_-_resultats_de_premiere_cotation_-_etat_du_mali_655_2026-2036_eom.o23_-_etat_du_mali_635_2026-2033_eom.o24.pdf": {
-    "date": "2026-08-28",
-    "title": "Résultats de première cotation - ETAT DU MALI 6,55 % 2026-2036 (EOM.O23) - ETAT DU MALI 6,35 % 2026-2033"
-  },
   "u:https://www.brvm.org/sites/default/files/20260904_-_calendrier_de_paiement_des_dividendes_-_exercice_2025.pdf": {
     "date": "2026-09-07",
     "title": "Avis : Calendrier de paiement de dividendes"
@@ -2066,6 +2070,10 @@
   "u:https://www.brvm.org/sites/default/files/20261008_-_avis_ndeg296_brvmdg_-_transactions_sur_dossier.pdf": {
     "date": "2026-10-12",
     "title": "Avis : Transactions Sur Dossier"
+  },
+  "u:https://www.brvm.org/sites/default/files/20261009_-_calendrier_de_paiement_des_dividendes_-_exercice_2025.pdf": {
+    "date": "2026-10-13",
+    "title": "BRVM : Calendrier de paiement de dividendes"
   },
   "u:https://www.sikafinance.com/marches/--le-senegal-a-choisi-de-traiter-sa-dette-plutot-que-de-la-restructurer---ahmadou-al-aminou-lo_64132": {
     "date": "2026-09-10",
@@ -2210,10 +2218,6 @@
   "u:https://www.sikafinance.com/marches/brvm-sonatel-atteint-un-seuil-psychologique-a-45-000-fcfa_64622": {
     "date": "2026-10-01",
     "title": "BRVM : Sonatel atteint un seuil psychologique à 45 000 FCFA"
-  },
-  "u:https://www.sikafinance.com/marches/brvm-sonatel-rebondit-et-propulse-les-indices-dans-le-vert_63865": {
-    "date": "2026-08-28",
-    "title": "BRVM : SONATEL rebondit et propulse les indices dans le vert"
   },
   "u:https://www.sikafinance.com/marches/brvm-sucrivoire-tutoie-des-sommets-historiques-dans-un-marche-toujours-porte-par-les-acheteurs_63935": {
     "date": "2026-09-01",
@@ -2494,10 +2498,6 @@
   "u:https://www.sikafinance.com/marches/umoa-3-operateurs-concentrent-65-des-encours-de-monnaie-electronique_64526": {
     "date": "2026-09-28",
     "title": "UMOA : 3 opérateurs concentrent 65% des encours de monnaie électronique"
-  },
-  "u:https://www.sikafinance.com/marches/umoagroupes-bancaires-coris-bouscule-lhegemonie-decobank-sur-fond-de-baisse-de-regime-de-societe-generale_63857": {
-    "date": "2026-08-28",
-    "title": "UMOA/Groupes bancaires : Coris bouscule l’hégémonie d’Ecobank sur fond de baisse de régime de Société Générale"
   },
   "u:https://www.sikafinance.com/marches/ursule-boyoko-daf-de-sitab-barry-saliou-directeur-insight-intelligence-sitab-la-donnee-a-elle-seule-ne-cree-aucun-avantage-concurrentiel_64201": {
     "date": "2026-09-14",
