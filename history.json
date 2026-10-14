@@ -275,6 +275,10 @@
     "date": "2026-10-14",
     "title": "Namibie : la fièvre aphteuse s'étend à une deuxième région"
   },
+  "u:http://fr.africanews.com/2026/10/14/egypte-le-caire-construit-une-alternative-terrestre-au-canal-de-suez": {
+    "date": "2026-10-15",
+    "title": "L'Égypte construit une alternative terrestre au Canal de Suez"
+  },
   "u:https://beninwebtv.com/angola-luanda-veut-elargir-lacces-au-marche-obligataire-aux-investisseurs-etrangers": {
     "date": "2026-09-10",
     "title": "Angola : Luanda veut élargir l’accès au marché obligataire aux investisseurs étrangers - Bénin Web TV"
@@ -330,6 +334,10 @@
   "u:https://businessday.ng/energy/article/abu-dhabi-firm-acquires-90-stake-in-azura-to-capture-africas-power-hungry-markets": {
     "date": "2026-09-01",
     "title": "Abu Dhabi firm acquires 90% stake in Azura to capture Africa’s power-hungry markets"
+  },
+  "u:https://businessday.ng/energy/article/afreximbank-tours-elektrons-lagos-power-plant": {
+    "date": "2026-10-15",
+    "title": "Afreximbank tours Elektron’s Lagos power plant"
   },
   "u:https://businessday.ng/energy/article/cheap-chinese-solar-panels-fuel-global-race-for-rooftop-power": {
     "date": "2026-09-23",
@@ -1067,6 +1075,22 @@
     "date": "2026-10-14",
     "title": "Togo: Ecobank se branche sur le syst&#xe8;me de paiement interbancaire chinois"
   },
+  "u:https://fr.allafrica.com/stories/202610140169.html": {
+    "date": "2026-10-15",
+    "title": "Afrique: La m&#xe9;ga-raffinerie Dangote prolonge son entr&#xe9;e en Bourse pour attirer les investisseurs africains"
+  },
+  "u:https://fr.allafrica.com/stories/202610140476.html": {
+    "date": "2026-10-15",
+    "title": "S&#xe9;n&#xe9;gal: Diourbel - L'AGEROUTE et le CETUD engagent le diagnostic de la mobilit&#xe9; urbaine et rurale"
+  },
+  "u:https://fr.allafrica.com/stories/202610140503.html": {
+    "date": "2026-10-15",
+    "title": "Togo: Une contribution &#xe0; la construction des villes africaines de demain"
+  },
+  "u:https://fr.allafrica.com/stories/202610140526.html": {
+    "date": "2026-10-15",
+    "title": "Cote d'Ivoire: Intelligence &#xe9;conomique - AG Consulting veut aider les d&#xe9;cideurs &#xe0; garder une longueur d'avance"
+  },
   "u:https://fr.apanews.net/benin/mondial-u-20-le-nigeria-represente-lafrique-en-huitiemes": {
     "date": "2026-09-16",
     "title": "Mondial U-20 : le Nigéria représente l’Afrique en huitièmes"
@@ -1319,6 +1343,10 @@
     "date": "2026-10-12",
     "title": "Nigeria records world’s highest diesel price increase at 82.7% – Report"
   },
+  "u:https://nairametrics.com/2026/10/14/shell-to-sell-nigeria-gas-distribution-business-to-vaaris-energy": {
+    "date": "2026-10-15",
+    "title": "Shell to sell Nigeria gas distribution business to Vaaris Energy"
+  },
   "u:https://www.afreximbank.com/afreximbank-and-toptier-sports-management-unveil-star-studded-legends-football-match-to-be-played-at-canex-wknd-2026-in-lagos-nigeria": {
     "date": "2026-09-14",
     "title": "Afreximbank and TopTier Sports Management unveil star-studded legends football match to be played at CANEX WKND 2026 in Lagos, Nigeria"
@@ -1463,6 +1491,14 @@
     "date": "2026-10-13",
     "title": "Ghana : les banques doivent ramener leur taux de créances en souffrance à 10 % d’ici fin 2026"
   },
+  "u:https://www.agenceecofin.com/actualites-finance/1410-142400-senegal-le-fmi-optimiste-quant-a-un-accord-avec-les-creanciers-malgre-les-incertitudes": {
+    "date": "2026-10-15",
+    "title": "Sénégal : le FMI optimiste quant à un accord avec les créanciers, malgré les incertitudes"
+  },
+  "u:https://www.agenceecofin.com/actualites-finance/1410-142414-afrique-helios-mise-sur-un-marche-du-sport-estime-a-20-milliards-d-ici-2035": {
+    "date": "2026-10-15",
+    "title": "Afrique : Helios mise sur un marché du sport estimé à 20 milliards $ d’ici 2035"
+  },
   "u:https://www.agenceecofin.com/actualites-finance/1509-141570-dangote-refinery-pres-de-69-de-l-ipo-souscrits-quelques-heures-apres-son-ouverture": {
     "date": "2026-09-16",
     "title": "Dangote Refinery : près de 69 % de l’IPO souscrits quelques heures après son ouverture"
@@ -1559,6 +1595,10 @@
     "date": "2026-09-15",
     "title": "Pétrole : entre offre en chute et routes menacées, l’AIE repousse la sortie de crise"
   },
+  "u:https://www.agenceecofin.com/actualites-industries/1410-142417-cuivre-ce-que-la-zambie-attend-encore-de-l-emirati-irh-et-du-milliard-promis-en-2024": {
+    "date": "2026-10-15",
+    "title": "Cuivre : ce que la Zambie attend encore de l’émirati IRH et du milliard $ promis en 2024"
+  },
   "u:https://www.agenceecofin.com/actualites-industries/1509-141559-5-du-pib-d-ici-2030-le-pari-minier-du-tchad-face-au-defi-de-la-formalisation-de-l-or": {
     "date": "2026-09-16",
     "title": "5 % du PIB d’ici 2030 : le pari minier du Tchad face au défi de la formalisation de l’or"
@@ -1642,6 +1682,14 @@
   "u:https://www.agenceecofin.com/actualites-infrastructures/0510-142137-la-tunisie-obtient-376-millions-de-la-bid-pour-accelerer-le-desenclavement-de-ses-regions-interieures": {
     "date": "2026-10-06",
     "title": "La Tunisie obtient 376 millions $ de la BID pour accélérer le désenclavement de ses régions intérieures"
+  },
+  "u:https://www.agenceecofin.com/actualites-infrastructures/1410-142395-le-port-de-maputo-fait-draguer-son-chenal-dacces-pour-accueillir-des-navires-plus-larges": {
+    "date": "2026-10-15",
+    "title": "Le Port de Maputo fait draguer son chenal d'accès pour accueillir des navires plus larges"
+  },
+  "u:https://www.agenceecofin.com/actualites-infrastructures/1410-142397-la-rdc-obtient-un-financement-de-877-millions-pour-le-projet-de-metro-de-kinshasa": {
+    "date": "2026-10-15",
+    "title": "La RDC obtient un financement de 877 millions $ pour le projet de métro de Kinshasa"
   },
   "u:https://www.agenceecofin.com/actualites-infrastructures/1609-141610-un-million-de-conteneurs-dici-2030-le-pari-dun-port-de-conakry-deja-a-letroit": {
     "date": "2026-09-17",
@@ -2171,6 +2219,10 @@
     "date": "2026-09-18",
     "title": "BRVM : 29 valeurs en baisse et le Composite retombe sous les 550 points"
   },
+  "u:https://www.sikafinance.com/marches/brvm-29-valeurs-en-repli-dictent-la-tendance-journaliere_64953": {
+    "date": "2026-10-15",
+    "title": "BRVM : 29 valeurs en repli dictent la tendance journalière"
+  },
   "u:https://www.sikafinance.com/marches/brvm-alios-finance-ci-plebiscite-apres-un-benefice-semestriel-remarquable_64056": {
     "date": "2026-09-07",
     "title": "BRVM : Alios Finance CI plébiscité après un bénéfice semestriel remarquable"
@@ -2331,6 +2383,10 @@
     "date": "2026-10-05",
     "title": "Côte d’Ivoire : La récolte principale de cacao pourrait baisser de 17 % en 2026/27"
   },
+  "u:https://www.sikafinance.com/marches/cote-divoire-la-transformation-du-cacao-bondit-de-46-6-en-septembre_64961": {
+    "date": "2026-10-15",
+    "title": "Côte d’Ivoire : La transformation du cacao bondit de 46,6 % en septembre"
+  },
   "u:https://www.sikafinance.com/marches/cote-divoire-le-chiffre-daffaires-des-services-marchands-non-financiers-bondit-de-7-2-au-2e-trimestre_64122": {
     "date": "2026-09-09",
     "title": "Côte d’Ivoire : Le chiffre d’affaires des services marchands non financiers bondit de 7,2% au 2e trimestre"
@@ -2362,6 +2418,10 @@
   "u:https://www.sikafinance.com/marches/cote-divoire-sir-eni-olam-cocoa-les-dix-premieres-entreprises-ont-passe-7-500-milliards-fcfa-de-chiffre-daffaires-en-2025_64453": {
     "date": "2026-09-24",
     "title": "Côte d’Ivoire : SIR, Eni, Olam Cocoa… les dix premières entreprises ont passé 7 500 milliards FCFA de chiffre d’affaires en 2025"
+  },
+  "u:https://www.sikafinance.com/marches/cote-divoire-un-budget-2027-de-pres-de-18-500-milliards-fcfa-dont-100-milliards-pour-le-fonds-souverain_64959": {
+    "date": "2026-10-15",
+    "title": "Côte d’Ivoire : Un budget 2027 de près de 18 500 milliards FCFA, dont 100 milliards pour le fonds souverain"
   },
   "u:https://www.sikafinance.com/marches/cryptomonnaie-un-investisseur-perd-1-milliard-fcfa-a-cause-d-un-lien-piege-relaye-par-chatgpt_64131": {
     "date": "2026-09-10",
@@ -2446,6 +2506,10 @@
   "u:https://www.sikafinance.com/marches/nigeria-moodys-releve-la-perspective-a-positive-et-ouvre-la-voie-a-une-nouvelle-amelioration-de-la-note_63906": {
     "date": "2026-08-31",
     "title": "Nigeria : Moody’s relève la perspective à ‘’positive’’ et ouvre la voie à une nouvelle amélioration de la note"
+  },
+  "u:https://www.sikafinance.com/marches/octobre-cyber-connect-orange-ci-lance-sa-campagne-de-sensibilisation-a-la-cybersecurite-avant-le-rassemblement-de-novembre_64957": {
+    "date": "2026-10-15",
+    "title": "Octobre Cyber Connect : Orange CI lance sa campagne de sensibilisation à la cybersécurité avant le rassemblement de novembre"
   },
   "u:https://www.sikafinance.com/marches/orange-cyber-connect-les-comites-de-direction-en-premiere-ligne-face-a-la-deferlante-de-la-cybercriminalite_64716": {
     "date": "2026-10-06",
