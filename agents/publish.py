@@ -374,3 +374,108 @@ def run(written: WriteOutput) -> str:
         written.title, f"cauri-news-{written.date}", written.html, config.PUBLISH_STATUS,
         is_full_document=True,
     )
+
+
+# --- Point d'entrée CLI : python -m agents.publish ... -----------------------------------
+# Façade appelable par un agent (Rédacteur en Chef) : il fournit le HTML, ce module garde la
+# mécanique déterministe (CSS verrouillé, refus des URL mortes, double brouillon).
+_PUBLISH_AUTH_ENV = "CAURI_ALLOW_PUBLISH"
+_PUBLISH_AUTH_VALUE = "yes-publish"
+
+
+def _cli(argv: list[str] | None = None) -> int:
+    import argparse
+    import sys
+    from pathlib import Path
+
+    from agents.models import ScrapeOutput
+    from agents.write import _A_RE, _enforce_style, _template, _urlnorm
+
+    p = argparse.ArgumentParser(
+        prog="python -m agents.publish",
+        description="Publie un numéro Cauri News sur Ghost : 2 brouillons (brut + formaté). "
+                    "CSS verrouillé depuis newsletter-template.html ; échoue si le HTML "
+                    "contient une URL non sourcée.",
+    )
+    p.add_argument("--html", required=True, help="HTML complet du numéro formaté.")
+    p.add_argument("--date", required=True, help="Date du numéro (YYYY-MM-DD) ; sert au slug cauri-news-<date>.")
+    p.add_argument("--title", required=True, help="Titre du post Ghost.")
+    p.add_argument("--status", default="draft", choices=["draft", "published"],
+                   help=f"Statut du numéro formaté (défaut draft). 'published' est refusé sauf si "
+                        f"{_PUBLISH_AUTH_ENV}={_PUBLISH_AUTH_VALUE} est défini. Le brut reste toujours draft.")
+    p.add_argument("--digest-html", help="HTML du digest brut (défaut : out/<date>/digest-brut-<date>.html).")
+    p.add_argument("--no-brut", action="store_true", help="Ne crée pas le brouillon brut.")
+    p.add_argument("--scrape-json", help="01_scrape.json source des URL autorisées "
+                                         "(défaut : out/<date>/01_scrape.json).")
+    p.add_argument("--subject", default=None, help="Sujet de l'email (défaut : titre).")
+    p.add_argument("--preview", default=None, help="Texte de preview/preheader de l'email.")
+    p.add_argument("--test", action="store_true", help="Slugs/titres préfixés [TEST] (comme run.py --test).")
+    p.add_argument("--dry-run", action="store_true",
+                   help="Valide (CSS, URL) sans appeler Ghost ; n'exige pas de clé Ghost.")
+    args = p.parse_args(argv)
+
+    def fail(code: int, msg: str) -> int:
+        print(f"❌ publish : {msg}", file=sys.stderr)
+        return code
+
+    if args.status == "published" and __import__("os").environ.get(_PUBLISH_AUTH_ENV) != _PUBLISH_AUTH_VALUE:
+        return fail(3, f"--status published refusé : décision éditoriale séparée. "
+                       f"Définir {_PUBLISH_AUTH_ENV}={_PUBLISH_AUTH_VALUE} pour l'autoriser explicitement.")
+
+    day_dir = config.OUT_DIR / args.date
+    html_path = Path(args.html)
+    if not html_path.is_file():
+        return fail(2, f"fichier HTML introuvable : {html_path}")
+    html = html_path.read_text(encoding="utf-8")
+    if "<body" not in html.lower():
+        return fail(2, f"{html_path} n'est pas un document HTML complet (pas de <body>).")
+
+    # Anti-URL morte : seules les URL réellement scrapées (vivantes) + liens fonctionnels passent.
+    scrape_path = Path(args.scrape_json) if args.scrape_json else day_dir / "01_scrape.json"
+    if not scrape_path.is_file():
+        return fail(2, f"01_scrape.json introuvable ({scrape_path}) : impossible de vérifier les URL.")
+    scraped = ScrapeOutput.model_validate_json(scrape_path.read_text(encoding="utf-8"))
+    allowed = {_urlnorm(it.url) for it in scraped.items if it.url}
+    allowed |= {_urlnorm(u) for u in config.STATIC_ALLOWED_LINKS | {config.SUBSCRIBE_URL} if u}
+    dead = sorted({m.group(2) for m in _A_RE.finditer(html) if not m.group(2).startswith(("#", "mailto:")) and _urlnorm(m.group(2)) not in allowed})
+    if dead:
+        return fail(4, f"{len(dead)} URL non sourcée(s) (absentes de {scrape_path.name}) — corriger le HTML :\n  - "
+                       + "\n  - ".join(dead))
+
+    html = _enforce_style(html, _template())  # verrouille le CSS depuis newsletter-template.html
+
+    digest_html = None
+    if not args.no_brut:
+        digest_path = Path(args.digest_html) if args.digest_html else day_dir / f"digest-brut-{args.date}.html"
+        if not digest_path.is_file():
+            return fail(2, f"digest brut introuvable : {digest_path} (--digest-html ou --no-brut).")
+        digest_html = digest_path.read_text(encoding="utf-8")
+
+    if args.dry_run:
+        print(f"[publish] dry-run OK : CSS verrouillé, {len(allowed)} URL autorisées, aucune URL morte.")
+        print("GHOST_DRAFT dry-run")
+        return 0
+
+    t = "test-" if args.test else ""
+    title = f"[TEST] {args.title}" if args.test else args.title
+    try:
+        url_brut = None
+        if digest_html is not None:
+            title_brut = f"[TEST][BRUT] Cauri News — {args.date}" if args.test else f"[BRUT] Cauri News — {args.date}"
+            url_brut = publish_post(title_brut, f"cauri-news-{t}{args.date}-brut", digest_html, "draft",
+                                    is_full_document=False)
+        url_final = publish_post(title, f"cauri-news-{t}{args.date}", html, args.status,
+                                 is_full_document=True, email_subject=args.subject,
+                                 custom_excerpt=args.preview)
+    except Exception as e:  # noqa: BLE001
+        return fail(1, str(e))
+
+    day_dir.mkdir(parents=True, exist_ok=True)
+    (day_dir / "05_publish.txt").write_text(f"brut : {url_brut}\nformaté : {url_final}\n", encoding="utf-8")
+    print(f"GHOST_DRAFT brut={url_brut} formaté={url_final} status={args.status}")
+    return 0
+
+
+if __name__ == "__main__":
+    import sys
+    sys.exit(_cli())
