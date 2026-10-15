@@ -1,19 +1,7 @@
 {
-  "u:http://fr.africanews.com/2026/08/28/kenya-les-commercants-manifestent-contre-la-hausse-des-taxes": {
-    "date": "2026-08-31",
-    "title": "Kenya : les commerçants manifestent contre la hausse des taxes"
-  },
-  "u:http://fr.africanews.com/2026/08/28/soudan-khartoum-leve-letat-durgence-et-le-couvre-feu": {
-    "date": "2026-08-31",
-    "title": "Soudan : Khartoum lève l’état d’urgence et le couvre-feu"
-  },
   "u:http://fr.africanews.com/2026/08/29/benin-a-nikki-la-gaani-celebre-lhistoire-et-lunite-des-peuples-du-nord": {
     "date": "2026-09-01",
     "title": "Bénin : à Nikki, la Gaani célèbre l’histoire et l’unité des peuples du Nord"
-  },
-  "u:http://fr.africanews.com/2026/08/29/kenya-une-ambulance-alimentee-a-lenergie-solaire-acheve-ses-essais-avec-succes": {
-    "date": "2026-08-31",
-    "title": "Kenya : une ambulance alimentée à l'énergie solaire achève ses essais avec succès"
   },
   "u:http://fr.africanews.com/2026/08/30/sao-tome-et-principe-danciennes-plantations-coloniales-au-patrimoine-de-lunesco": {
     "date": "2026-09-01",
@@ -279,6 +267,26 @@
     "date": "2026-10-15",
     "title": "L'Égypte construit une alternative terrestre au Canal de Suez"
   },
+  "u:http://fr.africanews.com/2026/10/14/russieetats-unis-negociations-sur-le-diesel-malgre-les-sanctions": {
+    "date": "2026-10-16",
+    "title": "Guerre en Ukraine : la Russie et les USA négocient sur le diesel malgré les sanctions"
+  },
+  "u:http://fr.africanews.com/2026/10/15/burkina-faso-ibrahim-traore-lance-une-ligue-de-la-souverainete": {
+    "date": "2026-10-16",
+    "title": "Football : Traoré lance une \"Ligue de la souveraineté\" au Burkina Faso"
+  },
+  "u:http://fr.africanews.com/2026/10/15/centrafrique-des-repas-pour-encourager-la-scolarisation": {
+    "date": "2026-10-16",
+    "title": "Centrafrique : des repas pour encourager la scolarisation"
+  },
+  "u:http://fr.africanews.com/2026/10/15/industrie-pharmaceutique-lafrique-en-quete-de-souverainete-sanitaire-business-africa": {
+    "date": "2026-10-16",
+    "title": "Industrie pharmaceutique : l’Afrique en quête de souveraineté sanitaire [Business Africa]"
+  },
+  "u:http://fr.africanews.com/2026/10/15/tanzanie-un-accord-historique-de-42-milliards-de-dollars-sur-le-gaz-naturel-en-vue": {
+    "date": "2026-10-16",
+    "title": "La Tanzanie se rapproche d'un accord de 42 milliards de dollars sur le gaz naturel"
+  },
   "u:https://beninwebtv.com/angola-luanda-veut-elargir-lacces-au-marche-obligataire-aux-investisseurs-etrangers": {
     "date": "2026-09-10",
     "title": "Angola : Luanda veut élargir l’accès au marché obligataire aux investisseurs étrangers - Bénin Web TV"
@@ -383,13 +391,13 @@
     "date": "2026-09-25",
     "title": "TotalEnergies, AMNI reach FID on IMA gas project, eyes $4bn in lifetime value"
   },
+  "u:https://businessday.ng/energy/power/article/eko-ikeja-abuja-discos-record-highest-metering-rate-as-metered-customers-hit-8-04mn": {
+    "date": "2026-10-16",
+    "title": "Eko, Ikeja, Abuja DisCos record highest metering rate, as metered customers hit 8.04mn"
+  },
   "u:https://businessday.ng/energy/power/article/electricity-subsidy-hit-n1-92trn-in-2025-as-fg-freeze-allowed-tariffs": {
     "date": "2026-09-02",
     "title": "Electricity subsidy hit N1.92trn in 2025, as FG freezes allowed tariffs"
-  },
-  "u:https://businessday.ng/energy/power/article/tcn-unveils-initiative-to-tackle-grid-losses-data-inefficiencies": {
-    "date": "2026-08-31",
-    "title": "TCN unveils initiative to tackle grid losses, data inefficiencies"
   },
   "u:https://businessday.ng/pro/article/after-the-memes-will-dangotes-new-shareholders-stay-in-the-market": {
     "date": "2026-09-25",
@@ -422,6 +430,10 @@
   "u:https://ecomatin.net/cacao-la-cote-divoire-demarre-sa-campagne-avec-un-prix-producteur-de-1-200-fcfa-kg-deux-fois-moins-quau-cameroun": {
     "date": "2026-09-02",
     "title": "Cacao : la Côte d’Ivoire démarre sa campagne avec un prix producteur de 1 200 FCFA/kg, deux fois moins qu’au Cameroun"
+  },
+  "u:https://ecomatin.net/cameroun-congelcam-alerte-sur-un-risque-de-penurie-de-poisson-des-fin-novembre": {
+    "date": "2026-10-16",
+    "title": "Cameroun : Congelcam alerte sur un risque de pénurie de poisson dès fin novembre"
   },
   "u:https://ecomatin.net/cameroun-la-maetur-compte-sur-48-milliards-dus-par-letat-pour-solder-sa-dette-au-credit-foncier": {
     "date": "2026-09-04",
@@ -474,26 +486,6 @@
   "u:https://ecomatin.net/transport-routier-plus-de-126-000-attestations-dassurance-vendues-par-des-intermediaires-clandestins-au-cameroun-en-2025": {
     "date": "2026-10-08",
     "title": "Transport routier : plus de 126 000 attestations d’assurance vendues par des intermédiaires clandestins au Cameroun en 2025"
-  },
-  "u:https://fr.allafrica.com/stories/202608280144.html": {
-    "date": "2026-08-31",
-    "title": "Afrique: Le Mauritanien Ismail Ould Cheikh Ahmed &#xe9;lu secr&#xe9;taire g&#xe9;n&#xe9;ral de l'OCI"
-  },
-  "u:https://fr.allafrica.com/stories/202608290180.html": {
-    "date": "2026-08-31",
-    "title": "Cote d'Ivoire: Orpaillage clandestin/Yakass&#xe9;-Attobrou - La BSSI d&#xe9;mant&#xe8;le un ancien site et saisit du mat&#xe9;riel"
-  },
-  "u:https://fr.allafrica.com/stories/202608290192.html": {
-    "date": "2026-08-31",
-    "title": "Togo: Compl&#xe9;mentarit&#xe9; entre savoirs traditionnels et science moderne"
-  },
-  "u:https://fr.allafrica.com/stories/202608290195.html": {
-    "date": "2026-08-31",
-    "title": "Togo: Lom&#xe9;-Kara en &#xe9;lectrique ? Pas encore possible"
-  },
-  "u:https://fr.allafrica.com/stories/202608290199.html": {
-    "date": "2026-08-31",
-    "title": "S&#xe9;n&#xe9;gal: 'Explicode', un ouvrage pour expliquer le code de la route &#xe0; travers des r&#xe9;f&#xe9;rences et illustrations communautaires"
   },
   "u:https://fr.allafrica.com/stories/202608310167.html": {
     "date": "2026-09-01",
@@ -1091,6 +1083,14 @@
     "date": "2026-10-15",
     "title": "Cote d'Ivoire: Intelligence &#xe9;conomique - AG Consulting veut aider les d&#xe9;cideurs &#xe0; garder une longueur d'avance"
   },
+  "u:https://fr.allafrica.com/stories/202610150553.html": {
+    "date": "2026-10-16",
+    "title": "Cote d'Ivoire: Conseil des ministres - Le budget 2027 fix&#xe9; &#xe0; 18 466 milliards de FCFA"
+  },
+  "u:https://fr.allafrica.com/stories/202610150568.html": {
+    "date": "2026-10-16",
+    "title": "Togo: Accord douanier avec les pays de l'AES"
+  },
   "u:https://fr.apanews.net/benin/mondial-u-20-le-nigeria-represente-lafrique-en-huitiemes": {
     "date": "2026-09-16",
     "title": "Mondial U-20 : le Nigéria représente l’Afrique en huitièmes"
@@ -1167,6 +1167,10 @@
     "date": "2026-09-03",
     "title": "Tunisie–Allemagne : 100 millions d’euros de projets annoncés"
   },
+  "u:https://fr.apanews.net/governance/football-la-caf-augmente-les-subventions-aux-associations-membres": {
+    "date": "2026-10-16",
+    "title": "La CAF augmente les subventions aux associations membres"
+  },
   "u:https://fr.apanews.net/governance/togo-moderniser-le-cadre-juridique-pour-mieux-agir": {
     "date": "2026-09-09",
     "title": "Togo : moderniser le cadre juridique pour mieux agir"
@@ -1178,10 +1182,6 @@
   "u:https://fr.apanews.net/integration/giaba-le-gambien-mam-cherno-jallow-nomme-directeur-general": {
     "date": "2026-09-01",
     "title": "GIABA : le Gambien Mam Cherno Jallow nommé Directeur général"
-  },
-  "u:https://fr.apanews.net/news/tunisie-e70-millions-de-partage-des-risques-pour-les-pme": {
-    "date": "2026-08-31",
-    "title": "Tunisie : €70 millions de partage des risques pour les PME"
   },
   "u:https://fr.apanews.net/not-to-be-missed/joj-dakar-2026-la-flamme-traversera-les-14-regions-du-senegal": {
     "date": "2026-09-04",
@@ -1254,10 +1254,6 @@
   "u:https://fr.apanews.net/sport/mondial-feminin-2027-deux-places-africaines-encore-en-jeu": {
     "date": "2026-09-02",
     "title": "Mondial féminin 2027 : deux places africaines encore en jeu"
-  },
-  "u:https://nairametrics.com/2026/08/28/benin-togo-niger-owe-nigeria-11-16-million-in-2025-electricity-bills": {
-    "date": "2026-08-31",
-    "title": "Benin, Togo, Niger owe Nigeria $11.16 million in 2025 electricity bills"
   },
   "u:https://nairametrics.com/2026/08/31/dangote-refinery-drives-oil-refining-growth-to-record-43-94-in-q2": {
     "date": "2026-09-01",
@@ -1350,6 +1346,10 @@
   "u:https://www.afreximbank.com/afreximbank-and-toptier-sports-management-unveil-star-studded-legends-football-match-to-be-played-at-canex-wknd-2026-in-lagos-nigeria": {
     "date": "2026-09-14",
     "title": "Afreximbank and TopTier Sports Management unveil star-studded legends football match to be played at CANEX WKND 2026 in Lagos, Nigeria"
+  },
+  "u:https://www.afreximbank.com/ethiopia-joins-papss-network-as-national-bank-of-ethiopia-and-papss-announce-the-2nd-edition-of-cowry-in-addis-ababa": {
+    "date": "2026-10-16",
+    "title": "Ethiopia Joins PAPSS Network as National Bank of Ethiopia and PAPSS Announce the 2nd Edition of COWRY in Addis Ababa"
   },
   "u:https://www.afreximbank.com/stage-set-for-afreximbanks-canex-wknd-2026-in-lagos-to-power-africas-creative-economy": {
     "date": "2026-09-30",
@@ -1503,6 +1503,10 @@
     "date": "2026-09-16",
     "title": "Dangote Refinery : près de 69 % de l’IPO souscrits quelques heures après son ouverture"
   },
+  "u:https://www.agenceecofin.com/actualites-finance/1510-142466-bgfi-holding-corporation-sursouscription-de-l-ouverture-du-capital-par-appel-public-a-l-epargne": {
+    "date": "2026-10-16",
+    "title": "BGFI Holding Corporation : sursouscription de l’ouverture du capital par appel public à l’épargne"
+  },
   "u:https://www.agenceecofin.com/actualites-finance/2109-141740-dorado-negocie-avec-la-sfi-un-pret-pour-sa-nouvelle-usine-de-cajou-a-yamoussoukro": {
     "date": "2026-09-22",
     "title": "Dorado négocie avec la SFI un prêt pour sa nouvelle usine de cajou à Yamoussoukro"
@@ -1518,14 +1522,6 @@
   "u:https://www.agenceecofin.com/actualites-finance/2409-141860-boa-mali-le-pnb-en-hausse-de-17-5-mais-le-cout-du-risque-pese-sur-le-benefice": {
     "date": "2026-09-25",
     "title": "BOA Mali : le PNB en hausse de 17,5 %, mais le coût du risque pèse sur le bénéfice"
-  },
-  "u:https://www.agenceecofin.com/actualites-finance/2808-141137-nigeria-le-retour-dans-les-indices-ftse-russell-ouvre-la-voie-aux-investisseurs-internationaux": {
-    "date": "2026-08-31",
-    "title": "Nigeria : le retour dans les indices FTSE Russell ouvre la voie aux investisseurs internationaux"
-  },
-  "u:https://www.agenceecofin.com/actualites-finance/2908-141142-cote-d-ivoire-nsia-banque-lance-une-campagne-pour-faciliter-l-acces-a-la-propriete-immobiliere": {
-    "date": "2026-08-31",
-    "title": "Côte d’Ivoire : NSIA Banque lance une campagne pour faciliter l’accès à la propriété immobilière"
   },
   "u:https://www.agenceecofin.com/actualites-finance/2909-141963-sib-le-cout-du-risque-recule-de-75-au-premier-semestre-2026": {
     "date": "2026-09-30",
@@ -1699,10 +1695,6 @@
     "date": "2026-09-29",
     "title": "AGL Côte d’Ivoire achemine cinq locomotives de 332 tonnes pour le chantier du métro d’Abidjan"
   },
-  "u:https://www.agenceecofin.com/actualites-infrastructures/3008-141149-de-nouveaux-essais-annonces-en-octobre-pour-le-monorail-du-nil-occidental-en-egypte": {
-    "date": "2026-08-31",
-    "title": "De nouveaux essais annoncés en octobre pour le monorail du Nil occidental en Egypte"
-  },
   "u:https://www.agenceecofin.com/actualites-infrastructures/3009-142029-benin-l-aiib-prepare-une-nouvelle-enveloppe-de-730-millions-le-transport-parmi-les-secteurs-cibles": {
     "date": "2026-10-01",
     "title": "Bénin : l’AIIB prépare une nouvelle enveloppe de 730 millions $, le transport parmi les secteurs ciblés"
@@ -1790,6 +1782,10 @@
   "u:https://www.agenceecofin.com/actualites-numerique/1509-141575-evolution-de-l-ia-l-afrique-du-sud-appelle-a-un-mecanisme-international-de-suivi": {
     "date": "2026-09-16",
     "title": "Évolution de l’IA : l’Afrique du Sud appelle à un mécanisme international de suivi"
+  },
+  "u:https://www.agenceecofin.com/actualites-numerique/1510-142448-la-tunisie-mise-sur-des-laboratoires-d-ia-pour-rapprocher-formation-et-emploi": {
+    "date": "2026-10-16",
+    "title": "La Tunisie mise sur des laboratoires d’IA pour rapprocher formation et emploi"
   },
   "u:https://www.agenceecofin.com/actualites-numerique/1909-141724-abcc-2026-veut-doter-l-uemoa-d-un-agenda-operationnel-pour-les-actifs-numeriques": {
     "date": "2026-09-21",
@@ -1999,6 +1995,10 @@
     "date": "2026-09-16",
     "title": "Sénégal : l’inflation atteint 1,2 % sur un an, portée par l’alimentation, les services et le transport"
   },
+  "u:https://www.agenceecofin.com/actualites/1510-142459-era-dabla-norris-du-fmi-les-reformes-fiscales-internationales-ne-doivent-pas-se-substituer-aux-efforts-nationaux-mais-les-completer-pour-ameliorer-la-fiscalite": {
+    "date": "2026-10-16",
+    "title": "Era Dabla-Norris, du FMI : « les réformes fiscales internationales ne doivent pas se substituer aux efforts nationaux, mais les compléter pour améliorer la fiscalité »"
+  },
   "u:https://www.agenceecofin.com/actualites/1709-141660-le-benin-et-le-rwanda-veulent-passer-des-accords-aux-projets-concrets": {
     "date": "2026-09-18",
     "title": "Le Bénin et le Rwanda veulent passer des accords aux projets concrets"
@@ -2050,10 +2050,6 @@
   "u:https://www.agenceecofin.com/actualites/2809-141957-gambie-une-hausse-de-20-2-du-service-de-la-dette-prevue-en-2027": {
     "date": "2026-09-29",
     "title": "Gambie : une hausse de 20,2 % du service de la dette prévue en 2027"
-  },
-  "u:https://www.agenceecofin.com/actualites/2908-141141-cafe-du-nigeria-a-madagascar-un-vent-de-relance-souffle-chez-les-petits-acteurs-africains": {
-    "date": "2026-08-31",
-    "title": "Café : du Nigeria à Madagascar, un vent de relance souffle chez les petits acteurs africains"
   },
   "u:https://www.agenceecofin.com/actualites/2909-141980-zimbabwe-la-banque-centrale-abaisse-son-taux-directeur-a-27-5-sur-fond-d-inflation-maitrisee": {
     "date": "2026-09-30",
@@ -2279,10 +2275,6 @@
     "date": "2026-09-14",
     "title": "BRVM : Les acheteurs gardent la main, le Composite signant un nouveau sommet à 556 points"
   },
-  "u:https://www.sikafinance.com/marches/brvm-les-indices-tiennent-bon-societe-generale-ci-concentre-20-des-echanges_63892": {
-    "date": "2026-08-31",
-    "title": "BRVM : Les indices tiennent bon, Société Générale CI concentre 20 % des échanges"
-  },
   "u:https://www.sikafinance.com/marches/brvm-les-vendeurs-accentuent-la-pression-sur-la-cote_64400": {
     "date": "2026-09-22",
     "title": "BRVM : Les vendeurs accentuent la pression sur la cote"
@@ -2294,6 +2286,10 @@
   "u:https://www.sikafinance.com/marches/brvm-nsia-banque-se-hisse-a-un-sommet-historique-a-loree-des-25-000-fcfa_64086": {
     "date": "2026-09-08",
     "title": "BRVM : NSIA Banque se hisse à un sommet historique, à l’orée des 25 000 FCFA"
+  },
+  "u:https://www.sikafinance.com/marches/brvm-orange-ci-rebondit-et-entraine-le-marche-dans-son-sillage_64986": {
+    "date": "2026-10-16",
+    "title": "BRVM : Orange CI rebondit et entraîne le marché dans son sillage"
   },
   "u:https://www.sikafinance.com/marches/brvm-orange-ci-reprend-plus-de-7-et-dope-les-indices_64754": {
     "date": "2026-10-07",
@@ -2331,6 +2327,10 @@
     "date": "2026-09-17",
     "title": "BRVM : Unilever CI décroche à la limite journalière dans un marché en consolidation"
   },
+  "u:https://www.sikafinance.com/marches/burkina-faso-coris-bank-mobilise-4-milliards-fcfa-pour-deux-entreprises-locales_64970": {
+    "date": "2026-10-16",
+    "title": "Burkina Faso : Coris Bank mobilise 4 milliards FCFA pour deux entreprises locales"
+  },
   "u:https://www.sikafinance.com/marches/burkina-faso-la-cote-divoire-simpose-comme-le-2e-investisseur-etranger-devant-la-russie_64145": {
     "date": "2026-09-10",
     "title": "Burkina Faso : La Côte d’Ivoire s’impose comme le 2e investisseur étranger devant la Russie"
@@ -2362,6 +2362,10 @@
   "u:https://www.sikafinance.com/marches/cote-divoire-64-des-depots-bancaires-transformes-en-credits-en-2025_64060": {
     "date": "2026-09-07",
     "title": "Côte d’Ivoire : 64% des dépôts bancaires transformés en crédits en 2025"
+  },
+  "u:https://www.sikafinance.com/marches/cote-divoire-apres-34-ans-le-cadre-petrolier-se-modernise-pour-integrer-les-biocarburants_64982": {
+    "date": "2026-10-16",
+    "title": "Côte d’Ivoire : Après 34 ans, le cadre pétrolier se modernise pour intégrer les biocarburants"
   },
   "u:https://www.sikafinance.com/marches/cote-divoire-etat-et-secteur-prive-proposent-des-solutions-pour-ameliorer-l-inclusion-financiere-de-l-agro-industrie-rurale_64057": {
     "date": "2026-09-07",
@@ -2427,6 +2431,10 @@
     "date": "2026-09-10",
     "title": "Cryptomonnaie : Un investisseur perd 1 milliard FCFA à cause d'un lien piégé relayé par ChatGPT"
   },
+  "u:https://www.sikafinance.com/marches/cybersecurite-en-afrique-200-000-postes-vacants-sous-la-pression-des-cybercriminels_64979": {
+    "date": "2026-10-16",
+    "title": "Cybersécurité en Afrique : 200 000 postes vacants sous la pression des cybercriminels"
+  },
   "u:https://www.sikafinance.com/marches/de-dakar-a-dar-es-salaam-hapag-lloyd-et-dp-world-sassocient-pour-le-developpement-des-infrastructures-portuaires_64308": {
     "date": "2026-09-17",
     "title": "De Dakar à Dar es Salaam, Hapag-Lloyd et DP World s’associent pour le développement des infrastructures portuaires"
@@ -2446,10 +2454,6 @@
   "u:https://www.sikafinance.com/marches/ghana-les-etats-unis-financent-une-etude-pour-deployer-un-reseau-de-fibre-optique-dans-le-nord_64238": {
     "date": "2026-09-15",
     "title": "Ghana : Les Etats-Unis financent une étude pour déployer un réseau de fibre optique dans le Nord"
-  },
-  "u:https://www.sikafinance.com/marches/ghana-mahama-inaugure-northshore-apparel-une-usine-de-production-de-vetements-dans-le-nord-du-pays_63908": {
-    "date": "2026-08-31",
-    "title": "Ghana : Mahama inaugure Northshore Apparel, une usine de production de vêtements dans le Nord du pays"
   },
   "u:https://www.sikafinance.com/marches/ghana-zonda-tec-etend-son-usine-automobile-de-tema-a-12-000-vehicules-par-an_64293": {
     "date": "2026-09-17",
@@ -2503,9 +2507,9 @@
     "date": "2026-09-03",
     "title": "Nigeria : La croissance accélère à 4,43% au 2e trimestre, portée par le pétrole et les services"
   },
-  "u:https://www.sikafinance.com/marches/nigeria-moodys-releve-la-perspective-a-positive-et-ouvre-la-voie-a-une-nouvelle-amelioration-de-la-note_63906": {
-    "date": "2026-08-31",
-    "title": "Nigeria : Moody’s relève la perspective à ‘’positive’’ et ouvre la voie à une nouvelle amélioration de la note"
+  "u:https://www.sikafinance.com/marches/nigeria-linflation-ralentit-a-15-en-septembre-2026_64984": {
+    "date": "2026-10-16",
+    "title": "Nigeria : L’inflation ralentit à 15 % en septembre 2026"
   },
   "u:https://www.sikafinance.com/marches/octobre-cyber-connect-orange-ci-lance-sa-campagne-de-sensibilisation-a-la-cybersecurite-avant-le-rassemblement-de-novembre_64957": {
     "date": "2026-10-15",
@@ -2531,10 +2535,6 @@
     "date": "2026-10-06",
     "title": "Produits alimentaires : Les prix mondiaux ont bondi de 5,8% sur un an en septembre, entre choc climatique et coûts de transport"
   },
-  "u:https://www.sikafinance.com/marches/rdc-2-4-millions-usd-pour-ameliorer-la-navigabilite-de-voies-fluviales-et-faciliter-levacuation-des-produits-agricoles_63903": {
-    "date": "2026-08-31",
-    "title": "RDC : 2,4 millions USD pour améliorer la navigabilité de voies fluviales et faciliter l’évacuation des produits agricoles"
-  },
   "u:https://www.sikafinance.com/marches/rdc-le-chinois-hongfuhan-va-mobiliser-46-milliards-fcfa-pour-prendre-le-controle-dune-centrale-solaire_64521": {
     "date": "2026-09-28",
     "title": "RDC : Le chinois Hongfuhan va mobiliser 46 milliards FCFA pour prendre le contrôle d’une centrale solaire"
@@ -2551,6 +2551,10 @@
     "date": "2026-09-02",
     "title": "Régime de change fixe : 81 économies sous pression pour préserver leur crédibilité"
   },
+  "u:https://www.sikafinance.com/marches/senegal-338-milliards-fcfa-mobilises-grace-au-deuxieme-emprunt-obligataire-de-lannee_64964": {
+    "date": "2026-10-16",
+    "title": "Sénégal : 338 milliards FCFA mobilisés grâce au deuxième emprunt obligataire de l’année"
+  },
   "u:https://www.sikafinance.com/marches/senegal-comment-les-menages-apprehendent-la-situation-et-les-perspectives-economiques-_64826": {
     "date": "2026-10-12",
     "title": "Sénégal : Comment les ménages appréhendent la situation et les perspectives économiques ?"
@@ -2558,10 +2562,6 @@
   "u:https://www.sikafinance.com/marches/senegal-les-exportations-rapportent-1-572-milliards-fcfa-au-2e-trimestre_64648": {
     "date": "2026-10-02",
     "title": "Sénégal : Les exportations rapportent 1 572 milliards FCFA au 2e trimestre"
-  },
-  "u:https://www.sikafinance.com/marches/senegal-moodys-abaisse-a-caa2-la-note-du-pays-avec-une-perspective-negative_63902": {
-    "date": "2026-08-31",
-    "title": "Sénégal : Moody’s abaisse à Caa2 la note du pays avec une perspective négative"
   },
   "u:https://www.sikafinance.com/marches/sika-finance-sassocie-a-2a-consulting-pour-lorganisation-du-sika-forum_64490": {
     "date": "2026-09-25",
