@@ -1,12 +1,4 @@
 {
-  "u:http://fr.africanews.com/2026/09/04/samuel-etoo-appelle-lafrique-a-faire-bloc-derriere-gianni-infantino": {
-    "date": "2026-09-07",
-    "title": "Samuel Eto’o appelle l’Afrique à faire bloc derrière Gianni Infantino"
-  },
-  "u:http://fr.africanews.com/2026/09/05/guerre-iran-usa-le-controle-du-detroit-dormuz-fait-toujours-polemique": {
-    "date": "2026-09-07",
-    "title": "Guerre Iran-USA : le contrôle du détroit d'Ormuz fait toujours polémique"
-  },
   "u:http://fr.africanews.com/2026/09/07/a-zanzibar-sur-les-traces-de-freddie-mercury-dans-la-maison-de-son-enfance": {
     "date": "2026-09-09",
     "title": "À Zanzibar, sur les traces de Freddie Mercury dans la maison de son enfance"
@@ -371,6 +363,14 @@
     "date": "2026-10-16",
     "title": "Cameroun : Congelcam alerte sur un risque de pénurie de poisson dès fin novembre"
   },
+  "u:https://ecomatin.net/cameroun-la-bad-ouvre-une-facilite-de-26-milliards-fcfa-pour-financer-le-commerce-exterieur": {
+    "date": "2026-10-23",
+    "title": "Cameroun : AFG Bank décroche 26 milliards FCFA auprès de la BAD pour financer le commerce extérieur"
+  },
+  "u:https://ecomatin.net/cameroun-le-projet-de-brasserie-krieger-brewery-franchit-letape-des-audiences-publiques": {
+    "date": "2026-10-23",
+    "title": "Cameroun : le projet de brasserie Krieger Brewery franchit l’étape des audiences publiques"
+  },
   "u:https://ecomatin.net/cameroun-pourquoi-letat-presse-les-communes-dapurer-leurs-impayes": {
     "date": "2026-10-14",
     "title": "Cameroun : pourquoi l’État presse les communes d’apurer leurs impayés"
@@ -391,6 +391,10 @@
     "date": "2026-10-20",
     "title": "Dette publique : la Centrafrique lance une nouvelle offre de rachat de 7,5 milliards FCFA après un premier essai décevant"
   },
+  "u:https://ecomatin.net/en-centrafrique-les-poissons-de-riviere-menaces-par-la-production-de-charbon": {
+    "date": "2026-10-23",
+    "title": "En Centrafrique, les poissons de rivière menacés par la production de charbon"
+  },
   "u:https://ecomatin.net/la-beac-maintient-son-taux-directeur-a-45-malgre-une-croissance-revue-a-la-baisse": {
     "date": "2026-09-29",
     "title": "La BEAC maintient son taux directeur à 4,5 % malgré une croissance revue à la baisse"
@@ -403,9 +407,17 @@
     "date": "2026-10-21",
     "title": "La publicité favorise la banalisation des paris sportifs chez les jeunes, selon une étude"
   },
+  "u:https://ecomatin.net/le-chiffre-daffaires-de-canal-en-nette-hausse-a-fin-septembre-grace-a-multichoice": {
+    "date": "2026-10-23",
+    "title": "Le chiffre d'affaires de Canal+ en nette hausse à fin septembre grâce à Multichoice"
+  },
   "u:https://ecomatin.net/microfinance-acep-cameroun-cede-33-de-son-capital-a-sa-holding-mere-aace": {
     "date": "2026-10-08",
     "title": "Microfinance : ACEP Cameroun cède 33% de son capital à sa holding mère AACE"
+  },
+  "u:https://ecomatin.net/mobile-money-les-transactions-depassent-219-000-milliards-de-fcfa-dans-luemoa-en-hausse-de-40": {
+    "date": "2026-10-23",
+    "title": "Mobile Money : les transactions dépassent 219 000 milliards de FCFA dans l’UEMOA, en hausse de 40%"
   },
   "u:https://ecomatin.net/senegal-la-restructuration-de-la-dette-fait-planer-une-menace-sur-la-boadfitch": {
     "date": "2026-09-16",
@@ -415,17 +427,13 @@
     "date": "2026-10-08",
     "title": "Taoukreo Hemwue Temwa promu directeur national de la BEAC au Tchad"
   },
+  "u:https://ecomatin.net/transport-aerien-air-france-va-augmenter-de-pres-de-70-son-offre-vers-malabo": {
+    "date": "2026-10-23",
+    "title": "Transport aérien : Air France va augmenter de près de 70 % son offre vers Malabo"
+  },
   "u:https://ecomatin.net/transport-routier-plus-de-126-000-attestations-dassurance-vendues-par-des-intermediaires-clandestins-au-cameroun-en-2025": {
     "date": "2026-10-08",
     "title": "Transport routier : plus de 126 000 attestations d’assurance vendues par des intermédiaires clandestins au Cameroun en 2025"
-  },
-  "u:https://fr.allafrica.com/stories/202609050227.html": {
-    "date": "2026-09-07",
-    "title": "S&#xe9;n&#xe9;gal: Masterplan 2025-2034 - Les piliers d'une vision &#xe9;conomique du pays fond&#xe9;e sur la souverainet&#xe9; et l'autonomie &#xe9;conomique"
-  },
-  "u:https://fr.allafrica.com/stories/202609050243.html": {
-    "date": "2026-09-07",
-    "title": "S&#xe9;n&#xe9;gal: Diw-nior - Quand le lait caill&#xe9; se transforme en or pour les femmes du Ferlo"
   },
   "u:https://fr.allafrica.com/stories/202609070133.html": {
     "date": "2026-09-08",
@@ -967,6 +975,14 @@
     "date": "2026-10-22",
     "title": "S&#xe9;n&#xe9;gal: 8,5 milliards FCfa du Fonsis et de la KfW pour propulser les Pme et l'entrepreneuriat f&#xe9;minin"
   },
+  "u:https://fr.allafrica.com/stories/202610220459.html": {
+    "date": "2026-10-23",
+    "title": "Afrique de l'Ouest: Plus de 41 millions de personnes en situation d'ins&#xe9;curit&#xe9; alimentaire (Ministre)"
+  },
+  "u:https://fr.allafrica.com/stories/202610220585.html": {
+    "date": "2026-10-23",
+    "title": "Afrique: Dangote acquiert une participation de 25 % dans un pipeline au Kenya pour 327 millions de dollars"
+  },
   "u:https://fr.apanews.net/benin/mondial-u-20-le-nigeria-represente-lafrique-en-huitiemes": {
     "date": "2026-09-16",
     "title": "Mondial U-20 : le Nigéria représente l’Afrique en huitièmes"
@@ -1055,6 +1071,10 @@
     "date": "2026-10-02",
     "title": "Renforcement du partenariat Maroc-Sénégal : focus sur le droit OHADA et le contenu local"
   },
+  "u:https://fr.apanews.net/politique/bad-487-m-pour-la-resilience-economique-et-climatique-au-maroc": {
+    "date": "2026-10-23",
+    "title": "BAD:  $487 millions pour la résilience économique et climatique au Maroc"
+  },
   "u:https://fr.apanews.net/science/burkina-surete-nucleaire-vers-un-nouveau-regime-de-sanctions-administratives": {
     "date": "2026-09-09",
     "title": "Burkina/nucléaire : vers un régime de sanctions administratives"
@@ -1118,10 +1138,6 @@
   "u:https://fr.apanews.net/sport/football-la-conference-strategique-de-la-caf-souvre-a-sal": {
     "date": "2026-10-09",
     "title": "Football : la conférence stratégique de la CAF s’ouvre à Sal"
-  },
-  "u:https://nairametrics.com/2026/09/05/sec-approves-dangote-refinerys-n2-15-trillion-ipo-africas-biggest-share-sale": {
-    "date": "2026-09-07",
-    "title": "SEC approves Dangote Refinery’s N2.15 trillion IPO, Africa’s biggest share sale"
   },
   "u:https://nairametrics.com/2026/09/08/nmdpra-denies-agf-report-of-under-remitted-gas-flare-penalties": {
     "date": "2026-09-09",
@@ -1239,6 +1255,10 @@
     "date": "2026-10-22",
     "title": "Le Mali envisage de suspendre l’exportation de bétail face à la cherté de la viande"
   },
+  "u:https://www.agenceecofin.com/actualites-agro/2210-142647-riz-le-burkina-faso-renforce-sa-capacite-de-transformation-avec-une-nouvelle-unite": {
+    "date": "2026-10-23",
+    "title": "Riz : le Burkina Faso renforce sa capacité de transformation avec une nouvelle unité"
+  },
   "u:https://www.agenceecofin.com/actualites-agro/2809-141941-cacao-le-ghana-fixe-un-prix-bord-champ-superieur-de-75-a-celui-de-la-cote-d-ivoire": {
     "date": "2026-09-29",
     "title": "Cacao : le Ghana fixe un prix bord champ supérieur de 75 % à celui de la Côte d’Ivoire"
@@ -1274,10 +1294,6 @@
   "u:https://www.agenceecofin.com/actualites-finance/0510-142134-cote-d-ivoire-la-boad-presente-ses-solutions-pour-faciliter-le-financement-des-entreprises": {
     "date": "2026-10-06",
     "title": "Côte d’Ivoire : la BOAD présente ses solutions pour faciliter le financement des entreprises"
-  },
-  "u:https://www.agenceecofin.com/actualites-finance/0609-141332-samb-a-prepare-le-depot-de-sa-demande-d-agrement-pour-lancer-sa-micro-assurance-au-cameroun": {
-    "date": "2026-09-07",
-    "title": "Samb’a prépare le dépôt de sa demande d’agrément pour lancer sa micro-assurance au Cameroun"
   },
   "u:https://www.agenceecofin.com/actualites-finance/0610-142157-cote-d-ivoire-la-sgpme-accorde-une-garantie-de-5-1-millions-a-cofina-pour-les-pme": {
     "date": "2026-10-07",
@@ -1359,6 +1375,10 @@
     "date": "2026-09-22",
     "title": "CDC Bénin rejoint le réseau Finance in Common pour élargir ses leviers de financement"
   },
+  "u:https://www.agenceecofin.com/actualites-finance/2210-142656-uemoa-le-mali-est-le-seul-pays-o-l-indice-d-inclusion-financiere-a-recule-en-2025": {
+    "date": "2026-10-23",
+    "title": "UEMOA : le Mali est le seul pays où l’indice d’inclusion financière a reculé en 2025"
+  },
   "u:https://www.agenceecofin.com/actualites-finance/2409-141860-boa-mali-le-pnb-en-hausse-de-17-5-mais-le-cout-du-risque-pese-sur-le-benefice": {
     "date": "2026-09-25",
     "title": "BOA Mali : le PNB en hausse de 17,5 %, mais le coût du risque pèse sur le bénéfice"
@@ -1375,17 +1395,9 @@
     "date": "2026-10-05",
     "title": "Dans l’ombre de la Chine et des États-Unis, l’européen NIU Invest avance sur le cuivre en RDC"
   },
-  "u:https://www.agenceecofin.com/actualites-industries/0409-141312-manganese-un-projet-de-transformation-locale-de-100-millions-s-annonce-en-rdc": {
-    "date": "2026-09-07",
-    "title": "Manganèse : un projet de transformation locale de 100 millions $ s’annonce en RDC"
-  },
   "u:https://www.agenceecofin.com/actualites-industries/0510-142144-offshore-profond-le-gabon-prepare-le-terrain-aux-majors-via-un-accord-avec-tgs": {
     "date": "2026-10-06",
     "title": "Offshore profond : le Gabon prépare le terrain aux majors via un accord avec TGS"
-  },
-  "u:https://www.agenceecofin.com/actualites-industries/0609-141338-semi-conducteurs-tour-d-horizon-des-initiatives-africaines": {
-    "date": "2026-09-07",
-    "title": "Semi-conducteurs : tour d’horizon des initiatives africaines"
   },
   "u:https://www.agenceecofin.com/actualites-industries/0709-141347-energies-renouvelables-odyssey-mobilise-74-millions-pour-financer-les-pme-avant-les-chantiers": {
     "date": "2026-09-08",
@@ -1463,6 +1475,14 @@
     "date": "2026-09-23",
     "title": "Minerais critiques : le Malawi veut lancer un plan de 5 milliards $ pour convertir son potentiel"
   },
+  "u:https://www.agenceecofin.com/actualites-industries/2210-142644-mix-electrique-la-tunisie-vise-16-d-energies-renouvelables-en-2027": {
+    "date": "2026-10-23",
+    "title": "Mix électrique : la Tunisie vise 16 % d’énergies renouvelables en 2027"
+  },
+  "u:https://www.agenceecofin.com/actualites-industries/2210-142653-lithium-6-ans-apres-la-future-mine-karibib-doit-encore-passer-un-cap-en-namibie": {
+    "date": "2026-10-23",
+    "title": "Lithium : 6 ans après, la future mine Karibib doit encore passer un cap en Namibie"
+  },
   "u:https://www.agenceecofin.com/actualites-industries/2309-141817-au-nigeria-un-fonds-de-300-millions-vient-renforcer-le-financement-de-lenergie-hors-reseau": {
     "date": "2026-09-24",
     "title": "Au Nigeria, un fonds de 300 millions $ vient renforcer le financement de l'énergie hors-réseau"
@@ -1534,10 +1554,6 @@
   "u:https://www.agenceecofin.com/actualites-numerique/0110-142062-ia-marocaine-le-partenariat-avec-mistral-ai-livre-ses-premiers-outils-open-source": {
     "date": "2026-10-02",
     "title": "IA marocaine : le partenariat avec Mistral AI livre ses premiers outils open source"
-  },
-  "u:https://www.agenceecofin.com/actualites-numerique/0409-141322-16e-edition-poesam-orange-tunisie-devoile-ses-laureats-et-prime-l-entrepreneuriat-feminin": {
-    "date": "2026-09-07",
-    "title": "16e édition POESAM : Orange Tunisie dévoile ses lauréats et prime l’entrepreneuriat féminin"
   },
   "u:https://www.agenceecofin.com/actualites-numerique/0510-142127-cote-d-ivoire-des-audiences-aux-revenus-meta-prepare-la-monetisation-des-createurs": {
     "date": "2026-10-06",
@@ -1675,6 +1691,10 @@
     "date": "2026-09-23",
     "title": "Fondation Orange Tunisie : un engagement renforcé pour l’éducation numérique et la solidarité"
   },
+  "u:https://www.agenceecofin.com/actualites-services/2210-142661-rdc-apres-plusieurs-reports-congo-airways-vise-une-reprise-des-vols-en-novembre": {
+    "date": "2026-10-23",
+    "title": "RDC : après plusieurs reports, Congo Airways vise une reprise des vols en novembre"
+  },
   "u:https://www.agenceecofin.com/actualites-services/2409-141861-la-cote-d-ivoire-ouvre-la-voie-a-l-integration-de-l-ia-dans-la-pedagogie": {
     "date": "2026-09-25",
     "title": "La Côte d’Ivoire ouvre la voie à l’intégration de l’IA dans la pédagogie"
@@ -1686,14 +1706,6 @@
   "u:https://www.agenceecofin.com/actualites/0310-142101-la-sante-des-sols-nouveau-front-de-la-souverainete-alimentaire-africaine": {
     "date": "2026-10-05",
     "title": "La santé des sols, nouveau front de la souveraineté alimentaire africaine"
-  },
-  "u:https://www.agenceecofin.com/actualites/0409-141319-egypte-l-industrie-le-commerce-et-les-telecoms-portent-la-croissance-a-5-1-en-2025/2026": {
-    "date": "2026-09-07",
-    "title": "Égypte : l’industrie, le commerce et les télécoms portent la croissance à 5,1 % en 2025/2026"
-  },
-  "u:https://www.agenceecofin.com/actualites/0509-141330-guerre-en-iran-32-pays-africains-ont-vu-leur-facture-energetique-s-alourdir-en-6-mois-crea": {
-    "date": "2026-09-07",
-    "title": "Guerre en Iran : 32 pays africains ont vu leur facture énergétique s’alourdir en 6 mois (CREA)"
   },
   "u:https://www.agenceecofin.com/actualites/0510-142128-burkina-faso-la-banque-mondiale-fixe-ses-priorites-pour-2026-2031": {
     "date": "2026-10-06",
@@ -1823,6 +1835,10 @@
     "date": "2026-09-23",
     "title": "Gabon : les charges financières de la dette sont projetées en hausse de 37 % en 2027"
   },
+  "u:https://www.agenceecofin.com/actualites/2210-142665-togo-des-recoltes-cerealieres-en-hausse-mais-des-revenus-agricoles-sous-pression": {
+    "date": "2026-10-23",
+    "title": "Togo : des récoltes céréalières en hausse, mais des revenus agricoles sous pression"
+  },
   "u:https://www.agenceecofin.com/actualites/2309-141809-dette-le-fmi-et-la-banque-mondiale-reforment-leur-cadre-d-evaluation-des-pays-a-faible-revenu": {
     "date": "2026-09-24",
     "title": "Dette : le FMI et la Banque mondiale réforment leur cadre d’évaluation des pays à faible revenu"
@@ -1918,10 +1934,6 @@
   "u:https://www.brvm.org/sites/default/files/20260709_-_avis_ndeg262_brvmdg_-_report_de_la_date_de_premiere_cotation_-_emprunts_etat_du_senegal.pdf": {
     "date": "2026-09-08",
     "title": "Emprunts ETAT DU SENEGAL 6,40 % 2026-2029, ETAT DU SENEGAL 6,60 % 2026-2031, ETAT DU SENEGAL 6,75 % 2026-2033 et ETAT DU SENEGAL 6,95 % 2026-2036 : Report de la date de première cotation"
-  },
-  "u:https://www.brvm.org/sites/default/files/20260904_-_calendrier_de_paiement_des_dividendes_-_exercice_2025.pdf": {
-    "date": "2026-09-07",
-    "title": "Avis : Calendrier de paiement de dividendes"
   },
   "u:https://www.brvm.org/sites/default/files/20260911_-_avis_ndeg267_brvmdg_-_transactions_sur_dossier.pdf": {
     "date": "2026-09-14",
@@ -2027,10 +2039,6 @@
     "date": "2026-10-15",
     "title": "BRVM : 29 valeurs en repli dictent la tendance journalière"
   },
-  "u:https://www.sikafinance.com/marches/brvm-alios-finance-ci-plebiscite-apres-un-benefice-semestriel-remarquable_64056": {
-    "date": "2026-09-07",
-    "title": "BRVM : Alios Finance CI plébiscité après un bénéfice semestriel remarquable"
-  },
   "u:https://www.sikafinance.com/marches/brvm-bicici-reprend-de-la-hauteur-avec-plus-de-7_64595": {
     "date": "2026-09-30",
     "title": "BRVM : BICICI reprend de la hauteur avec plus de 7%"
@@ -2123,6 +2131,10 @@
     "date": "2026-10-01",
     "title": "BRVM : Sonatel atteint un seuil psychologique à 45 000 FCFA"
   },
+  "u:https://www.sikafinance.com/marches/brvm-sucrivoire-erium-et-bernabe-ci-rebondissent-avec-le-marche_65192": {
+    "date": "2026-10-23",
+    "title": "BRVM : Sucrivoire, Erium et Bernabé CI rebondissent avec le marché"
+  },
   "u:https://www.sikafinance.com/marches/brvm-total-senegal-gagne-plus-de-7-dans-un-marche-toujours-attentiste_65150": {
     "date": "2026-10-22",
     "title": "BRVM : Total Sénégal gagne plus de 7 % dans un marché toujours attentiste"
@@ -2175,10 +2187,6 @@
     "date": "2026-10-22",
     "title": "Corridor Ghana - Nigeria : Le PAPSS intègre le mobile money aux paiements transfrontaliers pour contourner le dollar"
   },
-  "u:https://www.sikafinance.com/marches/cote-divoire-64-des-depots-bancaires-transformes-en-credits-en-2025_64060": {
-    "date": "2026-09-07",
-    "title": "Côte d’Ivoire : 64% des dépôts bancaires transformés en crédits en 2025"
-  },
   "u:https://www.sikafinance.com/marches/cote-divoire-ag-consulting-veut-accroitre-la-competitivite-des-entreprises-via-son-offre-en-intelligence-economique_65126": {
     "date": "2026-10-22",
     "title": "Côte d’Ivoire : AG CONSULTING veut accroître la compétitivité des entreprises via son offre en Intelligence Économique"
@@ -2190,10 +2198,6 @@
   "u:https://www.sikafinance.com/marches/cote-divoire-apres-34-ans-le-cadre-petrolier-se-modernise-pour-integrer-les-biocarburants_64982": {
     "date": "2026-10-16",
     "title": "Côte d’Ivoire : Après 34 ans, le cadre pétrolier se modernise pour intégrer les biocarburants"
-  },
-  "u:https://www.sikafinance.com/marches/cote-divoire-etat-et-secteur-prive-proposent-des-solutions-pour-ameliorer-l-inclusion-financiere-de-l-agro-industrie-rurale_64057": {
-    "date": "2026-09-07",
-    "title": "Côte d’Ivoire : Etat et secteur privé proposent des solutions pour améliorer l'inclusion financière de l'agro-industrie rurale"
   },
   "u:https://www.sikafinance.com/marches/cote-divoire-l-etat-prevoit-de-lancer-son-premier-datacenter-national-public-a-lhorizon-2027_64117": {
     "date": "2026-09-09",
@@ -2342,6 +2346,10 @@
   "u:https://www.sikafinance.com/marches/le-ghana-lance-un-parc-industriel-de-501-hectares-pour-accueillir-plus-de-120-entreprises_65065": {
     "date": "2026-10-20",
     "title": "Le Ghana lance un parc industriel de 501 hectares pour accueillir plus de 120 entreprises"
+  },
+  "u:https://www.sikafinance.com/marches/le-resultat-net-de-boa-senegal-progresse-de-11-a-fin-septembre-2026_65162": {
+    "date": "2026-10-23",
+    "title": "Le résultat net de BOA Sénégal progresse de 11% à fin septembre 2026"
   },
   "u:https://www.sikafinance.com/marches/mobile-money-la-bceao-releve-le-plafond-des-comptes-a-4-millions-fcfa-et-les-rechargements-mensuels-a-15-millions_64847": {
     "date": "2026-10-12",
