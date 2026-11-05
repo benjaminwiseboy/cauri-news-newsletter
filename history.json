@@ -1,12 +1,4 @@
 {
-  "u:http://fr.africanews.com/2026/09/18/british-airways-annonce-son-retour-en-tanzanie-a-lete-2027": {
-    "date": "2026-09-21",
-    "title": "British Airways annonce son retour en Tanzanie à l’été 2027"
-  },
-  "u:http://fr.africanews.com/2026/09/18/madagascar-le-tourisme-reprend-son-essor-apres-une-annee-de-turbulences": {
-    "date": "2026-09-21",
-    "title": "Madagascar : le tourisme reprend son essor après une année de turbulences"
-  },
   "u:http://fr.africanews.com/2026/09/20/afrique-du-sud-le-cirque-ouvre-une-nouvelle-voie-aux-jeunes-des-townships": {
     "date": "2026-09-22",
     "title": "Afrique du Sud : le cirque ouvre une nouvelle voie aux jeunes des townships"
@@ -267,6 +259,10 @@
     "date": "2026-11-05",
     "title": "Le tourisme mondial attendu à un niveau record en 2026 malgré les crises"
   },
+  "u:http://fr.africanews.com/2026/11/05/a-gaza-un-deplace-palestinien-fabrique-une-eolienne-pour-avoir-de-lelectricite": {
+    "date": "2026-11-06",
+    "title": "A Gaza, l'ingéniosité d'un déplacé redonne de l'électricité aux familles"
+  },
   "u:https://africancapitalmarketsnews.com/banque-du-caire-share-sale-boosted-to-45-to-meet-demand": {
     "date": "2026-10-26",
     "title": "Banque du Caire share sale boosted to 45% to meet demand"
@@ -394,34 +390,6 @@
   "u:https://ecomatin.net/transport-routier-plus-de-126-000-attestations-dassurance-vendues-par-des-intermediaires-clandestins-au-cameroun-en-2025": {
     "date": "2026-10-08",
     "title": "Transport routier : plus de 126 000 attestations d’assurance vendues par des intermédiaires clandestins au Cameroun en 2025"
-  },
-  "u:https://fr.allafrica.com/stories/202609190098.html": {
-    "date": "2026-09-21",
-    "title": "Afrique: Bocuse d'Or Afrique 2026 - La participation historique de la C&#xf4;te d'Ivoire compromise, un SOS lanc&#xe9;"
-  },
-  "u:https://fr.allafrica.com/stories/202609190100.html": {
-    "date": "2026-09-21",
-    "title": "Cote d'Ivoire: Awards des Ascom 2026 - Le beau livre &#xab; CAN 2023, la CAN de l'Hospitalit&#xe9; &#xbb; prim&#xe9;"
-  },
-  "u:https://fr.allafrica.com/stories/202609190104.html": {
-    "date": "2026-09-21",
-    "title": "S&#xe9;n&#xe9;gal: Pourquoi le r&#xe8;glement de la dette int&#xe9;rieure &#xe9;chelonn&#xe9; sur trois ans et non deux..."
-  },
-  "u:https://fr.allafrica.com/stories/202609190133.html": {
-    "date": "2026-09-21",
-    "title": "S&#xe9;n&#xe9;gal: Diamniadio - Vers la restauration des &#xe9;cosyst&#xe8;mes et des cours d'eau naturels (Ministre)"
-  },
-  "u:https://fr.allafrica.com/stories/202609190134.html": {
-    "date": "2026-09-21",
-    "title": "S&#xe9;n&#xe9;gal: Bambaly - Lancement officiel d'un projet agro-industriel de 11,7 milliards de francs CFA port&#xe9; par Sadio Man&#xe9;"
-  },
-  "u:https://fr.allafrica.com/stories/202609190136.html": {
-    "date": "2026-09-21",
-    "title": "S&#xe9;n&#xe9;gal: Inondations - Cheikh Tidiane Di&#xe8;ye appelle &#xe0; pr&#xe9;server les ouvrages d'assainissement"
-  },
-  "u:https://fr.allafrica.com/stories/202609200016.html": {
-    "date": "2026-09-21",
-    "title": "Burkina Faso: Confection de pav&#xe9;s Faso M&#xea;bo - La veille citoyenne de D&#xe9;dougou &#xe0; l'oeuvre"
   },
   "u:https://fr.allafrica.com/stories/202609210169.html": {
     "date": "2026-09-22",
@@ -879,6 +847,10 @@
     "date": "2026-11-05",
     "title": "S&#xe9;n&#xe9;gal: La loi de finances rectificative 2026 rejet&#xe9;e par l'Assembl&#xe9;e nationale"
   },
+  "u:https://fr.allafrica.com/stories/202611050444.html": {
+    "date": "2026-11-06",
+    "title": "Cote d'Ivoire: Hausse de 43% du r&#xe9;sultat net de la Soci&#xe9;t&#xe9; Multinationale de Bitumes au premier semestre 2026."
+  },
   "u:https://fr.apanews.net/business/enugu-air-va-lancer-des-vols-directs-entre-enugu-et-douala": {
     "date": "2026-09-22",
     "title": "Enugu Air va lancer des vols directs entre Enugu et Douala"
@@ -1011,10 +983,6 @@
     "date": "2026-10-27",
     "title": "Mer Rouge : Djibouti et Pékin appellent à désamorcer les tensions"
   },
-  "u:https://fr.apanews.net/society/ocp-maroc-38-millions-de-tonnes-dengrais-pour-le-bresil": {
-    "date": "2026-09-21",
-    "title": "OCP Maroc : 3,8 millions de tonnes d’engrais pour le Brésil"
-  },
   "u:https://fr.apanews.net/society/senegal-transport-100-taxis-electriques-remis-a-dakar": {
     "date": "2026-09-25",
     "title": "Sénégal/Transport : 100 taxis électriques remis à Dakar"
@@ -1034,14 +1002,6 @@
   "u:https://fr.apanews.net/sport/football-la-conference-strategique-de-la-caf-souvre-a-sal": {
     "date": "2026-10-09",
     "title": "Football : la conférence stratégique de la CAF s’ouvre à Sal"
-  },
-  "u:https://nairametrics.com/2026/09/18/icc-tribunal-rules-in-nigerias-favour-rejects-3-38-billion-mambilla-claim": {
-    "date": "2026-09-21",
-    "title": "ICC tribunal rules in Nigeria’s favour, rejects $3.38 billion Mambilla claim"
-  },
-  "u:https://nairametrics.com/2026/09/20/nigerias-edible-oil-tanker-drivers-threaten-strike-from-sept-22": {
-    "date": "2026-09-21",
-    "title": "Nigeria’s edible oil tanker drivers threaten strike from Sept. 22"
   },
   "u:https://nairametrics.com/2026/09/21/brent-crude-falls-to-101-71-wti-below-100-as-us-iran-diplomacy-hopes-grow": {
     "date": "2026-09-22",
@@ -1114,6 +1074,14 @@
   "u:https://nairametrics.com/2026/11/04/dangote-cement-bua-spend-n797-billion-in-energy-cost": {
     "date": "2026-11-05",
     "title": "Dangote Cement, BUA spend N797 billion in energy cost"
+  },
+  "u:https://nairametrics.com/2026/11/05/nigeria-records-3-33-million-barrels-of-crude-oil-theft-in-2025-nuprc": {
+    "date": "2026-11-06",
+    "title": "Nigeria records 3.33 million barrels of crude oil theft in 2025 – NUPRC"
+  },
+  "u:https://nairametrics.com/2026/11/05/shell-nigeria-gas-expands-network-to-deliver-reliable-gas-to-manufacturers": {
+    "date": "2026-11-06",
+    "title": "Shell Nigeria Gas expands network to deliver reliable gas to manufacturers"
   },
   "u:https://www.afreximbank.com/afreximbanks-zimbabwe-country-brief-explores-the-countrys-critical-mineral-advantage-and-reform-driven-economic-outlook": {
     "date": "2026-10-19",
@@ -1206,6 +1174,14 @@
   "u:https://www.agenceecofin.com/actualites-finance/0510-142134-cote-d-ivoire-la-boad-presente-ses-solutions-pour-faciliter-le-financement-des-entreprises": {
     "date": "2026-10-06",
     "title": "Côte d’Ivoire : la BOAD présente ses solutions pour faciliter le financement des entreprises"
+  },
+  "u:https://www.agenceecofin.com/actualites-finance/0511-143140-africa-diamond-invest-obtient-son-agrement-et-devient-la-deuxieme-sgi-agreee-au-togo": {
+    "date": "2026-11-06",
+    "title": "Africa Diamond Invest obtient son agrément et devient la deuxième SGI agréée au Togo"
+  },
+  "u:https://www.agenceecofin.com/actualites-finance/0511-143147-uemoa-les-paiements-mobiles-se-multiplient-mais-leur-adoption-reste-inegale-chez-les-commercants": {
+    "date": "2026-11-06",
+    "title": "UEMOA : les paiements mobiles se multiplient, mais leur adoption reste inégale chez les commerçants"
   },
   "u:https://www.agenceecofin.com/actualites-finance/0610-142157-cote-d-ivoire-la-sgpme-accorde-une-garantie-de-5-1-millions-a-cofina-pour-les-pme": {
     "date": "2026-10-07",
@@ -1323,6 +1299,10 @@
     "date": "2026-10-06",
     "title": "Offshore profond : le Gabon prépare le terrain aux majors via un accord avec TGS"
   },
+  "u:https://www.agenceecofin.com/actualites-industries/0511-143159-projet-aurifere-de-doropo-nsia-banque-participe-a-une-mobilisation-de-148-milliards-fcfa-pour-une-mine-en-cote-d-ivoire": {
+    "date": "2026-11-06",
+    "title": "Projet aurifère de Doropo : NSIA Banque participe à une mobilisation de 148 milliards FCFA pour une mine en Côte d’Ivoire"
+  },
   "u:https://www.agenceecofin.com/actualites-industries/0810-142256-dp-world-prolonge-sa-concession-au-port-de-luanda-et-prevoit-90-millions-d-investissements": {
     "date": "2026-10-09",
     "title": "DP World prolonge sa concession au port de Luanda et prévoit 90 millions $ d’investissements"
@@ -1354,10 +1334,6 @@
   "u:https://www.agenceecofin.com/actualites-industries/1910-142560-or-en-ethiopie-plus-d-un-an-apres-son-arrivee-askari-attend-toujours-de-forer": {
     "date": "2026-10-20",
     "title": "Or en Éthiopie : plus d’un an après son arrivée, Askari attend toujours de forer"
-  },
-  "u:https://www.agenceecofin.com/actualites-industries/2009-141729-au-mozambique-la-pluie-supplee-les-centrales-electriques-defaillantes": {
-    "date": "2026-09-21",
-    "title": "Au Mozambique, la pluie supplée les centrales électriques défaillantes"
   },
   "u:https://www.agenceecofin.com/actualites-industries/2109-141757-mali-vers-une-nouvelle-baisse-annuelle-de-la-production-d-or-a-la-mine-syama-en-2026": {
     "date": "2026-09-22",
@@ -1535,6 +1511,18 @@
     "date": "2026-10-06",
     "title": "Lesotho : un projet de loi pour encadrer les services publics numériques"
   },
+  "u:https://www.agenceecofin.com/actualites-numerique/0511-143136-infrastructures-telecoms-la-zambie-explore-des-partenariats-avec-les-entreprises-allemandes": {
+    "date": "2026-11-06",
+    "title": "Infrastructures télécoms : la Zambie explore des partenariats avec les entreprises allemandes"
+  },
+  "u:https://www.agenceecofin.com/actualites-numerique/0511-143144-paiements-instantanes-ce-que-pi-spi-peut-changer-pour-les-entreprises-de-l-uemoa": {
+    "date": "2026-11-06",
+    "title": "Paiements instantanés : ce que PI-SPI peut changer pour les entreprises de l’UEMOA"
+  },
+  "u:https://www.agenceecofin.com/actualites-numerique/0511-143145-le-benin-mise-sur-les-ateliers-de-fabrication-numerique-pour-stimuler-l-innovation-locale": {
+    "date": "2026-11-06",
+    "title": "Le Bénin mise sur les ateliers de fabrication numérique pour stimuler l’innovation locale"
+  },
   "u:https://www.agenceecofin.com/actualites-numerique/0710-142201-l-angola-construit-ses-institutions-cyber-mais-doit-encore-renforcer-ses-capacites-operationnelles": {
     "date": "2026-10-08",
     "title": "L’Angola construit ses institutions cyber, mais doit encore renforcer ses capacités opérationnelles"
@@ -1546,10 +1534,6 @@
   "u:https://www.agenceecofin.com/actualites-numerique/1510-142448-la-tunisie-mise-sur-des-laboratoires-d-ia-pour-rapprocher-formation-et-emploi": {
     "date": "2026-10-16",
     "title": "La Tunisie mise sur des laboratoires d’IA pour rapprocher formation et emploi"
-  },
-  "u:https://www.agenceecofin.com/actualites-numerique/1909-141724-abcc-2026-veut-doter-l-uemoa-d-un-agenda-operationnel-pour-les-actifs-numeriques": {
-    "date": "2026-09-21",
-    "title": "ABCC 2026 veut doter l’UEMOA d’un agenda opérationnel pour les actifs numériques"
   },
   "u:https://www.agenceecofin.com/actualites-numerique/2010-142571-cyber-africa-forum-2026-ia-cybersecurite-et-confiance-numerique-au-programme-a-cotonou": {
     "date": "2026-10-21",
@@ -1611,6 +1595,10 @@
     "date": "2026-11-04",
     "title": "DP World élargit son offre de fret Chine - Afrique via Maputo et Dar es Salaam"
   },
+  "u:https://www.agenceecofin.com/actualites-services/0511-143142-emploi-des-jeunes-la-tanzanie-lance-un-plan-quinquennal-de-stages-pour-les-diplomes-du-superieur": {
+    "date": "2026-11-06",
+    "title": "Emploi des jeunes : la Tanzanie lance un plan quinquennal de stages pour les diplômés du supérieur"
+  },
   "u:https://www.agenceecofin.com/actualites-services/0810-142237-senegal-1-7-milliards-d-engagements-de-financement-pour-atteindre-l-acces-universel-a-l-electricite-en-2029": {
     "date": "2026-10-09",
     "title": "Sénégal : 1,7 milliards $ d’engagements de financement pour atteindre l’accès universel à l’électricité en 2029"
@@ -1666,6 +1654,18 @@
   "u:https://www.agenceecofin.com/actualites/0510-142142-benin-france-111-7-millions-mobilises-pour-l-electricite-l-agriculture-et-l-expertise-adn": {
     "date": "2026-10-06",
     "title": "Bénin-France : 111,7 millions $ mobilisés pour l’électricité, l’agriculture et l’expertise ADN"
+  },
+  "u:https://www.agenceecofin.com/actualites/0511-143148-guinee-bissau-le-deficit-budgetaire-passe-de-8-2-a-4-2-du-pib-en-trois-ans-fmi": {
+    "date": "2026-11-06",
+    "title": "Guinée-Bissau : le déficit budgétaire passe de 8,2 % à 4,2 % du PIB en trois ans (FMI)"
+  },
+  "u:https://www.agenceecofin.com/actualites/0511-143157-le-benin-veut-faciliter-l-acces-des-entreprises-industrielles-aux-financements-de-long-terme": {
+    "date": "2026-11-06",
+    "title": "Le Bénin veut faciliter l’accès des entreprises industrielles aux financements de long terme"
+  },
+  "u:https://www.agenceecofin.com/actualites/0511-143158-ouganda-lallemagne-renforce-son-soutien-au-developpement-economique": {
+    "date": "2026-11-06",
+    "title": "Ouganda : l'Allemagne renforce son soutien au développement économique"
   },
   "u:https://www.agenceecofin.com/actualites/0610-142160-royal-air-maroc-recoit-un-nouveau-boeing-737-8-pour-renforcer-sa-flotte": {
     "date": "2026-10-07",
@@ -1907,6 +1907,10 @@
     "date": "2026-09-29",
     "title": "Au Congo, Washington reprend à la Chine la mine de cuivre et de zinc de Soremi"
   },
+  "u:https://www.sikafinance.com/marches/baisse-de-89-du-benefice-de-sicable-a-fin-septembre-2026_65520": {
+    "date": "2026-11-06",
+    "title": "Baisse de 89% du bénéfice de SICABLE à fin septembre 2026"
+  },
   "u:https://www.sikafinance.com/marches/benin-le-gouvernement-cree-une-societe-publique-pour-developper-le-secteur-minier_64852": {
     "date": "2026-10-12",
     "title": "Bénin : Le gouvernement crée une société publique pour développer le secteur minier"
@@ -1963,10 +1967,6 @@
     "date": "2026-10-06",
     "title": "BRVM : La semaine de cotation s’ouvre sur un ton timoré"
   },
-  "u:https://www.sikafinance.com/marches/brvm-laction-sonatel-devrait-etre-plus-accessible-aux-petits-epargnants-des-le-26-octobre_64345": {
-    "date": "2026-09-21",
-    "title": "BRVM : L’action Sonatel devrait être plus accessible aux petits épargnants dès le 26 octobre"
-  },
   "u:https://www.sikafinance.com/marches/brvm-le-fractionnement-de-sonatel-attise-lengouement-des-investisseurs_65256": {
     "date": "2026-10-27",
     "title": "BRVM : Le fractionnement de Sonatel attise l’engouement des investisseurs"
@@ -2002,10 +2002,6 @@
   "u:https://www.sikafinance.com/marches/brvm-orange-ci-soutient-le-marche-avec-plus-de-45-milliards-fcfa-de-capitalisation_64652": {
     "date": "2026-10-02",
     "title": "BRVM : Orange CI soutient le marché avec plus de 45 milliards FCFA de capitalisation"
-  },
-  "u:https://www.sikafinance.com/marches/brvm-poussee-de-fievre-sur-sonatel-generant-pres-de-300-milliards-fcfa-ce-vendredi_64364": {
-    "date": "2026-09-21",
-    "title": "BRVM : Poussée de fièvre sur Sonatel générant près de 300 milliards FCFA ce vendredi"
   },
   "u:https://www.sikafinance.com/marches/brvm-smb-garde-le-vent-en-poupe-et-signe-un-nouveau-bond-de-7-49-_65470": {
     "date": "2026-11-04",
@@ -2162,10 +2158,6 @@
   "u:https://www.sikafinance.com/marches/guinee-vista-group-mobilise-13-milliards-fcfa-aupres-de-la-badea-pour-financer-les-pme_65063": {
     "date": "2026-10-20",
     "title": "Guinée : Vista Group mobilise 13 milliards FCFA auprès de la BADEA pour financer les PME"
-  },
-  "u:https://www.sikafinance.com/marches/harmonya-smart-city-plus-de-91-milliards-fcfa-dinvestissements-100-prives-pour-accelerer-la-transformation-du-vitib_64362": {
-    "date": "2026-09-21",
-    "title": "HARMONYA SMART CITY : Plus de 91 milliards FCFA d’investissements 100% privés pour accélérer la transformation du VITIB"
   },
   "u:https://www.sikafinance.com/marches/hausse-de-13-a-354-milliards-fcfa-du-resultat-net-de-sonatel-a-fin-septembre-2026_65361": {
     "date": "2026-11-02",
@@ -2338,10 +2330,6 @@
   "u:https://www.sikafinance.com/marches/uemoa-la-masse-monetaire-bondit-de-plus-de-10-300-milliards-fcfa-en-un-an-a-fin-juillet_65254": {
     "date": "2026-10-27",
     "title": "UEMOA : La masse monétaire bondit de plus de 10 300 milliards FCFA en un an, à fin juillet"
-  },
-  "u:https://www.sikafinance.com/marches/uemoa-les-finances-publiques-affichent-pres-de-2-500-milliards-fcfa-de-deficit-a-mi-2026_64356": {
-    "date": "2026-09-21",
-    "title": "UEMOA : Les finances publiques affichent près de 2 500 milliards FCFA de déficit à mi-2026"
   },
   "u:https://www.sikafinance.com/marches/uemoa-plus-de-2-000-milliards-fcfa-mobilises-a-lexterieur-par-les-etats-au-1er-semestre-2026_64434": {
     "date": "2026-09-23",
