@@ -1,20 +1,4 @@
 {
-  "u:http://fr.africanews.com/2026/10/02/burkina-faso-des-danseurs-sourds-ressentent-la-musique-grace-aux-vibrations": {
-    "date": "2026-10-05",
-    "title": "Burkina : des danseurs sourds ressentent la musique grâce aux vibrations"
-  },
-  "u:http://fr.africanews.com/2026/10/02/can-2025-le-recours-du-senegal-devant-le-tas-le-8-octobre": {
-    "date": "2026-10-05",
-    "title": "Football : le recours du Sénégal pour la CAN 2025 devant le TAS le 8 octobre"
-  },
-  "u:http://fr.africanews.com/2026/10/03/petrole-sous-pression-de-trump-le-g7-libere-100-millions-de-barils": {
-    "date": "2026-10-05",
-    "title": "Pétrole : sous pression de Trump, le G7 libère 100 millions de barils"
-  },
-  "u:http://fr.africanews.com/2026/10/04/egypte-un-sommet-pour-stimuler-les-echanges-africains": {
-    "date": "2026-10-05",
-    "title": "Égypte : un sommet pour stimuler les échanges africains"
-  },
   "u:http://fr.africanews.com/2026/10/06/cemac-le-trafic-de-medicaments-constitue-une-menace-majeure-pour-la-sante-publique": {
     "date": "2026-10-07",
     "title": "Cemac :  le trafic de médicaments constitue une menace majeure pour la santé publique"
@@ -291,6 +275,14 @@
     "date": "2026-11-19",
     "title": "« Ghana Must Go » : l’histoire d’un sac devenu symbole de résilience"
   },
+  "u:http://fr.africanews.com/2026/11/18/tunisie-les-exportations-dhuile-augment-de-pres-de-de-50": {
+    "date": "2026-11-20",
+    "title": "Tunisie : les exportations d'huile d'olive augmentent de près de 50 %"
+  },
+  "u:http://fr.africanews.com/2026/11/19/lafrique-du-sud-ouvre-une-enquete-apres-le-depart-de-sa-championne-olympique-tatjana-smith": {
+    "date": "2026-11-20",
+    "title": "L’Afrique du Sud ouvre une enquête après le départ de Tatjana Smith vers les Pays-Bas"
+  },
   "u:https://africancapitalmarketsnews.com/banque-du-caire-share-sale-boosted-to-45-to-meet-demand": {
     "date": "2026-10-26",
     "title": "Banque du Caire share sale boosted to 45% to meet demand"
@@ -351,6 +343,10 @@
     "date": "2026-10-16",
     "title": "Eko, Ikeja, Abuja DisCos record highest metering rate, as metered customers hit 8.04mn"
   },
+  "u:https://businessday.ng/pro/article/nigerias-oil-ambitions-collide-with-cash-crunch-among-smaller-producers": {
+    "date": "2026-11-20",
+    "title": "Nigeria’s oil ambitions collide with cash crunch among smaller producers"
+  },
   "u:https://ecomatin.net/augmentation-de-capital-bgfi-holding-boucle-au-cameroun-son-roadshow-pour-lever-80-milliards-fcfa": {
     "date": "2026-10-08",
     "title": "Augmentation de capital : BGFI Holding boucle au Cameroun son roadshow pour lever 80 milliards FCFA"
@@ -391,6 +387,10 @@
     "date": "2026-10-23",
     "title": "En Centrafrique, les poissons de rivière menacés par la production de charbon"
   },
+  "u:https://ecomatin.net/gabon-la-bei-approuve-un-pret-de-27-milliards-fcfa-pour-la-gestion-des-ordures-menageres": {
+    "date": "2026-11-20",
+    "title": "Gabon : la BEI approuve un prêt de 27 milliards FCFA pour la gestion des ordures ménagères"
+  },
   "u:https://ecomatin.net/la-publicite-favorise-la-banalisation-des-paris-sportifs-chez-les-jeunes-selon-une-etude": {
     "date": "2026-10-21",
     "title": "La publicité favorise la banalisation des paris sportifs chez les jeunes, selon une étude"
@@ -422,14 +422,6 @@
   "u:https://ecomatin.net/transport-routier-plus-de-126-000-attestations-dassurance-vendues-par-des-intermediaires-clandestins-au-cameroun-en-2025": {
     "date": "2026-10-08",
     "title": "Transport routier : plus de 126 000 attestations d’assurance vendues par des intermédiaires clandestins au Cameroun en 2025"
-  },
-  "u:https://fr.allafrica.com/stories/202610040056.html": {
-    "date": "2026-10-05",
-    "title": "S&#xe9;n&#xe9;gal: S&#xe9;dhiou - Lancement d'un projet visant &#xe0; acc&#xe9;l&#xe9;rer l'autonomisation &#xe9;conomique de 30 groupements de femmes rurales"
-  },
-  "u:https://fr.allafrica.com/stories/202610040114.html": {
-    "date": "2026-10-05",
-    "title": "S&#xe9;n&#xe9;gal: Plateforme interop&#xe9;rable du syst&#xe8;me de paiement instantan&#xe9; - La BCEAO annonce de nouvelles dispositions"
   },
   "u:https://fr.allafrica.com/stories/202610050168.html": {
     "date": "2026-10-06",
@@ -875,6 +867,22 @@
     "date": "2026-11-19",
     "title": "Afrique de l'Ouest: De jeunes entrepreneurs ouest-africains invit&#xe9;s &#xe0; produire une alimentation saine et nutritive"
   },
+  "u:https://fr.allafrica.com/stories/202611190183.html": {
+    "date": "2026-11-20",
+    "title": "Guin&#xe9;e: Une nouvelle mine d'or industrielle bient&#xf4;t exploit&#xe9;e par une soci&#xe9;t&#xe9; australienne"
+  },
+  "u:https://fr.allafrica.com/stories/202611190241.html": {
+    "date": "2026-11-20",
+    "title": "S&#xe9;n&#xe9;gal: Diomaye Faye impose par d&#xe9;cret la loi de finances rectificative 2026 apr&#xe8;s son rejet par les d&#xe9;put&#xe9;s"
+  },
+  "u:https://fr.allafrica.com/stories/202611190264.html": {
+    "date": "2026-11-20",
+    "title": "Afrique de l'Ouest: BRVM - Quatri&#xe8;me journ&#xe9;e de baisse ininterrompue des indices phares ce mercredi 18 novembre 2026."
+  },
+  "u:https://fr.allafrica.com/stories/202611190343.html": {
+    "date": "2026-11-20",
+    "title": "Afrique de l'Ouest: La neuvi&#xe8;me &#xe9;dition du Salon mon&#xe9;tique r&#xe9;gional de GIM-UEMOA va se tenir &#xe0; Dakar, &#xe0; partir du jeudi 19 novembre"
+  },
   "u:https://fr.apanews.net/business/burkina-la-douane-appelee-a-accelerer-les-operations": {
     "date": "2026-11-19",
     "title": "Burkina : la douane appelée à accélérer les opérations"
@@ -907,6 +915,10 @@
     "date": "2026-10-07",
     "title": "RDC : « LOBA » veut renforcer la protection des consommateurs"
   },
+  "u:https://fr.apanews.net/business/senegal-sangomar-exporte-207-millions-de-barils-de-petrole-en-octobre": {
+    "date": "2026-11-20",
+    "title": "Sénégal : Sangomar exporte 2,07 millions de barils de pétrole en octobre"
+  },
   "u:https://fr.apanews.net/community/guinee-reconversion-ecologique-de-la-decharge-de-dar-es-salam": {
     "date": "2026-11-03",
     "title": "Guinée : reconversion écologique de la décharge de Dar-es-Salam"
@@ -918,10 +930,6 @@
   "u:https://fr.apanews.net/community/tunisie-mobilisation-contre-la-vie-chere": {
     "date": "2026-10-20",
     "title": "Tunisie : mobilisation contre la vie chère"
-  },
-  "u:https://fr.apanews.net/cote-divoire/abidjan-accueille-la-cimdc-2026-sur-la-mobilite-durable": {
-    "date": "2026-10-05",
-    "title": "Abidjan accueille la CIMDC 2026 sur la mobilité durable"
   },
   "u:https://fr.apanews.net/culture/joj-dakar-2026-plus-de-200-entrepreneurs-mobilises-autour-des-foires-municipales": {
     "date": "2026-11-11",
@@ -967,10 +975,6 @@
     "date": "2026-10-19",
     "title": "Kayes reconstitue ses stocks de gasoil sur le corridor sénégalais"
   },
-  "u:https://fr.apanews.net/security/mali-plus-de-643-camions-citernes-achemines-a-bamako": {
-    "date": "2026-10-05",
-    "title": "Mali : plus de 643 camions-citernes acheminés à Bamako"
-  },
   "u:https://fr.apanews.net/security/maroc-le-gouvernement-suspend-provisoirement-de-nouvelles-autorisations-dexportation-de-legumes": {
     "date": "2026-11-13",
     "title": "Maroc : Le gouvernement suspend provisoirement de nouvelles autorisations d’exportation de légumes"
@@ -994,6 +998,10 @@
   "u:https://fr.apanews.net/social/une-fintech-renove-un-terrain-de-basketball-a-abidjan": {
     "date": "2026-10-07",
     "title": "A Abidjan, une fintech rénove un terrain de basketball"
+  },
+  "u:https://fr.apanews.net/society/algerie-adoption-de-la-declaration-doran-pour-accelerer-le-developpement-des-competences": {
+    "date": "2026-11-20",
+    "title": "Algérie : adoption de la Déclaration d’Oran pour accélérer le développement des compétences"
   },
   "u:https://fr.apanews.net/society/egypte-hausse-du-salaire-minimum-prive-en-janvier-2027": {
     "date": "2026-11-17",
@@ -1159,6 +1167,10 @@
     "date": "2026-11-17",
     "title": "Grippe aviaire aux Pays-Bas : quels marchés africains dépendent le plus de la volaille néerlandaise"
   },
+  "u:https://www.agenceecofin.com/actualites-agro/1911-143594-nigeria-la-production-de-soja-attendue-en-hausse-de-11-en-2026/2027": {
+    "date": "2026-11-20",
+    "title": "Nigeria : la production de soja attendue en hausse de 11 % en 2026/2027"
+  },
   "u:https://www.agenceecofin.com/actualites-agro/2110-142611-le-mali-envisage-de-suspendre-l-exportation-de-betail-face-a-la-cherte-de-la-viande": {
     "date": "2026-10-22",
     "title": "Le Mali envisage de suspendre l’exportation de bétail face à la cherté de la viande"
@@ -1179,10 +1191,6 @@
     "date": "2026-10-28",
     "title": "Riz : la Mauritanie prépare une stratégie décennale pour doper sa production locale"
   },
-  "u:https://www.agenceecofin.com/actualites-culture/0210-142095-au-festival-de-namur-lafrique-saffirme-comme-lun-des-moteurs-du-film-francophone": {
-    "date": "2026-10-05",
-    "title": "Au Festival de Namur, l'Afrique s'affirme comme l'un des moteurs du film francophone"
-  },
   "u:https://www.agenceecofin.com/actualites-culture/0311-143055-litterature-couronne-du-prix-ivoire-2026-ndjekery-va-empocher-2-millions-fcfa-le-28-novembre": {
     "date": "2026-11-04",
     "title": "Littérature : couronné du Prix Ivoire 2026, Ndjékéry va empocher 2 millions FCFA le 28 novembre"
@@ -1198,10 +1206,6 @@
   "u:https://www.agenceecofin.com/actualites-culture/1811-143543-de-l-influence-aux-revenus-les-defis-de-l-industrie-musicale-africaine-au-c-ur-du-sima-2026": {
     "date": "2026-11-19",
     "title": "De l’influence aux revenus : les défis de l’industrie musicale africaine au cœur du SIMA 2026"
-  },
-  "u:https://www.agenceecofin.com/actualites-finance/0210-142088-pourquoi-la-beac-veut-une-plateforme-commune-pour-le-marche-monetaire-et-le-depositaire-central": {
-    "date": "2026-10-05",
-    "title": "Pourquoi la BEAC veut une plateforme commune pour le marché monétaire et le dépositaire central"
   },
   "u:https://www.agenceecofin.com/actualites-finance/0211-142991-nsia-banque-cote-d-ivoire-voit-son-benefice-reculer-de-27-sur-neuf-mois": {
     "date": "2026-11-03",
@@ -1362,14 +1366,6 @@
   "u:https://www.agenceecofin.com/actualites-finance/2810-142831-ecobank-accroit-son-benefice-de-12-malgre-le-repli-de-l-uemoa-et-le-nigeria-toujours-fragile": {
     "date": "2026-10-29",
     "title": "Ecobank accroît son bénéfice de 12 %, malgré le repli de l’UEMOA et le Nigeria toujours fragile"
-  },
-  "u:https://www.agenceecofin.com/actualites-industries/0210-142084-tullow-oil-perd-son-litige-fiscal-au-ghana-alors-que-son-redressement-reste-fragile": {
-    "date": "2026-10-05",
-    "title": "Tullow Oil perd son litige fiscal au Ghana alors que son redressement reste fragile"
-  },
-  "u:https://www.agenceecofin.com/actualites-industries/0210-142093-dans-l-ombre-de-la-chine-et-des-etats-unis-l-europeen-niu-invest-avance-sur-le-cuivre-en-rdc": {
-    "date": "2026-10-05",
-    "title": "Dans l’ombre de la Chine et des États-Unis, l’européen NIU Invest avance sur le cuivre en RDC"
   },
   "u:https://www.agenceecofin.com/actualites-industries/0311-143051-maroc-shell-securise-l-achat-de-la-future-production-de-biocarburants-de-nador": {
     "date": "2026-11-04",
@@ -1603,10 +1599,6 @@
     "date": "2026-11-02",
     "title": "Ethiopian Airlines relie le nord du Mozambique à son réseau africain via Nacala"
   },
-  "u:https://www.agenceecofin.com/actualites-services/0210-142082-en-afrique-du-sud-le-recul-de-l-emploi-formel-accentue-la-pression-sur-les-menages": {
-    "date": "2026-10-05",
-    "title": "En Afrique du Sud, le recul de l’emploi formel accentue la pression sur les ménages"
-  },
   "u:https://www.agenceecofin.com/actualites-services/0211-142996-joj-dakar-2026-l-afsf-agra-et-la-fondation-gates-mobilisent-le-sport-pour-la-sante-maternelle-et-infantile": {
     "date": "2026-11-03",
     "title": "JOJ Dakar 2026 : l’AFSF, AGRA et la Fondation Gates mobilisent le sport pour la santé maternelle et infantile"
@@ -1638,10 +1630,6 @@
   "u:https://www.agenceecofin.com/actualites-services/2210-142661-rdc-apres-plusieurs-reports-congo-airways-vise-une-reprise-des-vols-en-novembre": {
     "date": "2026-10-23",
     "title": "RDC : après plusieurs reports, Congo Airways vise une reprise des vols en novembre"
-  },
-  "u:https://www.agenceecofin.com/actualites/0310-142101-la-sante-des-sols-nouveau-front-de-la-souverainete-alimentaire-africaine": {
-    "date": "2026-10-05",
-    "title": "La santé des sols, nouveau front de la souveraineté alimentaire africaine"
   },
   "u:https://www.agenceecofin.com/actualites/0311-143064-cameroun-onu-657-milliards-de-fcfa-manquent-pour-financer-le-cadre-2027-2031": {
     "date": "2026-11-04",
@@ -1811,6 +1799,14 @@
     "date": "2026-10-20",
     "title": "Côte d’Ivoire : le Fonds de l’OPEP formalise 500 millions $ pour le PND 2026-2030"
   },
+  "u:https://www.agenceecofin.com/actualites/1911-143592-nigeria-74-millions-pour-financer-les-projets-d-energies-renouvelables": {
+    "date": "2026-11-20",
+    "title": "Nigeria : 74 millions $ pour financer les projets d’énergies renouvelables"
+  },
+  "u:https://www.agenceecofin.com/actualites/1911-143593-madagascar-devient-le-30e-pays-africain-a-integrer-le-dispositif-acsa-des-etats-unis": {
+    "date": "2026-11-20",
+    "title": "Madagascar devient le 30e pays africain à intégrer le dispositif ACSA des États-Unis"
+  },
   "u:https://www.agenceecofin.com/actualites/2210-142665-togo-des-recoltes-cerealieres-en-hausse-mais-des-revenus-agricoles-sous-pression": {
     "date": "2026-10-23",
     "title": "Togo : des récoltes céréalières en hausse, mais des revenus agricoles sous pression"
@@ -1838,10 +1834,6 @@
   "u:https://www.agenceecofin.com/actualites/2910-142902-pomme-de-terre-le-marche-ivoirien-reste-a-conquerir-pour-les-producteurs-africains": {
     "date": "2026-10-30",
     "title": "Pomme de terre : le marché ivoirien reste à conquérir pour les producteurs africains"
-  },
-  "u:https://www.agenceecofin.com/ecofin-pro/0310-142099-que-retenir-du-dernier-rapport-de-la-fao-sur-l-etat-des-forets-en-afrique": {
-    "date": "2026-10-05",
-    "title": "Que retenir du dernier rapport de la FAO sur l’état des forêts en Afrique ?"
   },
   "u:https://www.agenceecofin.com/ecofin-pro/1411-143429-en-afrique-les-prets-syndiques-ont-represente-81-de-lencours-de-la-dette-dentreprise-en-2025-ocde": {
     "date": "2026-11-16",
@@ -1874,10 +1866,6 @@
   "u:https://www.aip.ci/cote-divoire-aip-les-nouvelles-regles-de-la-taxe-touristique-expliquees-aux-professionnels-de-la-nawa": {
     "date": "2026-10-22",
     "title": "Côte d’Ivoire-AIP /Les nouvelles règles de la taxe touristique expliquées aux professionnels de la Nawa"
-  },
-  "u:https://www.brvm.org/sites/default/files/20261001_-_avis_ndeg289_brvmdg_-_composition_de_lindice_brvm_30.pdf": {
-    "date": "2026-10-05",
-    "title": "Avis N°289/BRVM/2026 – Composition de l'indice BRVM 30"
   },
   "u:https://www.brvm.org/sites/default/files/20261005_-_avis_ndeg293_brvmdg_-_annulation_de_transaction.pdf": {
     "date": "2026-10-07",
@@ -1915,6 +1903,14 @@
     "date": "2026-10-22",
     "title": "AFG Holding récompensé pour la conduite du changement"
   },
+  "u:https://www.sikafinance.com/marches/afrique-1-800-milliards-usd-ont-transite-par-les-systemes-de-paiement-instantane-en-2025_65835": {
+    "date": "2026-11-20",
+    "title": "Afrique : 1 800 milliards USD ont transité par les systèmes de paiement instantané en 2025"
+  },
+  "u:https://www.sikafinance.com/marches/afrique-la-bad-mobilise-ses-financements-pour-renforcer-la-protection-contre-les-catastrophes-climatiques_65840": {
+    "date": "2026-11-20",
+    "title": "Afrique : La BAD mobilise ses financements pour renforcer la protection contre les catastrophes climatiques"
+  },
   "u:https://www.sikafinance.com/marches/afrique-la-bad-rehausse-a-4-6-la-prevision-de-croissance-en-2026-mais-3-defis-conditionnent-la-prosperite_65795": {
     "date": "2026-11-18",
     "title": "Afrique : La BAD rehausse à 4,6% la prévision de croissance en 2026, mais 3 défis conditionnent la prospérité"
@@ -1942,6 +1938,10 @@
   "u:https://www.sikafinance.com/marches/benin-proparco-et-ifc-mobilisent-28-millions-deuros-pour-quatre-centrales-solaires-de-62-mwc_65434": {
     "date": "2026-11-03",
     "title": "Bénin : Proparco et IFC mobilisent 28 millions d’euros pour quatre centrales solaires de 62 MWc"
+  },
+  "u:https://www.sikafinance.com/marches/bgfibank-cote-divoire-mobilise-100-millions-deuros-pour-financer-la-campagne-cacao_65847": {
+    "date": "2026-11-20",
+    "title": "BGFIBank Côte d’Ivoire mobilise 100 millions d’euros pour financer la campagne cacao"
   },
   "u:https://www.sikafinance.com/marches/bicici-une-croissance-de-15-du-benefice-au-3eme-trimestre-2026_65436": {
     "date": "2026-11-03",
@@ -2099,10 +2099,6 @@
     "date": "2026-10-12",
     "title": "Côte d’Ivoire : La mine d’or d’Ity produit 4,6 tonnes d’or au premier semestre 2026"
   },
-  "u:https://www.sikafinance.com/marches/cote-divoire-la-recolte-principale-de-cacao-pourrait-baisser-de-17-en-202627_64687": {
-    "date": "2026-10-05",
-    "title": "Côte d’Ivoire : La récolte principale de cacao pourrait baisser de 17 % en 2026/27"
-  },
   "u:https://www.sikafinance.com/marches/cote-divoire-la-transformation-du-cacao-bondit-de-46-6-en-septembre_64961": {
     "date": "2026-10-15",
     "title": "Côte d’Ivoire : La transformation du cacao bondit de 46,6 % en septembre"
@@ -2206,10 +2202,6 @@
   "u:https://www.sikafinance.com/marches/mobile-money-la-bceao-releve-le-plafond-des-comptes-a-4-millions-fcfa-et-les-rechargements-mensuels-a-15-millions_64847": {
     "date": "2026-10-12",
     "title": "Mobile money : La BCEAO relève le plafond des comptes à 4 millions FCFA et les rechargements mensuels à 15 millions"
-  },
-  "u:https://www.sikafinance.com/marches/nigeria-3-go-de-donnees-mobiles-gratuites-par-mois-pour-les-eleves-et-etudiants_64686": {
-    "date": "2026-10-05",
-    "title": "Nigeria : 3 Go de données mobiles gratuites par mois pour les élèves et étudiants"
   },
   "u:https://www.sikafinance.com/marches/nigeria-dangote-cement-annonce-un-benefice-de-plus-de-245-millions-usd-au-3e-trimestre-en-hausse-de-51_65319": {
     "date": "2026-10-29",
