@@ -1,8 +1,4 @@
 {
-  "u:http://fr.africanews.com/2026/10/07/louganda-ouvre-la-vente-dactions-de-la-raffinerie-dangote-a-ses-investisseurs": {
-    "date": "2026-10-09",
-    "title": "L’Ouganda ouvre la vente d’actions de la raffinerie Dangote à ses investisseurs"
-  },
   "u:http://fr.africanews.com/2026/10/09/meiway-une-legende-ivoirienne-qui-se-renouvele-sans-cesse": {
     "date": "2026-10-12",
     "title": "Meiway, une légende ivoirienne qui se renouvèle sans cesse"
@@ -267,6 +263,26 @@
     "date": "2026-10-26",
     "title": "Banque du Caire share sale boosted to 45% to meet demand"
   },
+  "u:https://api.worldbank.org/v2/country/ben/indicator/ny.gdp.mktp.kd.zg": {
+    "date": "2026-11-25",
+    "title": "Croissance du PIB (%) — Benin (2025) : 8.07408453688336"
+  },
+  "u:https://api.worldbank.org/v2/country/civ/indicator/ny.gdp.mktp.kd.zg": {
+    "date": "2026-11-25",
+    "title": "Croissance du PIB (%) — Cote d'Ivoire (2025) : 6.4999999999999"
+  },
+  "u:https://api.worldbank.org/v2/country/mli/indicator/ny.gdp.mktp.kd.zg": {
+    "date": "2026-11-25",
+    "title": "Croissance du PIB (%) — Mali (2025) : 5.59946842896643"
+  },
+  "u:https://api.worldbank.org/v2/country/ner/indicator/ny.gdp.mktp.kd.zg": {
+    "date": "2026-11-25",
+    "title": "Croissance du PIB (%) — Niger (2025) : 7.00782960149"
+  },
+  "u:https://api.worldbank.org/v2/country/sen/indicator/ny.gdp.mktp.kd.zg": {
+    "date": "2026-11-25",
+    "title": "Croissance du PIB (%) — Senegal (2025) : 6.68227744849194"
+  },
   "u:https://businessday.ng/companies/article/lcfe-fmdq-clear-partner-to-strengthen-petroleum-liquids-market-infrastructure": {
     "date": "2026-11-11",
     "title": "LCFE, FMDQ Clear partner to strengthen petroleum liquids market infrastructure"
@@ -339,10 +355,6 @@
     "date": "2026-10-14",
     "title": "Cameroun : pourquoi l’État presse les communes d’apurer leurs impayés"
   },
-  "u:https://ecomatin.net/communique-bantulab-ouvre-les-candidatures-pour-sa-deuxieme-cohorte-dediee-au-e-commerce-et-aux-plateformes-de-livraison": {
-    "date": "2026-10-09",
-    "title": "[COMMUNIQUÉ] : Bantulab ouvre les candidatures pour sa deuxième cohorte, dédiée au e-commerce et aux plateformes de livraison"
-  },
   "u:https://ecomatin.net/dette-publique-la-centrafrique-lance-une-nouvelle-offre-de-rachat-de-75-milliards-fcfa-apres-un-premier-essai-decevant": {
     "date": "2026-10-20",
     "title": "Dette publique : la Centrafrique lance une nouvelle offre de rachat de 7,5 milliards FCFA après un premier essai décevant"
@@ -374,18 +386,6 @@
   "u:https://ecomatin.net/transport-aerien-air-france-va-augmenter-de-pres-de-70-son-offre-vers-malabo": {
     "date": "2026-10-23",
     "title": "Transport aérien : Air France va augmenter de près de 70 % son offre vers Malabo"
-  },
-  "u:https://fr.allafrica.com/stories/202610080151.html": {
-    "date": "2026-10-09",
-    "title": "Ghana: Le pays d&#xe9;pose sa candidature pour rejoindre les BRICS"
-  },
-  "u:https://fr.allafrica.com/stories/202610080155.html": {
-    "date": "2026-10-09",
-    "title": "Togo: Cuisson propre - Les Pays-Bas accompagnent le pays"
-  },
-  "u:https://fr.allafrica.com/stories/202610080645.html": {
-    "date": "2026-10-09",
-    "title": "Cote d'Ivoire: PME ivoiriennes - Le Canada mobilise 6,16 milliards de Fcfa pour booster les exportations"
   },
   "u:https://fr.allafrica.com/stories/202610110079.html": {
     "date": "2026-10-12",
@@ -975,10 +975,6 @@
     "date": "2026-10-22",
     "title": "WAFFEST 2026 : la Gambie conserve son titre de championne du riz jollof"
   },
-  "u:https://fr.apanews.net/sport/football-la-conference-strategique-de-la-caf-souvre-a-sal": {
-    "date": "2026-10-09",
-    "title": "Football : la conférence stratégique de la CAF s’ouvre à Sal"
-  },
   "u:https://nairametrics.com/2026/10/09/nbet-begins-n729-billion-debt-settlement-for-gencos-gas-suppliers": {
     "date": "2026-10-12",
     "title": "NBET begins N729 billion debt settlement for GenCos, gas suppliers"
@@ -1087,14 +1083,6 @@
     "date": "2026-11-09",
     "title": "Karité : le Ghana abaisse le prix minimum d’achat sur un marché sous pression"
   },
-  "u:https://www.agenceecofin.com/actualites-agro/0810-142244-cacao-le-segment-de-la-transformation-suscite-un-interet-croissant-en-cote-d-ivoire": {
-    "date": "2026-10-09",
-    "title": "Cacao : le segment de la transformation suscite un intérêt croissant en Côte d’Ivoire"
-  },
-  "u:https://www.agenceecofin.com/actualites-agro/0810-142245-le-kenya-cherche-2-8-milliards-de-capitaux-prives-pour-developper-l-irrigation-agricole": {
-    "date": "2026-10-09",
-    "title": "Le Kenya cherche 2,8 milliards $ de capitaux privés pour développer l’irrigation agricole"
-  },
   "u:https://www.agenceecofin.com/actualites-agro/1310-142356-karite-la-cote-d-ivoire-renforce-sa-capacite-de-transformation-avec-une-nouvelle-unite": {
     "date": "2026-10-14",
     "title": "Karité : la Côte d’Ivoire renforce sa capacité de transformation avec une nouvelle unité"
@@ -1170,14 +1158,6 @@
   "u:https://www.agenceecofin.com/actualites-finance/0711-143212-sunu-ouvre-son-capital-a-la-sfi-qui-investit-29-millions-dans-sa-holding-bancaire": {
     "date": "2026-11-09",
     "title": "Sunu ouvre son capital à la SFI, qui investit 29 millions $ dans sa holding bancaire"
-  },
-  "u:https://www.agenceecofin.com/actualites-finance/0810-142253-shelter-afrique-veut-lever-102-millions-pour-financer-le-logement-dans-l-uemoa": {
-    "date": "2026-10-09",
-    "title": "Shelter Afrique veut lever 102 millions $ pour financer le logement dans l’UEMOA"
-  },
-  "u:https://www.agenceecofin.com/actualites-finance/0810-142254-benin-le-gouvernement-adopte-un-projet-de-loi-de-finances-2027-en-hausse-de-14-7": {
-    "date": "2026-10-09",
-    "title": "Bénin : le gouvernement adopte un projet de Loi de finances 2027 en hausse de 14,7 %"
   },
   "u:https://www.agenceecofin.com/actualites-finance/0811-143220-cameroun-en-5-ans-afriland-first-bank-a-multiplie-son-capital-social-par-5-5-a-110-milliards-fcfa": {
     "date": "2026-11-09",
@@ -1314,10 +1294,6 @@
   "u:https://www.agenceecofin.com/actualites-industries/0511-143159-projet-aurifere-de-doropo-nsia-banque-participe-a-une-mobilisation-de-148-milliards-fcfa-pour-une-mine-en-cote-d-ivoire": {
     "date": "2026-11-06",
     "title": "Projet aurifère de Doropo : NSIA Banque participe à une mobilisation de 148 milliards FCFA pour une mine en Côte d’Ivoire"
-  },
-  "u:https://www.agenceecofin.com/actualites-industries/0810-142256-dp-world-prolonge-sa-concession-au-port-de-luanda-et-prevoit-90-millions-d-investissements": {
-    "date": "2026-10-09",
-    "title": "DP World prolonge sa concession au port de Luanda et prévoit 90 millions $ d’investissements"
   },
   "u:https://www.agenceecofin.com/actualites-industries/0910-142294-nigeria-abuja-negocie-un-plafond-amont-sur-l-essence-sans-retablir-la-subvention": {
     "date": "2026-10-12",
@@ -1491,10 +1467,6 @@
     "date": "2026-11-06",
     "title": "Le Bénin mise sur les ateliers de fabrication numérique pour stimuler l’innovation locale"
   },
-  "u:https://www.agenceecofin.com/actualites-numerique/0810-142240-le-mali-ouvre-une-nouvelle-route-vers-l-internet-mondial-par-le-senegal": {
-    "date": "2026-10-09",
-    "title": "Le Mali ouvre une nouvelle route vers l’Internet mondial par le Sénégal"
-  },
   "u:https://www.agenceecofin.com/actualites-numerique/1111-143324-kenya-la-mutualisation-des-moyens-pour-elargir-lacces-a-la-cybersecurite": {
     "date": "2026-11-12",
     "title": "Kenya : la mutualisation des moyens pour élargir l'accès à la cybersécurité"
@@ -1531,18 +1503,6 @@
     "date": "2026-11-06",
     "title": "Emploi des jeunes : la Tanzanie lance un plan quinquennal de stages pour les diplômés du supérieur"
   },
-  "u:https://www.agenceecofin.com/actualites-services/0810-142237-senegal-1-7-milliards-d-engagements-de-financement-pour-atteindre-l-acces-universel-a-l-electricite-en-2029": {
-    "date": "2026-10-09",
-    "title": "Sénégal : 1,7 milliards $ d’engagements de financement pour atteindre l’accès universel à l’électricité en 2029"
-  },
-  "u:https://www.agenceecofin.com/actualites-services/0810-142248-apres-16-ans-d-exploitation-en-afrique-du-sud-le-gautrain-change-d-operateur-et-prepare-une-expansion": {
-    "date": "2026-10-09",
-    "title": "Après 16 ans d’exploitation en Afrique du Sud, le Gautrain change d’opérateur et prépare une expansion"
-  },
-  "u:https://www.agenceecofin.com/actualites-services/0810-142250-air-algerie-reprend-ses-vols-vers-tripoli-sur-fond-de-relance-du-transport-aerien-libyen": {
-    "date": "2026-10-09",
-    "title": "Air Algérie reprend ses vols vers Tripoli, sur fond de relance du transport aérien libyen"
-  },
   "u:https://www.agenceecofin.com/actualites-services/1910-142559-intelligence-artificielle-le-kenya-veut-accelerer-la-formation-universitaire": {
     "date": "2026-10-20",
     "title": "Intelligence artificielle : le Kenya veut accélérer la formation universitaire"
@@ -1578,10 +1538,6 @@
   "u:https://www.agenceecofin.com/actualites/0711-143210-cote-d-ivoire-quelle-place-pour-les-capitaux-locaux-dans-le-financement-des-nouvelles-mines-d-or": {
     "date": "2026-11-09",
     "title": "Côte d’Ivoire : quelle place pour les capitaux locaux dans le financement des nouvelles mines d’or"
-  },
-  "u:https://www.agenceecofin.com/actualites/0810-142229-kenya-la-banque-centrale-maintient-son-taux-directeur-a-8-75": {
-    "date": "2026-10-09",
-    "title": "Kenya : la Banque centrale maintient son taux directeur à 8,75 %"
   },
   "u:https://www.agenceecofin.com/actualites/1011-143275-togo-l-arcep-renforce-son-laboratoire-pour-mieux-controler-les-equipements-et-les-ondes": {
     "date": "2026-11-11",
@@ -1786,6 +1742,10 @@
   "u:https://www.brvm.org/sites/default/files/20261112_-_avis_ndeg333_brvmdg_-_levee_de_la_suspension_du_titre_tpci_taux_de_base_spread_2022-2029_tpci.o77_0.pdf": {
     "date": "2026-11-16",
     "title": "TPCI (TAUX DE BASE + SPREAD) % 2022-2029 (TPCI.O77) : Fixation du taux d'intérêt trimestriel"
+  },
+  "u:https://www.rfi.fr/fr/afrique/20261124-maroc-un-mode-d-emploi-remis-aux-entreprises-pour-exporter-en-chine-sans-droits-de-douane": {
+    "date": "2026-11-25",
+    "title": "Maroc: un «mode d'emploi» remis aux entreprises pour exporter en Chine sans droits de douane"
   },
   "u:https://www.sikafinance.com/marches/afg-holding-recompense-pour-la-conduite-du-changement_65152": {
     "date": "2026-10-22",
