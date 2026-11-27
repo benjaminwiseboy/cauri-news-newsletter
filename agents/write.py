@@ -80,7 +80,11 @@ def _fix_body(html: str, date_fr: str) -> str:
     return html
 
 
-_META_KEYS = ("SUBJECT", "PREVIEW", "LECON", "SACK_CHIFFRE", "SACK_FUNFACT")
+_META_KEYS = ("SUBJECT", "PREVIEW", "LECON", "SACK_CHIFFRE", "SACK_FUNFACT",
+              "IMAGE_HOT", "IMAGE_CONTI", "IMAGE_SACK")
+# Ligne de métadonnée → section illustrée (mots-clés de recherche Unsplash, agents/images.py).
+_IMAGE_META = {"IMAGE_HOT": "hot_news", "IMAGE_CONTI": "sur_le_continent",
+               "IMAGE_SACK": "sack_afrique"}
 
 
 def _parse_meta(raw: str) -> tuple[dict, str]:
@@ -332,10 +336,12 @@ def run(scraped: ScrapeOutput, selection: SelectOutput,
         f"{_avoid_block('FUN FACTS (Sack) DÉJÀ UTILISÉS', avoid_funfacts or [])}\n\n"
         f"Produis le document HTML COMPLET de l'édition, prêt à publier. Réponds au format :\n"
         f"SUBJECT: ...\nPREVIEW: ...\nLECON: <concept enseigné>\n"
-        f"SACK_CHIFFRE: <sujet du chiffre>\nSACK_FUNFACT: <sujet du fun fact>\n<!DOCTYPE html> … </html>"
+        f"SACK_CHIFFRE: <sujet du chiffre>\nSACK_FUNFACT: <sujet du fun fact>\n"
+        f"IMAGE_HOT: <mots-clés EN ANGLAIS>\nIMAGE_CONTI: <mots-clés EN ANGLAIS>\n"
+        f"IMAGE_SACK: <mots-clés EN ANGLAIS>\n<!DOCTYPE html> … </html>"
     )
 
-    raw = complete_text(config.MODEL_WRITE, system, user, temperature=0.7)
+    raw = complete_text(config.MODEL_WRITE, system, user, temperature=0.7, name="write")
     meta, html_part = _parse_meta(raw)
     html = _extract_html(html_part)
     if "<body" not in html.lower():
@@ -361,4 +367,5 @@ def run(scraped: ScrapeOutput, selection: SelectOutput,
     return WriteOutput(
         date=scraped.date, title=title, html=html, subject=subject, preview=preview,
         lecon=meta["LECON"], sack_chiffre=meta["SACK_CHIFFRE"], sack_funfact=meta["SACK_FUNFACT"],
+        image_queries={sec: meta[k] for k, sec in _IMAGE_META.items() if meta[k]},
     )

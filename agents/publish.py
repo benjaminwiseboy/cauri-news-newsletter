@@ -131,6 +131,35 @@ def _horizontal_rule() -> dict:
     return {"type": "horizontalrule", "version": 1}
 
 
+def _image_node(figure: Tag) -> dict:
+    """<figure class="section-img"> (agents/images.py) → carte image Ghost native, comme
+    celles insérées jusqu'ici à la main sous les titres de section."""
+    img = figure.find("img")
+    cap = figure.find("figcaption")
+    caption = ""
+    if cap:  # légende sans les styles inlinés par premailer (Ghost a les siens)
+        for t in cap.find_all(True):
+            t.attrs.pop("style", None)
+        caption = cap.decode_contents().strip()
+    return {
+        "type": "image", "version": 1,
+        "src": img.get("src", "") if img else "",
+        "width": int(figure.get("data-w") or 0) or None,
+        "height": int(figure.get("data-h") or 0) or None,
+        "title": "", "alt": img.get("alt", "") if img else "",
+        "caption": caption, "cardWidth": "regular", "href": "",
+    }
+
+
+def _feature_fields(feature_image: str | None, feature_image_alt: str | None,
+                    feature_image_caption: str | None) -> dict:
+    if not feature_image:
+        return {}
+    return {"feature_image": feature_image,
+            "feature_image_alt": feature_image_alt or None,
+            "feature_image_caption": feature_image_caption or None}
+
+
 def _lecon_nodes(lecon_box: Tag) -> list[dict]:
     """'La leçon' : le titre pédagogique reste un heading bien mis en valeur ; chaque
     paragraphe d'explication devient une citation (blockquote) — le callout donnait une
@@ -161,6 +190,9 @@ def _walk_block(tag: Tag, out: list[dict]) -> None:
         # Tableau marché : carte HTML verbatim (déjà stylé par premailer), pas de conversion
         # native — pas d'équivalent Ghost fiable pour les badges colorés ▲/▼.
         out.append({"type": "html", "version": 1, "html": str(tag)})
+        return
+    if tag.name == "figure" and "section-img" in classes:
+        out.append(_image_node(tag))
         return
     if tag.name == "ul":
         out.append(_list_node(tag.find_all("li", recursive=False)))
@@ -282,6 +314,9 @@ def publish_post(
     is_full_document: bool = True,
     email_subject: str | None = None,
     custom_excerpt: str | None = None,
+    feature_image: str | None = None,
+    feature_image_alt: str | None = None,
+    feature_image_caption: str | None = None,
 ) -> str:
     """Crée/met à jour un brouillon Ghost via carte HTML Lexical (verbatim, un seul bloc).
 
@@ -307,6 +342,7 @@ def publish_post(
         fields["email_subject"] = email_subject
     if custom_excerpt:
         fields["custom_excerpt"] = custom_excerpt
+    fields.update(_feature_fields(feature_image, feature_image_alt, feature_image_caption))
     return _upsert(url, admin_key, slug, fields, status)
 
 
@@ -317,6 +353,9 @@ def publish_post_hybrid(
     status: str,
     email_subject: str | None = None,
     custom_excerpt: str | None = None,
+    feature_image: str | None = None,
+    feature_image_alt: str | None = None,
+    feature_image_caption: str | None = None,
 ) -> str:
     """Variante EXPÉRIMENTALE de publish_post : header et footer restent des cartes HTML
     verbatim (branding, bouton d'abonnement) ; tout le corps entre les deux (marché, hot
@@ -349,6 +388,7 @@ def publish_post_hybrid(
         fields["email_subject"] = email_subject
     if custom_excerpt:
         fields["custom_excerpt"] = custom_excerpt
+    fields.update(_feature_fields(feature_image, feature_image_alt, feature_image_caption))
     return _upsert(url, admin_key, slug, fields, status)
 
 

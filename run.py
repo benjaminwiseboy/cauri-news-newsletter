@@ -16,7 +16,7 @@ import sys
 from datetime import date
 
 import config
-from agents import digest, publish, qualify, scrape, select, write
+from agents import digest, images, publish, qualify, scrape, select, write
 from agents.curate import History, TopicsMemory, filter_fresh
 
 
@@ -81,6 +81,12 @@ def main() -> int:
     written = write.run(scraped, selection,
                         avoid_lecons=avoid_lecons, avoid_chiffres=avoid_chiffres,
                         avoid_funfacts=avoid_funfacts)
+
+    # 4c. Illustration automatique (sans LLM) : image sous Hot news / Sur le continent /
+    # Sack d'Afrique + image principale. Sans publication, on n'envoie rien sur Ghost
+    # (les images gardent leur URL d'origine, pour l'aperçu local).
+    written = images.illustrate(written, scraped, upload=not args.no_publish,
+                                avoid_unsplash=topics.recent("unsplash", limit=1000))
     _save(day_dir, f"newsletter-brvm-{day}.html", written.html)
 
     # 5. Publie les DEUX brouillons sur Ghost
@@ -102,7 +108,9 @@ def main() -> int:
         final_kwargs = {} if args.hybrid_body else {"is_full_document": True}
         url_final = publish_final(
             title_final, slug_final, written.html, config.PUBLISH_STATUS,
-            email_subject=written.subject, custom_excerpt=written.preview, **final_kwargs,
+            email_subject=written.subject, custom_excerpt=written.preview,
+            feature_image=written.feature_image, feature_image_alt=written.feature_image_alt,
+            feature_image_caption=written.feature_image_caption, **final_kwargs,
         )
         _save(day_dir, "05_publish.txt", f"brut : {url_brut}\nformaté : {url_final}\n")
 
@@ -123,6 +131,8 @@ def main() -> int:
     topics.record("lecon", written.lecon, day)
     topics.record("sack_chiffre", written.sack_chiffre, day)
     topics.record("sack_funfact", written.sack_funfact, day)
+    for photo_id in written.unsplash_ids:   # pas deux fois la même photo Unsplash
+        topics.record("unsplash", photo_id, day)
     topics.prune(day)
     topics.save()
     print(f"[run] mémoire éditoriale : leçon={written.lecon!r}, chiffre={written.sack_chiffre!r}")

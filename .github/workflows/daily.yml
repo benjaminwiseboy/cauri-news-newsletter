@@ -53,6 +53,9 @@ jobs:
           MODEL_QUALIFY: ${{ vars.MODEL_QUALIFY }}
           MODEL_SELECT: ${{ vars.MODEL_SELECT }}
           MODEL_WRITE: ${{ vars.MODEL_WRITE }}
+          # Illustration automatique : recherche de photos Unsplash (sans clé → images
+          # des articles sources uniquement).
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: |
           # Date d'édition = celle fournie à la main, sinon DEMAIN (numéro de la veille).
           DATE="${{ github.event.inputs.edition_date }}"

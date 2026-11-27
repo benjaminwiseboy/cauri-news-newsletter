@@ -142,7 +142,8 @@ class TopicsMemory:
     """Persistée dans topics.json : par catégorie, { libellé publié: date }.
     Sert à empêcher de reprendre une même leçon ou un même chiffre/fun fact."""
 
-    CATS = ("lecon", "sack_chiffre", "sack_funfact")
+    # "unsplash" : ids des photos Unsplash déjà publiées (pas deux fois la même photo).
+    CATS = ("lecon", "sack_chiffre", "sack_funfact", "unsplash")
 
     def __init__(self, data: dict | None = None):
         self.data = data or {}

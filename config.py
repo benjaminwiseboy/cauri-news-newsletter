@@ -49,6 +49,14 @@ PUBLISH_STATUS = os.environ.get("PUBLISH_STATUS", "draft")
 # Page d'abonnement Ghost (Portal) pour le bouton "S'abonner".
 SUBSCRIBE_URL = os.environ.get("SUBSCRIBE_URL") or (f"{GHOST_URL}/#/portal/signup" if GHOST_URL else "")
 
+# --- Illustration automatique (agents/images.py) ---
+# Clé "Access Key" d'une application Unsplash (gratuite, 50 recherches/h en mode Demo ;
+# un numéro en consomme ≤ 3). Sans clé : seules les images des articles sources sont utilisées.
+UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "").strip()
+IMAGES_ENABLED = os.environ.get("IMAGES_ENABLED", "true").lower() != "false"
+IMAGE_MIN_WIDTH = int(os.environ.get("IMAGE_MIN_WIDTH", "600"))    # en dessous : flou en email
+IMAGE_MAX_WIDTH = int(os.environ.get("IMAGE_MAX_WIDTH", "1200"))   # redimensionnement
+
 # --- Maîtrise du coût (tokens envoyés aux modèles) ---
 # Plafond d'actus envoyées au tri (les sources économiques passent en priorité).
 MAX_QUALIFY_ITEMS = int(os.environ.get("MAX_QUALIFY_ITEMS", "120"))

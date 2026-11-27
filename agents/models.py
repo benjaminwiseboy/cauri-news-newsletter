@@ -104,3 +104,10 @@ class WriteOutput(BaseModel):
     lecon: str = ""                 # concept enseigné dans "La leçon"
     sack_chiffre: str = ""          # sujet du "Le chiffre" (Sack d'Afrique)
     sack_funfact: str = ""          # sujet du "Fun fact" (Sack d'Afrique)
+    # Illustration (agents/images.py) : mots-clés Unsplash émis par le rédacteur, par
+    # section ; image principale du post ; photos Unsplash utilisées (anti-répétition).
+    image_queries: dict[str, str] = Field(default_factory=dict)
+    feature_image: str = ""
+    feature_image_alt: str = ""
+    feature_image_caption: str = ""
+    unsplash_ids: list[str] = Field(default_factory=list)
